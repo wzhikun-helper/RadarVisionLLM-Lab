@@ -1,0 +1,800 @@
+\# Research Protocol / 科研规范
+
+
+
+This document defines the default research workflow of RadarVisionLLM-Lab.
+
+
+
+本文档规定 RadarVisionLLM-Lab 项目的默认科研流程。
+
+
+
+\---
+
+
+
+\## 1. Literature Review / 论文调研
+
+
+
+Every important paper should first be classified by reading depth.
+
+
+
+每篇重要论文首先判断阅读等级：
+
+
+
+\### Level A — Core Paper / 核心论文
+
+
+
+Intensive reading.
+
+
+
+精读。
+
+
+
+Required outputs:
+
+
+
+必须产出：
+
+
+
+\* Complete Paper Note / 完整论文笔记
+
+\* Paper Matrix entry / 论文矩阵记录
+
+\* Method understanding / 方法结构理解
+
+\* Experiment analysis / 实验分析
+
+\* Limitation analysis / 局限性分析
+
+\* Research-gap analysis / Research Gap 分析
+
+\* Reproduction decision / 是否复现的判断
+
+
+
+\### Level B — Related Paper / 相关论文
+
+
+
+Focused reading.
+
+
+
+重点阅读。
+
+
+
+Focus on:
+
+
+
+重点关注：
+
+
+
+\* Problem / 问题
+
+\* Method / 方法
+
+\* Main contribution / 核心贡献
+
+\* Experimental evidence / 实验证据
+
+\* Difference from our work / 与我们工作的差异
+
+\* Limitation / 局限
+
+
+
+\### Level C — Background Paper / 背景论文
+
+
+
+Rapid reading.
+
+
+
+快速阅读。
+
+
+
+The goal is to understand its position in the research landscape.
+
+
+
+目标是了解该论文在整个研究方向中的位置。
+
+
+
+\---
+
+
+
+\## 2. Paper Notes / 论文笔记
+
+
+
+Important papers should generate structured notes.
+
+
+
+重要论文必须建立结构化笔记。
+
+
+
+Recommended structure:
+
+
+
+推荐记录：
+
+
+
+\* Background / 背景
+
+\* Problem / 问题
+
+\* Gap / 现有工作的不足
+
+\* Insight / 核心洞察
+
+\* Method / 方法
+
+\* Experiments / 实验
+
+\* Results / 结果
+
+\* Ablation / 消融实验
+
+\* Limitations / 局限
+
+\* Good Figures / 优秀图表
+
+\* Academic Phrases / 学术表达
+
+\* Possible Ideas / 潜在创新点
+
+\* Reproduction Value / 复现价值
+
+
+
+\---
+
+
+
+\## 3. Figure Library / 科研图库
+
+
+
+Useful figures from papers should not be saved without explanation.
+
+
+
+优秀论文图片不能只截图收藏。
+
+
+
+For each useful figure, record:
+
+
+
+每张值得学习的图应记录：
+
+
+
+\* What does it communicate? / 它表达了什么？
+
+\* Why is it effective? / 为什么画得好？
+
+\* What role does it play in the paper? / 在论文故事中承担什么作用？
+
+\* What data are required to reproduce a similar figure? / 如果以后自己画，需要什么数据？
+
+\* How could we redesign it for our own work? / 我们以后可以怎样重新设计？
+
+
+
+Typical figure types:
+
+
+
+常见图类型：
+
+
+
+\* Motivation Figure / Motivation 图
+
+\* System Overview / 系统框架图
+
+\* Architecture / 网络结构图
+
+\* Pipeline / 流程图
+
+\* CDF
+
+\* Heatmap / 热图
+
+\* Ablation Figure / 消融图
+
+\* Robustness Figure / 鲁棒性图
+
+\* Failure Cases / 失败案例
+
+\* Qualitative Results / 定性结果
+
+\* Quantitative Results / 定量结果
+
+
+
+\---
+
+
+
+\## 4. Paper Matrix / 论文矩阵
+
+
+
+Innovation should be based on systematic comparison.
+
+
+
+创新不能只依靠主观感觉。
+
+
+
+Every relevant paper should be compared using consistent dimensions.
+
+
+
+所有相关论文应使用统一维度横向比较。
+
+
+
+For Radar-Camera-VLM research, possible dimensions include:
+
+
+
+当前雷视融合与大模型方向的比较维度包括：
+
+
+
+\* Task / 任务
+
+\* Radar Type / 雷达类型
+
+\* Radar Representation / 雷达表示
+
+\* Range / 距离
+
+\* Doppler / 多普勒
+
+\* RCS
+
+\* Camera Modality / 相机模态
+
+\* Dataset / 数据集
+
+\* Fusion Level / 融合层级
+
+\* BEV
+
+\* Temporal Modeling / 时序建模
+
+\* Cross-Attention
+
+\* VLM
+
+\* LLM
+
+\* Radar Token
+
+\* Physical Constraint / 物理约束
+
+\* Uncertainty / 不确定性
+
+\* Adverse Weather / 恶劣天气
+
+\* Night / 夜间
+
+\* Occlusion / 遮挡
+
+\* Open Source / 是否开源
+
+\* Main Contribution / 核心贡献
+
+\* Limitation / 局限
+
+\* Potential Gap / 潜在研究空白
+
+
+
+\---
+
+
+
+\## 5. Innovation Bank / 创新点库
+
+
+
+Every candidate idea must have literature evidence.
+
+
+
+每个候选 Idea 都必须有文献证据。
+
+
+
+A candidate idea should include:
+
+
+
+每个 Idea 至少包括：
+
+
+
+\* Research Problem / 研究问题
+
+\* Closest Work / 最近工作
+
+\* Difference / 与现有工作的区别
+
+\* Research Gap / 研究空白
+
+\* Hypothesis / 假设
+
+\* Minimal Experiment / 最小验证实验
+
+\* Novelty / 新颖性
+
+\* Feasibility / 可行性
+
+\* CCF-C Potential / CCF-C 潜力
+
+\* Extension Potential / 后续扩展潜力
+
+\* Validation Cost / 验证成本
+
+\* Collision Risk / 撞车风险
+
+
+
+Ideas may be rejected.
+
+
+
+Idea 允许被淘汰。
+
+
+
+If an idea has already been sufficiently explored by existing work, record the reason and stop investing in it.
+
+
+
+如果发现某个方向已经被现有工作充分解决，应记录原因并及时停止投入，而不是强行包装创新。
+
+
+
+\---
+
+
+
+\## 6. Reproduction / 开源项目复现
+
+
+
+Strong baselines should be reproduced before proposing new methods whenever possible.
+
+
+
+在提出新方法之前，应尽可能先复现有代表性的强 baseline。
+
+
+
+Each reproduction project must record:
+
+
+
+每个复现项目必须记录：
+
+
+
+\* Paper information / 论文信息
+
+\* Official repository / 官方代码仓库
+
+\* Environment / 环境
+
+\* Dataset / 数据集
+
+\* Input format / 输入格式
+
+\* Preprocessing / 预处理
+
+\* Core model / 核心模型
+
+\* Loss / 损失函数
+
+\* Training command / 训练命令
+
+\* Evaluation command / 测试命令
+
+\* Reported results / 论文结果
+
+\* Reproduced results / 我们的复现结果
+
+\* Difference analysis / 差异分析
+
+\* Problems encountered / 遇到的问题
+
+\* Solutions / 解决办法
+
+\* What was learned / 学到了什么
+
+\* Possible limitations / 可能的局限
+
+\* Possible ideas / 潜在 Idea
+
+
+
+The goal is not only to run the code.
+
+
+
+目标不是“代码能够运行”。
+
+
+
+The goal is to understand the code well enough to modify it independently.
+
+
+
+最终目标是能够理解并独立修改核心代码。
+
+
+
+\---
+
+
+
+\## 7. Experiments / 实验规范
+
+
+
+Every formal experiment should have a unique experiment ID.
+
+
+
+每个正式实验必须有唯一实验编号。
+
+
+
+Example / 示例：
+
+
+
+```text
+
+EXP-001
+
+EXP-002
+
+EXP-003
+
+```
+
+
+
+Each experiment should record:
+
+
+
+每个实验至少记录：
+
+
+
+\* Hypothesis / 实验假设
+
+\* Code Version / 代码版本
+
+\* Git Commit / Git 提交
+
+\* Configuration / 配置
+
+\* Dataset Split / 数据划分
+
+\* Changed Variable / 修改变量
+
+\* Random Seed / 随机种子
+
+\* Metrics / 指标
+
+\* Results / 结果
+
+\* Conclusion / 结论
+
+
+
+Whenever possible, controlled experiments should change only one important variable.
+
+
+
+在条件允许时，控制变量实验应尽量一次只修改一个关键变量。
+
+
+
+\---
+
+
+
+\## 8. Results and Figures / 结果与图片
+
+
+
+Important paper figures should be generated by reproducible scripts whenever possible.
+
+
+
+正式论文图片应尽可能通过可复现脚本生成。
+
+
+
+Preferred workflow:
+
+
+
+推荐流程：
+
+
+
+```text
+
+Experiment Results
+
+&#x20;       ↓
+
+Analysis Script
+
+&#x20;       ↓
+
+Figure
+
+&#x20;       ↓
+
+Paper
+
+```
+
+
+
+Avoid manually editing experimental conclusions in image software.
+
+
+
+尽量避免通过手工修改图片来改变实验结果的表达。
+
+
+
+\---
+
+
+
+\## 9. Academic Writing / 学术写作
+
+
+
+Maintain an Academic Phrasebook throughout the project.
+
+
+
+长期维护 Academic Phrasebook。
+
+
+
+Learn rhetorical structures rather than copying sentences.
+
+
+
+学习论文表达的结构和功能，而不是直接复制句子。
+
+
+
+Typical research narrative:
+
+
+
+典型论文逻辑：
+
+
+
+```text
+
+Background / 背景
+
+&#x20;       ↓
+
+Problem / 问题
+
+&#x20;       ↓
+
+Gap / 空白
+
+&#x20;       ↓
+
+Insight / 洞察
+
+&#x20;       ↓
+
+Method / 方法
+
+&#x20;       ↓
+
+Evaluation / 实验
+
+&#x20;       ↓
+
+Limitation / 局限
+
+```
+
+
+
+Paper writing should grow together with experiments rather than being postponed until the end.
+
+
+
+论文写作应随着实验逐渐积累，而不是等所有实验结束后再从零开始。
+
+
+
+\---
+
+
+
+\## 10. Git and Version Control / Git 与版本管理
+
+
+
+Important milestones should be committed.
+
+
+
+重要里程碑必须进行 Git commit。
+
+
+
+Good commit messages should clearly describe what changed.
+
+
+
+好的 commit message 应清楚说明修改内容。
+
+
+
+Examples:
+
+
+
+```text
+
+init research repository
+
+add VoD data loader
+
+reproduce MSSF baseline
+
+add radar-camera projection
+
+add Doppler consistency module
+
+add ablation results
+
+```
+
+
+
+Do not commit:
+
+
+
+以下内容原则上不进入 Git：
+
+
+
+\* Large raw datasets / 大型原始数据集
+
+\* Large model weights / 大模型权重
+
+\* Checkpoints / Checkpoint
+
+\* Temporary files / 临时文件
+
+\* Passwords / 密码
+
+\* API keys / API 密钥
+
+\* Private credentials / 私密凭证
+
+
+
+\---
+
+
+
+\## 11. Research Logs / 科研日志
+
+
+
+Research progress must not exist only in chat history or memory.
+
+
+
+科研过程不能只存在于聊天记录或个人记忆中。
+
+
+
+Important knowledge and decisions should eventually be written into the repository.
+
+
+
+重要知识、实验和决策最终都应沉淀到项目仓库中。
+
+
+
+The repository should become the long-term external memory of the project.
+
+
+
+这个仓库最终应该成为整个科研项目的长期“外部记忆”。
+
+
+
+\---
+
+
+
+\## 12. Publication Goal / 论文目标
+
+
+
+Short-term:
+
+
+
+短期：
+
+
+
+Build a complete research workflow and produce a solid CCF-C-level research project.
+
+
+
+形成完整科研闭环，并完成具有扎实质量的 CCF-C 级别研究工作。
+
+
+
+Long-term:
+
+
+
+长期：
+
+
+
+Improve problem selection, methodological depth, generalization, and experimental rigor toward CCF-B-level research.
+
+
+
+逐步提高选题价值、方法深度、泛化性与实验严谨度，向 CCF-B 水平研究能力发展。
+
+
+
