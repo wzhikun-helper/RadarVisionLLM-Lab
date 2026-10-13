@@ -32,6 +32,12 @@ desktop.ini
 data/raw/
 data/downloads/
 data/datasets/
+*.zip
+*.7z
+*.tar
+*.tar.gz
+*.h5
+*.hdf5
 
 # ==============================
 # Model checkpoints / weights
@@ -42,6 +48,11 @@ data/datasets/
 *.onnx
 checkpoints/
 weights/
+
+# ==============================
+# Papers / copyrighted source files
+# ==============================
+*.pdf
 
 # ==============================
 # Large experiment artifacts
@@ -58,6 +69,8 @@ weights/
 *.tmp
 temp/
 tmp/
+.cache/
+cache/
 
 # ==============================
 # Jupyter

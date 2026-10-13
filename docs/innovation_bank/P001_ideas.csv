@@ -1,0 +1,4 @@
+﻿Idea ID,Title,Hypothesis,Minimum Validation,Prior Work Risk,Novelty 1-5 subjective,Feasibility 1-5 subjective,Paper Potential 1-5 subjective,Validation Cost 1-5 high=costly,Status
+P001-I01,距离/RCS/密度感知的 Radar 表示增强,结合距离、RCS、局部点数设计可靠性特征,按距离类别 AP/Recall + 点数与RCS分布；特征消融,DDCFusion、RCBEVDet 等需核查,3,4,3,3,Candidate / Unverified
+P001-I02,稀疏度自适应多帧累积,根据局部稀疏和目标运动调整累积窗口,1/3/5帧对照、固定点预算、延迟、拖尾,P001 已有固定多帧；需证明区别,3,3,3,4,Candidate / Unverified
+P001-I03,远距离小目标雷视互补,融合相机语义与 Radar 深度/速度以改善远距目标,远距行人 AP/Recall、无雷达点目标、恶劣成像,DDCFusion 已有相近方法，差异待核查,2,3,3,5,Candidate / Unverified
