@@ -1,0 +1,112 @@
+{
+  "date": "2026-10-30",
+  "source_copies": [
+    {
+      "source": "E:\\Obsisian\\科研历程\\06 研究选题\\02 RadarVisionLLM-Lab\\P002｜CRN：Camera Radar Net for Accurate, Robust, Efficient 3D Perception.md",
+      "destination": "paper_notes/P002_CRN.md",
+      "sha256": "7e5a4a75b2f220498a2f5fad5fe49610a434771917323b258b0ae3c7f1bc6d36",
+      "bytes": 24455
+    },
+    {
+      "source": "E:\\Obsisian\\科研历程\\06 研究选题\\02 RadarVisionLLM-Lab\\P002：概念查询宝典.md",
+      "destination": "paper_notes/P002_概念查询宝典.md",
+      "sha256": "0d0b885cac227509c597a892437b72ea1e0578fcecbfc3ce69929be214220ff9",
+      "bytes": 9112
+    },
+    {
+      "source": "E:\\Obsisian\\科研历程\\图片文档上传库\\Pasted image 20261028091506.png",
+      "destination": "paper_notes/Pasted image 20261028091506.png",
+      "sha256": "f1b62d85e2772678dac8bc1af1c1df6aa0b8c6340eb94c8ba8ecbfbb66b58d1f",
+      "bytes": 2322241
+    },
+    {
+      "source": "E:\\Obsisian\\科研历程\\图片文档上传库\\Pasted image 20261028142231.png",
+      "destination": "paper_notes/Pasted image 20261028142231.png",
+      "sha256": "7ac2431f5ea214dda30683af3b2828f837f6833375e111ec4cc8a66bb4b9ed07",
+      "bytes": 2544925
+    },
+    {
+      "source": "E:\\Obsisian\\科研历程\\图片文档上传库\\Pasted image 20261028193811.png",
+      "destination": "paper_notes/Pasted image 20261028193811.png",
+      "sha256": "deaa34a9b8dbb10c8cd2e07cc3520ba2c750061f4dea67fae3fcd3c8f7da2d76",
+      "bytes": 2410032
+    },
+    {
+      "source": "E:\\Obsisian\\科研历程\\图片文档上传库\\Pasted image 20261028195714.png",
+      "destination": "paper_notes/Pasted image 20261028195714.png",
+      "sha256": "cf80fe106e531e7a5187209ce7f93cc0ccecd21b8df27499d5a9ff6be375c085",
+      "bytes": 2183802
+    },
+    {
+      "source": "E:\\Obsisian\\科研历程\\Pasted image 20261030141556.png",
+      "destination": "paper_notes/Pasted image 20261030141556.png",
+      "sha256": "74cbc895f9c4d1ff254f3de91b9256f1ff720b019d5231a1411af168bd234a0c",
+      "bytes": 271713
+    },
+    {
+      "source": "E:\\Obsisian\\科研历程\\Pasted image 20261030141648.png",
+      "destination": "paper_notes/Pasted image 20261030141648.png",
+      "sha256": "47d59ec293429e85fa01ad0eb071ae094497406c53423e1a83c20e972f832e4c",
+      "bytes": 51112
+    },
+    {
+      "source": "E:\\Obsisian\\科研历程\\Pasted image 20261030141736.png",
+      "destination": "paper_notes/Pasted image 20261030141736.png",
+      "sha256": "dd9102c0aab2ec3f80f75ee7aec0549f24e8508a433268e434c9c59b510c4d0b",
+      "bytes": 66855
+    }
+  ],
+  "validation": {
+    "source_copies_byte_identical": 9,
+    "obsidian_embeds_resolved": 7,
+    "step_headings_not_duplicated": true,
+    "resource_validator_exit_code": 0,
+    "output": {
+      "passed": true,
+      "errors": [],
+      "formal_p001_pdfs": [
+        {
+          "file": "paper_notes/P001_论文精读.pdf",
+          "pages": 12,
+          "sha256": "27a372ff3590b71d7746e13e0f5d7d6d385971bdfc54db01b9f2920702651b5e"
+        },
+        {
+          "file": "paper_notes/P001_概念查询宝典.pdf",
+          "pages": 65,
+          "sha256": "a5fc4c15889977b00c1ae4eb7ea38560406405afa26ac3539a8499a61c5673e1"
+        }
+      ],
+      "presentation_files_expected": 0,
+      "historical_entries_verified": 41,
+      "retained_files_verified": 158,
+      "csv_columns": {
+        "papers/paper_matrix.csv": 36,
+        "papers/paper_matrix_P001_import.csv": 23,
+        "archive/cleanup_2026-10-17/manifest.csv": 5,
+        "docs/innovation_bank/P001_ideas.csv": 10,
+        "reproductions/P001_PointPillars_VoD/experiment_tracker.csv": 8
+      },
+      "existing_markdown_targets": 77,
+      "python_files_compiled": 4,
+      "claim_boundary": "Checks retained P001 bytes, source PDF copies, packed historical bytes and links. No PPT generation, training or evaluation."
+    }
+  },
+  "assessment_status": "incomplete: original acceptance conversation missing; no fabricated answers or pass record",
+  "remote": "https://github.com/wzhikun-helper/RadarVisionLLM-Lab.git",
+  "remote_read_check": "git ls-remote: exit 0, empty remote",
+  "write_permission_check": "git push --dry-run HEAD:refs/heads/main: exit 0",
+  "intended_commit_files": [
+    "paper_notes/P002_CRN.md",
+    "paper_notes/P002_概念查询宝典.md",
+    "paper_notes/Pasted image 20261028091506.png",
+    "paper_notes/Pasted image 20261028142231.png",
+    "paper_notes/Pasted image 20261028193811.png",
+    "paper_notes/Pasted image 20261028195714.png",
+    "paper_notes/Pasted image 20261030141556.png",
+    "paper_notes/Pasted image 20261030141648.png",
+    "paper_notes/Pasted image 20261030141736.png",
+    "docs/maintenance/CRN_FIRST_PASS_AUDIT.md",
+    "docs/maintenance/CRN_FIRST_PASS_STATE.json"
+  ],
+  "publication_result": "See git history and delivery response for actual commit and push results."
+}
