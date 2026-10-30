@@ -69,7 +69,7 @@ $$
 
 **BEV（Bird's-Eye View）** 是从俯视方向组织空间；**BEV Feature Map** 不是一张普通鸟瞰照片，而是按 BEV 网格排列的神经网络特征。教学示例 `[B, C, H, W] = [1, 64, 100, 100]` 表示一个样本、64 个通道、100×100 个网格，**不是 64 个物体类别，也不能直接推断 100 m × 100 m**。
 
-![[Pasted image 20261028091506.png|673]]
+![Pasted image 20261028091506.png](assets/P002_CRN/Pasted%20image%2020261028091506.png "原Obsidian宽度：673")
 *一张包含 10,000 个空间位置的 BEV 特征图，每个位置都有一个 64 维特征向量。*
 
 BEV 让车辆前后、左右、相互距离、目标朝向等信息便于统一表达和后续检测、跟踪。但**转换为 BEV 不会自动让深度变准，也不会凭空产生目标完整速度**。
@@ -116,13 +116,13 @@ LiDAR 通常提供较丰富的三维几何，却有硬件成本和工程代价�
 
 ### 3.1 网络整体流程与模块职责
 
-![[Pasted image 20261028142231.png]]
+![Pasted image 20261028142231.png](assets/P002_CRN/Pasted%20image%2020261028142231.png)
 
 ### 3.2 RVT — Radar-assisted View Transformation
 
 **作者要解决什么？** Camera 具有语义但光学投影导致深度不确定；若图像特征被错误放入 BEV，会影响检测框位置。Radar 可提供测量距离，但它稀疏、测量可能有错。
 
-![[Pasted image 20261028193811.png]]
+![Pasted image 20261028193811.png](assets/P002_CRN/Pasted%20image%2020261028193811.png)
 
 ① **图像编码（Image Encoding）**  
 ==多视角相机图像首先经过 Backbone 和 FPN，提取两类信息==：  
@@ -174,7 +174,7 @@ LiDAR 通常提供较丰富的三维几何，却有硬件成本和工程代价�
 
 **Reference Point**：==与 Query 关联的参考空间位置==。**Sampling Offset**：==相对于该位置学习采样偏移==，回答“去哪里寻找信息”；**Attention Weight**：==学习不同采样结果的贡献==，回答“采到的信息使用多少”。
 
-![[Pasted image 20261028195714.png]]
+![Pasted image 20261028195714.png](assets/P002_CRN/Pasted%20image%2020261028195714.png)
 
 ① **输入：Camera BEV 与 Radar BEV**  
 经过 RVT 和雷达特征编码，网络得到两张 BEV 特征图：  
@@ -268,20 +268,20 @@ MDCA 对参与计算的 Query 进行特征更新，形成融合后的 BEV 表示
 
 ### 4.2 Main Results（主要结果）
 
-![[Pasted image 20261030141556.png]]
+![Pasted image 20261030141556.png](assets/P002_CRN/Pasted%20image%2020261030141556.png)
 
 完整 CRN 模型在论文所报告的配置中具有较强的 3D 检测表现；但**完整模型优于另一模型**只说明相应设置下整体方案的表现，**不能直接证明全部提升来自 RVT 或 MFA**。判断模块贡献需要消融实验。不同 Backbone 和 FPS 配置必须分开解读。
 ### 4.3 Ablation Studies（消融实验）
 
 #### 4.3.1 RVT 消融
 
-![[Pasted image 20261030141648.png|404]]
+![Pasted image 20261030141648.png](assets/P002_CRN/Pasted%20image%2020261030141648.png "原Obsidian宽度：404")
 
 比较不同视角变换信息来源，考查 Radar 空间观测辅助 Camera 深度/BEV 变换是否有益。**RVT 缓解深度不确定性，不是直接把 Radar 距离设为每个像素的真值深度。**
 
 #### 4.3.2 MFA 消融
 
-![[Pasted image 20261030141736.png|417]]
+![Pasted image 20261030141736.png](assets/P002_CRN/Pasted%20image%2020261030141736.png "原Obsidian宽度：417")
 
 比较不同跨模态融合方式，考查可变形跨模态采样与聚合的效果。**MFA 有机会缓解 BEV 特征错位，不代表所有标定误差和定位误差均被消除。**
 

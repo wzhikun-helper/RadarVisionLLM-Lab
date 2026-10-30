@@ -83,3 +83,16 @@ cache/
 .env
 *.key
 credentials.*
+
+# Repository management: secrets / local environments
+.env.*
+!.env.example
+*.pem
+*.p12
+*.pfx
+*.safetensors
+.venv*/
+.wandb/
+wandb/
+# Unique historical evidence, intentionally retained
+!docs/maintenance/P001_history.zip

@@ -1,0 +1,3215 @@
+{
+  "date": "2026-10-30",
+  "head_before": "20f21172642ba1f4f47cb6dacf0016a06af15d75",
+  "git_status_before": " M README.md\n M data/README.md\n M docs/README.md\n M docs/innovation_bank/P001_INNOVATION_NOTES.md\n M docs/innovation_bank/P001_ideas.csv\n M docs/innovation_bank/idea_template.md\n M docs/learning_notes/00_git_and_research_engineering.md\n M docs/research_gaps/P001_Limitations_Research_Gap.md\n M docs/research_log/P001_ARCHIVE_REPORT.md\n M docs/research_protocol.md\n M docs/roadmap.md\n M docs/weekly_reports/weekly_report_template.md\n M experiments/README.md\n M experiments/templates/experiment_template.md\n M figures/README.md\n M manuscript/README.md\n D paper_notes/P001_MultiClass_Road_User_Detection.md\n M paper_notes/templates/paper_note_template.md\n M papers/README.md\n M papers/paper_matrix.csv\n M reproductions/README.md\n M reproductions/templates/reproduction_template.md\n M results/README.md\n M scripts/README.md\n M src/README.md\n M writing/README.md\n M writing/academic_phrasebook.md\n?? archive/ARCHIVE_MANIFEST.md\n?? archive/cleanup_2026-10-17/README.md\n?? archive/cleanup_2026-10-17/manifest.csv\n?? archive/cleanup_2026-10-17/presentations/P001_Paper_Review/P001_Paper_Review_Visual_Exact.verification.json\n?? archive/cleanup_2026-10-17/presentations/P001_Radar_Detection_Prerequisite/backups/20261017_before_image_rebuild/P001_Speaker_Notes.md\n?? archive/cleanup_2026-10-17/presentations/P001_Radar_Detection_Prerequisite/backups/20261017_before_image_rebuild/README.md\n?? archive/cleanup_2026-10-17/work/p001_ppt_build/cases.png\n?? archive/cleanup_2026-10-17/work/p001_ppt_build/curves.png\n?? archive/cleanup_2026-10-17/work/p001_ppt_build/scene.png\n?? archive/cleanup_2026-10-17/work/p001_ppt_build/sensor.png\n?? archive/cleanup_2026-10-17/work/p001_prereq_build/paper.txt\n?? archive/retired_ppt_work/README.md\n?? \"docs/learning_notes/01 RadarVisionLLM-Lab：FMCW、回波与多普勒基础.md\"\n?? docs/maintenance/P001_CURRENT_STATE.json\n?? docs/maintenance/P001_EVIDENCE_ERRATA.md\n?? docs/maintenance/README.md\n?? experiments/templates/config_template.yaml\n?? \"paper_notes/ChatGPT Image 2026年9月23日 15_22_18.png\"\n?? \"paper_notes/ChatGPT 图像 2026年9月29日 11_04_16.png\"\n?? \"paper_notes/ChatGPT 图像 2026年9月29日 15_17_15.png\"\n?? paper_notes/P001_概念查询宝典.md\n?? paper_notes/P001_论文精读.md\n?? \"paper_notes/Pasted image 20261009152348.png\"\n?? \"paper_notes/Pasted image 20261014185700.png\"\n?? \"paper_notes/Pasted image 20261014185737.png\"\n?? \"paper_notes/Pasted image 20261019144201.png\"\n?? paper_notes/README.md\n?? presentations/HISTORY.md\n?? presentations/P001_Paper_Review/P001_Paper_Review_Speaker_Notes.md\n?? presentations/P001_Paper_Review/README.md\n?? presentations/P001_Paper_Review/assets/fig4_original.png\n?? presentations/P001_Paper_Review/assets/fig5_original.png\n?? presentations/P001_Paper_Review/assets/paper_page_06_220dpi.png\n?? presentations/P001_Paper_Review/slide_content.json\n?? presentations/P001_Paper_Review/sources.md\n?? presentations/P001_Paper_Review/verify_visual_exact.py\n?? presentations/P001_Radar_Detection_Prerequisite/P001_Speaker_Notes.md\n?? presentations/P001_Radar_Detection_Prerequisite/README.md\n?? presentations/P001_Radar_Detection_Prerequisite/assets/notes_image_rebuild.json\n?? presentations/P001_Radar_Detection_Prerequisite/assets/slide-01.png\n?? presentations/P001_Radar_Detection_Prerequisite/assets/slide-02.png\n?? presentations/P001_Radar_Detection_Prerequisite/assets/slide-03.png\n?? presentations/P001_Radar_Detection_Prerequisite/assets/slide-04.png\n?? presentations/P001_Radar_Detection_Prerequisite/assets/slide-05.png\n?? presentations/P001_Radar_Detection_Prerequisite/assets/slide-06.png\n?? presentations/P001_Radar_Detection_Prerequisite/assets/slide-07.png\n?? presentations/P001_Radar_Detection_Prerequisite/assets/slide-08.png\n?? presentations/P001_Radar_Detection_Prerequisite/assets/slide-09.png\n?? presentations/P001_Radar_Detection_Prerequisite/assets/text-fit.json\n?? presentations/P001_Radar_Detection_Prerequisite/assets/validation.json\n?? presentations/P001_Radar_Detection_Prerequisite/sources.md\n?? presentations/P001_paper_review_images/01_Cover.png\n?? presentations/P001_paper_review_images/01_Cover_prompt.md\n?? presentations/P001_paper_review_images/02_Visual.png\n?? presentations/P001_paper_review_images/03_Visual.png\n?? presentations/P001_paper_review_images/04_Visual.png\n?? presentations/P001_paper_review_images/05_Visual.png\n?? presentations/P001_paper_review_images/06_Visual.png\n?? presentations/P001_paper_review_images/07_Visual.png\n?? presentations/P001_paper_review_images/08_Visual.png\n?? presentations/P001_paper_review_images/09_Visual.png\n?? presentations/P001_paper_review_images/10_Visual.png\n?? presentations/P001_paper_review_images/11_Visual.png\n?? presentations/P001_paper_review_images/12_Visual.png\n?? presentations/P001_paper_review_images/13_Visual.png\n?? presentations/P001_paper_review_images/14_Visual.png\n?? presentations/P001_paper_review_images/README.md\n?? presentations/P001_paper_review_images/generation_prompts.json\n?? presentations/P001_paper_review_images/image_manifest.json\n?? presentations/P001_slide_images/01_Cover.png\n?? presentations/P001_slide_images/02_FMCW.png\n?? presentations/P001_slide_images/03_Radar_Dimensions.png\n?? presentations/P001_slide_images/04_Radar_Point_Cloud.png\n?? presentations/P001_slide_images/05_Radar_Pipeline.png\n?? presentations/P001_slide_images/06_PointPillars.png\n?? presentations/P001_slide_images/07_Temporal_Accumulation.png\n?? presentations/P001_slide_images/08_Detection_Metrics.png\n?? presentations/P001_slide_images/09_Knowledge_Summary.png\n?? presentations/P001_slide_images/README.md\n?? presentations/P001_slide_images/generation_prompts.json\n?? presentations/P001_slide_images/image_manifest.json\n?? presentations/README.md\n?? scripts/maintenance_paths.py\n?? scripts/validate_lab.py\n?? work/README.md\n?? work/p001_exact_current_build.txt\n?? work/p001_prereq_supplied_images/convert.mjs\n?? work/p001_prereq_supplied_images/manifest.json\n?? work/p001_prereq_supplied_images/renders/01.png\n?? work/p001_prereq_supplied_images/renders/02.png\n?? work/p001_prereq_supplied_images/renders/03.png\n?? work/p001_prereq_supplied_images/renders/04.png\n?? work/p001_prereq_supplied_images/renders/05.png\n?? work/p001_prereq_supplied_images/renders/06.png\n?? work/p001_prereq_supplied_images/renders/07.png\n?? work/p001_prereq_supplied_images/renders/08.png\n?? work/p001_prereq_supplied_images/renders/09.png\n?? work/p001_prereq_supplied_images/validation.json\n?? work/p001_prereq_supplied_images/verification.json\n?? work/p001_visual_exact_20261017T100548/finalize-options.json\n?? work/p001_visual_exact_20261017T100548/manifest.json\n?? work/p001_visual_exact_20261017T100548/renders/01.png\n?? work/p001_visual_exact_20261017T100548/renders/02.png\n?? work/p001_visual_exact_20261017T100548/renders/03.png\n?? work/p001_visual_exact_20261017T100548/renders/04.png\n?? work/p001_visual_exact_20261017T100548/renders/05.png\n?? work/p001_visual_exact_20261017T100548/renders/06.png\n?? work/p001_visual_exact_20261017T100548/renders/07.png\n?? work/p001_visual_exact_20261017T100548/renders/08.png\n?? work/p001_visual_exact_20261017T100548/renders/09.png\n?? work/p001_visual_exact_20261017T100548/renders/10.png\n?? work/p001_visual_exact_20261017T100548/renders/11.png\n?? work/p001_visual_exact_20261017T100548/renders/12.png\n?? work/p001_visual_exact_20261017T100548/renders/13.png\n?? work/p001_visual_exact_20261017T100548/renders/14.png\n?? work/p001_visual_exact_20261017T100548/validation.json\n?? work/p001_visual_exact_20261017T100548/verification.json\n?? work/verify_p001_exact_current.py\n",
+  "files_before": {
+    ".gitignore": {
+      "sha256": "18cbf26fa2365496eb24aea6207696f7f5817d5a0a67003d3e48a4840b1cf815",
+      "bytes": 1371,
+      "tracked": true,
+      "ignored": false,
+      "refs": [
+        "data/README.md",
+        "docs/learning_notes/00_git_and_research_engineering.md",
+        "docs/maintenance/P001_CURRENT_STATE.json",
+        "docs/research_log/P001_ARCHIVE_REPORT.md",
+        "docs/research_gaps/baseline_selection_round2/01_candidate_papers.md",
+        "docs/research_gaps/baseline_selection_round2/05_decision_and_plan.md",
+        "reproductions/P001_PointPillars_VoD/README.md"
+      ],
+      "category": "A",
+      "historical": false,
+      "regeneration": "Not established"
+    },
+    "README.md": {
+      "sha256": "06d3e2b4aef1b4e484eccb9d08dae8e84a7ea21fa715336689caed9f2e46176e",
+      "bytes": 2451,
+      "tracked": true,
+      "ignored": false,
+      "refs": [
+        "archive/ARCHIVE_MANIFEST.md",
+        "data/README.md",
+        "experiments/README.md",
+        "manuscript/README.md",
+        "paper_notes/README.md",
+        "presentations/HISTORY.md",
+        "presentations/README.md",
+        "reproductions/README.md",
+        "work/README.md",
+        "archive/cleanup_2026-10-17/manifest.csv",
+        "archive/retired_ppt_work/README.md",
+        "archive/cleanup_2026-10-17/presentations/P001_Paper_Review/P001_Paper_Review_Visual_Exact.verification.json",
+        "docs/learning_notes/00_git_and_research_engineering.md",
+        "docs/maintenance/P001_CURRENT_STATE.json",
+        "docs/maintenance/P001_EVIDENCE_ERRATA.md",
+        "docs/research_log/P001_ARCHIVE_REPORT.md",
+        "docs/research_gaps/baseline_selection_round2/02_code_audit.md",
+        "presentations/P001_Paper_Review/README.md",
+        "presentations/P001_Paper_Review/sources.md",
+        "presentations/P001_paper_review_images/README.md",
+        "presentations/P001_Radar_Detection_Prerequisite/README.md",
+        "presentations/P001_Radar_Detection_Prerequisite/sources.md"
+      ],
+      "category": "A",
+      "historical": false,
+      "regeneration": "Not established"
+    },
+    "archive/ARCHIVE_MANIFEST.md": {
+      "sha256": "c7d75c38127a9ef0bf8d8e6179672c2e4e161fe0a32e24155dfc17aa73671aaf",
+      "bytes": 2213,
+      "tracked": false,
+      "ignored": false,
+      "refs": [
+        "archive/cleanup_2026-10-17/README.md",
+        "docs/maintenance/P001_CURRENT_STATE.json"
+      ],
+      "category": "C",
+      "historical": true,
+      "regeneration": "Not established"
+    },
+    "data/README.md": {
+      "sha256": "6c3c1c3c4210c504c440a32accbac2cf379553930a463dc25bc02d9b1cdc961a",
+      "bytes": 7482,
+      "tracked": true,
+      "ignored": false,
+      "refs": [
+        "README.md",
+        "archive/ARCHIVE_MANIFEST.md",
+        "experiments/README.md",
+        "manuscript/README.md",
+        "paper_notes/README.md",
+        "presentations/HISTORY.md",
+        "presentations/README.md",
+        "reproductions/README.md",
+        "work/README.md",
+        "archive/cleanup_2026-10-17/manifest.csv",
+        "archive/retired_ppt_work/README.md",
+        "archive/cleanup_2026-10-17/presentations/P001_Paper_Review/P001_Paper_Review_Visual_Exact.verification.json",
+        "docs/learning_notes/00_git_and_research_engineering.md",
+        "docs/maintenance/P001_CURRENT_STATE.json",
+        "docs/maintenance/P001_EVIDENCE_ERRATA.md",
+        "docs/research_log/P001_ARCHIVE_REPORT.md",
+        "docs/research_gaps/baseline_selection_round2/02_code_audit.md",
+        "presentations/P001_Paper_Review/README.md",
+        "presentations/P001_Paper_Review/sources.md",
+        "presentations/P001_paper_review_images/README.md",
+        "presentations/P001_Radar_Detection_Prerequisite/README.md",
+        "presentations/P001_Radar_Detection_Prerequisite/sources.md"
+      ],
+      "category": "A",
+      "historical": false,
+      "regeneration": "Not established"
+    },
+    "docs/README.md": {
+      "sha256": "b188f32b38b8e16296881e9749279d2312466b2c9a089f546c4b3c22ec0781e2",
+      "bytes": 3371,
+      "tracked": true,
+      "ignored": false,
+      "refs": [
+        "README.md",
+        "archive/ARCHIVE_MANIFEST.md",
+        "data/README.md",
+        "experiments/README.md",
+        "manuscript/README.md",
+        "paper_notes/README.md",
+        "presentations/HISTORY.md",
+        "presentations/README.md",
+        "reproductions/README.md",
+        "work/README.md",
+        "archive/cleanup_2026-10-17/manifest.csv",
+        "archive/retired_ppt_work/README.md",
+        "archive/cleanup_2026-10-17/presentations/P001_Paper_Review/P001_Paper_Review_Visual_Exact.verification.json",
+        "docs/learning_notes/00_git_and_research_engineering.md",
+        "docs/maintenance/P001_CURRENT_STATE.json",
+        "docs/maintenance/P001_EVIDENCE_ERRATA.md",
+        "docs/research_log/P001_ARCHIVE_REPORT.md",
+        "docs/research_gaps/baseline_selection_round2/02_code_audit.md",
+        "presentations/P001_Paper_Review/README.md",
+        "presentations/P001_Paper_Review/sources.md",
+        "presentations/P001_paper_review_images/README.md",
+        "presentations/P001_Radar_Detection_Prerequisite/README.md",
+        "presentations/P001_Radar_Detection_Prerequisite/sources.md"
+      ],
+      "category": "A",
+      "historical": false,
+      "regeneration": "Not established"
+    },
+    "docs/research_protocol.md": {
+      "sha256": "04a4d1413d9a903e6ce4428a9ab8eab46eb834dcdf8e720d2aa5a4333fd03ebe",
+      "bytes": 9441,
+      "tracked": true,
+      "ignored": false,
+      "refs": [
+        "docs/learning_notes/00_git_and_research_engineering.md",
+        "docs/maintenance/P001_CURRENT_STATE.json"
+      ],
+      "category": "A",
+      "historical": false,
+      "regeneration": "Not established"
+    },
+    "docs/roadmap.md": {
+      "sha256": "2a80783ff5a9092c16b2cbbb9c623dab6480188c81121cd8a63bedecce7240db",
+      "bytes": 10285,
+      "tracked": true,
+      "ignored": false,
+      "refs": [
+        "docs/learning_notes/00_git_and_research_engineering.md",
+        "docs/maintenance/P001_CURRENT_STATE.json"
+      ],
+      "category": "A",
+      "historical": false,
+      "regeneration": "Not established"
+    },
+    "experiments/README.md": {
+      "sha256": "fbcdb923eedbaaa155c56305548b8fde49069211d593d3671db6df544dcd49b3",
+      "bytes": 6924,
+      "tracked": true,
+      "ignored": false,
+      "refs": [
+        "README.md",
+        "archive/ARCHIVE_MANIFEST.md",
+        "data/README.md",
+        "manuscript/README.md",
+        "paper_notes/README.md",
+        "presentations/HISTORY.md",
+        "presentations/README.md",
+        "reproductions/README.md",
+        "work/README.md",
+        "archive/cleanup_2026-10-17/manifest.csv",
+        "archive/retired_ppt_work/README.md",
+        "archive/cleanup_2026-10-17/presentations/P001_Paper_Review/P001_Paper_Review_Visual_Exact.verification.json",
+        "docs/learning_notes/00_git_and_research_engineering.md",
+        "docs/maintenance/P001_CURRENT_STATE.json",
+        "docs/maintenance/P001_EVIDENCE_ERRATA.md",
+        "docs/research_log/P001_ARCHIVE_REPORT.md",
+        "docs/research_gaps/baseline_selection_round2/02_code_audit.md",
+        "presentations/P001_Paper_Review/README.md",
+        "presentations/P001_Paper_Review/sources.md",
+        "presentations/P001_paper_review_images/README.md",
+        "presentations/P001_Radar_Detection_Prerequisite/README.md",
+        "presentations/P001_Radar_Detection_Prerequisite/sources.md"
+      ],
+      "category": "A",
+      "historical": false,
+      "regeneration": "Not established"
+    },
+    "figures/README.md": {
+      "sha256": "152fad0ad37435324057b551b4ce3d090716a5825c7f12ae1c35d7d2f953ed51",
+      "bytes": 3071,
+      "tracked": true,
+      "ignored": false,
+      "refs": [
+        "README.md",
+        "archive/ARCHIVE_MANIFEST.md",
+        "data/README.md",
+        "experiments/README.md",
+        "manuscript/README.md",
+        "paper_notes/README.md",
+        "presentations/HISTORY.md",
+        "presentations/README.md",
+        "reproductions/README.md",
+        "work/README.md",
+        "archive/cleanup_2026-10-17/manifest.csv",
+        "archive/retired_ppt_work/README.md",
+        "archive/cleanup_2026-10-17/presentations/P001_Paper_Review/P001_Paper_Review_Visual_Exact.verification.json",
+        "docs/learning_notes/00_git_and_research_engineering.md",
+        "docs/maintenance/P001_CURRENT_STATE.json",
+        "docs/maintenance/P001_EVIDENCE_ERRATA.md",
+        "docs/research_log/P001_ARCHIVE_REPORT.md",
+        "docs/research_gaps/baseline_selection_round2/02_code_audit.md",
+        "presentations/P001_Paper_Review/README.md",
+        "presentations/P001_Paper_Review/sources.md",
+        "presentations/P001_paper_review_images/README.md",
+        "presentations/P001_Radar_Detection_Prerequisite/README.md",
+        "presentations/P001_Radar_Detection_Prerequisite/sources.md"
+      ],
+      "category": "A",
+      "historical": false,
+      "regeneration": "Not established"
+    },
+    "manuscript/README.md": {
+      "sha256": "f9bb2459b0d655cd0099b608de0d905631b862020612180169466d9cf678ac02",
+      "bytes": 4190,
+      "tracked": true,
+      "ignored": false,
+      "refs": [
+        "README.md",
+        "archive/ARCHIVE_MANIFEST.md",
+        "data/README.md",
+        "experiments/README.md",
+        "paper_notes/README.md",
+        "presentations/HISTORY.md",
+        "presentations/README.md",
+        "reproductions/README.md",
+        "work/README.md",
+        "archive/cleanup_2026-10-17/manifest.csv",
+        "archive/retired_ppt_work/README.md",
+        "archive/cleanup_2026-10-17/presentations/P001_Paper_Review/P001_Paper_Review_Visual_Exact.verification.json",
+        "docs/learning_notes/00_git_and_research_engineering.md",
+        "docs/maintenance/P001_CURRENT_STATE.json",
+        "docs/maintenance/P001_EVIDENCE_ERRATA.md",
+        "docs/research_log/P001_ARCHIVE_REPORT.md",
+        "docs/research_gaps/baseline_selection_round2/02_code_audit.md",
+        "presentations/P001_Paper_Review/README.md",
+        "presentations/P001_Paper_Review/sources.md",
+        "presentations/P001_paper_review_images/README.md",
+        "presentations/P001_Radar_Detection_Prerequisite/README.md",
+        "presentations/P001_Radar_Detection_Prerequisite/sources.md"
+      ],
+      "category": "A",
+      "historical": false,
+      "regeneration": "Not established"
+    },
+    "papers/paper_matrix.csv": {
+      "sha256": "e675325fef758b29b8b41e7ad5a6e2c647615215957b5d2767b489e4a672a06a",
+      "bytes": 1109,
+      "tracked": true,
+      "ignored": false,
+      "refs": [
+        "papers/README.md",
+        "scripts/validate_lab.py",
+        "docs/maintenance/CRN_FIRST_PASS_STATE.json",
+        "docs/maintenance/P001_CURRENT_STATE.json",
+        "docs/research_log/P001_ARCHIVE_REPORT.md"
+      ],
+      "category": "A",
+      "historical": false,
+      "regeneration": "Not established"
+    },
+    "papers/paper_matrix_P001_import.csv": {
+      "sha256": "9ab7a80eb6d1ec415d30a8925f4ed38dab553b8c9dfd3bdb646c6568f1a68652",
+      "bytes": 1380,
+      "tracked": true,
+      "ignored": false,
+      "refs": [
+        "scripts/validate_lab.py",
+        "docs/maintenance/CRN_FIRST_PASS_STATE.json",
+        "docs/maintenance/P001_CURRENT_STATE.json",
+        "docs/research_log/P001_ARCHIVE_REPORT.md"
+      ],
+      "category": "A",
+      "historical": false,
+      "regeneration": "Not established"
+    },
+    "papers/README.md": {
+      "sha256": "c5ffaf86159d12a8fcceefd66e68569ccc21b820cbd251f6ff6c48178e0b8015",
+      "bytes": 3220,
+      "tracked": true,
+      "ignored": false,
+      "refs": [
+        "README.md",
+        "archive/ARCHIVE_MANIFEST.md",
+        "data/README.md",
+        "experiments/README.md",
+        "manuscript/README.md",
+        "paper_notes/README.md",
+        "presentations/HISTORY.md",
+        "presentations/README.md",
+        "reproductions/README.md",
+        "work/README.md",
+        "archive/cleanup_2026-10-17/manifest.csv",
+        "archive/retired_ppt_work/README.md",
+        "archive/cleanup_2026-10-17/presentations/P001_Paper_Review/P001_Paper_Review_Visual_Exact.verification.json",
+        "docs/learning_notes/00_git_and_research_engineering.md",
+        "docs/maintenance/P001_CURRENT_STATE.json",
+        "docs/maintenance/P001_EVIDENCE_ERRATA.md",
+        "docs/research_log/P001_ARCHIVE_REPORT.md",
+        "docs/research_gaps/baseline_selection_round2/02_code_audit.md",
+        "presentations/P001_Paper_Review/README.md",
+        "presentations/P001_Paper_Review/sources.md",
+        "presentations/P001_paper_review_images/README.md",
+        "presentations/P001_Radar_Detection_Prerequisite/README.md",
+        "presentations/P001_Radar_Detection_Prerequisite/sources.md"
+      ],
+      "category": "A",
+      "historical": false,
+      "regeneration": "Not established"
+    },
+    "paper_notes/ChatGPT Image 2026年9月23日 15_22_18.png": {
+      "sha256": "54dca866fe59e13b89807caac90709d80151e96ee8dc8ba6943510d1043a2beb",
+      "bytes": 1406376,
+      "tracked": false,
+      "ignored": false,
+      "refs": [
+        "paper_notes/P001_概念查询宝典.md",
+        "docs/learning_notes/01 RadarVisionLLM-Lab：FMCW、回波与多普勒基础.md",
+        "docs/maintenance/P001_CURRENT_STATE.json"
+      ],
+      "category": "A",
+      "historical": false,
+      "regeneration": "Not established"
+    },
+    "paper_notes/ChatGPT 图像 2026年9月29日 11_04_16.png": {
+      "sha256": "cc19ea96a3e1ef5f63404df8caeebc79b61dd57e05c19795c312b6859279d729",
+      "bytes": 1527427,
+      "tracked": false,
+      "ignored": false,
+      "refs": [
+        "paper_notes/P001_概念查询宝典.md",
+        "docs/learning_notes/01 RadarVisionLLM-Lab：FMCW、回波与多普勒基础.md",
+        "docs/maintenance/P001_CURRENT_STATE.json"
+      ],
+      "category": "A",
+      "historical": false,
+      "regeneration": "Not established"
+    },
+    "paper_notes/ChatGPT 图像 2026年9月29日 15_17_15.png": {
+      "sha256": "497da056a3a124930f8095dd9c8d84de92548b1d098bdf45b74e7832cb5ce663",
+      "bytes": 1568338,
+      "tracked": false,
+      "ignored": false,
+      "refs": [
+        "paper_notes/P001_概念查询宝典.md",
+        "docs/learning_notes/01 RadarVisionLLM-Lab：FMCW、回波与多普勒基础.md",
+        "docs/maintenance/P001_CURRENT_STATE.json"
+      ],
+      "category": "A",
+      "historical": false,
+      "regeneration": "Not established"
+    },
+    "paper_notes/P001_概念查询宝典.md": {
+      "sha256": "e84d52ce33c17bb4bc09e65d7c69eee62c463bd13dd1cefddaf1e47238f82e7a",
+      "bytes": 82528,
+      "tracked": false,
+      "ignored": false,
+      "refs": [
+        "README.md",
+        "paper_notes/README.md",
+        "presentations/README.md",
+        "docs/maintenance/P001_CURRENT_STATE.json",
+        "docs/maintenance/README.md",
+        "presentations/P001_Radar_Detection_Prerequisite/README.md"
+      ],
+      "category": "A",
+      "historical": false,
+      "regeneration": "Not established"
+    },
+    "paper_notes/P001_论文精读.md": {
+      "sha256": "09eb1f76e2c7b8583cb0252214ebce66ebe82a7cb8e6f04397810dce440b60ca",
+      "bytes": 24356,
+      "tracked": false,
+      "ignored": false,
+      "refs": [
+        "README.md",
+        "paper_notes/README.md",
+        "presentations/README.md",
+        "scripts/maintenance_paths.py",
+        "docs/learning_notes/01 RadarVisionLLM-Lab：FMCW、回波与多普勒基础.md",
+        "docs/maintenance/P001_CURRENT_STATE.json",
+        "docs/maintenance/README.md",
+        "presentations/P001_Paper_Review/README.md",
+        "presentations/P001_Paper_Review/sources.md",
+        "presentations/P001_paper_review_images/README.md",
+        "presentations/P001_Radar_Detection_Prerequisite/sources.md"
+      ],
+      "category": "A",
+      "historical": false,
+      "regeneration": "Not established"
+    },
+    "paper_notes/P002_CRN.md": {
+      "sha256": "7e5a4a75b2f220498a2f5fad5fe49610a434771917323b258b0ae3c7f1bc6d36",
+      "bytes": 24455,
+      "tracked": true,
+      "ignored": false,
+      "refs": [
+        "README.md",
+        "paper_notes/README.md",
+        "docs/maintenance/CRN_FIRST_PASS_AUDIT.md",
+        "docs/maintenance/CRN_FIRST_PASS_STATE.json",
+        "docs/maintenance/P001_CURRENT_STATE.json"
+      ],
+      "category": "A",
+      "historical": false,
+      "regeneration": "Not established"
+    },
+    "paper_notes/P002_概念查询宝典.md": {
+      "sha256": "0d0b885cac227509c597a892437b72ea1e0578fcecbfc3ce69929be214220ff9",
+      "bytes": 9112,
+      "tracked": true,
+      "ignored": false,
+      "refs": [
+        "README.md",
+        "paper_notes/README.md",
+        "docs/maintenance/CRN_FIRST_PASS_AUDIT.md",
+        "docs/maintenance/CRN_FIRST_PASS_STATE.json",
+        "docs/maintenance/P001_CURRENT_STATE.json"
+      ],
+      "category": "A",
+      "historical": false,
+      "regeneration": "Not established"
+    },
+    "paper_notes/Pasted image 20261009152348.png": {
+      "sha256": "7a6ecc9dd135d9b20af27d8e28c34abd1e42becb618705ae7af82632d94b506e",
+      "bytes": 258035,
+      "tracked": false,
+      "ignored": false,
+      "refs": [
+        "paper_notes/P001_论文精读.md",
+        "docs/maintenance/P001_CURRENT_STATE.json"
+      ],
+      "category": "A",
+      "historical": false,
+      "regeneration": "Not established"
+    },
+    "paper_notes/Pasted image 20261014185700.png": {
+      "sha256": "b8173e53b876932e351ecd2eca990f24c4117dffc04ea438d9b2366e5d83f9fd",
+      "bytes": 66875,
+      "tracked": false,
+      "ignored": false,
+      "refs": [
+        "paper_notes/P001_论文精读.md",
+        "docs/maintenance/P001_CURRENT_STATE.json"
+      ],
+      "category": "A",
+      "historical": false,
+      "regeneration": "Not established"
+    },
+    "paper_notes/Pasted image 20261014185737.png": {
+      "sha256": "c8a08ac5ef08fbcbd6eb803485ea7411cb61a17111f4e88b2913dce0dca95d91",
+      "bytes": 68163,
+      "tracked": false,
+      "ignored": false,
+      "refs": [
+        "paper_notes/P001_论文精读.md",
+        "docs/maintenance/P001_CURRENT_STATE.json"
+      ],
+      "category": "A",
+      "historical": false,
+      "regeneration": "Not established"
+    },
+    "paper_notes/Pasted image 20261019144201.png": {
+      "sha256": "9d6ac7855ae89522bc25d2f5b893a6344ddff9666f3fc8eec07db98eba677ef5",
+      "bytes": 2250370,
+      "tracked": false,
+      "ignored": false,
+      "refs": [
+        "paper_notes/P001_论文精读.md",
+        "docs/maintenance/P001_CURRENT_STATE.json"
+      ],
+      "category": "A",
+      "historical": false,
+      "regeneration": "Not established"
+    },
+    "paper_notes/Pasted image 20261028091506.png": {
+      "sha256": "f1b62d85e2772678dac8bc1af1c1df6aa0b8c6340eb94c8ba8ecbfbb66b58d1f",
+      "bytes": 2322241,
+      "tracked": true,
+      "ignored": false,
+      "refs": [
+        "paper_notes/P002_CRN.md",
+        "docs/maintenance/CRN_FIRST_PASS_STATE.json",
+        "docs/maintenance/P001_CURRENT_STATE.json"
+      ],
+      "category": "A",
+      "historical": false,
+      "regeneration": "Not established"
+    },
+    "paper_notes/Pasted image 20261028142231.png": {
+      "sha256": "7ac2431f5ea214dda30683af3b2828f837f6833375e111ec4cc8a66bb4b9ed07",
+      "bytes": 2544925,
+      "tracked": true,
+      "ignored": false,
+      "refs": [
+        "paper_notes/P002_CRN.md",
+        "docs/maintenance/CRN_FIRST_PASS_STATE.json",
+        "docs/maintenance/P001_CURRENT_STATE.json"
+      ],
+      "category": "A",
+      "historical": false,
+      "regeneration": "Not established"
+    },
+    "paper_notes/Pasted image 20261028193811.png": {
+      "sha256": "deaa34a9b8dbb10c8cd2e07cc3520ba2c750061f4dea67fae3fcd3c8f7da2d76",
+      "bytes": 2410032,
+      "tracked": true,
+      "ignored": false,
+      "refs": [
+        "paper_notes/P002_CRN.md",
+        "docs/maintenance/CRN_FIRST_PASS_STATE.json",
+        "docs/maintenance/P001_CURRENT_STATE.json"
+      ],
+      "category": "A",
+      "historical": false,
+      "regeneration": "Not established"
+    },
+    "paper_notes/Pasted image 20261028195714.png": {
+      "sha256": "cf80fe106e531e7a5187209ce7f93cc0ccecd21b8df27499d5a9ff6be375c085",
+      "bytes": 2183802,
+      "tracked": true,
+      "ignored": false,
+      "refs": [
+        "paper_notes/P002_CRN.md",
+        "docs/maintenance/CRN_FIRST_PASS_STATE.json",
+        "docs/maintenance/P001_CURRENT_STATE.json"
+      ],
+      "category": "A",
+      "historical": false,
+      "regeneration": "Not established"
+    },
+    "paper_notes/Pasted image 20261030141556.png": {
+      "sha256": "74cbc895f9c4d1ff254f3de91b9256f1ff720b019d5231a1411af168bd234a0c",
+      "bytes": 271713,
+      "tracked": true,
+      "ignored": false,
+      "refs": [
+        "paper_notes/P002_CRN.md",
+        "docs/maintenance/CRN_FIRST_PASS_STATE.json",
+        "docs/maintenance/P001_CURRENT_STATE.json"
+      ],
+      "category": "A",
+      "historical": false,
+      "regeneration": "Not established"
+    },
+    "paper_notes/Pasted image 20261030141648.png": {
+      "sha256": "47d59ec293429e85fa01ad0eb071ae094497406c53423e1a83c20e972f832e4c",
+      "bytes": 51112,
+      "tracked": true,
+      "ignored": false,
+      "refs": [
+        "paper_notes/P002_CRN.md",
+        "docs/maintenance/CRN_FIRST_PASS_STATE.json",
+        "docs/maintenance/P001_CURRENT_STATE.json"
+      ],
+      "category": "A",
+      "historical": false,
+      "regeneration": "Not established"
+    },
+    "paper_notes/Pasted image 20261030141736.png": {
+      "sha256": "dd9102c0aab2ec3f80f75ee7aec0549f24e8508a433268e434c9c59b510c4d0b",
+      "bytes": 66855,
+      "tracked": true,
+      "ignored": false,
+      "refs": [
+        "paper_notes/P002_CRN.md",
+        "docs/maintenance/CRN_FIRST_PASS_STATE.json",
+        "docs/maintenance/P001_CURRENT_STATE.json"
+      ],
+      "category": "A",
+      "historical": false,
+      "regeneration": "Not established"
+    },
+    "paper_notes/README.md": {
+      "sha256": "05275694f9bf97e1785ebb80841c5bfe9736394707045276e00d573988dabe73",
+      "bytes": 1347,
+      "tracked": false,
+      "ignored": false,
+      "refs": [
+        "README.md",
+        "archive/ARCHIVE_MANIFEST.md",
+        "data/README.md",
+        "experiments/README.md",
+        "manuscript/README.md",
+        "presentations/HISTORY.md",
+        "presentations/README.md",
+        "reproductions/README.md",
+        "work/README.md",
+        "archive/cleanup_2026-10-17/manifest.csv",
+        "archive/retired_ppt_work/README.md",
+        "archive/cleanup_2026-10-17/presentations/P001_Paper_Review/P001_Paper_Review_Visual_Exact.verification.json",
+        "docs/learning_notes/00_git_and_research_engineering.md",
+        "docs/maintenance/P001_CURRENT_STATE.json",
+        "docs/maintenance/P001_EVIDENCE_ERRATA.md",
+        "docs/research_log/P001_ARCHIVE_REPORT.md",
+        "docs/research_gaps/baseline_selection_round2/02_code_audit.md",
+        "presentations/P001_Paper_Review/README.md",
+        "presentations/P001_Paper_Review/sources.md",
+        "presentations/P001_paper_review_images/README.md",
+        "presentations/P001_Radar_Detection_Prerequisite/README.md",
+        "presentations/P001_Radar_Detection_Prerequisite/sources.md"
+      ],
+      "category": "A",
+      "historical": false,
+      "regeneration": "Not established"
+    },
+    "presentations/HISTORY.md": {
+      "sha256": "bc48148564ab36bc21944c41002a02add940de12d0192fbd8d2a65cd935370ee",
+      "bytes": 213,
+      "tracked": false,
+      "ignored": false,
+      "refs": [
+        "docs/maintenance/P001_CURRENT_STATE.json"
+      ],
+      "category": "C",
+      "historical": true,
+      "regeneration": "Not established"
+    },
+    "presentations/README.md": {
+      "sha256": "d5330ab9d26e91033b2b343a2ba48f8409169a654c6566c60a02778bd9f7d5fd",
+      "bytes": 659,
+      "tracked": false,
+      "ignored": false,
+      "refs": [
+        "README.md",
+        "archive/ARCHIVE_MANIFEST.md",
+        "data/README.md",
+        "experiments/README.md",
+        "manuscript/README.md",
+        "paper_notes/README.md",
+        "presentations/HISTORY.md",
+        "reproductions/README.md",
+        "work/README.md",
+        "archive/cleanup_2026-10-17/manifest.csv",
+        "archive/retired_ppt_work/README.md",
+        "archive/cleanup_2026-10-17/presentations/P001_Paper_Review/P001_Paper_Review_Visual_Exact.verification.json",
+        "docs/learning_notes/00_git_and_research_engineering.md",
+        "docs/maintenance/P001_CURRENT_STATE.json",
+        "docs/maintenance/P001_EVIDENCE_ERRATA.md",
+        "docs/research_log/P001_ARCHIVE_REPORT.md",
+        "docs/research_gaps/baseline_selection_round2/02_code_audit.md",
+        "presentations/P001_Paper_Review/README.md",
+        "presentations/P001_Paper_Review/sources.md",
+        "presentations/P001_paper_review_images/README.md",
+        "presentations/P001_Radar_Detection_Prerequisite/README.md",
+        "presentations/P001_Radar_Detection_Prerequisite/sources.md"
+      ],
+      "category": "C",
+      "historical": true,
+      "regeneration": "Not established"
+    },
+    "reproductions/README.md": {
+      "sha256": "404d5cb0b5156d112ab798c8d7172f0805a7222a1978c4809e2d8d4ca14b2b46",
+      "bytes": 4733,
+      "tracked": true,
+      "ignored": false,
+      "refs": [
+        "README.md",
+        "archive/ARCHIVE_MANIFEST.md",
+        "data/README.md",
+        "experiments/README.md",
+        "manuscript/README.md",
+        "paper_notes/README.md",
+        "presentations/HISTORY.md",
+        "presentations/README.md",
+        "work/README.md",
+        "archive/cleanup_2026-10-17/manifest.csv",
+        "archive/retired_ppt_work/README.md",
+        "archive/cleanup_2026-10-17/presentations/P001_Paper_Review/P001_Paper_Review_Visual_Exact.verification.json",
+        "docs/learning_notes/00_git_and_research_engineering.md",
+        "docs/maintenance/P001_CURRENT_STATE.json",
+        "docs/maintenance/P001_EVIDENCE_ERRATA.md",
+        "docs/research_log/P001_ARCHIVE_REPORT.md",
+        "docs/research_gaps/baseline_selection_round2/02_code_audit.md",
+        "presentations/P001_Paper_Review/README.md",
+        "presentations/P001_Paper_Review/sources.md",
+        "presentations/P001_paper_review_images/README.md",
+        "presentations/P001_Radar_Detection_Prerequisite/README.md",
+        "presentations/P001_Radar_Detection_Prerequisite/sources.md"
+      ],
+      "category": "A",
+      "historical": false,
+      "regeneration": "Not established"
+    },
+    "results/README.md": {
+      "sha256": "f4b0a7a11568882b8d553918ef79beafcaf9eece7385f54b09348b25ca4ae2a5",
+      "bytes": 3592,
+      "tracked": true,
+      "ignored": false,
+      "refs": [
+        "README.md",
+        "archive/ARCHIVE_MANIFEST.md",
+        "data/README.md",
+        "experiments/README.md",
+        "manuscript/README.md",
+        "paper_notes/README.md",
+        "presentations/HISTORY.md",
+        "presentations/README.md",
+        "reproductions/README.md",
+        "work/README.md",
+        "archive/cleanup_2026-10-17/manifest.csv",
+        "archive/retired_ppt_work/README.md",
+        "archive/cleanup_2026-10-17/presentations/P001_Paper_Review/P001_Paper_Review_Visual_Exact.verification.json",
+        "docs/learning_notes/00_git_and_research_engineering.md",
+        "docs/maintenance/P001_CURRENT_STATE.json",
+        "docs/maintenance/P001_EVIDENCE_ERRATA.md",
+        "docs/research_log/P001_ARCHIVE_REPORT.md",
+        "docs/research_gaps/baseline_selection_round2/02_code_audit.md",
+        "presentations/P001_Paper_Review/README.md",
+        "presentations/P001_Paper_Review/sources.md",
+        "presentations/P001_paper_review_images/README.md",
+        "presentations/P001_Radar_Detection_Prerequisite/README.md",
+        "presentations/P001_Radar_Detection_Prerequisite/sources.md"
+      ],
+      "category": "A",
+      "historical": false,
+      "regeneration": "Not established"
+    },
+    "scripts/maintenance_paths.py": {
+      "sha256": "72d78e2ecfd076ca8ca988e4b58351be30c8fd70eb14c63f432ed5f452dc4203",
+      "bytes": 744,
+      "tracked": false,
+      "ignored": false,
+      "refs": [
+        "scripts/README.md",
+        "docs/maintenance/P001_CURRENT_STATE.json"
+      ],
+      "category": "A",
+      "historical": false,
+      "regeneration": "Not established"
+    },
+    "scripts/README.md": {
+      "sha256": "951cc10eec2dd8a55456809c1616e6b57066c707fd8c6fb8b7ded85ecdb30230",
+      "bytes": 4126,
+      "tracked": true,
+      "ignored": false,
+      "refs": [
+        "README.md",
+        "archive/ARCHIVE_MANIFEST.md",
+        "data/README.md",
+        "experiments/README.md",
+        "manuscript/README.md",
+        "paper_notes/README.md",
+        "presentations/HISTORY.md",
+        "presentations/README.md",
+        "reproductions/README.md",
+        "work/README.md",
+        "archive/cleanup_2026-10-17/manifest.csv",
+        "archive/retired_ppt_work/README.md",
+        "archive/cleanup_2026-10-17/presentations/P001_Paper_Review/P001_Paper_Review_Visual_Exact.verification.json",
+        "docs/learning_notes/00_git_and_research_engineering.md",
+        "docs/maintenance/P001_CURRENT_STATE.json",
+        "docs/maintenance/P001_EVIDENCE_ERRATA.md",
+        "docs/research_log/P001_ARCHIVE_REPORT.md",
+        "docs/research_gaps/baseline_selection_round2/02_code_audit.md",
+        "presentations/P001_Paper_Review/README.md",
+        "presentations/P001_Paper_Review/sources.md",
+        "presentations/P001_paper_review_images/README.md",
+        "presentations/P001_Radar_Detection_Prerequisite/README.md",
+        "presentations/P001_Radar_Detection_Prerequisite/sources.md"
+      ],
+      "category": "A",
+      "historical": false,
+      "regeneration": "Not established"
+    },
+    "scripts/validate_lab.py": {
+      "sha256": "4f5c2b80fa1c93c6214397c46923712b5f5dc49273d2a405484cdaa1e0f982c8",
+      "bytes": 4047,
+      "tracked": false,
+      "ignored": false,
+      "refs": [
+        "README.md",
+        "scripts/README.md",
+        "work/verify_p001_exact_current.py",
+        "docs/maintenance/P001_CURRENT_STATE.json",
+        "docs/maintenance/README.md",
+        "presentations/P001_Paper_Review/verify_visual_exact.py"
+      ],
+      "category": "A",
+      "historical": false,
+      "regeneration": "Not established"
+    },
+    "src/README.md": {
+      "sha256": "a69e0670fca918a2e7911a8b20f998aa86397e413f5b2e754286399477baa288",
+      "bytes": 4439,
+      "tracked": true,
+      "ignored": false,
+      "refs": [
+        "README.md",
+        "archive/ARCHIVE_MANIFEST.md",
+        "data/README.md",
+        "experiments/README.md",
+        "manuscript/README.md",
+        "paper_notes/README.md",
+        "presentations/HISTORY.md",
+        "presentations/README.md",
+        "reproductions/README.md",
+        "work/README.md",
+        "archive/cleanup_2026-10-17/manifest.csv",
+        "archive/retired_ppt_work/README.md",
+        "archive/cleanup_2026-10-17/presentations/P001_Paper_Review/P001_Paper_Review_Visual_Exact.verification.json",
+        "docs/learning_notes/00_git_and_research_engineering.md",
+        "docs/maintenance/P001_CURRENT_STATE.json",
+        "docs/maintenance/P001_EVIDENCE_ERRATA.md",
+        "docs/research_log/P001_ARCHIVE_REPORT.md",
+        "docs/research_gaps/baseline_selection_round2/02_code_audit.md",
+        "presentations/P001_Paper_Review/README.md",
+        "presentations/P001_Paper_Review/sources.md",
+        "presentations/P001_paper_review_images/README.md",
+        "presentations/P001_Radar_Detection_Prerequisite/README.md",
+        "presentations/P001_Radar_Detection_Prerequisite/sources.md"
+      ],
+      "category": "A",
+      "historical": false,
+      "regeneration": "Not established"
+    },
+    "work/p001_exact_current_build.txt": {
+      "sha256": "fd9e3100eb79a084d007a533a8fb0c23d11603548ee37077379135194983b794",
+      "bytes": 60,
+      "tracked": false,
+      "ignored": false,
+      "refs": [
+        "work/README.md",
+        "docs/maintenance/P001_CURRENT_STATE.json"
+      ],
+      "category": "C",
+      "historical": true,
+      "regeneration": "Not established"
+    },
+    "work/README.md": {
+      "sha256": "60df2a1906821956f3bb9566ae2ce6115834a62c94377417570ceec6cf912bf9",
+      "bytes": 616,
+      "tracked": false,
+      "ignored": false,
+      "refs": [
+        "README.md",
+        "archive/ARCHIVE_MANIFEST.md",
+        "data/README.md",
+        "experiments/README.md",
+        "manuscript/README.md",
+        "paper_notes/README.md",
+        "presentations/HISTORY.md",
+        "presentations/README.md",
+        "reproductions/README.md",
+        "archive/cleanup_2026-10-17/manifest.csv",
+        "archive/retired_ppt_work/README.md",
+        "archive/cleanup_2026-10-17/presentations/P001_Paper_Review/P001_Paper_Review_Visual_Exact.verification.json",
+        "docs/learning_notes/00_git_and_research_engineering.md",
+        "docs/maintenance/P001_CURRENT_STATE.json",
+        "docs/maintenance/P001_EVIDENCE_ERRATA.md",
+        "docs/research_log/P001_ARCHIVE_REPORT.md",
+        "docs/research_gaps/baseline_selection_round2/02_code_audit.md",
+        "presentations/P001_Paper_Review/README.md",
+        "presentations/P001_Paper_Review/sources.md",
+        "presentations/P001_paper_review_images/README.md",
+        "presentations/P001_Radar_Detection_Prerequisite/README.md",
+        "presentations/P001_Radar_Detection_Prerequisite/sources.md"
+      ],
+      "category": "C",
+      "historical": true,
+      "regeneration": "Not established"
+    },
+    "work/verify_p001_exact_current.py": {
+      "sha256": "1a4e27c690106be267a10c77ad04fb493ead654138c42aee5f261fb5a2eca2f7",
+      "bytes": 311,
+      "tracked": false,
+      "ignored": false,
+      "refs": [
+        "work/README.md",
+        "docs/maintenance/P001_CURRENT_STATE.json"
+      ],
+      "category": "C",
+      "historical": true,
+      "regeneration": "Not established"
+    },
+    "writing/academic_phrasebook.md": {
+      "sha256": "67efdcca9e71cb5b1c7df1c4ba054a45afea55656aa69bb7c5859890141cb0ed",
+      "bytes": 3128,
+      "tracked": true,
+      "ignored": false,
+      "refs": [
+        "docs/maintenance/P001_CURRENT_STATE.json"
+      ],
+      "category": "A",
+      "historical": false,
+      "regeneration": "Not established"
+    },
+    "writing/README.md": {
+      "sha256": "727b6a662d5e647ebab776cba0fee7e9a33de39fcd68f1b39e3a2877847c850a",
+      "bytes": 2513,
+      "tracked": true,
+      "ignored": false,
+      "refs": [
+        "README.md",
+        "archive/ARCHIVE_MANIFEST.md",
+        "data/README.md",
+        "experiments/README.md",
+        "manuscript/README.md",
+        "paper_notes/README.md",
+        "presentations/HISTORY.md",
+        "presentations/README.md",
+        "reproductions/README.md",
+        "work/README.md",
+        "archive/cleanup_2026-10-17/manifest.csv",
+        "archive/retired_ppt_work/README.md",
+        "archive/cleanup_2026-10-17/presentations/P001_Paper_Review/P001_Paper_Review_Visual_Exact.verification.json",
+        "docs/learning_notes/00_git_and_research_engineering.md",
+        "docs/maintenance/P001_CURRENT_STATE.json",
+        "docs/maintenance/P001_EVIDENCE_ERRATA.md",
+        "docs/research_log/P001_ARCHIVE_REPORT.md",
+        "docs/research_gaps/baseline_selection_round2/02_code_audit.md",
+        "presentations/P001_Paper_Review/README.md",
+        "presentations/P001_Paper_Review/sources.md",
+        "presentations/P001_paper_review_images/README.md",
+        "presentations/P001_Radar_Detection_Prerequisite/README.md",
+        "presentations/P001_Radar_Detection_Prerequisite/sources.md"
+      ],
+      "category": "A",
+      "historical": false,
+      "regeneration": "Not established"
+    },
+    "archive/cleanup_2026-10-17/manifest.csv": {
+      "sha256": "0e1419e6aa5cd812f2fdec8332cef387097a055e4474cfd3cd350428294e161d",
+      "bytes": 16666,
+      "tracked": false,
+      "ignored": false,
+      "refs": [
+        "archive/ARCHIVE_MANIFEST.md",
+        "docs/maintenance/CRN_FIRST_PASS_STATE.json",
+        "docs/maintenance/P001_CURRENT_STATE.json"
+      ],
+      "category": "C",
+      "historical": true,
+      "regeneration": "Not established"
+    },
+    "archive/cleanup_2026-10-17/README.md": {
+      "sha256": "ffa82adc329d4115111ce76cc81d62230551840e0851dc89024ac33d3ea3aba7",
+      "bytes": 215,
+      "tracked": false,
+      "ignored": false,
+      "refs": [
+        "README.md",
+        "archive/ARCHIVE_MANIFEST.md",
+        "data/README.md",
+        "experiments/README.md",
+        "manuscript/README.md",
+        "paper_notes/README.md",
+        "presentations/HISTORY.md",
+        "presentations/README.md",
+        "reproductions/README.md",
+        "work/README.md",
+        "archive/cleanup_2026-10-17/manifest.csv",
+        "archive/retired_ppt_work/README.md",
+        "archive/cleanup_2026-10-17/presentations/P001_Paper_Review/P001_Paper_Review_Visual_Exact.verification.json",
+        "docs/learning_notes/00_git_and_research_engineering.md",
+        "docs/maintenance/P001_CURRENT_STATE.json",
+        "docs/maintenance/P001_EVIDENCE_ERRATA.md",
+        "docs/research_log/P001_ARCHIVE_REPORT.md",
+        "docs/research_gaps/baseline_selection_round2/02_code_audit.md",
+        "presentations/P001_Paper_Review/README.md",
+        "presentations/P001_Paper_Review/sources.md",
+        "presentations/P001_paper_review_images/README.md",
+        "presentations/P001_Radar_Detection_Prerequisite/README.md",
+        "presentations/P001_Radar_Detection_Prerequisite/sources.md"
+      ],
+      "category": "C",
+      "historical": true,
+      "regeneration": "Not established"
+    },
+    "archive/retired_ppt_work/README.md": {
+      "sha256": "cc2089f6ebb90062eab3d7c9f906e59b9dbfbb98d5d5f9737f2eceb7a5d0aef4",
+      "bytes": 158,
+      "tracked": false,
+      "ignored": false,
+      "refs": [
+        "README.md",
+        "archive/ARCHIVE_MANIFEST.md",
+        "data/README.md",
+        "experiments/README.md",
+        "manuscript/README.md",
+        "paper_notes/README.md",
+        "presentations/HISTORY.md",
+        "presentations/README.md",
+        "reproductions/README.md",
+        "work/README.md",
+        "archive/cleanup_2026-10-17/manifest.csv",
+        "archive/cleanup_2026-10-17/presentations/P001_Paper_Review/P001_Paper_Review_Visual_Exact.verification.json",
+        "docs/learning_notes/00_git_and_research_engineering.md",
+        "docs/maintenance/P001_CURRENT_STATE.json",
+        "docs/maintenance/P001_EVIDENCE_ERRATA.md",
+        "docs/research_log/P001_ARCHIVE_REPORT.md",
+        "docs/research_gaps/baseline_selection_round2/02_code_audit.md",
+        "presentations/P001_Paper_Review/README.md",
+        "presentations/P001_Paper_Review/sources.md",
+        "presentations/P001_paper_review_images/README.md",
+        "presentations/P001_Radar_Detection_Prerequisite/README.md",
+        "presentations/P001_Radar_Detection_Prerequisite/sources.md"
+      ],
+      "category": "C",
+      "historical": true,
+      "regeneration": "Not established"
+    },
+    "archive/cleanup_2026-10-17/presentations/P001_Paper_Review/P001_Paper_Review_Visual_Exact.verification.json": {
+      "sha256": "be00f16649aff861111718887aed3651c44c2448335be10dbe524903dab14e68",
+      "bytes": 8719,
+      "tracked": false,
+      "ignored": false,
+      "refs": [
+        "archive/ARCHIVE_MANIFEST.md",
+        "archive/cleanup_2026-10-17/manifest.csv",
+        "docs/maintenance/P001_CURRENT_STATE.json"
+      ],
+      "category": "C",
+      "historical": true,
+      "regeneration": "Not established"
+    },
+    "archive/cleanup_2026-10-17/presentations/P001_Radar_Detection_Prerequisite/backups/20261017_before_image_rebuild/P001_Speaker_Notes.md": {
+      "sha256": "db5ca319568d376e551f1f012cc6035d411616f4cf2b4125e44b9c3541548005",
+      "bytes": 25165,
+      "tracked": false,
+      "ignored": false,
+      "refs": [
+        "archive/ARCHIVE_MANIFEST.md",
+        "archive/cleanup_2026-10-17/manifest.csv",
+        "archive/cleanup_2026-10-17/presentations/P001_Radar_Detection_Prerequisite/backups/20261017_before_image_rebuild/README.md",
+        "docs/maintenance/P001_CURRENT_STATE.json",
+        "presentations/P001_Radar_Detection_Prerequisite/README.md"
+      ],
+      "category": "C",
+      "historical": true,
+      "regeneration": "Not established"
+    },
+    "archive/cleanup_2026-10-17/presentations/P001_Radar_Detection_Prerequisite/backups/20261017_before_image_rebuild/README.md": {
+      "sha256": "989772d9a74a0af7b68ef44f60e26a6cf566f8fce0da04bc44fc0fa09e482ca8",
+      "bytes": 3439,
+      "tracked": false,
+      "ignored": false,
+      "refs": [
+        "README.md",
+        "archive/ARCHIVE_MANIFEST.md",
+        "data/README.md",
+        "experiments/README.md",
+        "manuscript/README.md",
+        "paper_notes/README.md",
+        "presentations/HISTORY.md",
+        "presentations/README.md",
+        "reproductions/README.md",
+        "work/README.md",
+        "archive/cleanup_2026-10-17/manifest.csv",
+        "archive/retired_ppt_work/README.md",
+        "archive/cleanup_2026-10-17/presentations/P001_Paper_Review/P001_Paper_Review_Visual_Exact.verification.json",
+        "docs/learning_notes/00_git_and_research_engineering.md",
+        "docs/maintenance/P001_CURRENT_STATE.json",
+        "docs/maintenance/P001_EVIDENCE_ERRATA.md",
+        "docs/research_log/P001_ARCHIVE_REPORT.md",
+        "docs/research_gaps/baseline_selection_round2/02_code_audit.md",
+        "presentations/P001_Paper_Review/README.md",
+        "presentations/P001_Paper_Review/sources.md",
+        "presentations/P001_paper_review_images/README.md",
+        "presentations/P001_Radar_Detection_Prerequisite/README.md",
+        "presentations/P001_Radar_Detection_Prerequisite/sources.md"
+      ],
+      "category": "C",
+      "historical": true,
+      "regeneration": "Not established"
+    },
+    "archive/cleanup_2026-10-17/work/p001_ppt_build/cases.png": {
+      "sha256": "a100a734ba54c217ac5db95be519a818fb0577f3c217b9a79d86b5d7d8a76d9a",
+      "bytes": 92074,
+      "tracked": false,
+      "ignored": false,
+      "refs": [
+        "archive/ARCHIVE_MANIFEST.md",
+        "archive/cleanup_2026-10-17/manifest.csv",
+        "docs/maintenance/P001_CURRENT_STATE.json"
+      ],
+      "category": "C",
+      "historical": true,
+      "regeneration": "Unknown; old generation environment not verified"
+    },
+    "archive/cleanup_2026-10-17/work/p001_ppt_build/curves.png": {
+      "sha256": "4d335d72308c206d38968407f4f196934911fda1f975c7ea398ec86d150c0ff6",
+      "bytes": 48980,
+      "tracked": false,
+      "ignored": false,
+      "refs": [
+        "archive/ARCHIVE_MANIFEST.md",
+        "archive/cleanup_2026-10-17/manifest.csv",
+        "docs/maintenance/P001_CURRENT_STATE.json"
+      ],
+      "category": "C",
+      "historical": true,
+      "regeneration": "Unknown; old generation environment not verified"
+    },
+    "archive/cleanup_2026-10-17/work/p001_ppt_build/scene.png": {
+      "sha256": "f64c9aea145a9f67687caa54db11935c81eb2f598f32f5bab2db37a54f36f49f",
+      "bytes": 129647,
+      "tracked": false,
+      "ignored": false,
+      "refs": [
+        "archive/ARCHIVE_MANIFEST.md",
+        "archive/cleanup_2026-10-17/manifest.csv",
+        "docs/maintenance/P001_CURRENT_STATE.json"
+      ],
+      "category": "C",
+      "historical": true,
+      "regeneration": "Unknown; old generation environment not verified"
+    },
+    "archive/cleanup_2026-10-17/work/p001_ppt_build/sensor.png": {
+      "sha256": "1a12c96ff0424d1d16cc4d1a1f4d5b4fa19528a89e2e11187a49e5e25844cea8",
+      "bytes": 93316,
+      "tracked": false,
+      "ignored": false,
+      "refs": [
+        "archive/ARCHIVE_MANIFEST.md",
+        "archive/cleanup_2026-10-17/manifest.csv",
+        "docs/maintenance/P001_CURRENT_STATE.json"
+      ],
+      "category": "C",
+      "historical": true,
+      "regeneration": "Unknown; old generation environment not verified"
+    },
+    "archive/cleanup_2026-10-17/work/p001_prereq_build/paper.txt": {
+      "sha256": "b4baddb69f5626a8e97801108fc78c3a10dd39fff717f71e754a978ec9956733",
+      "bytes": 45169,
+      "tracked": false,
+      "ignored": false,
+      "refs": [
+        "archive/ARCHIVE_MANIFEST.md",
+        "archive/cleanup_2026-10-17/manifest.csv",
+        "docs/maintenance/P001_CURRENT_STATE.json"
+      ],
+      "category": "C",
+      "historical": true,
+      "regeneration": "Not established"
+    },
+    "docs/innovation_bank/idea_template.md": {
+      "sha256": "bb9787c879dbd2890565f1d9614836a77f606c060735b40bc76feb752c91a6ac",
+      "bytes": 3657,
+      "tracked": true,
+      "ignored": false,
+      "refs": [
+        "docs/maintenance/P001_CURRENT_STATE.json"
+      ],
+      "category": "A",
+      "historical": false,
+      "regeneration": "Not established"
+    },
+    "docs/innovation_bank/P001_ideas.csv": {
+      "sha256": "375389b4f307cb26751c46d6d97580a7744663c8d7c51c4a56a5e36917ad5425",
+      "bytes": 882,
+      "tracked": true,
+      "ignored": false,
+      "refs": [
+        "docs/innovation_bank/P001_INNOVATION_NOTES.md",
+        "docs/maintenance/CRN_FIRST_PASS_STATE.json",
+        "docs/maintenance/P001_CURRENT_STATE.json"
+      ],
+      "category": "A",
+      "historical": false,
+      "regeneration": "Not established"
+    },
+    "docs/innovation_bank/P001_INNOVATION_NOTES.md": {
+      "sha256": "15b11ff676cb0cf17e1123daaaf14fef045fdd78eaa5f48947d314e6f26ec23d",
+      "bytes": 2305,
+      "tracked": true,
+      "ignored": false,
+      "refs": [
+        "docs/maintenance/P001_CURRENT_STATE.json",
+        "presentations/P001_Paper_Review/sources.md",
+        "presentations/P001_paper_review_images/README.md"
+      ],
+      "category": "A",
+      "historical": false,
+      "regeneration": "Not established"
+    },
+    "docs/learning_notes/00_git_and_research_engineering.md": {
+      "sha256": "9b1fb78ef876b1b2b0607eb5144c05733ae1c546f9c1b658aea598a071576393",
+      "bytes": 11251,
+      "tracked": true,
+      "ignored": false,
+      "refs": [
+        "docs/maintenance/P001_CURRENT_STATE.json"
+      ],
+      "category": "A",
+      "historical": false,
+      "regeneration": "Not established"
+    },
+    "docs/learning_notes/01 RadarVisionLLM-Lab：FMCW、回波与多普勒基础.md": {
+      "sha256": "a71bb4b6891c867060fcf420429da72f65483af898917ac826f831bc7bf10773",
+      "bytes": 98149,
+      "tracked": false,
+      "ignored": false,
+      "refs": [
+        "docs/maintenance/P001_CURRENT_STATE.json",
+        "presentations/P001_Radar_Detection_Prerequisite/sources.md"
+      ],
+      "category": "A",
+      "historical": false,
+      "regeneration": "Not established"
+    },
+    "docs/maintenance/CRN_FIRST_PASS_AUDIT.md": {
+      "sha256": "069392d5472e29ab7a4d0a868e01264c71e29962a3521d50b151ec03465dc876",
+      "bytes": 2970,
+      "tracked": true,
+      "ignored": false,
+      "refs": [
+        "README.md",
+        "paper_notes/README.md",
+        "docs/maintenance/CRN_FIRST_PASS_STATE.json",
+        "docs/maintenance/P001_CURRENT_STATE.json"
+      ],
+      "category": "B",
+      "historical": false,
+      "regeneration": "Not established"
+    },
+    "docs/maintenance/CRN_FIRST_PASS_STATE.json": {
+      "sha256": "6a1548d6498f98e0adbb67c6a62bfe348dfdd2c0eba25c5a1e0944db38c62d16",
+      "bytes": 5040,
+      "tracked": true,
+      "ignored": false,
+      "refs": [
+        "docs/maintenance/CRN_FIRST_PASS_AUDIT.md",
+        "docs/maintenance/P001_CURRENT_STATE.json"
+      ],
+      "category": "B",
+      "historical": false,
+      "regeneration": "Not established"
+    },
+    "docs/maintenance/P001_CURRENT_STATE.json": {
+      "sha256": "5e6fb2ca16de405c081484883ac88ae45a462449a0cfbf69e27575567aa1c194",
+      "bytes": 133649,
+      "tracked": false,
+      "ignored": false,
+      "refs": [
+        "scripts/validate_lab.py",
+        "docs/maintenance/README.md"
+      ],
+      "category": "B",
+      "historical": false,
+      "regeneration": "Not established"
+    },
+    "docs/maintenance/P001_EVIDENCE_ERRATA.md": {
+      "sha256": "2aa9b350dbfefd2d4cc4107dd94b35d7261616eb159336600ed41e64f1dd4585",
+      "bytes": 1812,
+      "tracked": false,
+      "ignored": false,
+      "refs": [
+        "README.md",
+        "docs/README.md",
+        "paper_notes/README.md",
+        "docs/innovation_bank/P001_INNOVATION_NOTES.md",
+        "docs/maintenance/P001_CURRENT_STATE.json",
+        "docs/research_gaps/P001_Limitations_Research_Gap.md",
+        "docs/research_log/P001_ARCHIVE_REPORT.md",
+        "presentations/P001_Radar_Detection_Prerequisite/sources.md"
+      ],
+      "category": "B",
+      "historical": false,
+      "regeneration": "Not established"
+    },
+    "docs/maintenance/P001_history.zip": {
+      "sha256": "f1483561958d867f4399cb4eaa6381abd8cf6203f540ca60fd5a9a3e472788b2",
+      "bytes": 88731,
+      "tracked": false,
+      "ignored": true,
+      "refs": [
+        "archive/ARCHIVE_MANIFEST.md",
+        "docs/maintenance/P001_CURRENT_STATE.json"
+      ],
+      "category": "B",
+      "historical": false,
+      "regeneration": "Not established"
+    },
+    "docs/maintenance/README.md": {
+      "sha256": "4f1fd8cbc4ff79b48fdbf3ee78d656f9899c3838bcd8f4c23ce88ed41650aadb",
+      "bytes": 1500,
+      "tracked": false,
+      "ignored": false,
+      "refs": [
+        "README.md",
+        "archive/ARCHIVE_MANIFEST.md",
+        "data/README.md",
+        "experiments/README.md",
+        "manuscript/README.md",
+        "paper_notes/README.md",
+        "presentations/HISTORY.md",
+        "presentations/README.md",
+        "reproductions/README.md",
+        "work/README.md",
+        "archive/cleanup_2026-10-17/manifest.csv",
+        "archive/retired_ppt_work/README.md",
+        "archive/cleanup_2026-10-17/presentations/P001_Paper_Review/P001_Paper_Review_Visual_Exact.verification.json",
+        "docs/learning_notes/00_git_and_research_engineering.md",
+        "docs/maintenance/P001_CURRENT_STATE.json",
+        "docs/maintenance/P001_EVIDENCE_ERRATA.md",
+        "docs/research_log/P001_ARCHIVE_REPORT.md",
+        "docs/research_gaps/baseline_selection_round2/02_code_audit.md",
+        "presentations/P001_Paper_Review/README.md",
+        "presentations/P001_Paper_Review/sources.md",
+        "presentations/P001_paper_review_images/README.md",
+        "presentations/P001_Radar_Detection_Prerequisite/README.md",
+        "presentations/P001_Radar_Detection_Prerequisite/sources.md"
+      ],
+      "category": "B",
+      "historical": false,
+      "regeneration": "Not established"
+    },
+    "docs/research_gaps/P001_Limitations_Research_Gap.md": {
+      "sha256": "2feb0097bddeff9808021f33c66a420f3206d1a4f84c8f543c1abadc6141bbfe",
+      "bytes": 4976,
+      "tracked": true,
+      "ignored": false,
+      "refs": [
+        "docs/innovation_bank/P001_INNOVATION_NOTES.md",
+        "docs/maintenance/P001_CURRENT_STATE.json",
+        "presentations/P001_Paper_Review/sources.md",
+        "presentations/P001_paper_review_images/README.md",
+        "presentations/P001_Radar_Detection_Prerequisite/sources.md"
+      ],
+      "category": "A",
+      "historical": false,
+      "regeneration": "Not established"
+    },
+    "docs/research_log/P001_ARCHIVE_REPORT.md": {
+      "sha256": "80ee746b592f31730e1685e08016d3f1db3b0ba35ce62d21d33f479186d49aee",
+      "bytes": 2643,
+      "tracked": true,
+      "ignored": false,
+      "refs": [
+        "docs/maintenance/P001_CURRENT_STATE.json",
+        "docs/maintenance/P001_EVIDENCE_ERRATA.md"
+      ],
+      "category": "A",
+      "historical": false,
+      "regeneration": "Not established"
+    },
+    "docs/research_log/research_log_template.md": {
+      "sha256": "f2a39da95dd372a48df7fe1605faabcba51c9189a18a335ac6844b89769862d7",
+      "bytes": 689,
+      "tracked": true,
+      "ignored": false,
+      "refs": [
+        "docs/maintenance/P001_CURRENT_STATE.json"
+      ],
+      "category": "A",
+      "historical": false,
+      "regeneration": "Not established"
+    },
+    "docs/weekly_reports/weekly_report_template.md": {
+      "sha256": "0ef99b4f0942bdd89a7847a2ff5814abcacdc15504fcadd89b3ad1f77e2a002c",
+      "bytes": 1851,
+      "tracked": true,
+      "ignored": false,
+      "refs": [
+        "docs/maintenance/P001_CURRENT_STATE.json"
+      ],
+      "category": "A",
+      "historical": false,
+      "regeneration": "Not established"
+    },
+    "docs/research_gaps/baseline_selection_round2/01_candidate_papers.md": {
+      "sha256": "159f3f05f04e8ad888aed59f42c93a35a8f65d097217f44bcd8d880aeb05c72d",
+      "bytes": 11306,
+      "tracked": true,
+      "ignored": false,
+      "refs": [
+        "docs/maintenance/P001_CURRENT_STATE.json",
+        "docs/research_gaps/baseline_selection_round2/02_code_audit.md",
+        "docs/research_gaps/baseline_selection_round2/03_reproducibility_ranking.md",
+        "docs/research_gaps/baseline_selection_round2/05_decision_and_plan.md"
+      ],
+      "category": "A",
+      "historical": false,
+      "regeneration": "Not established"
+    },
+    "docs/research_gaps/baseline_selection_round2/02_code_audit.md": {
+      "sha256": "634726955fc920ffb2357390ddaedceaada3e0f50901d47ae0da8b144457ca94",
+      "bytes": 25681,
+      "tracked": true,
+      "ignored": false,
+      "refs": [
+        "docs/maintenance/P001_CURRENT_STATE.json",
+        "docs/research_gaps/baseline_selection_round2/01_candidate_papers.md",
+        "docs/research_gaps/baseline_selection_round2/03_reproducibility_ranking.md",
+        "docs/research_gaps/baseline_selection_round2/05_decision_and_plan.md"
+      ],
+      "category": "A",
+      "historical": false,
+      "regeneration": "Not established"
+    },
+    "docs/research_gaps/baseline_selection_round2/03_reproducibility_ranking.md": {
+      "sha256": "76a96d996f658e5c13489741e597980fde46379ddf68ec1cfce5266e46b1f930",
+      "bytes": 9645,
+      "tracked": true,
+      "ignored": false,
+      "refs": [
+        "docs/maintenance/P001_CURRENT_STATE.json",
+        "docs/research_gaps/baseline_selection_round2/01_candidate_papers.md",
+        "docs/research_gaps/baseline_selection_round2/05_decision_and_plan.md"
+      ],
+      "category": "A",
+      "historical": false,
+      "regeneration": "Not established"
+    },
+    "docs/research_gaps/baseline_selection_round2/04_innovation_opportunities.md": {
+      "sha256": "341b98c410aafa22e31a691e50eb40e1771e45370903c92e0a088f8b9a50dfa7",
+      "bytes": 10906,
+      "tracked": true,
+      "ignored": false,
+      "refs": [
+        "docs/maintenance/P001_CURRENT_STATE.json",
+        "docs/research_gaps/baseline_selection_round2/03_reproducibility_ranking.md",
+        "docs/research_gaps/baseline_selection_round2/05_decision_and_plan.md"
+      ],
+      "category": "A",
+      "historical": false,
+      "regeneration": "Not established"
+    },
+    "docs/research_gaps/baseline_selection_round2/05_decision_and_plan.md": {
+      "sha256": "8e713943fe6844719bdbc466bd1eee64c6772715236a75c4c4d531ee0dd56cde",
+      "bytes": 8647,
+      "tracked": true,
+      "ignored": false,
+      "refs": [
+        "docs/maintenance/P001_CURRENT_STATE.json"
+      ],
+      "category": "A",
+      "historical": false,
+      "regeneration": "Not established"
+    },
+    "experiments/templates/config_template.yaml": {
+      "sha256": "24a506d9eaded52bd1e04e0206747400208eb42904aa6e7c592f870054dabe6e",
+      "bytes": 1030,
+      "tracked": false,
+      "ignored": false,
+      "refs": [
+        "experiments/README.md",
+        "docs/maintenance/P001_CURRENT_STATE.json"
+      ],
+      "category": "A",
+      "historical": false,
+      "regeneration": "Not established"
+    },
+    "experiments/templates/experiment_template.md": {
+      "sha256": "2dc5222a8afc5c29f5cde10740ac2dbc75385550b851fbcfdf8c150aba85abfa",
+      "bytes": 5014,
+      "tracked": true,
+      "ignored": false,
+      "refs": [
+        "experiments/README.md",
+        "docs/maintenance/P001_CURRENT_STATE.json"
+      ],
+      "category": "A",
+      "historical": false,
+      "regeneration": "Not established"
+    },
+    "figures/library/P001/FIGURE_INDEX.md": {
+      "sha256": "d1eb58240eb65030589d650ad893747f0ec79cf52a7561c8553f170a260d6150",
+      "bytes": 3523,
+      "tracked": true,
+      "ignored": false,
+      "refs": [
+        "paper_notes/README.md",
+        "docs/maintenance/P001_CURRENT_STATE.json",
+        "presentations/P001_Paper_Review/sources.md",
+        "presentations/P001_paper_review_images/README.md",
+        "presentations/P001_Radar_Detection_Prerequisite/sources.md"
+      ],
+      "category": "A",
+      "historical": false,
+      "regeneration": "Not established"
+    },
+    "figures/library/P001/paper_page_01_reference.png": {
+      "sha256": "a3e0931e03ac6e7a88940faad9dc125674c44624fc05eb16d908ed4fbade78b8",
+      "bytes": 365432,
+      "tracked": true,
+      "ignored": false,
+      "refs": [
+        "docs/maintenance/P001_CURRENT_STATE.json"
+      ],
+      "category": "A",
+      "historical": false,
+      "regeneration": "Not established"
+    },
+    "figures/library/P001/paper_page_04_reference.png": {
+      "sha256": "19f1a73f788a19f5520c8499d415e64771d56f2d27b3558602d5b40ab59eea1a",
+      "bytes": 317338,
+      "tracked": true,
+      "ignored": false,
+      "refs": [
+        "docs/maintenance/P001_CURRENT_STATE.json"
+      ],
+      "category": "A",
+      "historical": false,
+      "regeneration": "Not established"
+    },
+    "figures/library/P001/paper_page_06_reference.png": {
+      "sha256": "568e9cba138680fdcf8056949a6b4a43e259b86ab1ab11b1146edfaeedfdcafc",
+      "bytes": 208330,
+      "tracked": true,
+      "ignored": false,
+      "refs": [
+        "docs/maintenance/P001_CURRENT_STATE.json"
+      ],
+      "category": "A",
+      "historical": false,
+      "regeneration": "Not established"
+    },
+    "figures/library/P001/paper_page_07_reference.png": {
+      "sha256": "adcb5fe2927202bdd982d8d29ded676b9d3d3577e116112b179ba82956db9e6e",
+      "bytes": 470194,
+      "tracked": true,
+      "ignored": false,
+      "refs": [
+        "docs/maintenance/P001_CURRENT_STATE.json"
+      ],
+      "category": "A",
+      "historical": false,
+      "regeneration": "Not established"
+    },
+    "paper_notes/templates/paper_note_template.md": {
+      "sha256": "5370eff485697edafb4ecfe14ec9d4015e2d32fdf0852028375be7410eff8969",
+      "bytes": 7890,
+      "tracked": true,
+      "ignored": false,
+      "refs": [
+        "paper_notes/README.md",
+        "docs/maintenance/P001_CURRENT_STATE.json"
+      ],
+      "category": "A",
+      "historical": false,
+      "regeneration": "Not established"
+    },
+    "presentations/P001_Paper_Review/P001_Paper_Review_Speaker_Notes.md": {
+      "sha256": "60f8b7a7b61a2acc374211c54de1b240668d0f0bdd1744cadb98bb43142970d3",
+      "bytes": 7213,
+      "tracked": false,
+      "ignored": false,
+      "refs": [
+        "docs/maintenance/P001_CURRENT_STATE.json",
+        "presentations/P001_Paper_Review/README.md"
+      ],
+      "category": "C",
+      "historical": true,
+      "regeneration": "Not established"
+    },
+    "presentations/P001_Paper_Review/README.md": {
+      "sha256": "0464f6b3c65dc5f1f77e7943f2b7b518e9e57c5f88b023a3ece3e161d3c55c8d",
+      "bytes": 511,
+      "tracked": false,
+      "ignored": false,
+      "refs": [
+        "README.md",
+        "archive/ARCHIVE_MANIFEST.md",
+        "data/README.md",
+        "experiments/README.md",
+        "manuscript/README.md",
+        "paper_notes/README.md",
+        "presentations/HISTORY.md",
+        "presentations/README.md",
+        "reproductions/README.md",
+        "work/README.md",
+        "archive/cleanup_2026-10-17/manifest.csv",
+        "archive/retired_ppt_work/README.md",
+        "archive/cleanup_2026-10-17/presentations/P001_Paper_Review/P001_Paper_Review_Visual_Exact.verification.json",
+        "docs/learning_notes/00_git_and_research_engineering.md",
+        "docs/maintenance/P001_CURRENT_STATE.json",
+        "docs/maintenance/P001_EVIDENCE_ERRATA.md",
+        "docs/research_log/P001_ARCHIVE_REPORT.md",
+        "docs/research_gaps/baseline_selection_round2/02_code_audit.md",
+        "presentations/P001_Paper_Review/sources.md",
+        "presentations/P001_paper_review_images/README.md",
+        "presentations/P001_Radar_Detection_Prerequisite/README.md",
+        "presentations/P001_Radar_Detection_Prerequisite/sources.md"
+      ],
+      "category": "C",
+      "historical": true,
+      "regeneration": "Not established"
+    },
+    "presentations/P001_Paper_Review/slide_content.json": {
+      "sha256": "730ef2d0d564a7b843a28480c8aedacfeaf9037e822458734cde063f2681150d",
+      "bytes": 10577,
+      "tracked": false,
+      "ignored": false,
+      "refs": [
+        "docs/maintenance/P001_CURRENT_STATE.json",
+        "presentations/P001_Paper_Review/README.md"
+      ],
+      "category": "C",
+      "historical": true,
+      "regeneration": "Not established"
+    },
+    "presentations/P001_Paper_Review/sources.md": {
+      "sha256": "cd1f2a71c3f869fb96495d1de24bd392e2e6a897e13ba37b08e91c4ceeed1220",
+      "bytes": 4375,
+      "tracked": false,
+      "ignored": false,
+      "refs": [
+        "archive/cleanup_2026-10-17/manifest.csv",
+        "archive/cleanup_2026-10-17/presentations/P001_Radar_Detection_Prerequisite/backups/20261017_before_image_rebuild/P001_Speaker_Notes.md",
+        "archive/cleanup_2026-10-17/presentations/P001_Radar_Detection_Prerequisite/backups/20261017_before_image_rebuild/README.md",
+        "docs/innovation_bank/P001_INNOVATION_NOTES.md",
+        "docs/maintenance/P001_CURRENT_STATE.json",
+        "docs/maintenance/P001_EVIDENCE_ERRATA.md",
+        "presentations/P001_Paper_Review/README.md",
+        "presentations/P001_Radar_Detection_Prerequisite/P001_Speaker_Notes.md",
+        "presentations/P001_Radar_Detection_Prerequisite/README.md",
+        "presentations/P001_slide_images/README.md",
+        "presentations/P001_Radar_Detection_Prerequisite/assets/notes_image_rebuild.json",
+        "reproductions/P001_PointPillars_VoD/README.md",
+        "work/p001_prereq_supplied_images/manifest.json"
+      ],
+      "category": "C",
+      "historical": true,
+      "regeneration": "Not established"
+    },
+    "presentations/P001_Paper_Review/verify_visual_exact.py": {
+      "sha256": "8dcfba7c9ad84ec05102c760876608cec457635163e9d9092e5b364f3dade919",
+      "bytes": 311,
+      "tracked": false,
+      "ignored": false,
+      "refs": [
+        "docs/maintenance/P001_CURRENT_STATE.json"
+      ],
+      "category": "C",
+      "historical": true,
+      "regeneration": "Not established"
+    },
+    "presentations/P001_paper_review_images/01_Cover.png": {
+      "sha256": "c6782713ed8c7043e74d11fb75f0be5ac7bd5eb906147d23428a194163d1e13d",
+      "bytes": 1320896,
+      "tracked": false,
+      "ignored": false,
+      "refs": [
+        "archive/cleanup_2026-10-17/presentations/P001_Paper_Review/P001_Paper_Review_Visual_Exact.verification.json",
+        "docs/maintenance/P001_CURRENT_STATE.json",
+        "presentations/P001_paper_review_images/image_manifest.json",
+        "presentations/P001_paper_review_images/README.md",
+        "presentations/P001_slide_images/generation_prompts.json",
+        "presentations/P001_slide_images/image_manifest.json",
+        "presentations/P001_Radar_Detection_Prerequisite/assets/validation.json",
+        "work/p001_prereq_supplied_images/manifest.json",
+        "work/p001_visual_exact_20261017T100548/manifest.json",
+        "work/p001_visual_exact_20261017T100548/verification.json"
+      ],
+      "category": "C",
+      "historical": true,
+      "regeneration": "Unknown; old generation environment not verified"
+    },
+    "presentations/P001_paper_review_images/01_Cover_prompt.md": {
+      "sha256": "0348b1a37b748ed69a5626ffa02813573ea7c4b005d69b5fad8c45305f2a5bec",
+      "bytes": 2652,
+      "tracked": false,
+      "ignored": false,
+      "refs": [
+        "docs/maintenance/P001_CURRENT_STATE.json"
+      ],
+      "category": "C",
+      "historical": true,
+      "regeneration": "Not established"
+    },
+    "presentations/P001_paper_review_images/02_Visual.png": {
+      "sha256": "1cdb63a0904068196433d5351a376969b6a46f60ab19ec90781fbcec66ea422b",
+      "bytes": 1436234,
+      "tracked": false,
+      "ignored": false,
+      "refs": [
+        "docs/maintenance/P001_CURRENT_STATE.json",
+        "presentations/P001_paper_review_images/image_manifest.json",
+        "work/p001_visual_exact_20261017T100548/manifest.json",
+        "work/p001_visual_exact_20261017T100548/verification.json"
+      ],
+      "category": "C",
+      "historical": true,
+      "regeneration": "Unknown; old generation environment not verified"
+    },
+    "presentations/P001_paper_review_images/03_Visual.png": {
+      "sha256": "1881564831aa0b70f3144e64fb56e1b332f51a44d5d75cc159a3ac41effdec25",
+      "bytes": 1399089,
+      "tracked": false,
+      "ignored": false,
+      "refs": [
+        "docs/maintenance/P001_CURRENT_STATE.json",
+        "presentations/P001_paper_review_images/image_manifest.json",
+        "work/p001_visual_exact_20261017T100548/manifest.json",
+        "work/p001_visual_exact_20261017T100548/verification.json"
+      ],
+      "category": "C",
+      "historical": true,
+      "regeneration": "Unknown; old generation environment not verified"
+    },
+    "presentations/P001_paper_review_images/04_Visual.png": {
+      "sha256": "b724a3022763cf70ad870f5be8d8a5c43cdbd4f03a0ffff503440a86f6dc4245",
+      "bytes": 1497931,
+      "tracked": false,
+      "ignored": false,
+      "refs": [
+        "docs/maintenance/P001_CURRENT_STATE.json",
+        "presentations/P001_paper_review_images/image_manifest.json",
+        "work/p001_visual_exact_20261017T100548/manifest.json",
+        "work/p001_visual_exact_20261017T100548/verification.json"
+      ],
+      "category": "C",
+      "historical": true,
+      "regeneration": "Unknown; old generation environment not verified"
+    },
+    "presentations/P001_paper_review_images/05_Visual.png": {
+      "sha256": "cf54f375a982546cd15c7743f01d87c5865b762281dbcdbb9a592cac1a025526",
+      "bytes": 1388939,
+      "tracked": false,
+      "ignored": false,
+      "refs": [
+        "docs/maintenance/P001_CURRENT_STATE.json",
+        "presentations/P001_paper_review_images/image_manifest.json",
+        "work/p001_visual_exact_20261017T100548/manifest.json",
+        "work/p001_visual_exact_20261017T100548/verification.json"
+      ],
+      "category": "C",
+      "historical": true,
+      "regeneration": "Unknown; old generation environment not verified"
+    },
+    "presentations/P001_paper_review_images/06_Visual.png": {
+      "sha256": "f8c035bfb4e30d521bf4126bd2801b818274974a86ea3e3fa63eb0e109e25742",
+      "bytes": 1293934,
+      "tracked": false,
+      "ignored": false,
+      "refs": [
+        "docs/maintenance/P001_CURRENT_STATE.json",
+        "presentations/P001_paper_review_images/image_manifest.json",
+        "work/p001_visual_exact_20261017T100548/manifest.json",
+        "work/p001_visual_exact_20261017T100548/verification.json"
+      ],
+      "category": "C",
+      "historical": true,
+      "regeneration": "Unknown; old generation environment not verified"
+    },
+    "presentations/P001_paper_review_images/07_Visual.png": {
+      "sha256": "39917355303ad38f7589682bf4f8a49e7003b3b99810a0e0b341c3091a4c5af9",
+      "bytes": 1369000,
+      "tracked": false,
+      "ignored": false,
+      "refs": [
+        "docs/maintenance/P001_CURRENT_STATE.json",
+        "presentations/P001_paper_review_images/image_manifest.json",
+        "work/p001_visual_exact_20261017T100548/manifest.json",
+        "work/p001_visual_exact_20261017T100548/verification.json"
+      ],
+      "category": "C",
+      "historical": true,
+      "regeneration": "Unknown; old generation environment not verified"
+    },
+    "presentations/P001_paper_review_images/08_Visual.png": {
+      "sha256": "94be2f409ee1b6d877c2c46b1ab7220100c60bf3bf4abd6be056ea37fdee7c5d",
+      "bytes": 1300775,
+      "tracked": false,
+      "ignored": false,
+      "refs": [
+        "docs/maintenance/P001_CURRENT_STATE.json",
+        "presentations/P001_paper_review_images/image_manifest.json",
+        "work/p001_visual_exact_20261017T100548/manifest.json",
+        "work/p001_visual_exact_20261017T100548/verification.json"
+      ],
+      "category": "C",
+      "historical": true,
+      "regeneration": "Unknown; old generation environment not verified"
+    },
+    "presentations/P001_paper_review_images/09_Visual.png": {
+      "sha256": "098babc5fd2f43888fd9531d3b5df2610696f28618c7b033f3d76e336b5321b4",
+      "bytes": 1312530,
+      "tracked": false,
+      "ignored": false,
+      "refs": [
+        "docs/maintenance/P001_CURRENT_STATE.json",
+        "presentations/P001_paper_review_images/image_manifest.json",
+        "work/p001_visual_exact_20261017T100548/manifest.json",
+        "work/p001_visual_exact_20261017T100548/verification.json"
+      ],
+      "category": "C",
+      "historical": true,
+      "regeneration": "Unknown; old generation environment not verified"
+    },
+    "presentations/P001_paper_review_images/10_Visual.png": {
+      "sha256": "b8e5b5c0472125eb0752a98e88f626610893ff9666a55662ff65f0778c0d01aa",
+      "bytes": 1271114,
+      "tracked": false,
+      "ignored": false,
+      "refs": [
+        "docs/maintenance/P001_CURRENT_STATE.json",
+        "presentations/P001_paper_review_images/image_manifest.json",
+        "work/p001_visual_exact_20261017T100548/manifest.json",
+        "work/p001_visual_exact_20261017T100548/verification.json"
+      ],
+      "category": "C",
+      "historical": true,
+      "regeneration": "Unknown; old generation environment not verified"
+    },
+    "presentations/P001_paper_review_images/11_Visual.png": {
+      "sha256": "60d0e3c91c94cfccae10a1150f4b2f2e65eeba5e1fa78e8d515502873854bcc6",
+      "bytes": 1490766,
+      "tracked": false,
+      "ignored": false,
+      "refs": [
+        "docs/maintenance/P001_CURRENT_STATE.json",
+        "presentations/P001_paper_review_images/image_manifest.json",
+        "work/p001_visual_exact_20261017T100548/manifest.json",
+        "work/p001_visual_exact_20261017T100548/verification.json"
+      ],
+      "category": "C",
+      "historical": true,
+      "regeneration": "Unknown; old generation environment not verified"
+    },
+    "presentations/P001_paper_review_images/12_Visual.png": {
+      "sha256": "09828b6a7eaf8195b156cd49bc9d05d97a2f70af446380ec14fc0b39fe6ee24e",
+      "bytes": 1457666,
+      "tracked": false,
+      "ignored": false,
+      "refs": [
+        "docs/maintenance/P001_CURRENT_STATE.json",
+        "presentations/P001_paper_review_images/image_manifest.json",
+        "work/p001_visual_exact_20261017T100548/manifest.json",
+        "work/p001_visual_exact_20261017T100548/verification.json"
+      ],
+      "category": "C",
+      "historical": true,
+      "regeneration": "Unknown; old generation environment not verified"
+    },
+    "presentations/P001_paper_review_images/13_Visual.png": {
+      "sha256": "035f3f42d10d32c4bf861896854aa7c06493da6f7fbcb311e3a4dd5944a79c06",
+      "bytes": 1449693,
+      "tracked": false,
+      "ignored": false,
+      "refs": [
+        "docs/maintenance/P001_CURRENT_STATE.json",
+        "presentations/P001_paper_review_images/image_manifest.json",
+        "work/p001_visual_exact_20261017T100548/manifest.json",
+        "work/p001_visual_exact_20261017T100548/verification.json"
+      ],
+      "category": "C",
+      "historical": true,
+      "regeneration": "Unknown; old generation environment not verified"
+    },
+    "presentations/P001_paper_review_images/14_Visual.png": {
+      "sha256": "376ed2a9edb684750a9d9767362978ead33ea45796b9b8f7b59ce216ac2936e3",
+      "bytes": 1531841,
+      "tracked": false,
+      "ignored": false,
+      "refs": [
+        "docs/maintenance/P001_CURRENT_STATE.json",
+        "presentations/P001_paper_review_images/image_manifest.json",
+        "work/p001_visual_exact_20261017T100548/manifest.json",
+        "work/p001_visual_exact_20261017T100548/verification.json"
+      ],
+      "category": "C",
+      "historical": true,
+      "regeneration": "Unknown; old generation environment not verified"
+    },
+    "presentations/P001_paper_review_images/generation_prompts.json": {
+      "sha256": "02db64644ad5d8131af1bc96265ad30258f020964ba9953f05e0ef5010d3fb00",
+      "bytes": 21191,
+      "tracked": false,
+      "ignored": false,
+      "refs": [
+        "archive/cleanup_2026-10-17/presentations/P001_Paper_Review/P001_Paper_Review_Visual_Exact.verification.json",
+        "docs/maintenance/P001_CURRENT_STATE.json",
+        "presentations/P001_Radar_Detection_Prerequisite/sources.md",
+        "presentations/P001_slide_images/README.md"
+      ],
+      "category": "C",
+      "historical": true,
+      "regeneration": "Not established"
+    },
+    "presentations/P001_paper_review_images/image_manifest.json": {
+      "sha256": "72bc5fd73658b5bfbc5ca14e7d1915b73e1ac8f0726fcb1cb2b5a5aaad316b98",
+      "bytes": 3363,
+      "tracked": false,
+      "ignored": false,
+      "refs": [
+        "archive/cleanup_2026-10-17/presentations/P001_Paper_Review/P001_Paper_Review_Visual_Exact.verification.json",
+        "docs/maintenance/P001_CURRENT_STATE.json",
+        "presentations/P001_Radar_Detection_Prerequisite/sources.md",
+        "presentations/P001_slide_images/README.md"
+      ],
+      "category": "C",
+      "historical": true,
+      "regeneration": "Not established"
+    },
+    "presentations/P001_paper_review_images/README.md": {
+      "sha256": "219f0b5b36d18c454f100956ca3854ca1f1a3198ccce580feebf3da396ece876",
+      "bytes": 1250,
+      "tracked": false,
+      "ignored": false,
+      "refs": [
+        "README.md",
+        "archive/ARCHIVE_MANIFEST.md",
+        "data/README.md",
+        "experiments/README.md",
+        "manuscript/README.md",
+        "paper_notes/README.md",
+        "presentations/HISTORY.md",
+        "presentations/README.md",
+        "reproductions/README.md",
+        "work/README.md",
+        "archive/cleanup_2026-10-17/manifest.csv",
+        "archive/retired_ppt_work/README.md",
+        "archive/cleanup_2026-10-17/presentations/P001_Paper_Review/P001_Paper_Review_Visual_Exact.verification.json",
+        "docs/learning_notes/00_git_and_research_engineering.md",
+        "docs/maintenance/P001_CURRENT_STATE.json",
+        "docs/maintenance/P001_EVIDENCE_ERRATA.md",
+        "docs/research_log/P001_ARCHIVE_REPORT.md",
+        "docs/research_gaps/baseline_selection_round2/02_code_audit.md",
+        "presentations/P001_Paper_Review/README.md",
+        "presentations/P001_Paper_Review/sources.md",
+        "presentations/P001_Radar_Detection_Prerequisite/README.md",
+        "presentations/P001_Radar_Detection_Prerequisite/sources.md"
+      ],
+      "category": "C",
+      "historical": true,
+      "regeneration": "Not established"
+    },
+    "presentations/P001_Radar_Detection_Prerequisite/P001_Speaker_Notes.md": {
+      "sha256": "72811143cf297a0d4b2062a7a8c7a5fdbf3f4ef4283872aa109075e960e84fc9",
+      "bytes": 25243,
+      "tracked": false,
+      "ignored": false,
+      "refs": [
+        "archive/ARCHIVE_MANIFEST.md",
+        "archive/cleanup_2026-10-17/manifest.csv",
+        "archive/cleanup_2026-10-17/presentations/P001_Radar_Detection_Prerequisite/backups/20261017_before_image_rebuild/README.md",
+        "docs/maintenance/P001_CURRENT_STATE.json",
+        "presentations/P001_Radar_Detection_Prerequisite/README.md"
+      ],
+      "category": "C",
+      "historical": true,
+      "regeneration": "Not established"
+    },
+    "presentations/P001_Radar_Detection_Prerequisite/README.md": {
+      "sha256": "2dd9bab11355ac1f919bf8a939ff92b494969eb9485277bc94807f6d6c3abb32",
+      "bytes": 486,
+      "tracked": false,
+      "ignored": false,
+      "refs": [
+        "README.md",
+        "archive/ARCHIVE_MANIFEST.md",
+        "data/README.md",
+        "experiments/README.md",
+        "manuscript/README.md",
+        "paper_notes/README.md",
+        "presentations/HISTORY.md",
+        "presentations/README.md",
+        "reproductions/README.md",
+        "work/README.md",
+        "archive/cleanup_2026-10-17/manifest.csv",
+        "archive/retired_ppt_work/README.md",
+        "archive/cleanup_2026-10-17/presentations/P001_Paper_Review/P001_Paper_Review_Visual_Exact.verification.json",
+        "docs/learning_notes/00_git_and_research_engineering.md",
+        "docs/maintenance/P001_CURRENT_STATE.json",
+        "docs/maintenance/P001_EVIDENCE_ERRATA.md",
+        "docs/research_log/P001_ARCHIVE_REPORT.md",
+        "docs/research_gaps/baseline_selection_round2/02_code_audit.md",
+        "presentations/P001_Paper_Review/README.md",
+        "presentations/P001_Paper_Review/sources.md",
+        "presentations/P001_paper_review_images/README.md",
+        "presentations/P001_Radar_Detection_Prerequisite/sources.md"
+      ],
+      "category": "C",
+      "historical": true,
+      "regeneration": "Not established"
+    },
+    "presentations/P001_Radar_Detection_Prerequisite/sources.md": {
+      "sha256": "6b237a9d4f04a2febb7c25bc45f51bd9accbc719ae3decd1508150fb6b0132d8",
+      "bytes": 13950,
+      "tracked": false,
+      "ignored": false,
+      "refs": [
+        "archive/cleanup_2026-10-17/manifest.csv",
+        "archive/cleanup_2026-10-17/presentations/P001_Radar_Detection_Prerequisite/backups/20261017_before_image_rebuild/P001_Speaker_Notes.md",
+        "archive/cleanup_2026-10-17/presentations/P001_Radar_Detection_Prerequisite/backups/20261017_before_image_rebuild/README.md",
+        "docs/innovation_bank/P001_INNOVATION_NOTES.md",
+        "docs/maintenance/P001_CURRENT_STATE.json",
+        "docs/maintenance/P001_EVIDENCE_ERRATA.md",
+        "presentations/P001_Paper_Review/README.md",
+        "presentations/P001_Radar_Detection_Prerequisite/P001_Speaker_Notes.md",
+        "presentations/P001_Radar_Detection_Prerequisite/README.md",
+        "presentations/P001_slide_images/README.md",
+        "presentations/P001_Radar_Detection_Prerequisite/assets/notes_image_rebuild.json",
+        "reproductions/P001_PointPillars_VoD/README.md",
+        "work/p001_prereq_supplied_images/manifest.json"
+      ],
+      "category": "C",
+      "historical": true,
+      "regeneration": "Not established"
+    },
+    "presentations/P001_slide_images/01_Cover.png": {
+      "sha256": "b8f1cc7bed3dd3a9f7cee030a0c8e520d563ff2ad896d3652891b0b78097df29",
+      "bytes": 1457522,
+      "tracked": false,
+      "ignored": false,
+      "refs": [
+        "archive/cleanup_2026-10-17/presentations/P001_Paper_Review/P001_Paper_Review_Visual_Exact.verification.json",
+        "docs/maintenance/P001_CURRENT_STATE.json",
+        "presentations/P001_paper_review_images/image_manifest.json",
+        "presentations/P001_paper_review_images/README.md",
+        "presentations/P001_slide_images/generation_prompts.json",
+        "presentations/P001_slide_images/image_manifest.json",
+        "presentations/P001_Radar_Detection_Prerequisite/assets/validation.json",
+        "work/p001_prereq_supplied_images/manifest.json",
+        "work/p001_visual_exact_20261017T100548/manifest.json",
+        "work/p001_visual_exact_20261017T100548/verification.json"
+      ],
+      "category": "C",
+      "historical": true,
+      "regeneration": "Unknown; old generation environment not verified"
+    },
+    "presentations/P001_slide_images/02_FMCW.png": {
+      "sha256": "8d06fe0fcf20fddd5881387fc81b593b0615f5b42effcf249a66a5ddfb51b4fd",
+      "bytes": 1442858,
+      "tracked": false,
+      "ignored": false,
+      "refs": [
+        "archive/cleanup_2026-10-17/presentations/P001_Paper_Review/P001_Paper_Review_Visual_Exact.verification.json",
+        "docs/maintenance/P001_CURRENT_STATE.json",
+        "presentations/P001_slide_images/image_manifest.json",
+        "presentations/P001_Radar_Detection_Prerequisite/assets/validation.json",
+        "work/p001_prereq_supplied_images/manifest.json"
+      ],
+      "category": "C",
+      "historical": true,
+      "regeneration": "Unknown; old generation environment not verified"
+    },
+    "presentations/P001_slide_images/03_Radar_Dimensions.png": {
+      "sha256": "2162e5183c4f6cc5faf0ea40d79dc8b380ed5e243a937fe74e83eea536e98176",
+      "bytes": 1319212,
+      "tracked": false,
+      "ignored": false,
+      "refs": [
+        "archive/cleanup_2026-10-17/presentations/P001_Paper_Review/P001_Paper_Review_Visual_Exact.verification.json",
+        "docs/maintenance/P001_CURRENT_STATE.json",
+        "presentations/P001_slide_images/image_manifest.json",
+        "presentations/P001_Radar_Detection_Prerequisite/assets/validation.json",
+        "work/p001_prereq_supplied_images/manifest.json"
+      ],
+      "category": "C",
+      "historical": true,
+      "regeneration": "Unknown; old generation environment not verified"
+    },
+    "presentations/P001_slide_images/04_Radar_Point_Cloud.png": {
+      "sha256": "d36bdb45b78a75ef098592202d6bdf7fe5664af55df25eff303b996bc9c17c0a",
+      "bytes": 1503285,
+      "tracked": false,
+      "ignored": false,
+      "refs": [
+        "archive/cleanup_2026-10-17/presentations/P001_Paper_Review/P001_Paper_Review_Visual_Exact.verification.json",
+        "docs/maintenance/P001_CURRENT_STATE.json",
+        "presentations/P001_slide_images/image_manifest.json",
+        "presentations/P001_Radar_Detection_Prerequisite/assets/validation.json",
+        "work/p001_prereq_supplied_images/manifest.json"
+      ],
+      "category": "C",
+      "historical": true,
+      "regeneration": "Unknown; old generation environment not verified"
+    },
+    "presentations/P001_slide_images/05_Radar_Pipeline.png": {
+      "sha256": "dbffa788f6d2d0afc3d24a8680e2000104e9966f6734350aae0f192329fa12b0",
+      "bytes": 1422115,
+      "tracked": false,
+      "ignored": false,
+      "refs": [
+        "archive/cleanup_2026-10-17/presentations/P001_Paper_Review/P001_Paper_Review_Visual_Exact.verification.json",
+        "docs/maintenance/P001_CURRENT_STATE.json",
+        "presentations/P001_slide_images/image_manifest.json",
+        "presentations/P001_Radar_Detection_Prerequisite/assets/validation.json",
+        "work/p001_prereq_supplied_images/manifest.json"
+      ],
+      "category": "C",
+      "historical": true,
+      "regeneration": "Unknown; old generation environment not verified"
+    },
+    "presentations/P001_slide_images/06_PointPillars.png": {
+      "sha256": "290682041f8ee5a004fc7daf89a62ec7a5e7bfe7e7a1bb06b15e3e0585501101",
+      "bytes": 1480200,
+      "tracked": false,
+      "ignored": false,
+      "refs": [
+        "archive/cleanup_2026-10-17/presentations/P001_Paper_Review/P001_Paper_Review_Visual_Exact.verification.json",
+        "docs/maintenance/P001_CURRENT_STATE.json",
+        "presentations/P001_slide_images/image_manifest.json",
+        "presentations/P001_Radar_Detection_Prerequisite/assets/validation.json",
+        "work/p001_prereq_supplied_images/manifest.json"
+      ],
+      "category": "C",
+      "historical": true,
+      "regeneration": "Unknown; old generation environment not verified"
+    },
+    "presentations/P001_slide_images/07_Temporal_Accumulation.png": {
+      "sha256": "d7133fda73906701d0c6d038a3aa2339f05f56af0d65d1b9543672a3b23f76f7",
+      "bytes": 1478465,
+      "tracked": false,
+      "ignored": false,
+      "refs": [
+        "archive/cleanup_2026-10-17/presentations/P001_Paper_Review/P001_Paper_Review_Visual_Exact.verification.json",
+        "docs/maintenance/P001_CURRENT_STATE.json",
+        "presentations/P001_slide_images/image_manifest.json",
+        "presentations/P001_Radar_Detection_Prerequisite/assets/validation.json",
+        "work/p001_prereq_supplied_images/manifest.json"
+      ],
+      "category": "C",
+      "historical": true,
+      "regeneration": "Unknown; old generation environment not verified"
+    },
+    "presentations/P001_slide_images/08_Detection_Metrics.png": {
+      "sha256": "add6894a8eb2d099e51c51cc9e78c1aa6d455222d6dae351b6664216f7178a64",
+      "bytes": 1538440,
+      "tracked": false,
+      "ignored": false,
+      "refs": [
+        "archive/cleanup_2026-10-17/presentations/P001_Paper_Review/P001_Paper_Review_Visual_Exact.verification.json",
+        "docs/maintenance/P001_CURRENT_STATE.json",
+        "presentations/P001_slide_images/image_manifest.json",
+        "presentations/P001_Radar_Detection_Prerequisite/assets/validation.json",
+        "work/p001_prereq_supplied_images/manifest.json"
+      ],
+      "category": "C",
+      "historical": true,
+      "regeneration": "Unknown; old generation environment not verified"
+    },
+    "presentations/P001_slide_images/09_Knowledge_Summary.png": {
+      "sha256": "b1b556502969f7ec35bfad42d09a5bb3ad15c16e758997451a5ebacf914ee960",
+      "bytes": 1427697,
+      "tracked": false,
+      "ignored": false,
+      "refs": [
+        "archive/cleanup_2026-10-17/presentations/P001_Paper_Review/P001_Paper_Review_Visual_Exact.verification.json",
+        "docs/maintenance/P001_CURRENT_STATE.json",
+        "presentations/P001_slide_images/image_manifest.json",
+        "presentations/P001_Radar_Detection_Prerequisite/assets/validation.json",
+        "work/p001_prereq_supplied_images/manifest.json"
+      ],
+      "category": "C",
+      "historical": true,
+      "regeneration": "Unknown; old generation environment not verified"
+    },
+    "presentations/P001_slide_images/generation_prompts.json": {
+      "sha256": "608df707ea2a5671a7b0ac886a80250d9c69f40666370d82a5363d0ab1cf4956",
+      "bytes": 15764,
+      "tracked": false,
+      "ignored": false,
+      "refs": [
+        "archive/cleanup_2026-10-17/presentations/P001_Paper_Review/P001_Paper_Review_Visual_Exact.verification.json",
+        "docs/maintenance/P001_CURRENT_STATE.json",
+        "presentations/P001_Radar_Detection_Prerequisite/sources.md",
+        "presentations/P001_slide_images/README.md"
+      ],
+      "category": "C",
+      "historical": true,
+      "regeneration": "Not established"
+    },
+    "presentations/P001_slide_images/image_manifest.json": {
+      "sha256": "4e05ba3fedd2ec829a095b2d0c4bfcf66c6565ebb9d4fc643e7e94ad53029bc5",
+      "bytes": 2160,
+      "tracked": false,
+      "ignored": false,
+      "refs": [
+        "archive/cleanup_2026-10-17/presentations/P001_Paper_Review/P001_Paper_Review_Visual_Exact.verification.json",
+        "docs/maintenance/P001_CURRENT_STATE.json",
+        "presentations/P001_Radar_Detection_Prerequisite/sources.md",
+        "presentations/P001_slide_images/README.md"
+      ],
+      "category": "C",
+      "historical": true,
+      "regeneration": "Not established"
+    },
+    "presentations/P001_slide_images/README.md": {
+      "sha256": "19925f663d4f5c0ffdae92a979fbe8f083ad095734839d1658f6adee410bd55a",
+      "bytes": 611,
+      "tracked": false,
+      "ignored": false,
+      "refs": [
+        "README.md",
+        "archive/ARCHIVE_MANIFEST.md",
+        "data/README.md",
+        "experiments/README.md",
+        "manuscript/README.md",
+        "paper_notes/README.md",
+        "presentations/HISTORY.md",
+        "presentations/README.md",
+        "reproductions/README.md",
+        "work/README.md",
+        "archive/cleanup_2026-10-17/manifest.csv",
+        "archive/retired_ppt_work/README.md",
+        "archive/cleanup_2026-10-17/presentations/P001_Paper_Review/P001_Paper_Review_Visual_Exact.verification.json",
+        "docs/learning_notes/00_git_and_research_engineering.md",
+        "docs/maintenance/P001_CURRENT_STATE.json",
+        "docs/maintenance/P001_EVIDENCE_ERRATA.md",
+        "docs/research_log/P001_ARCHIVE_REPORT.md",
+        "docs/research_gaps/baseline_selection_round2/02_code_audit.md",
+        "presentations/P001_Paper_Review/README.md",
+        "presentations/P001_Paper_Review/sources.md",
+        "presentations/P001_paper_review_images/README.md",
+        "presentations/P001_Radar_Detection_Prerequisite/README.md",
+        "presentations/P001_Radar_Detection_Prerequisite/sources.md"
+      ],
+      "category": "C",
+      "historical": true,
+      "regeneration": "Not established"
+    },
+    "presentations/P001_Paper_Review/assets/fig4_original.png": {
+      "sha256": "a69f0d764b37f6ba16beed22e5c6a2edec8a5a8a0b811667199228f54b5c98a4",
+      "bytes": 58194,
+      "tracked": false,
+      "ignored": false,
+      "refs": [
+        "docs/maintenance/P001_CURRENT_STATE.json",
+        "docs/maintenance/P001_EVIDENCE_ERRATA.md"
+      ],
+      "category": "C",
+      "historical": true,
+      "regeneration": "Unknown; old generation environment not verified"
+    },
+    "presentations/P001_Paper_Review/assets/fig5_original.png": {
+      "sha256": "1f0c6f6ab0fa57c09bdc6a378f853ad5c76316f36ab6e89202f5f87d5f0b8a9a",
+      "bytes": 69116,
+      "tracked": false,
+      "ignored": false,
+      "refs": [
+        "docs/maintenance/P001_CURRENT_STATE.json"
+      ],
+      "category": "C",
+      "historical": true,
+      "regeneration": "Unknown; old generation environment not verified"
+    },
+    "presentations/P001_Paper_Review/assets/paper_page_06_220dpi.png": {
+      "sha256": "722931a632ebcf07ee48b6094750bc2217006eb4ba5827339463b5d332c35df6",
+      "bytes": 839995,
+      "tracked": false,
+      "ignored": false,
+      "refs": [
+        "docs/maintenance/P001_CURRENT_STATE.json"
+      ],
+      "category": "C",
+      "historical": true,
+      "regeneration": "Unknown; old generation environment not verified"
+    },
+    "presentations/P001_Radar_Detection_Prerequisite/assets/notes_image_rebuild.json": {
+      "sha256": "5d68d3274ec7fc54936f63661b80b13ffec62c636aa1e3d75a265508168cfcdf",
+      "bytes": 25275,
+      "tracked": false,
+      "ignored": false,
+      "refs": [
+        "docs/maintenance/P001_CURRENT_STATE.json"
+      ],
+      "category": "C",
+      "historical": true,
+      "regeneration": "Not established"
+    },
+    "presentations/P001_Radar_Detection_Prerequisite/assets/slide-01.png": {
+      "sha256": "89092ed322bdc546008856a9ce33839ccea8036e0d60c006aca7c9868cd4d082",
+      "bytes": 101467,
+      "tracked": false,
+      "ignored": false,
+      "refs": [
+        "archive/cleanup_2026-10-17/manifest.csv",
+        "docs/maintenance/P001_CURRENT_STATE.json"
+      ],
+      "category": "C",
+      "historical": true,
+      "regeneration": "Unknown; old generation environment not verified"
+    },
+    "presentations/P001_Radar_Detection_Prerequisite/assets/slide-02.png": {
+      "sha256": "7c0abf67f70ab06ef1a9020a3c36a3eba3afda15ba47ca196fc4ce1e11c50a2a",
+      "bytes": 119041,
+      "tracked": false,
+      "ignored": false,
+      "refs": [
+        "archive/cleanup_2026-10-17/manifest.csv",
+        "docs/maintenance/P001_CURRENT_STATE.json"
+      ],
+      "category": "C",
+      "historical": true,
+      "regeneration": "Unknown; old generation environment not verified"
+    },
+    "presentations/P001_Radar_Detection_Prerequisite/assets/slide-03.png": {
+      "sha256": "b52ed00d70aae8279dacd8853651c45f449e5236ded76fc8fcda20a6f2436655",
+      "bytes": 97247,
+      "tracked": false,
+      "ignored": false,
+      "refs": [
+        "archive/cleanup_2026-10-17/manifest.csv",
+        "docs/maintenance/P001_CURRENT_STATE.json"
+      ],
+      "category": "C",
+      "historical": true,
+      "regeneration": "Unknown; old generation environment not verified"
+    },
+    "presentations/P001_Radar_Detection_Prerequisite/assets/slide-04.png": {
+      "sha256": "6b0377fe58c694609f589e69e155d8c23f40f7a3d5881b0b2155894e97e4c443",
+      "bytes": 122000,
+      "tracked": false,
+      "ignored": false,
+      "refs": [
+        "archive/cleanup_2026-10-17/manifest.csv",
+        "docs/maintenance/P001_CURRENT_STATE.json"
+      ],
+      "category": "C",
+      "historical": true,
+      "regeneration": "Unknown; old generation environment not verified"
+    },
+    "presentations/P001_Radar_Detection_Prerequisite/assets/slide-05.png": {
+      "sha256": "ab73931c6adb60830347b77d469b88e6082d74a50d0aeab84d04aa8a417eaba0",
+      "bytes": 125433,
+      "tracked": false,
+      "ignored": false,
+      "refs": [
+        "archive/cleanup_2026-10-17/manifest.csv",
+        "docs/maintenance/P001_CURRENT_STATE.json"
+      ],
+      "category": "C",
+      "historical": true,
+      "regeneration": "Unknown; old generation environment not verified"
+    },
+    "presentations/P001_Radar_Detection_Prerequisite/assets/slide-06.png": {
+      "sha256": "2b1f316a0bce5532c81bcdabf5ac2741ba448df2c029b5fa2b3eb3cce7f669bf",
+      "bytes": 107595,
+      "tracked": false,
+      "ignored": false,
+      "refs": [
+        "archive/cleanup_2026-10-17/manifest.csv",
+        "docs/maintenance/P001_CURRENT_STATE.json"
+      ],
+      "category": "C",
+      "historical": true,
+      "regeneration": "Unknown; old generation environment not verified"
+    },
+    "presentations/P001_Radar_Detection_Prerequisite/assets/slide-07.png": {
+      "sha256": "216cbfe9f81e0f533fdd813601c653192618506d14c3a9caea042790bf5a9899",
+      "bytes": 113305,
+      "tracked": false,
+      "ignored": false,
+      "refs": [
+        "archive/cleanup_2026-10-17/manifest.csv",
+        "docs/maintenance/P001_CURRENT_STATE.json"
+      ],
+      "category": "C",
+      "historical": true,
+      "regeneration": "Unknown; old generation environment not verified"
+    },
+    "presentations/P001_Radar_Detection_Prerequisite/assets/slide-08.png": {
+      "sha256": "26a33fd236fcac8798deafb7920860c943438fade897908f74c96803c32dc358",
+      "bytes": 113523,
+      "tracked": false,
+      "ignored": false,
+      "refs": [
+        "archive/cleanup_2026-10-17/manifest.csv",
+        "docs/maintenance/P001_CURRENT_STATE.json"
+      ],
+      "category": "C",
+      "historical": true,
+      "regeneration": "Unknown; old generation environment not verified"
+    },
+    "presentations/P001_Radar_Detection_Prerequisite/assets/slide-09.png": {
+      "sha256": "3cc9d6d2069db9410050c44db850b64e6d714d8b4d0f7914fb76f9826d31a262",
+      "bytes": 117662,
+      "tracked": false,
+      "ignored": false,
+      "refs": [
+        "archive/cleanup_2026-10-17/manifest.csv",
+        "docs/maintenance/P001_CURRENT_STATE.json"
+      ],
+      "category": "C",
+      "historical": true,
+      "regeneration": "Unknown; old generation environment not verified"
+    },
+    "presentations/P001_Radar_Detection_Prerequisite/assets/text-fit.json": {
+      "sha256": "51f8da19d481eba57f3ef553166ed2eb00ff18b8fa8f5978bc44714ea0328fd9",
+      "bytes": 48367,
+      "tracked": false,
+      "ignored": false,
+      "refs": [
+        "archive/cleanup_2026-10-17/manifest.csv",
+        "docs/maintenance/P001_CURRENT_STATE.json"
+      ],
+      "category": "C",
+      "historical": true,
+      "regeneration": "Not established"
+    },
+    "presentations/P001_Radar_Detection_Prerequisite/assets/validation.json": {
+      "sha256": "abea462b530bac99379a36b18550341b3bc7c8eda396453aced751cd21388a9c",
+      "bytes": 3896,
+      "tracked": false,
+      "ignored": false,
+      "refs": [
+        "archive/cleanup_2026-10-17/manifest.csv",
+        "archive/cleanup_2026-10-17/presentations/P001_Radar_Detection_Prerequisite/backups/20261017_before_image_rebuild/README.md",
+        "docs/maintenance/P001_CURRENT_STATE.json",
+        "work/p001_prereq_supplied_images/convert.mjs",
+        "work/p001_visual_exact_20261017T100548/finalize-options.json"
+      ],
+      "category": "C",
+      "historical": true,
+      "regeneration": "Not established"
+    },
+    "reproductions/P001_PointPillars_VoD/.gitignore": {
+      "sha256": "f661996efab8eec6895243263e6c5d5b520ef3dc7d0061abeeadbe6f5df27217",
+      "bytes": 65,
+      "tracked": true,
+      "ignored": false,
+      "refs": [
+        "data/README.md",
+        "docs/learning_notes/00_git_and_research_engineering.md",
+        "docs/maintenance/P001_CURRENT_STATE.json",
+        "docs/research_log/P001_ARCHIVE_REPORT.md",
+        "docs/research_gaps/baseline_selection_round2/01_candidate_papers.md",
+        "docs/research_gaps/baseline_selection_round2/05_decision_and_plan.md",
+        "reproductions/P001_PointPillars_VoD/README.md"
+      ],
+      "category": "A",
+      "historical": false,
+      "regeneration": "Not established"
+    },
+    "reproductions/P001_PointPillars_VoD/experiment_tracker.csv": {
+      "sha256": "a2cf86085261e77a33f07e0535694143e4fbc0ee567ab4c193d71922fab7bd65",
+      "bytes": 126,
+      "tracked": true,
+      "ignored": false,
+      "refs": [
+        "docs/maintenance/CRN_FIRST_PASS_STATE.json",
+        "docs/maintenance/P001_CURRENT_STATE.json"
+      ],
+      "category": "A",
+      "historical": false,
+      "regeneration": "Not established"
+    },
+    "reproductions/P001_PointPillars_VoD/README.md": {
+      "sha256": "85e7d9d5c9c23ac412f7f9dffd959c02db66d0bf07ba8d0c673e7132097df639",
+      "bytes": 3239,
+      "tracked": true,
+      "ignored": false,
+      "refs": [
+        "README.md",
+        "archive/ARCHIVE_MANIFEST.md",
+        "data/README.md",
+        "experiments/README.md",
+        "manuscript/README.md",
+        "paper_notes/README.md",
+        "presentations/HISTORY.md",
+        "presentations/README.md",
+        "reproductions/README.md",
+        "work/README.md",
+        "archive/cleanup_2026-10-17/manifest.csv",
+        "archive/retired_ppt_work/README.md",
+        "archive/cleanup_2026-10-17/presentations/P001_Paper_Review/P001_Paper_Review_Visual_Exact.verification.json",
+        "docs/learning_notes/00_git_and_research_engineering.md",
+        "docs/maintenance/P001_CURRENT_STATE.json",
+        "docs/maintenance/P001_EVIDENCE_ERRATA.md",
+        "docs/research_log/P001_ARCHIVE_REPORT.md",
+        "docs/research_gaps/baseline_selection_round2/02_code_audit.md",
+        "presentations/P001_Paper_Review/README.md",
+        "presentations/P001_Paper_Review/sources.md",
+        "presentations/P001_paper_review_images/README.md",
+        "presentations/P001_Radar_Detection_Prerequisite/README.md",
+        "presentations/P001_Radar_Detection_Prerequisite/sources.md"
+      ],
+      "category": "A",
+      "historical": false,
+      "regeneration": "Not established"
+    },
+    "reproductions/templates/reproduction_template.md": {
+      "sha256": "b8fe72ebc73152d63ba75b0d71efef4f0ad1ef281c42d34f3449cc8c13aa770b",
+      "bytes": 5624,
+      "tracked": true,
+      "ignored": false,
+      "refs": [
+        "reproductions/README.md",
+        "docs/maintenance/P001_CURRENT_STATE.json"
+      ],
+      "category": "A",
+      "historical": false,
+      "regeneration": "Not established"
+    },
+    "work/p001_prereq_supplied_images/convert.mjs": {
+      "sha256": "3ab034a4ab4823332678d757304282208fe574e368180b0a773b1b5e9f8bb045",
+      "bytes": 2975,
+      "tracked": false,
+      "ignored": false,
+      "refs": [
+        "docs/maintenance/P001_CURRENT_STATE.json"
+      ],
+      "category": "C",
+      "historical": true,
+      "regeneration": "Not established"
+    },
+    "work/p001_prereq_supplied_images/manifest.json": {
+      "sha256": "71714702b36739276cfee30020ff95ef2e3c30a4b296c9929fc6c4ae1ff71a27",
+      "bytes": 27724,
+      "tracked": false,
+      "ignored": false,
+      "refs": [
+        "archive/cleanup_2026-10-17/presentations/P001_Paper_Review/P001_Paper_Review_Visual_Exact.verification.json",
+        "docs/maintenance/P001_CURRENT_STATE.json",
+        "presentations/P001_Radar_Detection_Prerequisite/sources.md",
+        "presentations/P001_slide_images/README.md",
+        "work/p001_prereq_supplied_images/convert.mjs"
+      ],
+      "category": "C",
+      "historical": true,
+      "regeneration": "Not established"
+    },
+    "work/p001_prereq_supplied_images/validation.json": {
+      "sha256": "e050dc81d7b9e69fb1f44dfdd7a9556bf9abf5fd8078dd04bfdffac7e47033a4",
+      "bytes": 2755,
+      "tracked": false,
+      "ignored": false,
+      "refs": [
+        "archive/cleanup_2026-10-17/manifest.csv",
+        "archive/cleanup_2026-10-17/presentations/P001_Radar_Detection_Prerequisite/backups/20261017_before_image_rebuild/README.md",
+        "docs/maintenance/P001_CURRENT_STATE.json",
+        "work/p001_prereq_supplied_images/convert.mjs",
+        "work/p001_visual_exact_20261017T100548/finalize-options.json"
+      ],
+      "category": "C",
+      "historical": true,
+      "regeneration": "Not established"
+    },
+    "work/p001_prereq_supplied_images/verification.json": {
+      "sha256": "a579d227a7acf805a8f09bbc112a2fe5be69090551d25800e2981d3a517ef650",
+      "bytes": 230,
+      "tracked": false,
+      "ignored": false,
+      "refs": [
+        "archive/ARCHIVE_MANIFEST.md",
+        "archive/cleanup_2026-10-17/manifest.csv",
+        "docs/maintenance/P001_CURRENT_STATE.json"
+      ],
+      "category": "C",
+      "historical": true,
+      "regeneration": "Not established"
+    },
+    "work/p001_visual_exact_20261017T100548/finalize-options.json": {
+      "sha256": "6ea3b184dc9b1fe0f12daf8707b79e96fb7503b6038e6c91f149e6d049055e71",
+      "bytes": 1096,
+      "tracked": false,
+      "ignored": false,
+      "refs": [
+        "docs/maintenance/P001_CURRENT_STATE.json"
+      ],
+      "category": "C",
+      "historical": true,
+      "regeneration": "Not established"
+    },
+    "work/p001_visual_exact_20261017T100548/manifest.json": {
+      "sha256": "64abd0a3026450e3be52769571deba90d63ec65c6b5f594bbea1366fa795399a",
+      "bytes": 3366,
+      "tracked": false,
+      "ignored": false,
+      "refs": [
+        "archive/cleanup_2026-10-17/presentations/P001_Paper_Review/P001_Paper_Review_Visual_Exact.verification.json",
+        "docs/maintenance/P001_CURRENT_STATE.json",
+        "presentations/P001_Radar_Detection_Prerequisite/sources.md",
+        "presentations/P001_slide_images/README.md",
+        "work/p001_prereq_supplied_images/convert.mjs"
+      ],
+      "category": "C",
+      "historical": true,
+      "regeneration": "Not established"
+    },
+    "work/p001_visual_exact_20261017T100548/validation.json": {
+      "sha256": "1553cb84835d005173200ac1af966882b93cbf9a085f512a014709e611df5784",
+      "bytes": 2770,
+      "tracked": false,
+      "ignored": false,
+      "refs": [
+        "archive/cleanup_2026-10-17/manifest.csv",
+        "archive/cleanup_2026-10-17/presentations/P001_Radar_Detection_Prerequisite/backups/20261017_before_image_rebuild/README.md",
+        "docs/maintenance/P001_CURRENT_STATE.json",
+        "work/p001_prereq_supplied_images/convert.mjs",
+        "work/p001_visual_exact_20261017T100548/finalize-options.json"
+      ],
+      "category": "C",
+      "historical": true,
+      "regeneration": "Not established"
+    },
+    "work/p001_visual_exact_20261017T100548/verification.json": {
+      "sha256": "dbb9264993d93da921c399fe67bd6fac3eed9e1b2ccdf8dcd1c21bde22358ad5",
+      "bytes": 7224,
+      "tracked": false,
+      "ignored": false,
+      "refs": [
+        "archive/ARCHIVE_MANIFEST.md",
+        "archive/cleanup_2026-10-17/manifest.csv",
+        "docs/maintenance/P001_CURRENT_STATE.json"
+      ],
+      "category": "C",
+      "historical": true,
+      "regeneration": "Not established"
+    },
+    "work/p001_prereq_supplied_images/renders/01.png": {
+      "sha256": "08aa644282224d9512f9c6ce986952b662c63888e1b75815286eed3c69f46613",
+      "bytes": 874145,
+      "tracked": false,
+      "ignored": false,
+      "refs": [
+        "paper_notes/P001_论文精读.md",
+        "archive/cleanup_2026-10-17/manifest.csv",
+        "docs/maintenance/P001_CURRENT_STATE.json"
+      ],
+      "category": "C",
+      "historical": true,
+      "regeneration": "Unknown; old generation environment not verified"
+    },
+    "work/p001_prereq_supplied_images/renders/02.png": {
+      "sha256": "bd704c787a3d8afd1ac8e1c4e461f6050d35d49213ad1ce2521674a8e5850a50",
+      "bytes": 881609,
+      "tracked": false,
+      "ignored": false,
+      "refs": [
+        "archive/cleanup_2026-10-17/manifest.csv",
+        "docs/maintenance/P001_CURRENT_STATE.json"
+      ],
+      "category": "C",
+      "historical": true,
+      "regeneration": "Unknown; old generation environment not verified"
+    },
+    "work/p001_prereq_supplied_images/renders/03.png": {
+      "sha256": "03ce496b7182aa48866dde12587f3b5531e911acf7b5ff39a4f34b4d4f5fd10f",
+      "bytes": 779088,
+      "tracked": false,
+      "ignored": false,
+      "refs": [
+        "archive/cleanup_2026-10-17/manifest.csv",
+        "docs/maintenance/P001_CURRENT_STATE.json",
+        "presentations/P001_paper_review_images/image_manifest.json"
+      ],
+      "category": "C",
+      "historical": true,
+      "regeneration": "Unknown; old generation environment not verified"
+    },
+    "work/p001_prereq_supplied_images/renders/04.png": {
+      "sha256": "bf08b62ed173640fb26a44942dda28ec94192327787548bf1fc6d42f8bd830d1",
+      "bytes": 925655,
+      "tracked": false,
+      "ignored": false,
+      "refs": [
+        "archive/cleanup_2026-10-17/manifest.csv",
+        "docs/maintenance/P001_CURRENT_STATE.json"
+      ],
+      "category": "C",
+      "historical": true,
+      "regeneration": "Unknown; old generation environment not verified"
+    },
+    "work/p001_prereq_supplied_images/renders/05.png": {
+      "sha256": "5b7bc97bfb75f1cdecccac8ac1cae15cb8b5cb8edf7bba4815d42c79234a3b20",
+      "bytes": 841618,
+      "tracked": false,
+      "ignored": false,
+      "refs": [
+        "archive/cleanup_2026-10-17/manifest.csv",
+        "docs/maintenance/P001_CURRENT_STATE.json"
+      ],
+      "category": "C",
+      "historical": true,
+      "regeneration": "Unknown; old generation environment not verified"
+    },
+    "work/p001_prereq_supplied_images/renders/06.png": {
+      "sha256": "d56e00e201d7e3cb26adeb854238ecc0626154e90b26f9f4caa0346d2e9ed3d0",
+      "bytes": 904942,
+      "tracked": false,
+      "ignored": false,
+      "refs": [
+        "paper_notes/P002_CRN.md",
+        "archive/cleanup_2026-10-17/manifest.csv",
+        "docs/maintenance/CRN_FIRST_PASS_STATE.json",
+        "docs/maintenance/P001_CURRENT_STATE.json"
+      ],
+      "category": "C",
+      "historical": true,
+      "regeneration": "Unknown; old generation environment not verified"
+    },
+    "work/p001_prereq_supplied_images/renders/07.png": {
+      "sha256": "660f15c20265fe8ae431d5f5253f1925f38286fc3a78138f6207d759a66e6b9e",
+      "bytes": 904401,
+      "tracked": false,
+      "ignored": false,
+      "refs": [
+        "archive/cleanup_2026-10-17/manifest.csv",
+        "docs/maintenance/P001_CURRENT_STATE.json"
+      ],
+      "category": "C",
+      "historical": true,
+      "regeneration": "Unknown; old generation environment not verified"
+    },
+    "work/p001_prereq_supplied_images/renders/08.png": {
+      "sha256": "d620c6e9d4db6ea0d8ccf1cff39ef7efe6eef566a8f923dcbb2c1c595c61d5a5",
+      "bytes": 944255,
+      "tracked": false,
+      "ignored": false,
+      "refs": [
+        "archive/cleanup_2026-10-17/manifest.csv",
+        "docs/maintenance/P001_CURRENT_STATE.json"
+      ],
+      "category": "C",
+      "historical": true,
+      "regeneration": "Unknown; old generation environment not verified"
+    },
+    "work/p001_prereq_supplied_images/renders/09.png": {
+      "sha256": "c456c097248793cc6d0e2bf20a4fbf5feb2c6c5209d1b90048b382009adb37e6",
+      "bytes": 850544,
+      "tracked": false,
+      "ignored": false,
+      "refs": [
+        "archive/cleanup_2026-10-17/manifest.csv",
+        "docs/maintenance/P001_CURRENT_STATE.json"
+      ],
+      "category": "C",
+      "historical": true,
+      "regeneration": "Unknown; old generation environment not verified"
+    },
+    "work/p001_visual_exact_20261017T100548/renders/01.png": {
+      "sha256": "87946697a2789d6b480ddb7e9bf678ec0c6743db9a008878f4e37b7aef3b9b80",
+      "bytes": 785905,
+      "tracked": false,
+      "ignored": false,
+      "refs": [
+        "paper_notes/P001_论文精读.md",
+        "archive/cleanup_2026-10-17/manifest.csv",
+        "docs/maintenance/P001_CURRENT_STATE.json"
+      ],
+      "category": "C",
+      "historical": true,
+      "regeneration": "Unknown; old generation environment not verified"
+    },
+    "work/p001_visual_exact_20261017T100548/renders/02.png": {
+      "sha256": "fd9cd26ea17989164bf669a408d56a9e0f3ac68cc46baf5a62a5f0b2e335c514",
+      "bytes": 849956,
+      "tracked": false,
+      "ignored": false,
+      "refs": [
+        "archive/cleanup_2026-10-17/manifest.csv",
+        "docs/maintenance/P001_CURRENT_STATE.json"
+      ],
+      "category": "C",
+      "historical": true,
+      "regeneration": "Unknown; old generation environment not verified"
+    },
+    "work/p001_visual_exact_20261017T100548/renders/03.png": {
+      "sha256": "9397abee7bc8b76df8a59edf8ce6ed0ca61750936a9ab1753357424ff2f0618b",
+      "bytes": 845879,
+      "tracked": false,
+      "ignored": false,
+      "refs": [
+        "archive/cleanup_2026-10-17/manifest.csv",
+        "docs/maintenance/P001_CURRENT_STATE.json",
+        "presentations/P001_paper_review_images/image_manifest.json"
+      ],
+      "category": "C",
+      "historical": true,
+      "regeneration": "Unknown; old generation environment not verified"
+    },
+    "work/p001_visual_exact_20261017T100548/renders/04.png": {
+      "sha256": "d732b431cbebe75822ddec428c67c2640463b69abc380994e94b559e348faade",
+      "bytes": 919878,
+      "tracked": false,
+      "ignored": false,
+      "refs": [
+        "archive/cleanup_2026-10-17/manifest.csv",
+        "docs/maintenance/P001_CURRENT_STATE.json"
+      ],
+      "category": "C",
+      "historical": true,
+      "regeneration": "Unknown; old generation environment not verified"
+    },
+    "work/p001_visual_exact_20261017T100548/renders/05.png": {
+      "sha256": "61fa54747a4d0e2ef17f845ee4d43e2f8c7a61b9b49703a469ba9e69362fd436",
+      "bytes": 820187,
+      "tracked": false,
+      "ignored": false,
+      "refs": [
+        "archive/cleanup_2026-10-17/manifest.csv",
+        "docs/maintenance/P001_CURRENT_STATE.json"
+      ],
+      "category": "C",
+      "historical": true,
+      "regeneration": "Unknown; old generation environment not verified"
+    },
+    "work/p001_visual_exact_20261017T100548/renders/06.png": {
+      "sha256": "3ebee9f775afc22ccad2973f5b22c6372878ef667ce64fc2f3127e05f500eef0",
+      "bytes": 749501,
+      "tracked": false,
+      "ignored": false,
+      "refs": [
+        "paper_notes/P002_CRN.md",
+        "archive/cleanup_2026-10-17/manifest.csv",
+        "docs/maintenance/CRN_FIRST_PASS_STATE.json",
+        "docs/maintenance/P001_CURRENT_STATE.json"
+      ],
+      "category": "C",
+      "historical": true,
+      "regeneration": "Unknown; old generation environment not verified"
+    },
+    "work/p001_visual_exact_20261017T100548/renders/07.png": {
+      "sha256": "2d94da5baad0ee8ecb113b41c6a12f77d4ee178cd23fffcf17666029a471dc23",
+      "bytes": 813952,
+      "tracked": false,
+      "ignored": false,
+      "refs": [
+        "archive/cleanup_2026-10-17/manifest.csv",
+        "docs/maintenance/P001_CURRENT_STATE.json"
+      ],
+      "category": "C",
+      "historical": true,
+      "regeneration": "Unknown; old generation environment not verified"
+    },
+    "work/p001_visual_exact_20261017T100548/renders/08.png": {
+      "sha256": "5e79955167d90f7cc3acce0464a3f0365d206925e935a7adf9ade1fdb94567e1",
+      "bytes": 745222,
+      "tracked": false,
+      "ignored": false,
+      "refs": [
+        "archive/cleanup_2026-10-17/manifest.csv",
+        "docs/maintenance/P001_CURRENT_STATE.json"
+      ],
+      "category": "C",
+      "historical": true,
+      "regeneration": "Unknown; old generation environment not verified"
+    },
+    "work/p001_visual_exact_20261017T100548/renders/09.png": {
+      "sha256": "7f71ba89450399078c0d8e8b70c162767cd4d296fda9c582af4dd05c4ddcfc30",
+      "bytes": 757625,
+      "tracked": false,
+      "ignored": false,
+      "refs": [
+        "archive/cleanup_2026-10-17/manifest.csv",
+        "docs/maintenance/P001_CURRENT_STATE.json"
+      ],
+      "category": "C",
+      "historical": true,
+      "regeneration": "Unknown; old generation environment not verified"
+    },
+    "work/p001_visual_exact_20261017T100548/renders/10.png": {
+      "sha256": "6f84271651eb03616ebef7ec8a8cfd751448e5fc9f25d88cd66aa92bdb5f9a07",
+      "bytes": 737607,
+      "tracked": false,
+      "ignored": false,
+      "refs": [
+        "archive/cleanup_2026-10-17/manifest.csv",
+        "docs/maintenance/P001_CURRENT_STATE.json"
+      ],
+      "category": "C",
+      "historical": true,
+      "regeneration": "Unknown; old generation environment not verified"
+    },
+    "work/p001_visual_exact_20261017T100548/renders/11.png": {
+      "sha256": "0f45f113eaf9c7ad5e5103a107c3f78426fbeff9d430b43a8738ee09287fc15f",
+      "bytes": 930648,
+      "tracked": false,
+      "ignored": false,
+      "refs": [
+        "paper_notes/P002_CRN.md",
+        "archive/cleanup_2026-10-17/manifest.csv",
+        "docs/maintenance/CRN_FIRST_PASS_STATE.json",
+        "docs/maintenance/P001_CURRENT_STATE.json"
+      ],
+      "category": "C",
+      "historical": true,
+      "regeneration": "Unknown; old generation environment not verified"
+    },
+    "work/p001_visual_exact_20261017T100548/renders/12.png": {
+      "sha256": "65cd14cd3e33489523aa23a09590973e1a4ca61002e7a78e27dab56ddd92aec5",
+      "bytes": 893173,
+      "tracked": false,
+      "ignored": false,
+      "refs": [
+        "archive/cleanup_2026-10-17/manifest.csv",
+        "docs/maintenance/P001_CURRENT_STATE.json"
+      ],
+      "category": "C",
+      "historical": true,
+      "regeneration": "Unknown; old generation environment not verified"
+    },
+    "work/p001_visual_exact_20261017T100548/renders/13.png": {
+      "sha256": "cdd027e318bd6fe5ef077e4ab8b99a068a259ff3829007ad2b5f8744060ef50f",
+      "bytes": 887976,
+      "tracked": false,
+      "ignored": false,
+      "refs": [
+        "archive/cleanup_2026-10-17/manifest.csv",
+        "docs/maintenance/P001_CURRENT_STATE.json"
+      ],
+      "category": "C",
+      "historical": true,
+      "regeneration": "Unknown; old generation environment not verified"
+    },
+    "work/p001_visual_exact_20261017T100548/renders/14.png": {
+      "sha256": "e832121ed26b28bbe8f3998c75985cd7410fd318a968e8185fe6a4dc136d4293",
+      "bytes": 941424,
+      "tracked": false,
+      "ignored": false,
+      "refs": [
+        "paper_notes/P002_CRN.md",
+        "archive/cleanup_2026-10-17/manifest.csv",
+        "docs/maintenance/CRN_FIRST_PASS_STATE.json",
+        "docs/maintenance/P001_CURRENT_STATE.json"
+      ],
+      "category": "C",
+      "historical": true,
+      "regeneration": "Unknown; old generation environment not verified"
+    }
+  },
+  "initial_duplicates": {},
+  "moves": [
+    {
+      "source": "paper_notes/Pasted image 20261009152348.png",
+      "destination": "paper_notes/assets/P001/Pasted image 20261009152348.png",
+      "sha256": "7a6ecc9dd135d9b20af27d8e28c34abd1e42becb618705ae7af82632d94b506e",
+      "bytes": 258035
+    },
+    {
+      "source": "paper_notes/Pasted image 20261019144201.png",
+      "destination": "paper_notes/assets/P001/Pasted image 20261019144201.png",
+      "sha256": "9d6ac7855ae89522bc25d2f5b893a6344ddff9666f3fc8eec07db98eba677ef5",
+      "bytes": 2250370
+    },
+    {
+      "source": "paper_notes/Pasted image 20261014185700.png",
+      "destination": "paper_notes/assets/P001/Pasted image 20261014185700.png",
+      "sha256": "b8173e53b876932e351ecd2eca990f24c4117dffc04ea438d9b2366e5d83f9fd",
+      "bytes": 66875
+    },
+    {
+      "source": "paper_notes/Pasted image 20261014185737.png",
+      "destination": "paper_notes/assets/P001/Pasted image 20261014185737.png",
+      "sha256": "c8a08ac5ef08fbcbd6eb803485ea7411cb61a17111f4e88b2913dce0dca95d91",
+      "bytes": 68163
+    },
+    {
+      "source": "paper_notes/ChatGPT Image 2026年9月23日 15_22_18.png",
+      "destination": "paper_notes/assets/P001/ChatGPT Image 2026年9月23日 15_22_18.png",
+      "sha256": "54dca866fe59e13b89807caac90709d80151e96ee8dc8ba6943510d1043a2beb",
+      "bytes": 1406376
+    },
+    {
+      "source": "paper_notes/ChatGPT 图像 2026年9月29日 11_04_16.png",
+      "destination": "paper_notes/assets/P001/ChatGPT 图像 2026年9月29日 11_04_16.png",
+      "sha256": "cc19ea96a3e1ef5f63404df8caeebc79b61dd57e05c19795c312b6859279d729",
+      "bytes": 1527427
+    },
+    {
+      "source": "paper_notes/ChatGPT 图像 2026年9月29日 15_17_15.png",
+      "destination": "paper_notes/assets/P001/ChatGPT 图像 2026年9月29日 15_17_15.png",
+      "sha256": "497da056a3a124930f8095dd9c8d84de92548b1d098bdf45b74e7832cb5ce663",
+      "bytes": 1568338
+    },
+    {
+      "source": "paper_notes/Pasted image 20261028091506.png",
+      "destination": "paper_notes/assets/P002_CRN/Pasted image 20261028091506.png",
+      "sha256": "f1b62d85e2772678dac8bc1af1c1df6aa0b8c6340eb94c8ba8ecbfbb66b58d1f",
+      "bytes": 2322241
+    },
+    {
+      "source": "paper_notes/Pasted image 20261028142231.png",
+      "destination": "paper_notes/assets/P002_CRN/Pasted image 20261028142231.png",
+      "sha256": "7ac2431f5ea214dda30683af3b2828f837f6833375e111ec4cc8a66bb4b9ed07",
+      "bytes": 2544925
+    },
+    {
+      "source": "paper_notes/Pasted image 20261028193811.png",
+      "destination": "paper_notes/assets/P002_CRN/Pasted image 20261028193811.png",
+      "sha256": "deaa34a9b8dbb10c8cd2e07cc3520ba2c750061f4dea67fae3fcd3c8f7da2d76",
+      "bytes": 2410032
+    },
+    {
+      "source": "paper_notes/Pasted image 20261028195714.png",
+      "destination": "paper_notes/assets/P002_CRN/Pasted image 20261028195714.png",
+      "sha256": "cf80fe106e531e7a5187209ce7f93cc0ccecd21b8df27499d5a9ff6be375c085",
+      "bytes": 2183802
+    },
+    {
+      "source": "paper_notes/Pasted image 20261030141556.png",
+      "destination": "paper_notes/assets/P002_CRN/Pasted image 20261030141556.png",
+      "sha256": "74cbc895f9c4d1ff254f3de91b9256f1ff720b019d5231a1411af168bd234a0c",
+      "bytes": 271713
+    },
+    {
+      "source": "paper_notes/Pasted image 20261030141648.png",
+      "destination": "paper_notes/assets/P002_CRN/Pasted image 20261030141648.png",
+      "sha256": "47d59ec293429e85fa01ad0eb071ae094497406c53423e1a83c20e972f832e4c",
+      "bytes": 51112
+    },
+    {
+      "source": "paper_notes/Pasted image 20261030141736.png",
+      "destination": "paper_notes/assets/P002_CRN/Pasted image 20261030141736.png",
+      "sha256": "dd9102c0aab2ec3f80f75ee7aec0549f24e8508a433268e434c9c59b510c4d0b",
+      "bytes": 66855
+    }
+  ],
+  "modified_files": [
+    ".gitignore",
+    "README.md",
+    "docs/maintenance/CRN_FIRST_PASS_AUDIT.md",
+    "docs/maintenance/CRN_FIRST_PASS_STATE.json",
+    "docs/maintenance/P001_CURRENT_STATE.json",
+    "docs/roadmap.md",
+    "paper_notes/P001_概念查询宝典.md",
+    "paper_notes/P001_论文精读.md",
+    "paper_notes/P002_CRN.md",
+    "paper_notes/P002_概念查询宝典.md",
+    "paper_notes/README.md",
+    "papers/paper_matrix.csv",
+    "scripts/README.md",
+    "scripts/validate_lab.py"
+  ],
+  "new_files": [
+    ".gitattributes",
+    "docs/maintenance/DELETE_WHITELIST.md",
+    "docs/maintenance/FILE_MANAGEMENT_GUIDE.md",
+    "docs/maintenance/LEGACY_ASSET_REVIEW.md",
+    "docs/maintenance/REPOSITORY_AUDIT.md",
+    "docs/maintenance/REPOSITORY_CHANGE_REPORT.md",
+    "docs/maintenance/REPOSITORY_INVENTORY.csv",
+    "docs/maintenance/REPOSITORY_ORGANIZATION_STATE.json"
+  ],
+  "deleted_files": [],
+  "script_verification": [
+    {
+      "command": "python -B scripts/validate_lab.py",
+      "exit_code": 0,
+      "stdout": {
+        "passed": true,
+        "errors": [],
+        "formal_p001_notes": [
+          {
+            "file": "paper_notes/P001_论文精读.md",
+            "sha256": "b2ea90216237336678735c48fb52708f1fc51434751d44702f751a75e7bf6da3"
+          },
+          {
+            "file": "paper_notes/P001_概念查询宝典.md",
+            "sha256": "f6fa354e2c34f8f7725dac9332c3192cb76e716152be23c31fc9da4de5afad10"
+          }
+        ],
+        "presentation_files_expected": 0,
+        "historical_entries_verified": 41,
+        "retained_files_verified": 179,
+        "csv_columns": {
+          "papers/paper_matrix.csv": 36,
+          "papers/paper_matrix_P001_import.csv": 23,
+          "archive/cleanup_2026-10-17/manifest.csv": 5,
+          "docs/innovation_bank/P001_ideas.csv": 10,
+          "docs/maintenance/REPOSITORY_INVENTORY.csv": 15,
+          "reproductions/P001_PointPillars_VoD/experiment_tracker.csv": 8
+        },
+        "existing_markdown_targets": 110,
+        "python_files_compiled": 4,
+        "claim_boundary": "Checks retained P001 bytes, source PDF copies, packed historical bytes and links. No PPT generation, training or evaluation."
+      },
+      "stderr": ""
+    },
+    {
+      "command": "python -B work/verify_p001_exact_current.py",
+      "exit_code": 0,
+      "stdout": {
+        "passed": true,
+        "errors": [],
+        "formal_p001_notes": [
+          {
+            "file": "paper_notes/P001_论文精读.md",
+            "sha256": "b2ea90216237336678735c48fb52708f1fc51434751d44702f751a75e7bf6da3"
+          },
+          {
+            "file": "paper_notes/P001_概念查询宝典.md",
+            "sha256": "f6fa354e2c34f8f7725dac9332c3192cb76e716152be23c31fc9da4de5afad10"
+          }
+        ],
+        "presentation_files_expected": 0,
+        "historical_entries_verified": 41,
+        "retained_files_verified": 179,
+        "csv_columns": {
+          "papers/paper_matrix.csv": 36,
+          "papers/paper_matrix_P001_import.csv": 23,
+          "archive/cleanup_2026-10-17/manifest.csv": 5,
+          "docs/innovation_bank/P001_ideas.csv": 10,
+          "docs/maintenance/REPOSITORY_INVENTORY.csv": 15,
+          "reproductions/P001_PointPillars_VoD/experiment_tracker.csv": 8
+        },
+        "existing_markdown_targets": 110,
+        "python_files_compiled": 4,
+        "claim_boundary": "Checks retained P001 bytes, source PDF copies, packed historical bytes and links. No PPT generation, training or evaluation."
+      },
+      "stderr": ""
+    },
+    {
+      "command": "python -B presentations/P001_Paper_Review/verify_visual_exact.py",
+      "exit_code": 0,
+      "stdout": {
+        "passed": true,
+        "errors": [],
+        "formal_p001_notes": [
+          {
+            "file": "paper_notes/P001_论文精读.md",
+            "sha256": "b2ea90216237336678735c48fb52708f1fc51434751d44702f751a75e7bf6da3"
+          },
+          {
+            "file": "paper_notes/P001_概念查询宝典.md",
+            "sha256": "f6fa354e2c34f8f7725dac9332c3192cb76e716152be23c31fc9da4de5afad10"
+          }
+        ],
+        "presentation_files_expected": 0,
+        "historical_entries_verified": 41,
+        "retained_files_verified": 179,
+        "csv_columns": {
+          "papers/paper_matrix.csv": 36,
+          "papers/paper_matrix_P001_import.csv": 23,
+          "archive/cleanup_2026-10-17/manifest.csv": 5,
+          "docs/innovation_bank/P001_ideas.csv": 10,
+          "docs/maintenance/REPOSITORY_INVENTORY.csv": 15,
+          "reproductions/P001_PointPillars_VoD/experiment_tracker.csv": 8
+        },
+        "existing_markdown_targets": 110,
+        "python_files_compiled": 4,
+        "claim_boundary": "Checks retained P001 bytes, source PDF copies, packed historical bytes and links. No PPT generation, training or evaluation."
+      },
+      "stderr": ""
+    }
+  ],
+  "source_task_file": "User attached repository organization request",
+  "notes_prose_unchanged_except_image_markup": true,
+  "legacy_files_byte_unchanged": true,
+  "git_publication": "Pending; actual result recorded in final user response and git history",
+  "unrelated_preexisting_files_byte_unchanged": true,
+  "script_verification_scope": "Read-only repository resources, paths, hashes, CSV row widths, Markdown targets and Python syntax; not ML experiments.",
+  "git_whitespace_policy": "Two original P001 Markdown files retain author hard-break spaces and EOF blank lines via scoped .gitattributes; scientific prose is not normalized to satisfy whitespace checks.",
+  "after_directories": {
+    "(root)": {
+      "files": 3,
+      "bytes": 5351
+    },
+    "archive": {
+      "files": 12,
+      "bytes": 465761
+    },
+    "data": {
+      "files": 1,
+      "bytes": 7482
+    },
+    "docs": {
+      "files": 30,
+      "bytes": 731396
+    },
+    "experiments": {
+      "files": 3,
+      "bytes": 12968
+    },
+    "figures": {
+      "files": 6,
+      "bytes": 1367888
+    },
+    "manuscript": {
+      "files": 1,
+      "bytes": 4190
+    },
+    "papers": {
+      "files": 3,
+      "bytes": 6355
+    },
+    "paper_notes": {
+      "files": 20,
+      "bytes": 17150897
+    },
+    "presentations": {
+      "files": 55,
+      "bytes": 34762847
+    },
+    "reproductions": {
+      "files": 5,
+      "bytes": 13787
+    },
+    "results": {
+      "files": 1,
+      "bytes": 3592
+    },
+    "scripts": {
+      "files": 3,
+      "bytes": 10224
+    },
+    "src": {
+      "files": 1,
+      "bytes": 4439
+    },
+    "work": {
+      "files": 34,
+      "bytes": 19634317
+    },
+    "writing": {
+      "files": 2,
+      "bytes": 5641
+    }
+  },
+  "after_file_count": 180,
+  "after_bytes": 74187135
+}

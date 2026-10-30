@@ -108,5 +108,54 @@
     "docs/maintenance/CRN_FIRST_PASS_AUDIT.md",
     "docs/maintenance/CRN_FIRST_PASS_STATE.json"
   ],
-  "publication_result": "See git history and delivery response for actual commit and push results."
+  "publication_result": "See git history and delivery response for actual commit and push results.",
+  "organization_20261030": {
+    "image_relocations": [
+      {
+        "source": "paper_notes/Pasted image 20261028091506.png",
+        "destination": "paper_notes/assets/P002_CRN/Pasted image 20261028091506.png",
+        "sha256": "f1b62d85e2772678dac8bc1af1c1df6aa0b8c6340eb94c8ba8ecbfbb66b58d1f",
+        "bytes": 2322241
+      },
+      {
+        "source": "paper_notes/Pasted image 20261028142231.png",
+        "destination": "paper_notes/assets/P002_CRN/Pasted image 20261028142231.png",
+        "sha256": "7ac2431f5ea214dda30683af3b2828f837f6833375e111ec4cc8a66bb4b9ed07",
+        "bytes": 2544925
+      },
+      {
+        "source": "paper_notes/Pasted image 20261028193811.png",
+        "destination": "paper_notes/assets/P002_CRN/Pasted image 20261028193811.png",
+        "sha256": "deaa34a9b8dbb10c8cd2e07cc3520ba2c750061f4dea67fae3fcd3c8f7da2d76",
+        "bytes": 2410032
+      },
+      {
+        "source": "paper_notes/Pasted image 20261028195714.png",
+        "destination": "paper_notes/assets/P002_CRN/Pasted image 20261028195714.png",
+        "sha256": "cf80fe106e531e7a5187209ce7f93cc0ccecd21b8df27499d5a9ff6be375c085",
+        "bytes": 2183802
+      },
+      {
+        "source": "paper_notes/Pasted image 20261030141556.png",
+        "destination": "paper_notes/assets/P002_CRN/Pasted image 20261030141556.png",
+        "sha256": "74cbc895f9c4d1ff254f3de91b9256f1ff720b019d5231a1411af168bd234a0c",
+        "bytes": 271713
+      },
+      {
+        "source": "paper_notes/Pasted image 20261030141648.png",
+        "destination": "paper_notes/assets/P002_CRN/Pasted image 20261030141648.png",
+        "sha256": "47d59ec293429e85fa01ad0eb071ae094497406c53423e1a83c20e972f832e4c",
+        "bytes": 51112
+      },
+      {
+        "source": "paper_notes/Pasted image 20261030141736.png",
+        "destination": "paper_notes/assets/P002_CRN/Pasted image 20261030141736.png",
+        "sha256": "dd9102c0aab2ec3f80f75ee7aec0549f24e8508a433268e434c9c59b510c4d0b",
+        "bytes": 66855
+      }
+    ],
+    "assessment_status": "First pass completed and teacher acceptance previously passed, explicitly confirmed by user in current task; original dialogue still missing.",
+    "current_note_sha256": "127c427f27c48d578d059cb3344f5a32fbf10e72af30a09d372d555d1e8ff3ca",
+    "original_source_hashes_unchanged": true
+  }
 }

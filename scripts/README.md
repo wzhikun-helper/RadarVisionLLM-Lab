@@ -418,3 +418,14 @@ Whenever possible:
 
 
 
+
+## 当前可运行维护入口
+
+| 脚本 | 实际行为与输入 | 输出/副作用 |
+| --- | --- | --- |
+| validate_lab.py | 读取P001_CURRENT_STATE.json、正式笔记、历史ZIP、CSV及本地链接；核对资源哈希与路径 | 默认只读输出JSON；仅显式--report会以排他创建方式新建报告，不覆盖 |
+| maintenance_paths.py | 解析仓库路径；旧精读路径兼容映射；报告辅助 | 模块自身不更新维护清单 |
+| work/verify_p001_exact_current.py | 转调validate_lab.py | 与主验证入口相同；不是历史PPT质量复核 |
+| presentations/P001_Paper_Review/verify_visual_exact.py | 转调validate_lab.py | 同上，不生成PPT |
+
+旧convert.mjs已停用，执行会抛错。历史manifest中的PPT目标是旧记录，不代表仍有活动生成流程。上述脚本不训练、不修改模型。路径变更必须独立于内容哈希变更登记。

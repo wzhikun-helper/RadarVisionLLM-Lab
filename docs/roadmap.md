@@ -804,3 +804,19 @@ The topic will only be finalized after literature review, baseline reproduction,
 
 
 
+
+## 仓库操作入口
+
+[文件管理规范](maintenance/FILE_MANAGEMENT_GUIDE.md)；[本轮审计](maintenance/REPOSITORY_AUDIT.md)。
+
+## 2026-10-30 学习状态与后续编号
+
+| 编号 | 论文 | 学习状态 | 证据范围 |
+| --- | --- | --- | --- |
+| P001 | VoD 3+1D Radar | 已有正式笔记及概念宝典；代码复现未证实 | 以笔记、勘误及复现记录为准 |
+| P002 | CRN | 第一遍精读已完成；全文开放式理解验收此前通过 | 本次用户明确确认；原始问答、批改与补答仍未完整归档 |
+| P002后续 | CRN代码精读、论文复现 | 代码精读未开始；复现未执行 | 不把作者指标当作本项目结果 |
+| P003 | R4Det | 待开始 | 只登记规划，不创建正式笔记 |
+| P004 | MSSF | 待开始 | 只登记规划，不创建正式笔记 |
+
+第二轮基线报告推荐优先考察MSSF，是技术选型建议；本次用户指定的学习编号为P003=R4Det、P004=MSSF。两者用途不同，保留原审查结论，不冒称已统一为相同顺序。

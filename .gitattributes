@@ -1,0 +1,3 @@
+# Preserve source Markdown hard line breaks; retain other Git whitespace checks.
+"paper_notes/P001_论文精读.md" whitespace=-blank-at-eol,-blank-at-eof
+"paper_notes/P001_概念查询宝典.md" whitespace=-blank-at-eol,-blank-at-eof
