@@ -252,3 +252,7 @@ Rejected ideas should not be deleted.
 
 
 
+
+## P001/P002统一归档
+
+[一致性审计](maintenance/P001_P002_CONSISTENCY_AUDIT.md)、[CRN候选研究问题](research_gaps/P002_CRN_Limitations_Research_Gap.md)、[想法证据链](innovation_bank/P002_CRN_INNOVATION_NOTES.md)、[阅读日志](research_log/P002_CRN_READING_REPORT.md)。P002学习验收通过与原问答证据缺口分别登记；本轮未开始代码精读或模型复现。

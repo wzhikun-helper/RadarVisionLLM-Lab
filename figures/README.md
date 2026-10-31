@@ -312,3 +312,7 @@ Its purpose is to make one important research conclusion easier to understand.
 
 
 
+
+## P002 CRN学习配图
+
+[7张配图索引](library/P002/FIGURE_INDEX.md)复用paper_notes/assets/P002_CRN中的原图，不复制、不重绘；论文原图编号仍需独立核实。

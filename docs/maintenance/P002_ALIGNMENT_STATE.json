@@ -1,0 +1,182 @@
+{
+  "date": "2026-10-31",
+  "head_before": "c39ee7022e792a85d7be2c2c23d0c70e66a60578",
+  "new_files": [
+    "docs/research_gaps/P002_CRN_Limitations_Research_Gap.md",
+    "docs/innovation_bank/P002_CRN_INNOVATION_NOTES.md",
+    "reproductions/P002_CRN/README.md",
+    "docs/research_log/P002_CRN_READING_REPORT.md",
+    "figures/library/P002/FIGURE_INDEX.md",
+    "paper_notes/templates/paper_archive_checklist.md",
+    "docs/maintenance/P001_P002_CONSISTENCY_AUDIT.md",
+    "docs/innovation_bank/P002_ideas.csv",
+    "reproductions/P002_CRN/experiment_tracker.csv",
+    "docs/maintenance/P002_ALIGNMENT_STATE.json"
+  ],
+  "modified_indexes": [
+    "paper_notes/README.md",
+    "docs/README.md",
+    "reproductions/README.md",
+    "figures/README.md"
+  ],
+  "maintenance_update": "docs/maintenance/P001_CURRENT_STATE.json",
+  "commit_scope": [
+    "docs/research_gaps/P002_CRN_Limitations_Research_Gap.md",
+    "docs/innovation_bank/P002_CRN_INNOVATION_NOTES.md",
+    "reproductions/P002_CRN/README.md",
+    "docs/research_log/P002_CRN_READING_REPORT.md",
+    "figures/library/P002/FIGURE_INDEX.md",
+    "paper_notes/templates/paper_archive_checklist.md",
+    "docs/maintenance/P001_P002_CONSISTENCY_AUDIT.md",
+    "docs/innovation_bank/P002_ideas.csv",
+    "reproductions/P002_CRN/experiment_tracker.csv",
+    "docs/maintenance/P002_ALIGNMENT_STATE.json",
+    "paper_notes/README.md",
+    "docs/README.md",
+    "reproductions/README.md",
+    "figures/README.md",
+    "docs/maintenance/P001_CURRENT_STATE.json"
+  ],
+  "protected_files": {
+    "paper_notes/P001_论文精读.md": {
+      "sha256": "b2ea90216237336678735c48fb52708f1fc51434751d44702f751a75e7bf6da3",
+      "bytes": 24953
+    },
+    "paper_notes/P001_概念查询宝典.md": {
+      "sha256": "f6fa354e2c34f8f7725dac9332c3192cb76e716152be23c31fc9da4de5afad10",
+      "bytes": 85649
+    },
+    "paper_notes/P002_CRN.md": {
+      "sha256": "127c427f27c48d578d059cb3344f5a32fbf10e72af30a09d372d555d1e8ff3ca",
+      "bytes": 25225
+    },
+    "paper_notes/P002_概念查询宝典.md": {
+      "sha256": "06e0697c65e395b54d477f6edd497a9bcb8abae7d8cd5bbfea7b7c0ba8d74e25",
+      "bytes": 9281
+    },
+    "paper_notes/assets/P001/ChatGPT Image 2026年9月23日 15_22_18.png": {
+      "sha256": "54dca866fe59e13b89807caac90709d80151e96ee8dc8ba6943510d1043a2beb",
+      "bytes": 1406376
+    },
+    "paper_notes/assets/P001/ChatGPT 图像 2026年9月29日 11_04_16.png": {
+      "sha256": "cc19ea96a3e1ef5f63404df8caeebc79b61dd57e05c19795c312b6859279d729",
+      "bytes": 1527427
+    },
+    "paper_notes/assets/P001/ChatGPT 图像 2026年9月29日 15_17_15.png": {
+      "sha256": "497da056a3a124930f8095dd9c8d84de92548b1d098bdf45b74e7832cb5ce663",
+      "bytes": 1568338
+    },
+    "paper_notes/assets/P001/Pasted image 20261009152348.png": {
+      "sha256": "7a6ecc9dd135d9b20af27d8e28c34abd1e42becb618705ae7af82632d94b506e",
+      "bytes": 258035
+    },
+    "paper_notes/assets/P001/Pasted image 20261014185700.png": {
+      "sha256": "b8173e53b876932e351ecd2eca990f24c4117dffc04ea438d9b2366e5d83f9fd",
+      "bytes": 66875
+    },
+    "paper_notes/assets/P001/Pasted image 20261014185737.png": {
+      "sha256": "c8a08ac5ef08fbcbd6eb803485ea7411cb61a17111f4e88b2913dce0dca95d91",
+      "bytes": 68163
+    },
+    "paper_notes/assets/P001/Pasted image 20261019144201.png": {
+      "sha256": "9d6ac7855ae89522bc25d2f5b893a6344ddff9666f3fc8eec07db98eba677ef5",
+      "bytes": 2250370
+    },
+    "paper_notes/assets/P002_CRN/Pasted image 20261028091506.png": {
+      "sha256": "f1b62d85e2772678dac8bc1af1c1df6aa0b8c6340eb94c8ba8ecbfbb66b58d1f",
+      "bytes": 2322241
+    },
+    "paper_notes/assets/P002_CRN/Pasted image 20261028142231.png": {
+      "sha256": "7ac2431f5ea214dda30683af3b2828f837f6833375e111ec4cc8a66bb4b9ed07",
+      "bytes": 2544925
+    },
+    "paper_notes/assets/P002_CRN/Pasted image 20261028193811.png": {
+      "sha256": "deaa34a9b8dbb10c8cd2e07cc3520ba2c750061f4dea67fae3fcd3c8f7da2d76",
+      "bytes": 2410032
+    },
+    "paper_notes/assets/P002_CRN/Pasted image 20261028195714.png": {
+      "sha256": "cf80fe106e531e7a5187209ce7f93cc0ccecd21b8df27499d5a9ff6be375c085",
+      "bytes": 2183802
+    },
+    "paper_notes/assets/P002_CRN/Pasted image 20261030141556.png": {
+      "sha256": "74cbc895f9c4d1ff254f3de91b9256f1ff720b019d5231a1411af168bd234a0c",
+      "bytes": 271713
+    },
+    "paper_notes/assets/P002_CRN/Pasted image 20261030141648.png": {
+      "sha256": "47d59ec293429e85fa01ad0eb071ae094497406c53423e1a83c20e972f832e4c",
+      "bytes": 51112
+    },
+    "paper_notes/assets/P002_CRN/Pasted image 20261030141736.png": {
+      "sha256": "dd9102c0aab2ec3f80f75ee7aec0549f24e8508a433268e434c9c59b510c4d0b",
+      "bytes": 66855
+    }
+  },
+  "formal_notes_byte_unchanged": true,
+  "all_14_images_byte_unchanged": true,
+  "original_matrix_and_import_byte_unchanged": true,
+  "old_user_files_unchanged_except_authorized_index_edits": true,
+  "ideas": {
+    "count": 5,
+    "status": "Candidate / Unverified",
+    "subjective_scores": "not rated"
+  },
+  "experiments": {
+    "rows": 0,
+    "model_runs": 0
+  },
+  "learning": {
+    "P002_first_pass": "completed per user confirmation",
+    "teacher_acceptance": "previously passed per user confirmation",
+    "original_QA": "incomplete; no invented dialogue",
+    "code_reading": "not started",
+    "reproduction": "not executed",
+    "P003": "not started",
+    "P004": "not started"
+  },
+  "source_verification": {
+    "author_preprint": "https://arxiv.org/html/2304.00670v2",
+    "official_readme": "https://raw.githubusercontent.com/youngskkim/CRN/main/README.md",
+    "cvf_fetch": "403; final-publication figure mapping not claimed",
+    "code_source_commit": "not pinned; no code execution or installation"
+  },
+  "publication_scope_note": "Only CRN companions, necessary index increments, one archive checklist and state metadata. Separate public-homepage/contribution/workflow work remains local, outside this commit.",
+  "git_result": "See actual Git commit and final delivery for publication SHA; no success asserted before push.",
+  "validation": {
+    "command": "python -B scripts/validate_lab.py",
+    "exit_code": 0,
+    "stdout": {
+      "passed": true,
+      "errors": [],
+      "formal_p001_notes": [
+        {
+          "file": "paper_notes/P001_论文精读.md",
+          "sha256": "b2ea90216237336678735c48fb52708f1fc51434751d44702f751a75e7bf6da3"
+        },
+        {
+          "file": "paper_notes/P001_概念查询宝典.md",
+          "sha256": "f6fa354e2c34f8f7725dac9332c3192cb76e716152be23c31fc9da4de5afad10"
+        }
+      ],
+      "presentation_files_expected": 0,
+      "historical_entries_verified": 41,
+      "retained_files_verified": 193,
+      "csv_columns": {
+        "papers/paper_matrix.csv": 36,
+        "papers/paper_matrix_P001_import.csv": 23,
+        "archive/cleanup_2026-10-17/manifest.csv": 5,
+        "docs/innovation_bank/P001_ideas.csv": 10,
+        "docs/innovation_bank/P002_ideas.csv": 10,
+        "docs/maintenance/REPOSITORY_INVENTORY.csv": 15,
+        "reproductions/P001_PointPillars_VoD/experiment_tracker.csv": 8,
+        "reproductions/P002_CRN/experiment_tracker.csv": 8
+      },
+      "existing_markdown_targets": 179,
+      "python_files_compiled": 5,
+      "claim_boundary": "Checks retained P001 bytes, source PDF copies, packed historical bytes and links. No PPT generation, training or evaluation."
+    },
+    "stderr": "",
+    "protected_assets": 18,
+    "tracker_rows": 0,
+    "new_companion_hash_duplicates": 0
+  }
+}

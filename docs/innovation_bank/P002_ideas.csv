@@ -1,0 +1,6 @@
+﻿Idea ID,Title,Hypothesis,Minimum Validation,Prior Work Risk,Novelty 1-5 subjective,Feasibility 1-5 subjective,Paper Potential 1-5 subjective,Validation Cost 1-5 high=costly,Status
+P002-I01,雷达引导的几何可靠性,校准可靠性是否减少错误深度引导,固定骨干与数据，按距离/点数比较定位误差,RVT及不确定性融合；需查新,,,,,Candidate / Unverified
+P002-I02,模态冲突量化,显式冲突建模是否补充自适应融合,独立退化与置信校准对照，匹配参数和时延,MFA、注意力与门控已有相关设计,,,,,Candidate / Unverified
+P002-I03,稀疏区域与采样预算,预算约束采样能否兼顾几何质量,同预算测AP、ATE、AOE、AVE与耗时,作者Top-K及稀疏查询策略可能重合,,,,,Candidate / Unverified
+P002-I04,语义几何对齐诊断,关联质量能否揭示错位失效,可控标定/时间偏差对照，区分诊断与纠错,MDCA及对齐诊断相关工作待查,,,,,Candidate / Unverified
+P002-I05,对象级几何证据与VLM,几何证据能否约束对象语义/运动描述,未来固定检测器，先定义对象对应与事实判据,对象token与grounding相关工作待查；非CRN原方法,,,,,Candidate / Unverified

@@ -22,3 +22,13 @@
 | P004 | MSSF | 待开始 | 只登记规划，不创建正式笔记 |
 
 第二轮基线报告推荐优先考察MSSF，是技术选型建议；本次用户指定的学习编号为P003=R4Det、P004=MSSF。两者用途不同，保留原审查结论，不冒称已统一为相同顺序。
+
+## P002研究配套与后续归档标准
+
+- [局限与候选Gap](../docs/research_gaps/P002_CRN_Limitations_Research_Gap.md)
+- [候选想法证据链](../docs/innovation_bank/P002_CRN_INNOVATION_NOTES.md)
+- [静态复现可行性](../reproductions/P002_CRN/README.md)：非优先工程目标，未运行
+- [第一遍阅读日志](../docs/research_log/P002_CRN_READING_REPORT.md)
+- [7张配图索引](../figures/library/P002/FIGURE_INDEX.md)
+- [P001/P002对照审计](../docs/maintenance/P001_P002_CONSISTENCY_AUDIT.md)
+- [单篇归档检查表](templates/paper_archive_checklist.md)：P003/P004未来沿用，当前不创建其正式笔记
