@@ -1,0 +1,347 @@
+{
+  "date": "2026-10-31",
+  "baseline_head": "6451e84344a008eacd1684c15a8278b5c1b13da6",
+  "baseline_git_status": " M README.md\n M data/README.md\n M docs/README.md\n M docs/innovation_bank/P001_INNOVATION_NOTES.md\n M docs/innovation_bank/P001_ideas.csv\n M docs/innovation_bank/idea_template.md\n M docs/learning_notes/00_git_and_research_engineering.md\n M docs/research_gaps/P001_Limitations_Research_Gap.md\n M docs/research_log/P001_ARCHIVE_REPORT.md\n M docs/research_protocol.md\n M docs/roadmap.md\n M docs/weekly_reports/weekly_report_template.md\n M experiments/README.md\n M experiments/templates/experiment_template.md\n M figures/README.md\n M manuscript/README.md\n D paper_notes/P001_MultiClass_Road_User_Detection.md\n M paper_notes/README.md\n M paper_notes/templates/paper_note_template.md\n M reproductions/README.md\n M reproductions/templates/reproduction_template.md\n M results/README.md\n M scripts/README.md\n M src/README.md\n M writing/README.md\n M writing/academic_phrasebook.md\n?? .github/workflows/docs.yml\n?? CONTRIBUTING.md\n?? NOTICE.md\n?? archive/ARCHIVE_MANIFEST.md\n?? archive/cleanup_2026-10-17/README.md\n?? archive/cleanup_2026-10-17/manifest.csv\n?? archive/cleanup_2026-10-17/presentations/P001_Paper_Review/P001_Paper_Review_Visual_Exact.verification.json\n?? archive/cleanup_2026-10-17/presentations/P001_Radar_Detection_Prerequisite/backups/20261017_before_image_rebuild/P001_Speaker_Notes.md\n?? archive/cleanup_2026-10-17/presentations/P001_Radar_Detection_Prerequisite/backups/20261017_before_image_rebuild/README.md\n?? archive/cleanup_2026-10-17/work/p001_ppt_build/cases.png\n?? archive/cleanup_2026-10-17/work/p001_ppt_build/curves.png\n?? archive/cleanup_2026-10-17/work/p001_ppt_build/scene.png\n?? archive/cleanup_2026-10-17/work/p001_ppt_build/sensor.png\n?? archive/cleanup_2026-10-17/work/p001_prereq_build/paper.txt\n?? archive/retired_ppt_work/README.md\n?? \"docs/learning_notes/01 RadarVisionLLM-Lab\\357\\274\\232FMCW\\343\\200\\201\\345\\233\\236\\346\\263\\242\\344\\270\\216\\345\\244\\232\\346\\231\\256\\345\\213\\222\\345\\237\\272\\347\\241\\200.md\"\n?? docs/maintenance/P001_EVIDENCE_ERRATA.md\n?? docs/maintenance/README.md\n?? experiments/templates/config_template.yaml\n?? presentations/HISTORY.md\n?? presentations/P001_Paper_Review/P001_Paper_Review_Speaker_Notes.md\n?? presentations/P001_Paper_Review/README.md\n?? presentations/P001_Paper_Review/assets/fig4_original.png\n?? presentations/P001_Paper_Review/assets/fig5_original.png\n?? presentations/P001_Paper_Review/assets/paper_page_06_220dpi.png\n?? presentations/P001_Paper_Review/slide_content.json\n?? presentations/P001_Paper_Review/sources.md\n?? presentations/P001_Radar_Detection_Prerequisite/P001_Speaker_Notes.md\n?? presentations/P001_Radar_Detection_Prerequisite/README.md\n?? presentations/P001_Radar_Detection_Prerequisite/assets/notes_image_rebuild.json\n?? presentations/P001_Radar_Detection_Prerequisite/assets/slide-01.png\n?? presentations/P001_Radar_Detection_Prerequisite/assets/slide-02.png\n?? presentations/P001_Radar_Detection_Prerequisite/assets/slide-03.png\n?? presentations/P001_Radar_Detection_Prerequisite/assets/slide-04.png\n?? presentations/P001_Radar_Detection_Prerequisite/assets/slide-05.png\n?? presentations/P001_Radar_Detection_Prerequisite/assets/slide-06.png\n?? presentations/P001_Radar_Detection_Prerequisite/assets/slide-07.png\n?? presentations/P001_Radar_Detection_Prerequisite/assets/slide-08.png\n?? presentations/P001_Radar_Detection_Prerequisite/assets/slide-09.png\n?? presentations/P001_Radar_Detection_Prerequisite/assets/text-fit.json\n?? presentations/P001_Radar_Detection_Prerequisite/assets/validation.json\n?? presentations/P001_Radar_Detection_Prerequisite/sources.md\n?? presentations/P001_paper_review_images/01_Cover.png\n?? presentations/P001_paper_review_images/01_Cover_prompt.md\n?? presentations/P001_paper_review_images/02_Visual.png\n?? presentations/P001_paper_review_images/03_Visual.png\n?? presentations/P001_paper_review_images/04_Visual.png\n?? presentations/P001_paper_review_images/05_Visual.png\n?? presentations/P001_paper_review_images/06_Visual.png\n?? presentations/P001_paper_review_images/07_Visual.png\n?? presentations/P001_paper_review_images/08_Visual.png\n?? presentations/P001_paper_review_images/09_Visual.png\n?? presentations/P001_paper_review_images/10_Visual.png\n?? presentations/P001_paper_review_images/11_Visual.png\n?? presentations/P001_paper_review_images/12_Visual.png\n?? presentations/P001_paper_review_images/13_Visual.png\n?? presentations/P001_paper_review_images/14_Visual.png\n?? presentations/P001_paper_review_images/README.md\n?? presentations/P001_paper_review_images/generation_prompts.json\n?? presentations/P001_paper_review_images/image_manifest.json\n?? presentations/P001_slide_images/01_Cover.png\n?? presentations/P001_slide_images/02_FMCW.png\n?? presentations/P001_slide_images/03_Radar_Dimensions.png\n?? presentations/P001_slide_images/04_Radar_Point_Cloud.png\n?? presentations/P001_slide_images/05_Radar_Pipeline.png\n?? presentations/P001_slide_images/06_PointPillars.png\n?? presentations/P001_slide_images/07_Temporal_Accumulation.png\n?? presentations/P001_slide_images/08_Detection_Metrics.png\n?? presentations/P001_slide_images/09_Knowledge_Summary.png\n?? presentations/P001_slide_images/README.md\n?? presentations/P001_slide_images/generation_prompts.json\n?? presentations/P001_slide_images/image_manifest.json\n?? presentations/README.md\n?? scripts/check_public_docs.py\n?? work/README.md\n?? work/p001_exact_current_build.txt\n?? work/p001_prereq_supplied_images/convert.mjs\n?? work/p001_prereq_supplied_images/manifest.json\n?? work/p001_prereq_supplied_images/renders/01.png\n?? work/p001_prereq_supplied_images/renders/02.png\n?? work/p001_prereq_supplied_images/renders/03.png\n?? work/p001_prereq_supplied_images/renders/04.png\n?? work/p001_prereq_supplied_images/renders/05.png\n?? work/p001_prereq_supplied_images/renders/06.png\n?? work/p001_prereq_supplied_images/renders/07.png\n?? work/p001_prereq_supplied_images/renders/08.png\n?? work/p001_prereq_supplied_images/renders/09.png\n?? work/p001_prereq_supplied_images/validation.json\n?? work/p001_prereq_supplied_images/verification.json\n?? work/p001_visual_exact_20261017T100548/finalize-options.json\n?? work/p001_visual_exact_20261017T100548/manifest.json\n?? work/p001_visual_exact_20261017T100548/renders/01.png\n?? work/p001_visual_exact_20261017T100548/renders/02.png\n?? work/p001_visual_exact_20261017T100548/renders/03.png\n?? work/p001_visual_exact_20261017T100548/renders/04.png\n?? work/p001_visual_exact_20261017T100548/renders/05.png\n?? work/p001_visual_exact_20261017T100548/renders/06.png\n?? work/p001_visual_exact_20261017T100548/renders/07.png\n?? work/p001_visual_exact_20261017T100548/renders/08.png\n?? work/p001_visual_exact_20261017T100548/renders/09.png\n?? work/p001_visual_exact_20261017T100548/renders/10.png\n?? work/p001_visual_exact_20261017T100548/renders/11.png\n?? work/p001_visual_exact_20261017T100548/renders/12.png\n?? work/p001_visual_exact_20261017T100548/renders/13.png\n?? work/p001_visual_exact_20261017T100548/renders/14.png\n?? work/p001_visual_exact_20261017T100548/validation.json\n?? work/p001_visual_exact_20261017T100548/verification.json\n",
+  "read_manifest": {
+    "papers/P001_PointPillars_VoD/README.md": 1543,
+    "paper_notes/P001_论文精读.md": 13704,
+    "paper_notes/P001_概念查询宝典.md": 47548,
+    "docs/research_gaps/P001_Limitations_Research_Gap.md": 2377,
+    "docs/innovation_bank/P001_INNOVATION_NOTES.md": 1164,
+    "docs/research_log/P001_READING_REPORT.md": 904,
+    "docs/research_log/P001_REVIEW.md": 576,
+    "reproductions/P001_PointPillars_VoD/README.md": 2048,
+    "figures/library/P001/FIGURE_INDEX.md": 1762,
+    "docs/innovation_bank/P001_ideas.csv": 545,
+    "docs/research_log/P001_ARCHIVE_REPORT.md": 1541,
+    "reproductions/P001_PointPillars_VoD/experiment_tracker.csv": 126,
+    "reproductions/RECORDING_STANDARD.md": 1005,
+    "docs/maintenance/P001_P002_DOSSIER_ROUND1.md": 3609,
+    "papers/P002_CRN/README.md": 1599,
+    "paper_notes/P002_CRN.md": 14296,
+    "paper_notes/P002_概念查询宝典.md": 4596,
+    "docs/research_gaps/P002_CRN_Limitations_Research_Gap.md": 2786,
+    "docs/innovation_bank/P002_CRN_INNOVATION_NOTES.md": 1020,
+    "docs/research_log/P002_CRN_READING_REPORT.md": 1093,
+    "docs/research_log/P002_CRN_REVIEW.md": 620,
+    "reproductions/P002_CRN/README.md": 1438,
+    "figures/library/P002/FIGURE_INDEX.md": 2063,
+    "docs/innovation_bank/P002_ideas.csv": 690,
+    "papers/P002_CRN_RECORD.md": 6563,
+    "reproductions/P002_CRN/experiment_tracker.csv": 69,
+    "docs/maintenance/P001_P002_DOSSIER_ROUND1_STATE.json": 80630
+  },
+  "pdf_sources": [
+    {
+      "id": "P001",
+      "path": "C:\\Users\\26407\\Desktop\\雷视融合论文\\P001\\Multi-Class_Road_User_Detection_With_31D_Radar_in_the_View-of-Delft_Dataset.pdf",
+      "sha256": "d19bf8e168da7af27924ddaa55c42a4a395e681a15bbc40346f8502b292dfdfa",
+      "pages": 8
+    },
+    {
+      "id": "P002",
+      "path": "C:\\Users\\26407\\Desktop\\雷视融合论文\\P002\\Kim_CRN_Camera_Radar_Net_for_Accurate_Robust_Efficient_3D_Perception_ICCV_2023_paper.pdf",
+      "sha256": "e833ebf328d1eaecb0536699c9f29a13e36616e4ae0cfd6aa874d762a1f10296",
+      "pages": 12
+    }
+  ],
+  "before_hashes": {
+    "paper_notes/P001_概念查询宝典.md": "f6fa354e2c34f8f7725dac9332c3192cb76e716152be23c31fc9da4de5afad10",
+    "paper_notes/P001_论文精读.md": "b2ea90216237336678735c48fb52708f1fc51434751d44702f751a75e7bf6da3",
+    "paper_notes/P002_CRN.md": "127c427f27c48d578d059cb3344f5a32fbf10e72af30a09d372d555d1e8ff3ca",
+    "paper_notes/P002_概念查询宝典.md": "06e0697c65e395b54d477f6edd497a9bcb8abae7d8cd5bbfea7b7c0ba8d74e25",
+    "paper_notes/README.md": "bfd33c9bd687bd7265e2e2647229d77f0197684a9f76237e0b95d4d4514be692",
+    "figures/library/P001/FIGURE_INDEX.md": "77cc3bd0b5b548214cce233961631ab8396945dd9ab21ed9bc6f724ddcdc4d34",
+    "figures/library/P002/FIGURE_INDEX.md": "859dfe086c34271e54cf6c2328726be16ef830075c2fc223ac2bee93c1a620a7",
+    "papers/P001_PointPillars_VoD/README.md": "e84da46d4de53086bda2fa80cbc919e5f8d7e0cdd6eefe95f3e3b55b2d7c6ca0",
+    "papers/P002_CRN/README.md": "ffaece2584ff7361cfc8e1e51da5534dd4913dd3af81747d0fe37a0fce0083ea",
+    "paper_notes/templates/paper_archive_checklist.md": "7f217fa5b303b7b5591481237a6939cdfb978f54ed027e93d9bc75143e91ff16",
+    "paper_notes/templates/paper_note_template.md": "5370eff485697edafb4ecfe14ec9d4015e2d32fdf0852028375be7410eff8969",
+    "paper_notes/assets/P001/ChatGPT Image 2026年9月23日 15_22_18.png": "54dca866fe59e13b89807caac90709d80151e96ee8dc8ba6943510d1043a2beb",
+    "paper_notes/assets/P001/ChatGPT 图像 2026年9月29日 11_04_16.png": "cc19ea96a3e1ef5f63404df8caeebc79b61dd57e05c19795c312b6859279d729",
+    "paper_notes/assets/P001/ChatGPT 图像 2026年9月29日 15_17_15.png": "497da056a3a124930f8095dd9c8d84de92548b1d098bdf45b74e7832cb5ce663",
+    "paper_notes/assets/P001/Pasted image 20261009152348.png": "7a6ecc9dd135d9b20af27d8e28c34abd1e42becb618705ae7af82632d94b506e",
+    "paper_notes/assets/P001/Pasted image 20261014185700.png": "b8173e53b876932e351ecd2eca990f24c4117dffc04ea438d9b2366e5d83f9fd",
+    "paper_notes/assets/P001/Pasted image 20261014185737.png": "c8a08ac5ef08fbcbd6eb803485ea7411cb61a17111f4e88b2913dce0dca95d91",
+    "paper_notes/assets/P001/Pasted image 20261019144201.png": "9d6ac7855ae89522bc25d2f5b893a6344ddff9666f3fc8eec07db98eba677ef5",
+    "paper_notes/assets/P002_CRN/Pasted image 20261028091506.png": "f1b62d85e2772678dac8bc1af1c1df6aa0b8c6340eb94c8ba8ecbfbb66b58d1f",
+    "paper_notes/assets/P002_CRN/Pasted image 20261028142231.png": "7ac2431f5ea214dda30683af3b2828f837f6833375e111ec4cc8a66bb4b9ed07",
+    "paper_notes/assets/P002_CRN/Pasted image 20261028193811.png": "deaa34a9b8dbb10c8cd2e07cc3520ba2c750061f4dea67fae3fcd3c8f7da2d76",
+    "paper_notes/assets/P002_CRN/Pasted image 20261028195714.png": "cf80fe106e531e7a5187209ce7f93cc0ccecd21b8df27499d5a9ff6be375c085",
+    "paper_notes/assets/P002_CRN/Pasted image 20261030141556.png": "74cbc895f9c4d1ff254f3de91b9256f1ff720b019d5231a1411af168bd234a0c",
+    "paper_notes/assets/P002_CRN/Pasted image 20261030141648.png": "47d59ec293429e85fa01ad0eb071ae094497406c53423e1a83c20e972f832e4c",
+    "paper_notes/assets/P002_CRN/Pasted image 20261030141736.png": "dd9102c0aab2ec3f80f75ee7aec0549f24e8508a433268e434c9c59b510c4d0b",
+    "reproductions/P001_PointPillars_VoD/README.md": "bfba38778ae2f813908912bdf276eeaeafec6ccd61b1348e741945e35bce1e0d",
+    "reproductions/P002_CRN/README.md": "36c07e35f930455ce8ffafede8f98462cf706a720a23e6c6ad387d63513776da"
+  },
+  "changed_documents": [
+    {
+      "path": "docs/research_gaps/P001_CONTENT_SUPPLEMENT.md",
+      "before": "absent",
+      "after": "P001原文数值勘误、3条七字段证据链及A/B/C管理分级；保护已有用户修改"
+    },
+    {
+      "path": "docs/research_gaps/P002_CRN_CONTENT_SUPPLEMENT.md",
+      "before": "absent",
+      "after": "P002原式/配置/指标边界与5条七字段候选设计和A/B/C分级"
+    },
+    {
+      "path": "reproductions/P001_PointPillars_VoD/README.md",
+      "before_sha256": "bfba38778ae2f813908912bdf276eeaeafec6ccd61b1348e741945e35bce1e0d",
+      "after": "新增已核实官方适配版本/指南，保留未运行状态及复现判据缺口"
+    },
+    {
+      "path": "reproductions/P002_CRN/README.md",
+      "before_sha256": "36c07e35f930455ce8ffafede8f98462cf706a720a23e6c6ad387d63513776da",
+      "after": "补发布任务范围、Model Zoo/论文配置区别及评估准入"
+    },
+    {
+      "path": "figures/library/P001/FIGURE_INDEX.md",
+      "before_sha256": "77cc3bd0b5b548214cce233961631ab8396945dd9ab21ed9bc6f724ddcdc4d34",
+      "after": "逐一映射7图引用位置，区分教学示意与论文图表、登记未核实来源"
+    },
+    {
+      "path": "figures/library/P002/FIGURE_INDEX.md",
+      "before_sha256": "859dfe086c34271e54cf6c2328726be16ef830075c2fc223ac2bee93c1a620a7",
+      "after": "逐一映射7图引用位置，区分教学示意与论文图表、登记未核实来源"
+    },
+    {
+      "path": "papers/P001_PointPillars_VoD/README.md",
+      "before_sha256": "e84da46d4de53086bda2fa80cbc919e5f8d7e0cdd6eefe95f3e3b55b2d7c6ca0",
+      "after": "追加内容审计与本论文增量分析导航"
+    },
+    {
+      "path": "papers/P002_CRN/README.md",
+      "before_sha256": "ffaece2584ff7361cfc8e1e51da5534dd4913dd3af81747d0fe37a0fce0083ea",
+      "after": "追加内容审计与本论文增量分析导航"
+    },
+    {
+      "path": "docs/maintenance/P001_P002_CONTENT_AUDIT.md",
+      "before": "absent",
+      "after": "ten-category content audit, source registry, symmetric quality ratings, changes and teacher tasks"
+    }
+  ],
+  "scope": [
+    "docs/research_gaps/P001_CONTENT_SUPPLEMENT.md",
+    "docs/research_gaps/P002_CRN_CONTENT_SUPPLEMENT.md",
+    "reproductions/P001_PointPillars_VoD/README.md",
+    "reproductions/P002_CRN/README.md",
+    "figures/library/P001/FIGURE_INDEX.md",
+    "figures/library/P002/FIGURE_INDEX.md",
+    "papers/P001_PointPillars_VoD/README.md",
+    "papers/P002_CRN/README.md",
+    "docs/maintenance/P001_P002_CONTENT_AUDIT.md",
+    "docs/maintenance/P001_P002_CONTENT_AUDIT_STATE.json",
+    "docs/maintenance/P001_CURRENT_STATE.json"
+  ],
+  "web_sources": {
+    "S3": "https://arxiv.org/html/2304.00670v2",
+    "S4": "https://github.com/nutonomy/nuscenes-devkit/blob/master/python-sdk/nuscenes/eval/detection/README.md",
+    "S5": "https://github.com/tudelft-iv/view-of-delft-dataset/blob/main/PP-Radar.md",
+    "S6": "https://raw.githubusercontent.com/youngskkim/CRN/main/README.md"
+  },
+  "external_source_limits": "Web pages read on audit date; no claim of pinned source SHA except OpenPCDet commit reported by authors. Original PDFs remain external. No full literature novelty review.",
+  "teacher_review": "pending",
+  "validation": {
+    "validator_exit_code": 0,
+    "validator_stdout": {
+      "passed": true,
+      "errors": [],
+      "formal_p001_notes": [
+        {
+          "file": "paper_notes/P001_论文精读.md",
+          "sha256": "b2ea90216237336678735c48fb52708f1fc51434751d44702f751a75e7bf6da3"
+        },
+        {
+          "file": "paper_notes/P001_概念查询宝典.md",
+          "sha256": "f6fa354e2c34f8f7725dac9332c3192cb76e716152be23c31fc9da4de5afad10"
+        }
+      ],
+      "presentation_files_expected": 0,
+      "historical_entries_verified": 41,
+      "retained_files_verified": 203,
+      "csv_columns": {
+        "papers/paper_matrix.csv": 36,
+        "papers/paper_matrix_P001_import.csv": 23,
+        "archive/cleanup_2026-10-17/manifest.csv": 5,
+        "docs/innovation_bank/P001_ideas.csv": 10,
+        "docs/innovation_bank/P002_ideas.csv": 10,
+        "docs/maintenance/REPOSITORY_INVENTORY.csv": 15,
+        "reproductions/P001_PointPillars_VoD/experiment_tracker.csv": 8,
+        "reproductions/P002_CRN/experiment_tracker.csv": 8
+      },
+      "existing_markdown_targets": 364,
+      "python_files_compiled": 5,
+      "claim_boundary": "Checks retained P001 bytes, source PDF copies, packed historical bytes and links. No PPT generation, training or evaluation."
+    },
+    "git_diff_check_exit_code": 0,
+    "git_diff_check_stdout": "",
+    "git_diff_check_stderr": "warning: in the working copy of 'README.md', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'data/README.md', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'docs/innovation_bank/idea_template.md', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'docs/learning_notes/00_git_and_research_engineering.md', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'docs/research_log/P001_ARCHIVE_REPORT.md', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'docs/research_protocol.md', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'docs/weekly_reports/weekly_report_template.md', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'experiments/README.md', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'experiments/templates/experiment_template.md', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'manuscript/README.md', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'paper_notes/README.md', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'paper_notes/templates/paper_note_template.md', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'papers/P001_PointPillars_VoD/README.md', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'papers/P002_CRN/README.md', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'reproductions/P001_PointPillars_VoD/README.md', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'reproductions/P002_CRN/README.md', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'reproductions/templates/reproduction_template.md', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'results/README.md', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'src/README.md', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'writing/README.md', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'writing/academic_phrasebook.md', LF will be replaced by CRLF the next time Git touches it\n",
+    "notes_and_images": [
+      {
+        "path": "paper_notes/P001_论文精读.md",
+        "before_sha256": "b2ea90216237336678735c48fb52708f1fc51434751d44702f751a75e7bf6da3",
+        "after_sha256": "b2ea90216237336678735c48fb52708f1fc51434751d44702f751a75e7bf6da3"
+      },
+      {
+        "path": "paper_notes/P001_概念查询宝典.md",
+        "before_sha256": "f6fa354e2c34f8f7725dac9332c3192cb76e716152be23c31fc9da4de5afad10",
+        "after_sha256": "f6fa354e2c34f8f7725dac9332c3192cb76e716152be23c31fc9da4de5afad10"
+      },
+      {
+        "path": "paper_notes/P002_CRN.md",
+        "before_sha256": "127c427f27c48d578d059cb3344f5a32fbf10e72af30a09d372d555d1e8ff3ca",
+        "after_sha256": "127c427f27c48d578d059cb3344f5a32fbf10e72af30a09d372d555d1e8ff3ca"
+      },
+      {
+        "path": "paper_notes/P002_概念查询宝典.md",
+        "before_sha256": "06e0697c65e395b54d477f6edd497a9bcb8abae7d8cd5bbfea7b7c0ba8d74e25",
+        "after_sha256": "06e0697c65e395b54d477f6edd497a9bcb8abae7d8cd5bbfea7b7c0ba8d74e25"
+      },
+      {
+        "path": "paper_notes/assets/P001/ChatGPT Image 2026年9月23日 15_22_18.png",
+        "before_sha256": "54dca866fe59e13b89807caac90709d80151e96ee8dc8ba6943510d1043a2beb",
+        "after_sha256": "54dca866fe59e13b89807caac90709d80151e96ee8dc8ba6943510d1043a2beb"
+      },
+      {
+        "path": "paper_notes/assets/P001/ChatGPT 图像 2026年9月29日 11_04_16.png",
+        "before_sha256": "cc19ea96a3e1ef5f63404df8caeebc79b61dd57e05c19795c312b6859279d729",
+        "after_sha256": "cc19ea96a3e1ef5f63404df8caeebc79b61dd57e05c19795c312b6859279d729"
+      },
+      {
+        "path": "paper_notes/assets/P001/ChatGPT 图像 2026年9月29日 15_17_15.png",
+        "before_sha256": "497da056a3a124930f8095dd9c8d84de92548b1d098bdf45b74e7832cb5ce663",
+        "after_sha256": "497da056a3a124930f8095dd9c8d84de92548b1d098bdf45b74e7832cb5ce663"
+      },
+      {
+        "path": "paper_notes/assets/P001/Pasted image 20261009152348.png",
+        "before_sha256": "7a6ecc9dd135d9b20af27d8e28c34abd1e42becb618705ae7af82632d94b506e",
+        "after_sha256": "7a6ecc9dd135d9b20af27d8e28c34abd1e42becb618705ae7af82632d94b506e"
+      },
+      {
+        "path": "paper_notes/assets/P001/Pasted image 20261014185700.png",
+        "before_sha256": "b8173e53b876932e351ecd2eca990f24c4117dffc04ea438d9b2366e5d83f9fd",
+        "after_sha256": "b8173e53b876932e351ecd2eca990f24c4117dffc04ea438d9b2366e5d83f9fd"
+      },
+      {
+        "path": "paper_notes/assets/P001/Pasted image 20261014185737.png",
+        "before_sha256": "c8a08ac5ef08fbcbd6eb803485ea7411cb61a17111f4e88b2913dce0dca95d91",
+        "after_sha256": "c8a08ac5ef08fbcbd6eb803485ea7411cb61a17111f4e88b2913dce0dca95d91"
+      },
+      {
+        "path": "paper_notes/assets/P001/Pasted image 20261019144201.png",
+        "before_sha256": "9d6ac7855ae89522bc25d2f5b893a6344ddff9666f3fc8eec07db98eba677ef5",
+        "after_sha256": "9d6ac7855ae89522bc25d2f5b893a6344ddff9666f3fc8eec07db98eba677ef5"
+      },
+      {
+        "path": "paper_notes/assets/P002_CRN/Pasted image 20261028091506.png",
+        "before_sha256": "f1b62d85e2772678dac8bc1af1c1df6aa0b8c6340eb94c8ba8ecbfbb66b58d1f",
+        "after_sha256": "f1b62d85e2772678dac8bc1af1c1df6aa0b8c6340eb94c8ba8ecbfbb66b58d1f"
+      },
+      {
+        "path": "paper_notes/assets/P002_CRN/Pasted image 20261028142231.png",
+        "before_sha256": "7ac2431f5ea214dda30683af3b2828f837f6833375e111ec4cc8a66bb4b9ed07",
+        "after_sha256": "7ac2431f5ea214dda30683af3b2828f837f6833375e111ec4cc8a66bb4b9ed07"
+      },
+      {
+        "path": "paper_notes/assets/P002_CRN/Pasted image 20261028193811.png",
+        "before_sha256": "deaa34a9b8dbb10c8cd2e07cc3520ba2c750061f4dea67fae3fcd3c8f7da2d76",
+        "after_sha256": "deaa34a9b8dbb10c8cd2e07cc3520ba2c750061f4dea67fae3fcd3c8f7da2d76"
+      },
+      {
+        "path": "paper_notes/assets/P002_CRN/Pasted image 20261028195714.png",
+        "before_sha256": "cf80fe106e531e7a5187209ce7f93cc0ccecd21b8df27499d5a9ff6be375c085",
+        "after_sha256": "cf80fe106e531e7a5187209ce7f93cc0ccecd21b8df27499d5a9ff6be375c085"
+      },
+      {
+        "path": "paper_notes/assets/P002_CRN/Pasted image 20261030141556.png",
+        "before_sha256": "74cbc895f9c4d1ff254f3de91b9256f1ff720b019d5231a1411af168bd234a0c",
+        "after_sha256": "74cbc895f9c4d1ff254f3de91b9256f1ff720b019d5231a1411af168bd234a0c"
+      },
+      {
+        "path": "paper_notes/assets/P002_CRN/Pasted image 20261030141648.png",
+        "before_sha256": "47d59ec293429e85fa01ad0eb071ae094497406c53423e1a83c20e972f832e4c",
+        "after_sha256": "47d59ec293429e85fa01ad0eb071ae094497406c53423e1a83c20e972f832e4c"
+      },
+      {
+        "path": "paper_notes/assets/P002_CRN/Pasted image 20261030141736.png",
+        "before_sha256": "dd9102c0aab2ec3f80f75ee7aec0549f24e8508a433268e434c9c59b510c4d0b",
+        "after_sha256": "dd9102c0aab2ec3f80f75ee7aec0549f24e8508a433268e434c9c59b510c4d0b"
+      }
+    ],
+    "existing_files_changed": [
+      "docs/maintenance/P001_CURRENT_STATE.json",
+      "figures/library/P001/FIGURE_INDEX.md",
+      "figures/library/P002/FIGURE_INDEX.md",
+      "papers/P001_PointPillars_VoD/README.md",
+      "papers/P002_CRN/README.md",
+      "reproductions/P001_PointPillars_VoD/README.md",
+      "reproductions/P002_CRN/README.md"
+    ],
+    "all_other_existing_files_byte_preserved": true,
+    "existing_file_count_before": 208,
+    "csvs": {
+      "papers/paper_matrix.csv": {
+        "columns": 36,
+        "data_rows": 4,
+        "sha256": "c88eedf0b30d0bd4ae4f9a248094f6e22d537e9d1acdee4cba0f6cc0be752568"
+      },
+      "papers/paper_matrix_P001_import.csv": {
+        "columns": 23,
+        "data_rows": 1,
+        "sha256": "9ab7a80eb6d1ec415d30a8925f4ed38dab553b8c9dfd3bdb646c6568f1a68652"
+      },
+      "archive/cleanup_2026-10-17/manifest.csv": {
+        "columns": 5,
+        "data_rows": 71,
+        "sha256": "0e1419e6aa5cd812f2fdec8332cef387097a055e4474cfd3cd350428294e161d"
+      },
+      "docs/innovation_bank/P001_ideas.csv": {
+        "columns": 10,
+        "data_rows": 3,
+        "sha256": "375389b4f307cb26751c46d6d97580a7744663c8d7c51c4a56a5e36917ad5425"
+      },
+      "docs/innovation_bank/P002_ideas.csv": {
+        "columns": 10,
+        "data_rows": 5,
+        "sha256": "3392602ef14778b58fda14bc21418ace16c9d704cdd774dddfb6567a68773d6e"
+      },
+      "docs/maintenance/REPOSITORY_INVENTORY.csv": {
+        "columns": 15,
+        "data_rows": 172,
+        "sha256": "de029bced72b5c8ae67ad9a0517ff4a17b4bfd4f3f87474005a4e20194861a4d"
+      },
+      "reproductions/P001_PointPillars_VoD/experiment_tracker.csv": {
+        "columns": 8,
+        "data_rows": 1,
+        "sha256": "a2cf86085261e77a33f07e0535694143e4fbc0ee567ab4c193d71922fab7bd65"
+      },
+      "reproductions/P002_CRN/experiment_tracker.csv": {
+        "columns": 8,
+        "data_rows": 0,
+        "sha256": "fb00fbf6bcede032a42438a51bdc680c9b2e2e21f845947d510421a36153e794"
+      }
+    },
+    "all_original_csv_bytes_unchanged": true,
+    "markdown_local_targets_checked": 364,
+    "obsidian_targets_checked": 3,
+    "reference_errors": [],
+    "original_source_pdfs_hashes_rechecked": true,
+    "no_deletions_or_moves": true,
+    "root_and_historical_reports_untouched": true,
+    "check_limits": "File targets checked; not all external URLs, dynamic dependencies, anchor semantics, formula physics or educational mastery certified."
+  },
+  "output_hashes": {
+    "docs/research_gaps/P001_CONTENT_SUPPLEMENT.md": "b0f177f7f27c3a5896d2e6b3e23e3632a6717f7c24014488f8e0ff99000780ab",
+    "docs/research_gaps/P002_CRN_CONTENT_SUPPLEMENT.md": "61e98e199eec0c8adb9522d9b8a7968958c98468f53b5371b74352ff559b6172",
+    "reproductions/P001_PointPillars_VoD/README.md": "f1f749f92da2dd7f86c3c8e5a34132d3d02e3d3fd60831fc28e8f854deb16fe7",
+    "reproductions/P002_CRN/README.md": "8a5e12af1e278e85861cdda8424484f47e943e9bbbcd938399319840a9afe892",
+    "figures/library/P001/FIGURE_INDEX.md": "e1f20a4ca67ed73f4102d0a9a960ad689d5b4fc9f8c54e0b4c5d453dfa180042",
+    "figures/library/P002/FIGURE_INDEX.md": "4ac2cb4ac28453e71fe867ba03644a6ec4ca5572763df35af84336d39b5ab799",
+    "papers/P001_PointPillars_VoD/README.md": "bb90aaba0643bff3c75ffca602e6457b736faec1b716a9ea0ac88c5327efbc25",
+    "papers/P002_CRN/README.md": "beccefaa2f1e1bf9b6b4ff1d050ff0def6561339429eca8c96123f2501026109",
+    "docs/maintenance/P001_P002_CONTENT_AUDIT.md": "39f4f7a24360af93c05bd6f725ccb0fd90f4dc8dc7f0b10018db123c6901e964",
+    "docs/maintenance/P001_CURRENT_STATE.json": "ab0214ef68bff3165bb6dd7411752e0799b3b966e2245705aa9ace2ca84e15f8"
+  },
+  "stage_and_push": "Pending at report capture. Commit and verified remote SHA will be delivered separately; no self-referential commit hash."
+}

@@ -25,3 +25,7 @@ P002第一遍完成；此前教师通过状态来自用户确认。原始问答�
 P003 R4Det、P004 MSSF均未开始；本轮不创建其学习成果。
 
 [实验跟踪表](../../reproductions/P002_CRN/experiment_tracker.csv) · [统一复现记录规范](../../reproductions/RECORDING_STANDARD.md) · [本轮十项对照及验收证据](../../docs/maintenance/P001_P002_DOSSIER_ROUND1.md)
+
+## 第二轮内容审计
+
+[十项内容质量审计](../../docs/maintenance/P001_P002_CONTENT_AUDIT.md) · [本论文证据与候选问题补充](../../docs/research_gaps/P002_CRN_CONTENT_SUPPLEMENT.md)。原十项正式入口不变；补充记录包含原文核对、七字段研究问题和A/B/C研究管理分级。原问答/教师证据仍有缺口，等待教师核查，不据文件存在宣布学习验收通过。

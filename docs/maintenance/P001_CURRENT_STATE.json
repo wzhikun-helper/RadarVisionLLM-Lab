@@ -1928,8 +1928,8 @@
       "bytes": 5014
     },
     "figures/library/P001/FIGURE_INDEX.md": {
-      "sha256": "77cc3bd0b5b548214cce233961631ab8396945dd9ab21ed9bc6f724ddcdc4d34",
-      "bytes": 4078
+      "sha256": "e1f20a4ca67ed73f4102d0a9a960ad689d5b4fc9f8c54e0b4c5d453dfa180042",
+      "bytes": 6491
     },
     "figures/library/P001/paper_page_01_reference.png": {
       "sha256": "a3e0931e03ac6e7a88940faad9dc125674c44624fc05eb16d908ed4fbade78b8",
@@ -1948,8 +1948,8 @@
       "bytes": 470194
     },
     "figures/library/P002/FIGURE_INDEX.md": {
-      "sha256": "859dfe086c34271e54cf6c2328726be16ef830075c2fc223ac2bee93c1a620a7",
-      "bytes": 3036
+      "sha256": "4ac2cb4ac28453e71fe867ba03644a6ec4ca5572763df35af84336d39b5ab799",
+      "bytes": 5281
     },
     "paper_notes/templates/paper_archive_checklist.md": {
       "sha256": "7f217fa5b303b7b5591481237a6939cdfb978f54ed027e93d9bc75143e91ff16",
@@ -2236,16 +2236,16 @@
       "bytes": 126
     },
     "reproductions/P001_PointPillars_VoD/README.md": {
-      "sha256": "bfba38778ae2f813908912bdf276eeaeafec6ccd61b1348e741945e35bce1e0d",
-      "bytes": 3748
+      "sha256": "f1f749f92da2dd7f86c3c8e5a34132d3d02e3d3fd60831fc28e8f854deb16fe7",
+      "bytes": 5094
     },
     "reproductions/P002_CRN/experiment_tracker.csv": {
       "sha256": "fb00fbf6bcede032a42438a51bdc680c9b2e2e21f845947d510421a36153e794",
       "bytes": 73
     },
     "reproductions/P002_CRN/README.md": {
-      "sha256": "36c07e35f930455ce8ffafede8f98462cf706a720a23e6c6ad387d63513776da",
-      "bytes": 3044
+      "sha256": "8a5e12af1e278e85861cdda8424484f47e943e9bbbcd938399319840a9afe892",
+      "bytes": 4142
     },
     "reproductions/templates/reproduction_template.md": {
       "sha256": "b8fe72ebc73152d63ba75b0d71efef4f0ad1ef281c42d34f3449cc8c13aa770b",
@@ -2610,7 +2610,10 @@
     "reproductions/P002_CRN/experiment_tracker.csv",
     "papers/P002_CRN/README.md",
     "docs/maintenance/P001_P002_DOSSIER_ROUND1.md",
-    "docs/maintenance/P001_P002_DOSSIER_ROUND1_STATE.json"
+    "docs/maintenance/P001_P002_DOSSIER_ROUND1_STATE.json",
+    "docs/research_gaps/P002_CRN_CONTENT_SUPPLEMENT.md",
+    "docs/maintenance/P001_P002_CONTENT_AUDIT.md",
+    "docs/maintenance/P001_P002_CONTENT_AUDIT_STATE.json"
   ],
   "crn_archive_20261030": {
     "source_copies": [
