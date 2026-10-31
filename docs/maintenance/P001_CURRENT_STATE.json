@@ -1517,7 +1517,7 @@
     "presentations/P001_Radar_Detection_Prerequisite/README.md": "2dd9bab11355ac1f919bf8a939ff92b494969eb9485277bc94807f6d6c3abb32",
     "work/README.md": "60df2a1906821956f3bb9566ae2ce6115834a62c94377417570ceec6cf912bf9",
     "docs/README.md": "51bf426e7c6d964216793a9b5d51c83584744e5069f6f6f4674a7066c7b932fb",
-    "papers/README.md": "d3cb9d4e7f52998d99ac9bfdba0f46c3ac1bacc7e15523b987393f2bb0c12e11",
+    "papers/README.md": "c4573dbd9d347f51f5bc9f14d8d9f68abeac4b28da9c360728e70945f1d59dc8",
     "reproductions/README.md": "b4cb3c6d40dd8e296865fb9a78d6dcea6f7c048ea592065585f55f482a6d434f",
     "figures/README.md": "507c4eab7d56089866d2f11cb73a4d2989d201f60b6803e0eb86af65606d8b07",
     "work/p001_prereq_supplied_images/convert.mjs": "3ab034a4ab4823332678d757304282208fe574e368180b0a773b1b5e9f8bb045",
@@ -1525,7 +1525,7 @@
     "scripts/validate_lab.py": "17d861ac13229c93b00d98a2e46648d4c8db65c0cda255a6889616eedb4aca32",
     "work/verify_p001_exact_current.py": "1a4e27c690106be267a10c77ad04fb493ead654138c42aee5f261fb5a2eca2f7",
     "presentations/P001_Paper_Review/verify_visual_exact.py": "8dcfba7c9ad84ec05102c760876608cec457635163e9d9092e5b364f3dade919",
-    "papers/paper_matrix.csv": "c90e9b017a167c26fe306a9e6d6412565f25aa478cb3af9356c41b628eb90cf6",
+    "papers/paper_matrix.csv": "c88eedf0b30d0bd4ae4f9a248094f6e22d537e9d1acdee4cba0f6cc0be752568",
     "archive/cleanup_2026-10-17/manifest.csv": "0e1419e6aa5cd812f2fdec8332cef387097a055e4474cfd3cd350428294e161d",
     "archive/ARCHIVE_MANIFEST.md": "c7d75c38127a9ef0bf8d8e6179672c2e4e161fe0a32e24155dfc17aa73671aaf",
     "archive/retired_ppt_work/README.md": "cc2089f6ebb90062eab3d7c9f906e59b9dbfbb98d5d5f9737f2eceb7a5d0aef4",
@@ -1616,17 +1616,21 @@
       "sha256": "f9bb2459b0d655cd0099b608de0d905631b862020612180169466d9cf678ac02",
       "bytes": 4190
     },
+    "papers/P002_CRN_RECORD.md": {
+      "sha256": "9ad1ba8bc14c9ba1bad53b91e944da62973941b371a405ffcfcdcc8227fd5991",
+      "bytes": 8638
+    },
     "papers/paper_matrix.csv": {
-      "sha256": "c90e9b017a167c26fe306a9e6d6412565f25aa478cb3af9356c41b628eb90cf6",
-      "bytes": 1755
+      "sha256": "c88eedf0b30d0bd4ae4f9a248094f6e22d537e9d1acdee4cba0f6cc0be752568",
+      "bytes": 4502
     },
     "papers/paper_matrix_P001_import.csv": {
       "sha256": "9ab7a80eb6d1ec415d30a8925f4ed38dab553b8c9dfd3bdb646c6568f1a68652",
       "bytes": 1380
     },
     "papers/README.md": {
-      "sha256": "d3cb9d4e7f52998d99ac9bfdba0f46c3ac1bacc7e15523b987393f2bb0c12e11",
-      "bytes": 1020
+      "sha256": "c4573dbd9d347f51f5bc9f14d8d9f68abeac4b28da9c360728e70945f1d59dc8",
+      "bytes": 1356
     },
     "paper_notes/P001_概念查询宝典.md": {
       "sha256": "f6fa354e2c34f8f7725dac9332c3192cb76e716152be23c31fc9da4de5afad10",
@@ -1815,6 +1819,10 @@
     "docs/maintenance/P002_ALIGNMENT_STATE.json": {
       "sha256": "1d232fddcf9d1babda89a5dcd1f70ccbc502ba4538bbcfa00d8e6a3e6d1193b3",
       "bytes": 7697
+    },
+    "docs/maintenance/P002_MATRIX_REGISTRATION.json": {
+      "sha256": "2ebfb128192c710f0b4ed6558bb353c8f4392d887e0335fb8188ce645890ce0a",
+      "bytes": 6211
     },
     "docs/maintenance/README.md": {
       "sha256": "4f1fd8cbc4ff79b48fdbf3ee78d656f9899c3838bcd8f4c23ce88ed41650aadb",
@@ -2377,7 +2385,7 @@
     "docs\\maintenance\\execution_2026-10-17\\before",
     "docs\\maintenance\\execution_2026-10-17"
   ],
-  "final_file_count": 194,
+  "final_file_count": 196,
   "cleanup_20261021": {
     "modified_files": [
       {
@@ -2542,6 +2550,7 @@
     "docs/innovation_bank/P002_ideas.csv",
     "docs/maintenance/P001_P002_CONSISTENCY_AUDIT.md",
     "docs/maintenance/P002_ALIGNMENT_STATE.json",
+    "docs/maintenance/P002_MATRIX_REGISTRATION.json",
     "docs/research_gaps/P002_CRN_Limitations_Research_Gap.md",
     "docs/research_log/P002_CRN_READING_REPORT.md",
     "figures/library/P002/FIGURE_INDEX.md",
@@ -2554,6 +2563,7 @@
     "paper_notes/assets/P002_CRN/Pasted image 20261030141556.png",
     "paper_notes/assets/P002_CRN/Pasted image 20261030141648.png",
     "paper_notes/assets/P002_CRN/Pasted image 20261030141736.png",
+    "papers/P002_CRN_RECORD.md",
     "reproductions/P002_CRN/README.md",
     "reproductions/P002_CRN/experiment_tracker.csv"
   ],
@@ -2926,5 +2936,12 @@
       "docs/maintenance/P001_CURRENT_STATE.json"
     ],
     "separate_public_work_kept_local": true
+  },
+  "p002_matrix_registration_20261031": {
+    "record": "docs/maintenance/P002_MATRIX_REGISTRATION.json",
+    "paper_pdf_sha256": "e833ebf328d1eaecb0536699c9f29a13e36616e4ae0cfd6aa874d762a1f10296",
+    "all_36_fields_accounted_for": true,
+    "only_P002_row_changed": true,
+    "original_import_unchanged": true
   }
 }

@@ -1,0 +1,97 @@
+{
+  "date": "2026-10-31",
+  "head_before": "3a855ec60ce4521204d8ffe3caf19a40f733fd7d",
+  "source_pdf": {
+    "filename": "Kim_CRN_Camera_Radar_Net_for_Accurate_Robust_Efficient_3D_Perception_ICCV_2023_paper.pdf",
+    "sha256": "e833ebf328d1eaecb0536699c9f29a13e36616e4ae0cfd6aa874d762a1f10296",
+    "pages": 12,
+    "source": "User-supplied official ICCV 2023 PDF; not copied into Git"
+  },
+  "primary_matrix": "papers/paper_matrix.csv",
+  "paper_id": "P002",
+  "field_count": 36,
+  "fields": {
+    "Paper_ID": "P002",
+    "Title": "CRN: Camera Radar Net for Accurate, Robust, Efficient 3D Perception",
+    "Year": "2023",
+    "Venue": "ICCV",
+    "Task": "3D object detection; extensions to tracking and BEV semantic segmentation",
+    "Radar_Type": "Conventional automotive radar in nuScenes; not VoD 3+1D imaging radar",
+    "Radar_Representation": "Radar point clouds; pillar-style frustum encoding and radar BEV features",
+    "Range": "Main BEV range +/-51.2 m; long-range +/-102.4 m; Table 7 Car evaluation [0,100) m; not sensor maximum range",
+    "Doppler": "Yes; Doppler speed used as radar feature (Sec. 4.1)",
+    "RCS": "Yes; normalized RCS used as radar feature (Sec. 4.1)",
+    "Elevation": "No reliable radar elevation; height collapsed in RVT pillar-style representation (Secs. 3.1-3.2)",
+    "Camera": "Yes; multi-view camera images",
+    "Dataset": "nuScenes; reported val/test protocols vary by table and model configuration",
+    "Fusion_Level": "Feature-level fusion: radar-assisted image view transformation (RVT), followed by multi-modal BEV feature aggregation (MFA)",
+    "BEV": "Yes; unified camera-radar BEV features for downstream tasks",
+    "Temporal_Modeling": "Current plus 3 previous BEV maps at 1-second intervals; six previous radar sweeps accumulated (Sec. 4.1)",
+    "Cross_Attention": "Yes; multi-modal deformable cross attention (MDCA) in MFA",
+    "VLM": "No VLM component in the published CRN method",
+    "LLM": "No LLM component in the published CRN method",
+    "Radar_Token": "No VLM-facing radar token interface; BEV attention queries are not language tokens",
+    "Physical_Constraint": "Calibration/projection geometry and radar spatial guidance in RVT; no separately claimed physics-consistency loss",
+    "Uncertainty": "Image depth distribution and radar occupancy response; not established as calibrated predictive uncertainty",
+    "Adverse_Weather": "Yes; sunny/rainy subset analysis in Table 9 and qualitative Fig. 5; not a guarantee for all adverse weather",
+    "Night": "Yes; day/night subset mAP in Table 9, under the reported configuration",
+    "Occlusion": "Qualitative occlusion examples in Figs. 4-5; view-drop Table 8 is not a controlled real-occlusion experiment",
+    "Open_Source": "Yes; official repository documentation inspected; code execution and full release coverage not verified",
+    "Official_Code": "https://github.com/youngskkim/CRN",
+    "Main_Contribution": "RVT for radar-assisted image-to-BEV transformation; MFA with MDCA; optional top-K sparse aggregation",
+    "Main_Limitation": "Sparse/ambiguous radar inputs and imperfect spatial alignment remain design challenges; sparse aggregation has accuracy/speed tradeoffs; robustness conclusions are bounded by tested settings",
+    "Potential_Gap": "Candidate / Unverified: geometry reliability, modality conflict, sparse-region regression, alignment diagnostics and geometry-grounded VLM interfaces; novelty not established",
+    "Reproduction_Value": "Method-learning and reference value; not currently prioritized for engineering reproduction (maintainer decision)",
+    "Reproduction_Difficulty": "Not assessed by execution; legacy dependencies, GPU operators, data/license and checkpoint compatibility require audit",
+    "Reading_Level": "First-pass intensive reading completed; code-level second pass not started",
+    "Reading_Status": "Completed; teacher acceptance previously passed per user confirmation; original Q&A archive incomplete",
+    "Relation_to_Our_Work": "Camera-radar BEV fusion reference connecting P001 radar basics to later R4Det/MSSF reading; VLM extensions are project hypotheses",
+    "Notes": "paper_notes/P002_CRN.md; field evidence: papers/P002_CRN_RECORD.md; feasibility: reproductions/P002_CRN/README.md; no model execution, training or evaluation performed"
+  },
+  "evidence_file": "papers/P002_CRN_RECORD.md",
+  "only_P002_row_changed": true,
+  "P001_import_sha256_unchanged": "9ab7a80eb6d1ec415d30a8925f4ed38dab553b8c9dfd3bdb646c6568f1a68652",
+  "unrelated_files_unchanged": true,
+  "files": [
+    "papers/paper_matrix.csv",
+    "papers/README.md",
+    "papers/P002_CRN_RECORD.md",
+    "docs/maintenance/P002_MATRIX_REGISTRATION.json",
+    "docs/maintenance/P001_CURRENT_STATE.json"
+  ],
+  "validation": {
+    "command": "python -B scripts/validate_lab.py",
+    "exit_code": 0,
+    "stdout": {
+      "passed": true,
+      "errors": [],
+      "formal_p001_notes": [
+        {
+          "file": "paper_notes/P001_论文精读.md",
+          "sha256": "b2ea90216237336678735c48fb52708f1fc51434751d44702f751a75e7bf6da3"
+        },
+        {
+          "file": "paper_notes/P001_概念查询宝典.md",
+          "sha256": "f6fa354e2c34f8f7725dac9332c3192cb76e716152be23c31fc9da4de5afad10"
+        }
+      ],
+      "presentation_files_expected": 0,
+      "historical_entries_verified": 41,
+      "retained_files_verified": 195,
+      "csv_columns": {
+        "papers/paper_matrix.csv": 36,
+        "papers/paper_matrix_P001_import.csv": 23,
+        "archive/cleanup_2026-10-17/manifest.csv": 5,
+        "docs/innovation_bank/P001_ideas.csv": 10,
+        "docs/innovation_bank/P002_ideas.csv": 10,
+        "docs/maintenance/REPOSITORY_INVENTORY.csv": 15,
+        "reproductions/P001_PointPillars_VoD/experiment_tracker.csv": 8,
+        "reproductions/P002_CRN/experiment_tracker.csv": 8
+      },
+      "existing_markdown_targets": 184,
+      "python_files_compiled": 5,
+      "claim_boundary": "Checks retained P001 bytes, source PDF copies, packed historical bytes and links. No PPT generation, training or evaluation."
+    },
+    "stderr": ""
+  }
+}
