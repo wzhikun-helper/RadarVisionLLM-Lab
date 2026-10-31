@@ -1,0 +1,501 @@
+{
+  "date": "2026-10-31",
+  "baseline_head": "a5d86f3aa4784589a452e49903e066659c2a0de9",
+  "baseline_git_status": " M README.md\n M data/README.md\n M docs/README.md\n M docs/innovation_bank/P001_INNOVATION_NOTES.md\n M docs/innovation_bank/P001_ideas.csv\n M docs/innovation_bank/idea_template.md\n M docs/learning_notes/00_git_and_research_engineering.md\n M docs/research_gaps/P001_Limitations_Research_Gap.md\n M docs/research_log/P001_ARCHIVE_REPORT.md\n M docs/research_protocol.md\n M docs/roadmap.md\n M docs/weekly_reports/weekly_report_template.md\n M experiments/README.md\n M experiments/templates/experiment_template.md\n M figures/README.md\n M manuscript/README.md\n D paper_notes/P001_MultiClass_Road_User_Detection.md\n M paper_notes/README.md\n M paper_notes/templates/paper_note_template.md\n M reproductions/README.md\n M reproductions/templates/reproduction_template.md\n M results/README.md\n M scripts/README.md\n M src/README.md\n M writing/README.md\n M writing/academic_phrasebook.md\n?? .github/workflows/docs.yml\n?? CONTRIBUTING.md\n?? NOTICE.md\n?? archive/ARCHIVE_MANIFEST.md\n?? archive/cleanup_2026-10-17/README.md\n?? archive/cleanup_2026-10-17/manifest.csv\n?? archive/cleanup_2026-10-17/presentations/P001_Paper_Review/P001_Paper_Review_Visual_Exact.verification.json\n?? archive/cleanup_2026-10-17/presentations/P001_Radar_Detection_Prerequisite/backups/20261017_before_image_rebuild/P001_Speaker_Notes.md\n?? archive/cleanup_2026-10-17/presentations/P001_Radar_Detection_Prerequisite/backups/20261017_before_image_rebuild/README.md\n?? archive/cleanup_2026-10-17/work/p001_ppt_build/cases.png\n?? archive/cleanup_2026-10-17/work/p001_ppt_build/curves.png\n?? archive/cleanup_2026-10-17/work/p001_ppt_build/scene.png\n?? archive/cleanup_2026-10-17/work/p001_ppt_build/sensor.png\n?? archive/cleanup_2026-10-17/work/p001_prereq_build/paper.txt\n?? archive/retired_ppt_work/README.md\n?? \"docs/learning_notes/01 RadarVisionLLM-Lab\\357\\274\\232FMCW\\343\\200\\201\\345\\233\\236\\346\\263\\242\\344\\270\\216\\345\\244\\232\\346\\231\\256\\345\\213\\222\\345\\237\\272\\347\\241\\200.md\"\n?? docs/maintenance/P001_EVIDENCE_ERRATA.md\n?? docs/maintenance/README.md\n?? experiments/templates/config_template.yaml\n?? presentations/HISTORY.md\n?? presentations/P001_Paper_Review/P001_Paper_Review_Speaker_Notes.md\n?? presentations/P001_Paper_Review/README.md\n?? presentations/P001_Paper_Review/assets/fig4_original.png\n?? presentations/P001_Paper_Review/assets/fig5_original.png\n?? presentations/P001_Paper_Review/assets/paper_page_06_220dpi.png\n?? presentations/P001_Paper_Review/slide_content.json\n?? presentations/P001_Paper_Review/sources.md\n?? presentations/P001_Radar_Detection_Prerequisite/P001_Speaker_Notes.md\n?? presentations/P001_Radar_Detection_Prerequisite/README.md\n?? presentations/P001_Radar_Detection_Prerequisite/assets/notes_image_rebuild.json\n?? presentations/P001_Radar_Detection_Prerequisite/assets/slide-01.png\n?? presentations/P001_Radar_Detection_Prerequisite/assets/slide-02.png\n?? presentations/P001_Radar_Detection_Prerequisite/assets/slide-03.png\n?? presentations/P001_Radar_Detection_Prerequisite/assets/slide-04.png\n?? presentations/P001_Radar_Detection_Prerequisite/assets/slide-05.png\n?? presentations/P001_Radar_Detection_Prerequisite/assets/slide-06.png\n?? presentations/P001_Radar_Detection_Prerequisite/assets/slide-07.png\n?? presentations/P001_Radar_Detection_Prerequisite/assets/slide-08.png\n?? presentations/P001_Radar_Detection_Prerequisite/assets/slide-09.png\n?? presentations/P001_Radar_Detection_Prerequisite/assets/text-fit.json\n?? presentations/P001_Radar_Detection_Prerequisite/assets/validation.json\n?? presentations/P001_Radar_Detection_Prerequisite/sources.md\n?? presentations/P001_paper_review_images/01_Cover.png\n?? presentations/P001_paper_review_images/01_Cover_prompt.md\n?? presentations/P001_paper_review_images/02_Visual.png\n?? presentations/P001_paper_review_images/03_Visual.png\n?? presentations/P001_paper_review_images/04_Visual.png\n?? presentations/P001_paper_review_images/05_Visual.png\n?? presentations/P001_paper_review_images/06_Visual.png\n?? presentations/P001_paper_review_images/07_Visual.png\n?? presentations/P001_paper_review_images/08_Visual.png\n?? presentations/P001_paper_review_images/09_Visual.png\n?? presentations/P001_paper_review_images/10_Visual.png\n?? presentations/P001_paper_review_images/11_Visual.png\n?? presentations/P001_paper_review_images/12_Visual.png\n?? presentations/P001_paper_review_images/13_Visual.png\n?? presentations/P001_paper_review_images/14_Visual.png\n?? presentations/P001_paper_review_images/README.md\n?? presentations/P001_paper_review_images/generation_prompts.json\n?? presentations/P001_paper_review_images/image_manifest.json\n?? presentations/P001_slide_images/01_Cover.png\n?? presentations/P001_slide_images/02_FMCW.png\n?? presentations/P001_slide_images/03_Radar_Dimensions.png\n?? presentations/P001_slide_images/04_Radar_Point_Cloud.png\n?? presentations/P001_slide_images/05_Radar_Pipeline.png\n?? presentations/P001_slide_images/06_PointPillars.png\n?? presentations/P001_slide_images/07_Temporal_Accumulation.png\n?? presentations/P001_slide_images/08_Detection_Metrics.png\n?? presentations/P001_slide_images/09_Knowledge_Summary.png\n?? presentations/P001_slide_images/README.md\n?? presentations/P001_slide_images/generation_prompts.json\n?? presentations/P001_slide_images/image_manifest.json\n?? presentations/README.md\n?? scripts/check_public_docs.py\n?? work/README.md\n?? work/p001_exact_current_build.txt\n?? work/p001_prereq_supplied_images/convert.mjs\n?? work/p001_prereq_supplied_images/manifest.json\n?? work/p001_prereq_supplied_images/renders/01.png\n?? work/p001_prereq_supplied_images/renders/02.png\n?? work/p001_prereq_supplied_images/renders/03.png\n?? work/p001_prereq_supplied_images/renders/04.png\n?? work/p001_prereq_supplied_images/renders/05.png\n?? work/p001_prereq_supplied_images/renders/06.png\n?? work/p001_prereq_supplied_images/renders/07.png\n?? work/p001_prereq_supplied_images/renders/08.png\n?? work/p001_prereq_supplied_images/renders/09.png\n?? work/p001_prereq_supplied_images/validation.json\n?? work/p001_prereq_supplied_images/verification.json\n?? work/p001_visual_exact_20261017T100548/finalize-options.json\n?? work/p001_visual_exact_20261017T100548/manifest.json\n?? work/p001_visual_exact_20261017T100548/renders/01.png\n?? work/p001_visual_exact_20261017T100548/renders/02.png\n?? work/p001_visual_exact_20261017T100548/renders/03.png\n?? work/p001_visual_exact_20261017T100548/renders/04.png\n?? work/p001_visual_exact_20261017T100548/renders/05.png\n?? work/p001_visual_exact_20261017T100548/renders/06.png\n?? work/p001_visual_exact_20261017T100548/renders/07.png\n?? work/p001_visual_exact_20261017T100548/renders/08.png\n?? work/p001_visual_exact_20261017T100548/renders/09.png\n?? work/p001_visual_exact_20261017T100548/renders/10.png\n?? work/p001_visual_exact_20261017T100548/renders/11.png\n?? work/p001_visual_exact_20261017T100548/renders/12.png\n?? work/p001_visual_exact_20261017T100548/renders/13.png\n?? work/p001_visual_exact_20261017T100548/renders/14.png\n?? work/p001_visual_exact_20261017T100548/validation.json\n?? work/p001_visual_exact_20261017T100548/verification.json\n",
+  "order_completed": [
+    "A numeric evidence then authorized one-value correction",
+    "B seven original images provenance",
+    "C external novelty overlap review",
+    "D P003 pre-readiness only"
+  ],
+  "p001_correction": {
+    "path": "paper_notes/P001_论文精读.md",
+    "old_value": "Car 36.0",
+    "new_value": "Car 35.9",
+    "before_sha256": "b2ea90216237336678735c48fb52708f1fc51434751d44702f751a75e7bf6da3",
+    "after_sha256": "c5630dcbe5bfbf9a0e59464fa862cd23c28ae665d033e7377cc26cdd53fb9dac",
+    "replacement_count": 1
+  },
+  "p001_versions": [
+    {
+      "version": "final RA-L2022",
+      "sha256": "d19bf8e168da7af27924ddaa55c42a4a395e681a15bbc40346f8502b292dfdfa",
+      "pdf_page": 6,
+      "printed_page": 4966,
+      "table": "IV",
+      "row": "PP-radar",
+      "column": "Entire annotated area / Car",
+      "value": 35.9
+    },
+    {
+      "version": "accepted author preprint Jan2022",
+      "sha256": "3ad8c1b0f34802d5b0770b9551ccb9b39825e18ac979ac8175534a2e4eb8c908",
+      "url": "https://intelligent-vehicles.org/wp-content/uploads/2022/02/palffy2022ral_view_of_delft.pdf",
+      "pdf_page": 6,
+      "table": "IV",
+      "row": "PP-radar",
+      "column": "Entire annotated area / Car",
+      "value": 35.9
+    }
+  ],
+  "p002_images": [
+    {
+      "path": "paper_notes/assets/P002_CRN/Pasted image 20261028091506.png",
+      "sha256": "f1b62d85e2772678dac8bc1af1c1df6aa0b8c6340eb94c8ba8ecbfbb66b58d1f",
+      "provenance_class": "E"
+    },
+    {
+      "path": "paper_notes/assets/P002_CRN/Pasted image 20261028142231.png",
+      "sha256": "7ac2431f5ea214dda30683af3b2828f837f6833375e111ec4cc8a66bb4b9ed07",
+      "provenance_class": "E"
+    },
+    {
+      "path": "paper_notes/assets/P002_CRN/Pasted image 20261028193811.png",
+      "sha256": "deaa34a9b8dbb10c8cd2e07cc3520ba2c750061f4dea67fae3fcd3c8f7da2d76",
+      "provenance_class": "E"
+    },
+    {
+      "path": "paper_notes/assets/P002_CRN/Pasted image 20261028195714.png",
+      "sha256": "cf80fe106e531e7a5187209ce7f93cc0ccecd21b8df27499d5a9ff6be375c085",
+      "provenance_class": "E"
+    },
+    {
+      "path": "paper_notes/assets/P002_CRN/Pasted image 20261030141556.png",
+      "sha256": "74cbc895f9c4d1ff254f3de91b9256f1ff720b019d5231a1411af168bd234a0c",
+      "provenance_class": "B"
+    },
+    {
+      "path": "paper_notes/assets/P002_CRN/Pasted image 20261030141648.png",
+      "sha256": "47d59ec293429e85fa01ad0eb071ae094497406c53423e1a83c20e972f832e4c",
+      "provenance_class": "B"
+    },
+    {
+      "path": "paper_notes/assets/P002_CRN/Pasted image 20261030141736.png",
+      "sha256": "dd9102c0aab2ec3f80f75ee7aec0549f24e8508a433268e434c9c59b510c4d0b",
+      "provenance_class": "B"
+    }
+  ],
+  "novelty_review": {
+    "queries": [
+      "\"Multi-Class Road User Detection\" \"35.9\"",
+      "\"Multi-Class Road User Detection\" pdf Palffy 2022",
+      "\"R4Det\" site:openaccess.thecvf.com",
+      "radar camera fusion uncertainty reliability 2024 2025 2026 CVPR",
+      "4D radar vision language model grounding 2025 2026 paper",
+      "site:openaccess.thecvf.com \"RCBEVDet\" 2024",
+      "site:openaccess.thecvf.com \"RaCFormer\" 2025",
+      "radar camera uncertainty fusion \"2026\" arxiv",
+      "radar camera conflict uncertainty ICCV 2025 ECCV 2024",
+      "radar-camera calibration robustness 2025 CVPR",
+      "HGSFusion AAAI 2025 radar uncertainty github",
+      "\"Sparse Beats Dense\" radar github ECCV 2024",
+      "\"RCBEVDet++\" \"TPAMI\"",
+      "\"MSSF\" \"3554313\" github",
+      "\"LXL\" radar camera 2024 IEEE"
+    ],
+    "cutoff": "2026-10-31",
+    "source_register": "docs/innovation_bank/P002_NOVELTY_REVIEW_20261031.md",
+    "dispositions": {
+      "P002-I01": "修改",
+      "P002-I02": "降级",
+      "P002-I03": "降级",
+      "P002-I04": "保留",
+      "P002-I05": "暂停"
+    },
+    "limits": "Not an exhaustive venue/database search; priority venues sampled; no negative novelty claim from missing hits. Papers/abstracts and selective method sections read; published author experiments are not independent or project replications.",
+    "external_independent_replication_verified": false,
+    "project_experiments": []
+  },
+  "r4det_source": {
+    "sha": "9418d11949f41e802b583d99e69c825387082094",
+    "date": "2026-05-30T04:17:42Z",
+    "branch": "main",
+    "license_metadata": null,
+    "read_files": [
+      {
+        "path": "README.md",
+        "url": "https://raw.githubusercontent.com/VDIGPKU/R4Det/9418d11949f41e802b583d99e69c825387082094/README.md",
+        "sha256": "06ee76c3b984c53aad1ea38f756dec95e900c5f87ada22d84f23e53c9b78bd81",
+        "bytes": 4156
+      },
+      {
+        "path": "requirements.txt",
+        "url": "https://raw.githubusercontent.com/VDIGPKU/R4Det/9418d11949f41e802b583d99e69c825387082094/requirements.txt",
+        "sha256": "880ec5ff431a06a84cf3a4a1f3aa0b7a494d94cfea4281fb347dbc73af7fdb15",
+        "bytes": 388
+      },
+      {
+        "path": "setup.py",
+        "url": "https://raw.githubusercontent.com/VDIGPKU/R4Det/9418d11949f41e802b583d99e69c825387082094/setup.py",
+        "sha256": "65ac269be5b61d31ebf50f8c87d422889e51bf32f50131b01c6ea9b631a73a10",
+        "bytes": 12335
+      },
+      {
+        "path": "test_VoD.sh",
+        "url": "https://raw.githubusercontent.com/VDIGPKU/R4Det/9418d11949f41e802b583d99e69c825387082094/test_VoD.sh",
+        "sha256": "f3a5ea277f605809daa65fffa3e3f35b02362e098814d97ff144f7e5fa28780a",
+        "bytes": 618
+      },
+      {
+        "path": "test_TJ4D.sh",
+        "url": "https://raw.githubusercontent.com/VDIGPKU/R4Det/9418d11949f41e802b583d99e69c825387082094/test_TJ4D.sh",
+        "sha256": "36ad05b8ea6675be9fb572426e3e69ea0d01be168684964dada63e6a6d8e4d51",
+        "bytes": 420
+      },
+      {
+        "path": "tools/test_vod.py",
+        "url": "https://raw.githubusercontent.com/VDIGPKU/R4Det/9418d11949f41e802b583d99e69c825387082094/tools/test_vod.py",
+        "sha256": "ba6b145ce2cd80d0215949be26640c490973b2e86a8c996f22c32fdac8a63810",
+        "bytes": 19085
+      },
+      {
+        "path": "configs/r4det/TJ4D-R4Det_det3d_2x4_12e.py",
+        "url": "https://raw.githubusercontent.com/VDIGPKU/R4Det/9418d11949f41e802b583d99e69c825387082094/configs/r4det/TJ4D-R4Det_det3d_2x4_12e.py",
+        "sha256": "26398f041d39a1f6181bd54805dd07c15f3ae5b3daeb3d87f133276d42e5e5d2",
+        "bytes": 24963
+      }
+    ]
+  },
+  "web_static_read_manifest": [
+    {
+      "name": "docs/guidance/install.md",
+      "url": "https://raw.githubusercontent.com/VDIGPKU/R4Det/9418d11949f41e802b583d99e69c825387082094/docs/guidance/install.md",
+      "sha256": "e98489ac080545bbd595a84692e0aa2067f66d55cc4f326e50783b6f794b142f",
+      "bytes": 2305,
+      "status": "read"
+    },
+    {
+      "name": "docs/guidance/dataset.md",
+      "url": "https://raw.githubusercontent.com/VDIGPKU/R4Det/9418d11949f41e802b583d99e69c825387082094/docs/guidance/dataset.md",
+      "sha256": "02ac4989ff35b8d5f6f5640c3a75b4908bbe3866751c88440e0095562e27481f",
+      "bytes": 4421,
+      "status": "read"
+    },
+    {
+      "name": "configs/r4det/TJ4D-R4Det_pretrain_2x4_12e.py",
+      "url": "https://raw.githubusercontent.com/VDIGPKU/R4Det/9418d11949f41e802b583d99e69c825387082094/configs/r4det/TJ4D-R4Det_pretrain_2x4_12e.py",
+      "sha256": "69de1f174297b8287ec06ffa08888f6d4f7036c5c20765eacc4876d116da55fe",
+      "bytes": 24097,
+      "status": "read"
+    },
+    {
+      "name": "hf_files.json",
+      "url": "https://huggingface.co/api/models/Hoeyy/R4Det/tree/main?recursive=true",
+      "sha256": "58a39fba36c8984d9fac94a4620a550a9c2c52b21aa1192ce5ea85fb06162613",
+      "bytes": 120060,
+      "status": "read"
+    },
+    {
+      "name": "related/RCBEVDet.json",
+      "url": "https://api.github.com/repos/VDIGPKU/RCBEVDet",
+      "sha256": "03ea13742bcb4f01811733c9b637129e9234875f96972d010239cc2ddd8d0795",
+      "bytes": 5006,
+      "status": "read"
+    },
+    {
+      "name": "related/RCBEVDet.md",
+      "url": "https://raw.githubusercontent.com/VDIGPKU/RCBEVDet/main/README.md",
+      "sha256": "e8e97f23f6cfad5a4a96f9c21e9a57b90be93706088d0d6c2b85e9b797ba9140",
+      "bytes": 3871,
+      "status": "read"
+    },
+    {
+      "name": "related/RaCFormer.json",
+      "url": "https://api.github.com/repos/cxmomo/RaCFormer",
+      "sha256": "71137d90481cc6934f84065a18ae5076ac5aa172da62e54807980e05935a51e1",
+      "bytes": 5197,
+      "status": "read"
+    },
+    {
+      "name": "related/RaCFormer.md",
+      "url": "https://raw.githubusercontent.com/cxmomo/RaCFormer/main/README.md",
+      "sha256": "97a2452a1816b888f68fdc8e89782865ad36ec10236358eed9a4d95af07f08b0",
+      "bytes": 4095,
+      "status": "read"
+    },
+    {
+      "name": "related/TPCNet.json",
+      "url": "https://api.github.com/repos/GuanRunwei/TPCNet",
+      "sha256": "6d0aec53662e095be1bca8cfadea887e9d9b0bbcc78c92a8addf82ee7fd588f8",
+      "bytes": 5143,
+      "status": "read"
+    },
+    {
+      "name": "related/TPCNet.md",
+      "url": "https://raw.githubusercontent.com/GuanRunwei/TPCNet/main/README.md",
+      "sha256": "7b529f7d8507727969b156a450c3fb390e36c0968052940e51d7f96c1ffb9ff6",
+      "bytes": 2191,
+      "status": "read"
+    },
+    {
+      "name": "related/Sparse4D-Radar.json",
+      "url": "https://api.github.com/repos/Aiuan/Sparse4D-Radar",
+      "sha256": "690bbd890d64c6b10209ba1e88012778a6db166647b169933f5e8e396e8088c9",
+      "bytes": 5301,
+      "status": "read"
+    },
+    {
+      "name": "related/Sparse4D-Radar.md",
+      "url": "https://raw.githubusercontent.com/Aiuan/Sparse4D-Radar/main/README.md",
+      "sha256": "76bc746cc07500062e8f121be8253e916d3b2291063e3fef51cdf66eba49de8d",
+      "bytes": 5020,
+      "status": "read"
+    },
+    {
+      "name": "related/RC-AutoCalib.json",
+      "url": "https://api.github.com/repos/nycu-acm/RC-AutoCalib",
+      "sha256": "95621a00e5e13113d2bc57634bb8b291d84299c736c7881d7d1440785dab1800",
+      "bytes": 6117,
+      "status": "read"
+    },
+    {
+      "name": "related/RC-AutoCalib.md",
+      "url": "https://raw.githubusercontent.com/nycu-acm/RC-AutoCalib/main/README.md",
+      "sha256": "50b68a88edced99e2a028e0bbd576f8deceac474b33a1fc6476e9555e25d69a5",
+      "bytes": 250,
+      "status": "read"
+    },
+    {
+      "name": "related/MSSF.json",
+      "url": "https://api.github.com/repos/EricLiuhhh/MSSF",
+      "sha256": "415f242206b8e02508b0c20067c604d1a8bf91ae7701a379b4b96a3ec9c977fc",
+      "bytes": 5037,
+      "status": "read"
+    },
+    {
+      "name": "related/MSSF.md",
+      "url": "https://raw.githubusercontent.com/EricLiuhhh/MSSF/main/README.md",
+      "sha256": "8147f1b4b66b00efd94a4236d877af0c83a3f9f01d947c41387b3bdfa73ef208",
+      "bytes": 3845,
+      "status": "read"
+    }
+  ],
+  "source_access_limits": [
+    "Some CVF pages returned403; official indexed abstracts, arXiv and authors used with explicit limits",
+    "CVPR2026 site robots blocks; final R4Det proceedings PDF and DOI not independently verified",
+    "HF recursive API may paginate; file availability claims use root web listing and author Model Zoo, not completeness assumption"
+  ],
+  "hardware": {
+    "local": {
+      "source": "read-only nvidia-smi --query-gpu=name,memory.total,driver_version --format=csv,noheader",
+      "exit_code": 0,
+      "stdout": "NVIDIA GeForce RTX 3060 Laptop GPU, 6144 MiB, 580.88",
+      "training_feasibility": "unknown"
+    },
+    "laboratory": {
+      "user_reported": "RTX3090 20GB available by application",
+      "actual_server_output": null,
+      "actual_model_memory_quota_environment": "unknown",
+      "training_feasibility": "unknown"
+    }
+  },
+  "p003_stage": "Pre-readiness only; both reading passes not started; no minimal reproduction admission",
+  "scope": [
+    "paper_notes/P001_论文精读.md",
+    "docs/maintenance/P001_TABLE_IV_ERRATUM.md",
+    "docs/maintenance/P002_IMAGE_PROVENANCE.md",
+    "docs/innovation_bank/P002_NOVELTY_REVIEW_20261031.md",
+    "papers/P003_R4Det/README.md",
+    "papers/P003_R4Det/01_pre_readiness.md",
+    "docs/research_gaps/P001_CONTENT_SUPPLEMENT.md",
+    "figures/library/P002/FIGURE_INDEX.md",
+    "docs/research_gaps/P002_CRN_CONTENT_SUPPLEMENT.md",
+    "docs/innovation_bank/P002_CRN_INNOVATION_NOTES.md",
+    "papers/P001_PointPillars_VoD/README.md",
+    "papers/P002_CRN/README.md",
+    "papers/README.md",
+    "docs/maintenance/EVIDENCE_ROUND3_STATE.json",
+    "docs/maintenance/P001_CURRENT_STATE.json"
+  ],
+  "validation": {
+    "validate_lab_exit": 0,
+    "validate_lab_stdout": {
+      "passed": true,
+      "errors": [],
+      "formal_p001_notes": [
+        {
+          "file": "paper_notes/P001_论文精读.md",
+          "sha256": "c5630dcbe5bfbf9a0e59464fa862cd23c28ae665d033e7377cc26cdd53fb9dac"
+        },
+        {
+          "file": "paper_notes/P001_概念查询宝典.md",
+          "sha256": "f6fa354e2c34f8f7725dac9332c3192cb76e716152be23c31fc9da4de5afad10"
+        }
+      ],
+      "presentation_files_expected": 0,
+      "historical_entries_verified": 41,
+      "retained_files_verified": 203,
+      "csv_columns": {
+        "papers/paper_matrix.csv": 36,
+        "papers/paper_matrix_P001_import.csv": 23,
+        "archive/cleanup_2026-10-17/manifest.csv": 5,
+        "docs/innovation_bank/P001_ideas.csv": 10,
+        "docs/innovation_bank/P002_ideas.csv": 10,
+        "docs/maintenance/REPOSITORY_INVENTORY.csv": 15,
+        "reproductions/P001_PointPillars_VoD/experiment_tracker.csv": 8,
+        "reproductions/P002_CRN/experiment_tracker.csv": 8
+      },
+      "existing_markdown_targets": 400,
+      "python_files_compiled": 5,
+      "claim_boundary": "Checks retained P001 bytes, source PDF copies, packed historical bytes and links. No PPT generation, training or evaluation."
+    },
+    "git_diff_check_exit": 0,
+    "git_diff_check_stdout": "",
+    "git_diff_check_stderr": "warning: in the working copy of 'README.md', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'data/README.md', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'docs/innovation_bank/P002_CRN_INNOVATION_NOTES.md', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'docs/innovation_bank/idea_template.md', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'docs/learning_notes/00_git_and_research_engineering.md', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'docs/research_gaps/P001_CONTENT_SUPPLEMENT.md', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'docs/research_gaps/P002_CRN_CONTENT_SUPPLEMENT.md', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'docs/research_log/P001_ARCHIVE_REPORT.md', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'docs/research_protocol.md', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'docs/weekly_reports/weekly_report_template.md', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'experiments/README.md', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'experiments/templates/experiment_template.md', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'figures/library/P002/FIGURE_INDEX.md', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'manuscript/README.md', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'paper_notes/README.md', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'paper_notes/templates/paper_note_template.md', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'papers/P001_PointPillars_VoD/README.md', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'papers/P002_CRN/README.md', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'papers/README.md', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'reproductions/templates/reproduction_template.md', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'results/README.md', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'src/README.md', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'writing/README.md', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'writing/academic_phrasebook.md', LF will be replaced by CRLF the next time Git touches it\n",
+    "existing_changed_files": [
+      "papers/README.md",
+      "paper_notes/P001_论文精读.md",
+      "docs/innovation_bank/P002_CRN_INNOVATION_NOTES.md",
+      "docs/maintenance/P001_CURRENT_STATE.json",
+      "docs/research_gaps/P001_CONTENT_SUPPLEMENT.md",
+      "docs/research_gaps/P002_CRN_CONTENT_SUPPLEMENT.md",
+      "figures/library/P002/FIGURE_INDEX.md",
+      "papers/P001_PointPillars_VoD/README.md",
+      "papers/P002_CRN/README.md"
+    ],
+    "all_other_existing_files_preserved_bytewise": true,
+    "p001_exact_one_value_replacement": true,
+    "other_three_formal_notes_unchanged": true,
+    "fourteen_images": [
+      {
+        "path": "paper_notes/assets/P001/ChatGPT Image 2026年9月23日 15_22_18.png",
+        "before_sha256": "54dca866fe59e13b89807caac90709d80151e96ee8dc8ba6943510d1043a2beb",
+        "after_sha256": "54dca866fe59e13b89807caac90709d80151e96ee8dc8ba6943510d1043a2beb"
+      },
+      {
+        "path": "paper_notes/assets/P001/ChatGPT 图像 2026年9月29日 11_04_16.png",
+        "before_sha256": "cc19ea96a3e1ef5f63404df8caeebc79b61dd57e05c19795c312b6859279d729",
+        "after_sha256": "cc19ea96a3e1ef5f63404df8caeebc79b61dd57e05c19795c312b6859279d729"
+      },
+      {
+        "path": "paper_notes/assets/P001/ChatGPT 图像 2026年9月29日 15_17_15.png",
+        "before_sha256": "497da056a3a124930f8095dd9c8d84de92548b1d098bdf45b74e7832cb5ce663",
+        "after_sha256": "497da056a3a124930f8095dd9c8d84de92548b1d098bdf45b74e7832cb5ce663"
+      },
+      {
+        "path": "paper_notes/assets/P001/Pasted image 20261009152348.png",
+        "before_sha256": "7a6ecc9dd135d9b20af27d8e28c34abd1e42becb618705ae7af82632d94b506e",
+        "after_sha256": "7a6ecc9dd135d9b20af27d8e28c34abd1e42becb618705ae7af82632d94b506e"
+      },
+      {
+        "path": "paper_notes/assets/P001/Pasted image 20261014185700.png",
+        "before_sha256": "b8173e53b876932e351ecd2eca990f24c4117dffc04ea438d9b2366e5d83f9fd",
+        "after_sha256": "b8173e53b876932e351ecd2eca990f24c4117dffc04ea438d9b2366e5d83f9fd"
+      },
+      {
+        "path": "paper_notes/assets/P001/Pasted image 20261014185737.png",
+        "before_sha256": "c8a08ac5ef08fbcbd6eb803485ea7411cb61a17111f4e88b2913dce0dca95d91",
+        "after_sha256": "c8a08ac5ef08fbcbd6eb803485ea7411cb61a17111f4e88b2913dce0dca95d91"
+      },
+      {
+        "path": "paper_notes/assets/P001/Pasted image 20261019144201.png",
+        "before_sha256": "9d6ac7855ae89522bc25d2f5b893a6344ddff9666f3fc8eec07db98eba677ef5",
+        "after_sha256": "9d6ac7855ae89522bc25d2f5b893a6344ddff9666f3fc8eec07db98eba677ef5"
+      },
+      {
+        "path": "paper_notes/assets/P002_CRN/Pasted image 20261028091506.png",
+        "before_sha256": "f1b62d85e2772678dac8bc1af1c1df6aa0b8c6340eb94c8ba8ecbfbb66b58d1f",
+        "after_sha256": "f1b62d85e2772678dac8bc1af1c1df6aa0b8c6340eb94c8ba8ecbfbb66b58d1f"
+      },
+      {
+        "path": "paper_notes/assets/P002_CRN/Pasted image 20261028142231.png",
+        "before_sha256": "7ac2431f5ea214dda30683af3b2828f837f6833375e111ec4cc8a66bb4b9ed07",
+        "after_sha256": "7ac2431f5ea214dda30683af3b2828f837f6833375e111ec4cc8a66bb4b9ed07"
+      },
+      {
+        "path": "paper_notes/assets/P002_CRN/Pasted image 20261028193811.png",
+        "before_sha256": "deaa34a9b8dbb10c8cd2e07cc3520ba2c750061f4dea67fae3fcd3c8f7da2d76",
+        "after_sha256": "deaa34a9b8dbb10c8cd2e07cc3520ba2c750061f4dea67fae3fcd3c8f7da2d76"
+      },
+      {
+        "path": "paper_notes/assets/P002_CRN/Pasted image 20261028195714.png",
+        "before_sha256": "cf80fe106e531e7a5187209ce7f93cc0ccecd21b8df27499d5a9ff6be375c085",
+        "after_sha256": "cf80fe106e531e7a5187209ce7f93cc0ccecd21b8df27499d5a9ff6be375c085"
+      },
+      {
+        "path": "paper_notes/assets/P002_CRN/Pasted image 20261030141556.png",
+        "before_sha256": "74cbc895f9c4d1ff254f3de91b9256f1ff720b019d5231a1411af168bd234a0c",
+        "after_sha256": "74cbc895f9c4d1ff254f3de91b9256f1ff720b019d5231a1411af168bd234a0c"
+      },
+      {
+        "path": "paper_notes/assets/P002_CRN/Pasted image 20261030141648.png",
+        "before_sha256": "47d59ec293429e85fa01ad0eb071ae094497406c53423e1a83c20e972f832e4c",
+        "after_sha256": "47d59ec293429e85fa01ad0eb071ae094497406c53423e1a83c20e972f832e4c"
+      },
+      {
+        "path": "paper_notes/assets/P002_CRN/Pasted image 20261030141736.png",
+        "before_sha256": "dd9102c0aab2ec3f80f75ee7aec0549f24e8508a433268e434c9c59b510c4d0b",
+        "after_sha256": "dd9102c0aab2ec3f80f75ee7aec0549f24e8508a433268e434c9c59b510c4d0b"
+      }
+    ],
+    "csvs": {
+      "papers/paper_matrix.csv": {
+        "columns": 36,
+        "rows": 4,
+        "sha256": "c88eedf0b30d0bd4ae4f9a248094f6e22d537e9d1acdee4cba0f6cc0be752568"
+      },
+      "papers/paper_matrix_P001_import.csv": {
+        "columns": 23,
+        "rows": 1,
+        "sha256": "9ab7a80eb6d1ec415d30a8925f4ed38dab553b8c9dfd3bdb646c6568f1a68652"
+      },
+      "archive/cleanup_2026-10-17/manifest.csv": {
+        "columns": 5,
+        "rows": 71,
+        "sha256": "0e1419e6aa5cd812f2fdec8332cef387097a055e4474cfd3cd350428294e161d"
+      },
+      "docs/innovation_bank/P001_ideas.csv": {
+        "columns": 10,
+        "rows": 3,
+        "sha256": "375389b4f307cb26751c46d6d97580a7744663c8d7c51c4a56a5e36917ad5425"
+      },
+      "docs/innovation_bank/P002_ideas.csv": {
+        "columns": 10,
+        "rows": 5,
+        "sha256": "3392602ef14778b58fda14bc21418ace16c9d704cdd774dddfb6567a68773d6e"
+      },
+      "docs/maintenance/REPOSITORY_INVENTORY.csv": {
+        "columns": 15,
+        "rows": 172,
+        "sha256": "de029bced72b5c8ae67ad9a0517ff4a17b4bfd4f3f87474005a4e20194861a4d"
+      },
+      "reproductions/P001_PointPillars_VoD/experiment_tracker.csv": {
+        "columns": 8,
+        "rows": 1,
+        "sha256": "a2cf86085261e77a33f07e0535694143e4fbc0ee567ab4c193d71922fab7bd65"
+      },
+      "reproductions/P002_CRN/experiment_tracker.csv": {
+        "columns": 8,
+        "rows": 0,
+        "sha256": "fb00fbf6bcede032a42438a51bdc680c9b2e2e21f845947d510421a36153e794"
+      }
+    },
+    "all_csv_bytes_unchanged": true,
+    "markdown_local_targets": 400,
+    "obsidian_targets": 3,
+    "reference_errors": [],
+    "p003_exactly_two_readiness_files": true,
+    "p002_history_qa_status_unchanged": true,
+    "no_model_install_compile_train_eval": true,
+    "no_historical_deletion_or_move": true,
+    "limitations": "Local file targets validated; not exhaustive external availability or dynamic references. No formula/mastery/novelty certification."
+  },
+  "teacher_review": "pending",
+  "output_sha256": {
+    "paper_notes/P001_论文精读.md": "c5630dcbe5bfbf9a0e59464fa862cd23c28ae665d033e7377cc26cdd53fb9dac",
+    "docs/maintenance/P001_TABLE_IV_ERRATUM.md": "b61f61be43ac86847c612742ec5672764d04a924414d3e4dfbf64bf6acaae4fa",
+    "docs/maintenance/P002_IMAGE_PROVENANCE.md": "3974525da5880ac43775982b2c000bfbfe4f11d6640fd694a7af18282ebaf858",
+    "docs/innovation_bank/P002_NOVELTY_REVIEW_20261031.md": "aa1f1fa19a0fa037abf83be2875a002a687f1535fc064bedbca300b1d7156878",
+    "papers/P003_R4Det/README.md": "65a5688dc424e51224ffbe86099bf2e9fbdd7e158cd04a9ed8c1d752de9ad291",
+    "papers/P003_R4Det/01_pre_readiness.md": "65ed835d502c7726ad7115b79eec40ac4972963b753de52fe6f87b10f1f8f5f4",
+    "docs/research_gaps/P001_CONTENT_SUPPLEMENT.md": "d5ab1e6f752f40287b9321deffc5ee3ecf008a20412fcc17fc9efef6058679e7",
+    "figures/library/P002/FIGURE_INDEX.md": "dbcffe3b704b5a10dd30f7035cec88c567733ce00c0eb9d62fa37a32218f2030",
+    "docs/research_gaps/P002_CRN_CONTENT_SUPPLEMENT.md": "2c884eae8927ac0b395d1764020bc2db7b73e92d26f0e345d41ba9ede75adc05",
+    "docs/innovation_bank/P002_CRN_INNOVATION_NOTES.md": "d6d00726961f44c31d5948676d4e0143a8a51b5d6826b6734d863aaee19e5760",
+    "papers/P001_PointPillars_VoD/README.md": "8d8d1b88b02d5630fa4075061a41b87c68155558d733bb5424429cd890b61b43",
+    "papers/P002_CRN/README.md": "1c1099f1dd5a868432935b6e7d03fd8043738ecd0aafd2071e78ce7e3f3c3652",
+    "papers/README.md": "1c241f42c1621bac598c2a3241f97e6450b2cb6d7777aedd8f5afea3c8a5b940",
+    "docs/maintenance/P001_CURRENT_STATE.json": "5f99c71972270d3636418963b254e46400f59f36717cd8ec03742b3011b6cdf6"
+  },
+  "publication": "Checks captured before commit; actual commit/push/remote SHA reported separately, avoiding self-reference."
+}

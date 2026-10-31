@@ -1496,8 +1496,8 @@
     {
       "source": "E:\\Obsisian\\科研历程\\06 研究选题\\02 RadarVisionLLM-Lab\\P001｜Multi-Class Road User Detection With 3+1D Radar in the View-of-Delft Dataset.md",
       "destination": "paper_notes/P001_论文精读.md",
-      "sha256": "b2ea90216237336678735c48fb52708f1fc51434751d44702f751a75e7bf6da3",
-      "bytes": 24356,
+      "sha256": "c5630dcbe5bfbf9a0e59464fa862cd23c28ae665d033e7377cc26cdd53fb9dac",
+      "bytes": 24953,
       "original_source_sha256": "09eb1f76e2c7b8583cb0252214ebce66ebe82a7cb8e6f04397810dce440b60ca"
     },
     {
@@ -1636,15 +1636,15 @@
       "bytes": 1380
     },
     "papers/README.md": {
-      "sha256": "afac1c4762bf6483434cd47ba38c873bcd63f8dab96d5c448a697d56f6f7d23a",
-      "bytes": 1666
+      "sha256": "1c241f42c1621bac598c2a3241f97e6450b2cb6d7777aedd8f5afea3c8a5b940",
+      "bytes": 1880
     },
     "paper_notes/P001_概念查询宝典.md": {
       "sha256": "f6fa354e2c34f8f7725dac9332c3192cb76e716152be23c31fc9da4de5afad10",
       "bytes": 85649
     },
     "paper_notes/P001_论文精读.md": {
-      "sha256": "b2ea90216237336678735c48fb52708f1fc51434751d44702f751a75e7bf6da3",
+      "sha256": "c5630dcbe5bfbf9a0e59464fa862cd23c28ae665d033e7377cc26cdd53fb9dac",
       "bytes": 24953
     },
     "paper_notes/P002_CRN.md": {
@@ -1780,8 +1780,8 @@
       "bytes": 2305
     },
     "docs/innovation_bank/P002_CRN_INNOVATION_NOTES.md": {
-      "sha256": "c73171b6ab20b68cf380493e3723a2ba2b49f03bc008c0967d715325de32c180",
-      "bytes": 2047
+      "sha256": "d6d00726961f44c31d5948676d4e0143a8a51b5d6826b6734d863aaee19e5760",
+      "bytes": 2516
     },
     "docs/innovation_bank/P002_ideas.csv": {
       "sha256": "3392602ef14778b58fda14bc21418ace16c9d704cdd774dddfb6567a68773d6e",
@@ -1948,8 +1948,8 @@
       "bytes": 470194
     },
     "figures/library/P002/FIGURE_INDEX.md": {
-      "sha256": "4ac2cb4ac28453e71fe867ba03644a6ec4ca5572763df35af84336d39b5ab799",
-      "bytes": 5281
+      "sha256": "dbcffe3b704b5a10dd30f7035cec88c567733ce00c0eb9d62fa37a32218f2030",
+      "bytes": 5659
     },
     "paper_notes/templates/paper_archive_checklist.md": {
       "sha256": "7f217fa5b303b7b5591481237a6939cdfb978f54ed027e93d9bc75143e91ff16",
@@ -2613,7 +2613,9 @@
     "docs/maintenance/P001_P002_DOSSIER_ROUND1_STATE.json",
     "docs/research_gaps/P002_CRN_CONTENT_SUPPLEMENT.md",
     "docs/maintenance/P001_P002_CONTENT_AUDIT.md",
-    "docs/maintenance/P001_P002_CONTENT_AUDIT_STATE.json"
+    "docs/maintenance/P001_P002_CONTENT_AUDIT_STATE.json",
+    "docs/maintenance/P002_IMAGE_PROVENANCE.md",
+    "docs/innovation_bank/P002_NOVELTY_REVIEW_20261031.md"
   ],
   "crn_archive_20261030": {
     "source_copies": [
@@ -2999,5 +3001,19 @@
     "evidence_complete": false,
     "original_qa_gaps_preserved": true,
     "notes_and_images_unchanged": true
+  },
+  "evidence_round3_20261031": {
+    "record": "docs/maintenance/EVIDENCE_ROUND3_STATE.json",
+    "erratum": "docs/maintenance/P001_TABLE_IV_ERRATUM.md",
+    "formal_p001_correction": {
+      "path": "paper_notes/P001_论文精读.md",
+      "old_value": "Car 36.0",
+      "new_value": "Car 35.9",
+      "before_sha256": "b2ea90216237336678735c48fb52708f1fc51434751d44702f751a75e7bf6da3",
+      "after_sha256": "c5630dcbe5bfbf9a0e59464fa862cd23c28ae665d033e7377cc26cdd53fb9dac",
+      "replacement_count": 1
+    },
+    "source_and_historical_hashes_preserved": true,
+    "p003_preparation_only": true
   }
 }

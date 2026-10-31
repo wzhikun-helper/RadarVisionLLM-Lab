@@ -29,3 +29,7 @@ P003 R4Det、P004 MSSF均未开始；本轮不创建其学习成果。
 ## 第二轮内容审计
 
 [十项内容质量审计](../../docs/maintenance/P001_P002_CONTENT_AUDIT.md) · [本论文证据与候选问题补充](../../docs/research_gaps/P002_CRN_CONTENT_SUPPLEMENT.md)。原十项正式入口不变；补充记录包含原文核对、七字段研究问题和A/B/C研究管理分级。原问答/教师证据仍有缺口，等待教师核查，不据文件存在宣布学习验收通过。
+
+## 第三轮证据收尾
+
+[七图来源分类与SHA](../../docs/maintenance/P002_IMAGE_PROVENANCE.md) · [五项创新候选查新](../../docs/innovation_bank/P002_NOVELTY_REVIEW_20261031.md) · [执行证据](../../docs/maintenance/EVIDENCE_ROUND3_STATE.json)。第一遍此前通过的用户确认不变；原问答缺口不补造，第二遍/复现均未开始。
