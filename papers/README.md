@@ -17,3 +17,10 @@
 ## P002 CRN详细登记
 
 主矩阵已有唯一P002行，已按用户提供的正式论文核对全部36列。[CRN登记说明](P002_CRN_RECORD.md)列出逐字段依据、论文页/节/图表、作者报告指标及未核实边界。P001独立导入表仅保留历史来源，本次未修改，也不机械复制为P002导入表。
+
+## 统一论文独立档案
+
+- [P001：VoD / PointPillars](P001_PointPillars_VoD/README.md)
+- [P002：CRN](P002_CRN/README.md)
+
+两者采用相同编号槽位链接唯一正式来源，当前不物理迁移。整改证据与缺口见[第一轮对照报告](../docs/maintenance/P001_P002_DOSSIER_ROUND1.md)。

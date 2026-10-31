@@ -1636,8 +1636,8 @@
       "bytes": 1380
     },
     "papers/README.md": {
-      "sha256": "c4573dbd9d347f51f5bc9f14d8d9f68abeac4b28da9c360728e70945f1d59dc8",
-      "bytes": 1356
+      "sha256": "afac1c4762bf6483434cd47ba38c873bcd63f8dab96d5c448a697d56f6f7d23a",
+      "bytes": 1666
     },
     "paper_notes/P001_概念查询宝典.md": {
       "sha256": "f6fa354e2c34f8f7725dac9332c3192cb76e716152be23c31fc9da4de5afad10",
@@ -2607,7 +2607,10 @@
     "paper_notes/assets/P002_CRN/Pasted image 20261030141736.png",
     "papers/P002_CRN_RECORD.md",
     "reproductions/P002_CRN/README.md",
-    "reproductions/P002_CRN/experiment_tracker.csv"
+    "reproductions/P002_CRN/experiment_tracker.csv",
+    "papers/P002_CRN/README.md",
+    "docs/maintenance/P001_P002_DOSSIER_ROUND1.md",
+    "docs/maintenance/P001_P002_DOSSIER_ROUND1_STATE.json"
   ],
   "crn_archive_20261030": {
     "source_copies": [
