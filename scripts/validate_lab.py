@@ -6,6 +6,19 @@ from pypdf import PdfReader
 from maintenance_paths import ROOT,emit_report
 
 def sha(data):return hashlib.sha256(data).hexdigest()
+def markdown_prose(text):
+    """Return prose only, respecting nested shorter fences in historical snapshots."""
+    output=[];fence=None
+    for line in text.splitlines():
+        match=re.match(r'^ {0,3}(`{3,}|~{3,})(.*)$',line)
+        if fence:
+            if match and match[1][0]==fence[0] and len(match[1])>=fence[1] and not match[2].strip():
+                fence=None
+            continue
+        if match:
+            fence=(match[1][0],len(match[1]));continue
+        output.append(line)
+    return '\n'.join(output)
 def main():
     ap=argparse.ArgumentParser(description=__doc__);ap.add_argument('--report');args=ap.parse_args()
     record=json.loads((ROOT/'docs/maintenance/P001_CURRENT_STATE.json').read_text(encoding='utf-8'))
@@ -47,7 +60,7 @@ def main():
         if p.suffix=='.py' and not key.startswith('archive/'):
             compile(p.read_text(encoding='utf-8-sig'),key,'exec');compiled+=1
         if p.suffix!='.md':continue
-        text=re.sub(r'```.*?```|~~~.*?~~~','',p.read_text(encoding='utf-8-sig'),flags=re.S)
+        text=markdown_prose(p.read_text(encoding='utf-8-sig'))
         for url in re.findall(r'!?\[[^\]\n]*\]\(([^\n]*?)\)',text):
             url=re.sub(r'\s+"[^"]*"$','',url.strip()).strip('<>')
             if re.match(r'^(https?:|mailto:|app:|data:|codex:)',url):continue

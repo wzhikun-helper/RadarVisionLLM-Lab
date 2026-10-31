@@ -1,0 +1,1201 @@
+{
+  "date": "2026-10-31",
+  "head_before": "ce2c19cc816f06b24ca459565615577602427fa7",
+  "git_status_before": " M README.md\n M data/README.md\n M docs/README.md\n M docs/innovation_bank/P001_INNOVATION_NOTES.md\n M docs/innovation_bank/P001_ideas.csv\n M docs/innovation_bank/idea_template.md\n M docs/learning_notes/00_git_and_research_engineering.md\n M docs/research_gaps/P001_Limitations_Research_Gap.md\n M docs/research_log/P001_ARCHIVE_REPORT.md\n M docs/research_protocol.md\n M docs/roadmap.md\n M docs/weekly_reports/weekly_report_template.md\n M experiments/README.md\n M experiments/templates/experiment_template.md\n M figures/README.md\n M manuscript/README.md\n D paper_notes/P001_MultiClass_Road_User_Detection.md\n M paper_notes/README.md\n M paper_notes/templates/paper_note_template.md\n M reproductions/README.md\n M reproductions/templates/reproduction_template.md\n M results/README.md\n M scripts/README.md\n M src/README.md\n M writing/README.md\n M writing/academic_phrasebook.md\n?? .github/workflows/docs.yml\n?? CONTRIBUTING.md\n?? NOTICE.md\n?? archive/ARCHIVE_MANIFEST.md\n?? archive/cleanup_2026-10-17/README.md\n?? archive/cleanup_2026-10-17/manifest.csv\n?? archive/cleanup_2026-10-17/presentations/P001_Paper_Review/P001_Paper_Review_Visual_Exact.verification.json\n?? archive/cleanup_2026-10-17/presentations/P001_Radar_Detection_Prerequisite/backups/20261017_before_image_rebuild/P001_Speaker_Notes.md\n?? archive/cleanup_2026-10-17/presentations/P001_Radar_Detection_Prerequisite/backups/20261017_before_image_rebuild/README.md\n?? archive/cleanup_2026-10-17/work/p001_ppt_build/cases.png\n?? archive/cleanup_2026-10-17/work/p001_ppt_build/curves.png\n?? archive/cleanup_2026-10-17/work/p001_ppt_build/scene.png\n?? archive/cleanup_2026-10-17/work/p001_ppt_build/sensor.png\n?? archive/cleanup_2026-10-17/work/p001_prereq_build/paper.txt\n?? archive/retired_ppt_work/README.md\n?? \"docs/learning_notes/01 RadarVisionLLM-Lab：FMCW、回波与多普勒基础.md\"\n?? docs/maintenance/P001_EVIDENCE_ERRATA.md\n?? docs/maintenance/README.md\n?? experiments/templates/config_template.yaml\n?? presentations/HISTORY.md\n?? presentations/P001_Paper_Review/P001_Paper_Review_Speaker_Notes.md\n?? presentations/P001_Paper_Review/README.md\n?? presentations/P001_Paper_Review/assets/fig4_original.png\n?? presentations/P001_Paper_Review/assets/fig5_original.png\n?? presentations/P001_Paper_Review/assets/paper_page_06_220dpi.png\n?? presentations/P001_Paper_Review/slide_content.json\n?? presentations/P001_Paper_Review/sources.md\n?? presentations/P001_Radar_Detection_Prerequisite/P001_Speaker_Notes.md\n?? presentations/P001_Radar_Detection_Prerequisite/README.md\n?? presentations/P001_Radar_Detection_Prerequisite/assets/notes_image_rebuild.json\n?? presentations/P001_Radar_Detection_Prerequisite/assets/slide-01.png\n?? presentations/P001_Radar_Detection_Prerequisite/assets/slide-02.png\n?? presentations/P001_Radar_Detection_Prerequisite/assets/slide-03.png\n?? presentations/P001_Radar_Detection_Prerequisite/assets/slide-04.png\n?? presentations/P001_Radar_Detection_Prerequisite/assets/slide-05.png\n?? presentations/P001_Radar_Detection_Prerequisite/assets/slide-06.png\n?? presentations/P001_Radar_Detection_Prerequisite/assets/slide-07.png\n?? presentations/P001_Radar_Detection_Prerequisite/assets/slide-08.png\n?? presentations/P001_Radar_Detection_Prerequisite/assets/slide-09.png\n?? presentations/P001_Radar_Detection_Prerequisite/assets/text-fit.json\n?? presentations/P001_Radar_Detection_Prerequisite/assets/validation.json\n?? presentations/P001_Radar_Detection_Prerequisite/sources.md\n?? presentations/P001_paper_review_images/01_Cover.png\n?? presentations/P001_paper_review_images/01_Cover_prompt.md\n?? presentations/P001_paper_review_images/02_Visual.png\n?? presentations/P001_paper_review_images/03_Visual.png\n?? presentations/P001_paper_review_images/04_Visual.png\n?? presentations/P001_paper_review_images/05_Visual.png\n?? presentations/P001_paper_review_images/06_Visual.png\n?? presentations/P001_paper_review_images/07_Visual.png\n?? presentations/P001_paper_review_images/08_Visual.png\n?? presentations/P001_paper_review_images/09_Visual.png\n?? presentations/P001_paper_review_images/10_Visual.png\n?? presentations/P001_paper_review_images/11_Visual.png\n?? presentations/P001_paper_review_images/12_Visual.png\n?? presentations/P001_paper_review_images/13_Visual.png\n?? presentations/P001_paper_review_images/14_Visual.png\n?? presentations/P001_paper_review_images/README.md\n?? presentations/P001_paper_review_images/generation_prompts.json\n?? presentations/P001_paper_review_images/image_manifest.json\n?? presentations/P001_slide_images/01_Cover.png\n?? presentations/P001_slide_images/02_FMCW.png\n?? presentations/P001_slide_images/03_Radar_Dimensions.png\n?? presentations/P001_slide_images/04_Radar_Point_Cloud.png\n?? presentations/P001_slide_images/05_Radar_Pipeline.png\n?? presentations/P001_slide_images/06_PointPillars.png\n?? presentations/P001_slide_images/07_Temporal_Accumulation.png\n?? presentations/P001_slide_images/08_Detection_Metrics.png\n?? presentations/P001_slide_images/09_Knowledge_Summary.png\n?? presentations/P001_slide_images/README.md\n?? presentations/P001_slide_images/generation_prompts.json\n?? presentations/P001_slide_images/image_manifest.json\n?? presentations/README.md\n?? scripts/check_public_docs.py\n?? work/README.md\n?? work/p001_exact_current_build.txt\n?? work/p001_prereq_supplied_images/convert.mjs\n?? work/p001_prereq_supplied_images/manifest.json\n?? work/p001_prereq_supplied_images/renders/01.png\n?? work/p001_prereq_supplied_images/renders/02.png\n?? work/p001_prereq_supplied_images/renders/03.png\n?? work/p001_prereq_supplied_images/renders/04.png\n?? work/p001_prereq_supplied_images/renders/05.png\n?? work/p001_prereq_supplied_images/renders/06.png\n?? work/p001_prereq_supplied_images/renders/07.png\n?? work/p001_prereq_supplied_images/renders/08.png\n?? work/p001_prereq_supplied_images/renders/09.png\n?? work/p001_prereq_supplied_images/validation.json\n?? work/p001_prereq_supplied_images/verification.json\n?? work/p001_visual_exact_20261017T100548/finalize-options.json\n?? work/p001_visual_exact_20261017T100548/manifest.json\n?? work/p001_visual_exact_20261017T100548/renders/01.png\n?? work/p001_visual_exact_20261017T100548/renders/02.png\n?? work/p001_visual_exact_20261017T100548/renders/03.png\n?? work/p001_visual_exact_20261017T100548/renders/04.png\n?? work/p001_visual_exact_20261017T100548/renders/05.png\n?? work/p001_visual_exact_20261017T100548/renders/06.png\n?? work/p001_visual_exact_20261017T100548/renders/07.png\n?? work/p001_visual_exact_20261017T100548/renders/08.png\n?? work/p001_visual_exact_20261017T100548/renders/09.png\n?? work/p001_visual_exact_20261017T100548/renders/10.png\n?? work/p001_visual_exact_20261017T100548/renders/11.png\n?? work/p001_visual_exact_20261017T100548/renders/12.png\n?? work/p001_visual_exact_20261017T100548/renders/13.png\n?? work/p001_visual_exact_20261017T100548/renders/14.png\n?? work/p001_visual_exact_20261017T100548/validation.json\n?? work/p001_visual_exact_20261017T100548/verification.json\n",
+  "new_files": [
+    "docs/research_log/P001_READING_REPORT.md",
+    "docs/research_log/P001_REVIEW.md",
+    "docs/research_log/P002_CRN_REVIEW.md",
+    "reproductions/RECORDING_STANDARD.md",
+    "docs/maintenance/P001_P002_PARITY_MATRIX.md",
+    "docs/maintenance/P001_P002_PARITY_STATE.json"
+  ],
+  "modified_files": [
+    "reproductions/P001_PointPillars_VoD/README.md",
+    "reproductions/P002_CRN/README.md",
+    "docs/research_log/P002_CRN_READING_REPORT.md",
+    "docs/research_gaps/P002_CRN_Limitations_Research_Gap.md",
+    "docs/innovation_bank/P002_CRN_INNOVATION_NOTES.md",
+    "figures/library/P001/FIGURE_INDEX.md",
+    "paper_notes/templates/paper_archive_checklist.md",
+    "README.md",
+    "paper_notes/README.md",
+    "scripts/validate_lab.py",
+    "docs/maintenance/P001_CURRENT_STATE.json"
+  ],
+  "commit_scope": [
+    "docs/research_log/P001_READING_REPORT.md",
+    "docs/research_log/P001_REVIEW.md",
+    "docs/research_log/P002_CRN_REVIEW.md",
+    "reproductions/RECORDING_STANDARD.md",
+    "docs/maintenance/P001_P002_PARITY_MATRIX.md",
+    "docs/maintenance/P001_P002_PARITY_STATE.json",
+    "reproductions/P001_PointPillars_VoD/README.md",
+    "reproductions/P002_CRN/README.md",
+    "docs/research_log/P002_CRN_READING_REPORT.md",
+    "docs/research_gaps/P002_CRN_Limitations_Research_Gap.md",
+    "docs/innovation_bank/P002_CRN_INNOVATION_NOTES.md",
+    "figures/library/P001/FIGURE_INDEX.md",
+    "paper_notes/templates/paper_archive_checklist.md",
+    "README.md",
+    "paper_notes/README.md",
+    "scripts/validate_lab.py",
+    "docs/maintenance/P001_CURRENT_STATE.json"
+  ],
+  "protected_assets": {
+    "paper_notes/P001_论文精读.md": {
+      "sha256": "b2ea90216237336678735c48fb52708f1fc51434751d44702f751a75e7bf6da3",
+      "bytes": 24953
+    },
+    "paper_notes/P001_概念查询宝典.md": {
+      "sha256": "f6fa354e2c34f8f7725dac9332c3192cb76e716152be23c31fc9da4de5afad10",
+      "bytes": 85649
+    },
+    "paper_notes/P002_CRN.md": {
+      "sha256": "127c427f27c48d578d059cb3344f5a32fbf10e72af30a09d372d555d1e8ff3ca",
+      "bytes": 25225
+    },
+    "paper_notes/P002_概念查询宝典.md": {
+      "sha256": "06e0697c65e395b54d477f6edd497a9bcb8abae7d8cd5bbfea7b7c0ba8d74e25",
+      "bytes": 9281
+    },
+    "paper_notes/assets/P001/ChatGPT Image 2026年9月23日 15_22_18.png": {
+      "sha256": "54dca866fe59e13b89807caac90709d80151e96ee8dc8ba6943510d1043a2beb",
+      "bytes": 1406376
+    },
+    "paper_notes/assets/P001/ChatGPT 图像 2026年9月29日 11_04_16.png": {
+      "sha256": "cc19ea96a3e1ef5f63404df8caeebc79b61dd57e05c19795c312b6859279d729",
+      "bytes": 1527427
+    },
+    "paper_notes/assets/P001/ChatGPT 图像 2026年9月29日 15_17_15.png": {
+      "sha256": "497da056a3a124930f8095dd9c8d84de92548b1d098bdf45b74e7832cb5ce663",
+      "bytes": 1568338
+    },
+    "paper_notes/assets/P001/Pasted image 20261009152348.png": {
+      "sha256": "7a6ecc9dd135d9b20af27d8e28c34abd1e42becb618705ae7af82632d94b506e",
+      "bytes": 258035
+    },
+    "paper_notes/assets/P001/Pasted image 20261014185700.png": {
+      "sha256": "b8173e53b876932e351ecd2eca990f24c4117dffc04ea438d9b2366e5d83f9fd",
+      "bytes": 66875
+    },
+    "paper_notes/assets/P001/Pasted image 20261014185737.png": {
+      "sha256": "c8a08ac5ef08fbcbd6eb803485ea7411cb61a17111f4e88b2913dce0dca95d91",
+      "bytes": 68163
+    },
+    "paper_notes/assets/P001/Pasted image 20261019144201.png": {
+      "sha256": "9d6ac7855ae89522bc25d2f5b893a6344ddff9666f3fc8eec07db98eba677ef5",
+      "bytes": 2250370
+    },
+    "paper_notes/assets/P002_CRN/Pasted image 20261028091506.png": {
+      "sha256": "f1b62d85e2772678dac8bc1af1c1df6aa0b8c6340eb94c8ba8ecbfbb66b58d1f",
+      "bytes": 2322241
+    },
+    "paper_notes/assets/P002_CRN/Pasted image 20261028142231.png": {
+      "sha256": "7ac2431f5ea214dda30683af3b2828f837f6833375e111ec4cc8a66bb4b9ed07",
+      "bytes": 2544925
+    },
+    "paper_notes/assets/P002_CRN/Pasted image 20261028193811.png": {
+      "sha256": "deaa34a9b8dbb10c8cd2e07cc3520ba2c750061f4dea67fae3fcd3c8f7da2d76",
+      "bytes": 2410032
+    },
+    "paper_notes/assets/P002_CRN/Pasted image 20261028195714.png": {
+      "sha256": "cf80fe106e531e7a5187209ce7f93cc0ccecd21b8df27499d5a9ff6be375c085",
+      "bytes": 2183802
+    },
+    "paper_notes/assets/P002_CRN/Pasted image 20261030141556.png": {
+      "sha256": "74cbc895f9c4d1ff254f3de91b9256f1ff720b019d5231a1411af168bd234a0c",
+      "bytes": 271713
+    },
+    "paper_notes/assets/P002_CRN/Pasted image 20261030141648.png": {
+      "sha256": "47d59ec293429e85fa01ad0eb071ae094497406c53423e1a83c20e972f832e4c",
+      "bytes": 51112
+    },
+    "paper_notes/assets/P002_CRN/Pasted image 20261030141736.png": {
+      "sha256": "dd9102c0aab2ec3f80f75ee7aec0549f24e8508a433268e434c9c59b510c4d0b",
+      "bytes": 66855
+    }
+  },
+  "read_resources": [
+    {
+      "path": "papers/P002_CRN_RECORD.md",
+      "sha256": "9ad1ba8bc14c9ba1bad53b91e944da62973941b371a405ffcfcdcc8227fd5991",
+      "bytes": 8638,
+      "lines": 87,
+      "headings": [
+        "# P002 CRN｜文献登记与字段依据\r",
+        "## 论文身份与来源\r",
+        "## 字段证据与解释边界\r",
+        "## 作者报告的代表性实验（本项目未运行）\r",
+        "## 主矩阵36字段当前值\r",
+        "## 与P001历史导入表的关系\r"
+      ]
+    },
+    {
+      "path": "papers/paper_matrix_P001_import.csv",
+      "sha256": "9ab7a80eb6d1ec415d30a8925f4ed38dab553b8c9dfd3bdb646c6568f1a68652",
+      "bytes": 1380,
+      "lines": 2,
+      "headings": []
+    },
+    {
+      "path": "paper_notes/P001_概念查询宝典.md",
+      "sha256": "f6fa354e2c34f8f7725dac9332c3192cb76e716152be23c31fc9da4de5afad10",
+      "bytes": 85649,
+      "lines": 2858,
+      "headings": [
+        "# 一、雷达硬件与信号处理基础\r",
+        "## 1. 什么是雷达（Radar）\r",
+        "### Radar 与 Camera 的核心区别\r",
+        "## 2. 电磁波（Electromagnetic Wave）\r",
+        "### 频率（Frequency）\r",
+        "#### 低频 vs 高频\r",
+        "### 波长（Wavelength）\r",
+        "## 3. 回波（Echo）\r",
+        "## 4. FMCW、Chirp 与 Beat Frequency\r",
+        "### FMCW（调频连续波）\r",
+        "### Chirp（啁啾信号）\r",
+        "### Beat Frequency（拍频）\r"
+      ]
+    },
+    {
+      "path": "paper_notes/P001_论文精读.md",
+      "sha256": "b2ea90216237336678735c48fb52708f1fc51434751d44702f751a75e7bf6da3",
+      "bytes": 24953,
+      "lines": 365,
+      "headings": [
+        "## 学习总览\r",
+        "## Step 1｜Title + Abstract：先弄清论文做什么\r",
+        "### 1.1 论文基本信息\r",
+        "### 1.2 3+1D Radar 是什么意思？\r",
+        "### 1.3 研究动机与方法选择\r",
+        "### 1.4 信息贡献分析（Ablation）\r",
+        "### 1.5 主要结论\r",
+        "## Step 2｜Introduction：为什么值得研究\r",
+        "### 2.1 Radar 的优势与局限\r",
+        "### 2.2 传统 Radar 为什么难做 3D Detection？\r",
+        "### 2.3 为什么可以迁移 LiDAR Detector？\r",
+        "### ==2.4 Research Gap：三个层次==\r"
+      ]
+    },
+    {
+      "path": "paper_notes/P002_CRN.md",
+      "sha256": "127c427f27c48d578d059cb3344f5a32fbf10e72af30a09d372d555d1e8ff3ca",
+      "bytes": 25225,
+      "lines": 347,
+      "headings": [
+        "## 学习总览\r",
+        "## Step 1｜Title + Abstract：先弄清论文做什么\r",
+        "### 1.1 标题逐项理解\r",
+        "### 1.2 为什么仅有 Camera 不够？\r",
+        "### 1.3 为什么加入 Radar？\r",
+        "### 1.4 两个核心贡献模块\r",
+        "## Step 2｜Introduction：为什么值得研究\r",
+        "### 2.1 BEV：为什么三维感知需要统一空间表示？\r",
+        "### 2.2 Camera + Radar 为什么具有研究价值？\r",
+        "### 2.3 Camera-only：不适定问题与被动传感器\r",
+        "### 2.4 Radar：优势之外为什么还会失败？\r",
+        "### 2.5 Fusion 类型与准确性问题\r"
+      ]
+    },
+    {
+      "path": "paper_notes/P002_概念查询宝典.md",
+      "sha256": "06e0697c65e395b54d477f6edd497a9bcb8abae7d8cd5bbfea7b7c0ba8d74e25",
+      "bytes": 9281,
+      "lines": 169,
+      "headings": [
+        "# 一、Camera 与 BEV 视角变换基础\r",
+        "## 1. Depth Ambiguity（深度歧义）\r",
+        "## 2. Depth Distribution（深度分布）\r",
+        "## 3. Camera-to-BEV View Transformation（相机到鸟瞰空间的视角变换）\r",
+        "## 4. Frustum（视锥）与 Frustum Feature（视锥特征）\r",
+        "## 5. Radar Occupancy（雷达占用响应）\r",
+        "## 6. Voxel Pooling（体素/空间网格聚合）\r",
+        "## 7. BEV Feature Map（BEV 特征图）\r",
+        "# 二、CRN 的三个核心机制\r",
+        "## 8. RVT（Radar-assisted View Transformation，雷达辅助视角变换）\r",
+        "## 9. MFA（Multi-modal Feature Aggregation，多模态特征聚合）\r",
+        "## 10. MDCA（Multi-modal Deformable Cross Attention，多模态可变形交叉注意力）\r"
+      ]
+    },
+    {
+      "path": "work/p001_exact_current_build.txt",
+      "sha256": "fd9e3100eb79a084d007a533a8fb0c23d11603548ee37077379135194983b794",
+      "bytes": 60,
+      "lines": 1,
+      "headings": []
+    },
+    {
+      "path": "work/verify_p001_exact_current.py",
+      "sha256": "1a4e27c690106be267a10c77ad04fb493ead654138c42aee5f261fb5a2eca2f7",
+      "bytes": 311,
+      "lines": 7,
+      "headings": []
+    },
+    {
+      "path": "archive/cleanup_2026-10-17/presentations/P001_Paper_Review/P001_Paper_Review_Visual_Exact.verification.json",
+      "sha256": "be00f16649aff861111718887aed3651c44c2448335be10dbe524903dab14e68",
+      "bytes": 8719,
+      "lines": 344,
+      "headings": []
+    },
+    {
+      "path": "archive/cleanup_2026-10-17/presentations/P001_Radar_Detection_Prerequisite/backups/20261017_before_image_rebuild/P001_Speaker_Notes.md",
+      "sha256": "db5ca319568d376e551f1f012cc6035d411616f4cf2b4125e44b9c3541548005",
+      "bytes": 25165,
+      "lines": 200,
+      "headings": [
+        "# P001 逐页演讲者备注与学习讲义\r"
+      ]
+    },
+    {
+      "path": "archive/cleanup_2026-10-17/presentations/P001_Radar_Detection_Prerequisite/backups/20261017_before_image_rebuild/README.md",
+      "sha256": "989772d9a74a0af7b68ef44f60e26a6cf566f8fce0da04bc44fc0fa09e482ca8",
+      "bytes": 3439,
+      "lines": 98,
+      "headings": [
+        "# P001 雷达三维目标检测预备知识\r\r",
+        "## 内容索引\r\r",
+        "## 配套文件\r\r",
+        "## 查看与编辑\r\r",
+        "## 复现\r\r",
+        "## 学术边界\r\r",
+        "## 检查记录\r\r"
+      ]
+    },
+    {
+      "path": "archive/cleanup_2026-10-17/work/p001_ppt_build/cases.png",
+      "sha256": "a100a734ba54c217ac5db95be519a818fb0577f3c217b9a79d86b5d7d8a76d9a",
+      "bytes": 92074
+    },
+    {
+      "path": "archive/cleanup_2026-10-17/work/p001_ppt_build/curves.png",
+      "sha256": "4d335d72308c206d38968407f4f196934911fda1f975c7ea398ec86d150c0ff6",
+      "bytes": 48980
+    },
+    {
+      "path": "archive/cleanup_2026-10-17/work/p001_ppt_build/scene.png",
+      "sha256": "f64c9aea145a9f67687caa54db11935c81eb2f598f32f5bab2db37a54f36f49f",
+      "bytes": 129647
+    },
+    {
+      "path": "archive/cleanup_2026-10-17/work/p001_ppt_build/sensor.png",
+      "sha256": "1a12c96ff0424d1d16cc4d1a1f4d5b4fa19528a89e2e11187a49e5e25844cea8",
+      "bytes": 93316
+    },
+    {
+      "path": "archive/cleanup_2026-10-17/work/p001_prereq_build/paper.txt",
+      "sha256": "b4baddb69f5626a8e97801108fc78c3a10dd39fff717f71e754a978ec9956733",
+      "bytes": 45169,
+      "lines": 720,
+      "headings": []
+    },
+    {
+      "path": "docs/innovation_bank/P001_ideas.csv",
+      "sha256": "375389b4f307cb26751c46d6d97580a7744663c8d7c51c4a56a5e36917ad5425",
+      "bytes": 882,
+      "lines": 4,
+      "headings": []
+    },
+    {
+      "path": "docs/innovation_bank/P001_INNOVATION_NOTES.md",
+      "sha256": "15b11ff676cb0cf17e1123daaaf14fef045fdd78eaa5f48947d314e6f26ec23d",
+      "bytes": 2305,
+      "lines": 21,
+      "headings": [
+        "# P001 Innovation Bank 解释与评分口径\r",
+        "## 2026-10-17：候选证据字段与关联实验\r"
+      ]
+    },
+    {
+      "path": "docs/innovation_bank/P002_CRN_INNOVATION_NOTES.md",
+      "sha256": "a9dcfb1a8360ea06eb3251bec3f20f8fafabaee9f4b85d42b5518112c70e91fc",
+      "bytes": 1601,
+      "lines": 15,
+      "headings": [
+        "# P002 CRN｜候选想法登记\r"
+      ]
+    },
+    {
+      "path": "docs/innovation_bank/P002_ideas.csv",
+      "sha256": "3392602ef14778b58fda14bc21418ace16c9d704cdd774dddfb6567a68773d6e",
+      "bytes": 1221,
+      "lines": 6,
+      "headings": []
+    },
+    {
+      "path": "docs/maintenance/CRN_FIRST_PASS_AUDIT.md",
+      "sha256": "54e41f3efa026c168a57df07b0063d4bc50f883b42be36f4ed2bd34c36cf4045",
+      "bytes": 3424,
+      "lines": 37,
+      "headings": [
+        "# CRN 第一遍精读归档核查｜2026-10-30\r",
+        "## 已收到的材料与保留方式\r",
+        "## 增量验收核查\r",
+        "## 论文结论与研究假设\r",
+        "## Git与交付状态\r",
+        "## 2026-10-30 用户状态确认与图片规范化\r"
+      ]
+    },
+    {
+      "path": "docs/maintenance/CRN_FIRST_PASS_STATE.json",
+      "sha256": "125099905e61c83698a0fe116f565af105fd5a3c08ef0e01a26d0befc61a1488",
+      "bytes": 7414,
+      "lines": 161,
+      "headings": []
+    },
+    {
+      "path": "docs/maintenance/P001_CURRENT_STATE.json",
+      "sha256": "9f60247cac749f2eeb5310982847999d1d7ce3b9751b8af4956ecbb2d41b036c",
+      "bytes": 145615,
+      "lines": 2947,
+      "headings": []
+    },
+    {
+      "path": "docs/maintenance/P001_EVIDENCE_ERRATA.md",
+      "sha256": "2aa9b350dbfefd2d4cc4107dd94b35d7261616eb159336600ed41e64f1dd4585",
+      "bytes": 1812,
+      "lines": 12,
+      "headings": [
+        "# P001 表述差异与证据指针"
+      ]
+    },
+    {
+      "path": "docs/maintenance/P001_history.zip",
+      "sha256": "f1483561958d867f4399cb4eaa6381abd8cf6203f540ca60fd5a9a3e472788b2",
+      "bytes": 88731,
+      "entries": 41
+    },
+    {
+      "path": "docs/maintenance/P001_P002_CONSISTENCY_AUDIT.md",
+      "sha256": "be9fb884897a4d1d3e7b237b20492c2db43cc054093db2244f86e1008265f285",
+      "bytes": 5755,
+      "lines": 44,
+      "headings": [
+        "# P001/P002资料一致性审计｜2026-10-30\r",
+        "## 覆盖位置与来源\r",
+        "## 学习与工程状态\r",
+        "## 外部证据与未解决问题\r",
+        "## 后续判断\r"
+      ]
+    },
+    {
+      "path": "docs/maintenance/P002_ALIGNMENT_STATE.json",
+      "sha256": "1d232fddcf9d1babda89a5dcd1f70ccbc502ba4538bbcfa00d8e6a3e6d1193b3",
+      "bytes": 7697,
+      "lines": 182,
+      "headings": []
+    },
+    {
+      "path": "docs/maintenance/P002_MATRIX_REGISTRATION.json",
+      "sha256": "2ebfb128192c710f0b4ed6558bb353c8f4392d887e0335fb8188ce645890ce0a",
+      "bytes": 6211,
+      "lines": 97,
+      "headings": []
+    },
+    {
+      "path": "docs/research_gaps/P001_Limitations_Research_Gap.md",
+      "sha256": "2feb0097bddeff9808021f33c66a420f3206d1a4f84c8f543c1abadc6141bbfe",
+      "bytes": 4976,
+      "lines": 45,
+      "headings": [
+        "# P001｜Limitations 与 Research Gap 证据审查\r",
+        "## 重点研究问题（候选）\r",
+        "## 文献核查任务\r",
+        "## 2026-10-17：证据登记与勘误层（保留上文历史表述）\r"
+      ]
+    },
+    {
+      "path": "docs/research_gaps/P002_CRN_Limitations_Research_Gap.md",
+      "sha256": "a216340c35c06ff4ffa9e7aef5550c161f5af6fbe839b5ac9620ee62ac216937",
+      "bytes": 4348,
+      "lines": 42,
+      "headings": [
+        "# P002 CRN｜局限与候选研究问题\r",
+        "## 来源与版本\r",
+        "## 论文明确证据与作者明确讨论\r",
+        "## 基于证据的推断\r",
+        "## 待验证假设与最小实验设计（均未执行）\r",
+        "## 与主线和后续论文的联系\r"
+      ]
+    },
+    {
+      "path": "docs/research_log/P001_ARCHIVE_REPORT.md",
+      "sha256": "80ee746b592f31730e1685e08016d3f1db3b0ba35ce62d21d33f479186d49aee",
+      "bytes": 2643,
+      "lines": 36,
+      "headings": [
+        "# P001 六项科研资产归档报告",
+        "## 六项任务状态",
+        "## 本次操作范围与限制",
+        "## 用户本地合并步骤",
+        "## 验收结论",
+        "## 2026-10-17 后续状态指针"
+      ]
+    },
+    {
+      "path": "docs/research_log/P002_CRN_READING_REPORT.md",
+      "sha256": "ecf4587337af67087aefce8d601f26b21393fe8f20a7959a11a209e0be6f48f2",
+      "bytes": 1986,
+      "lines": 23,
+      "headings": [
+        "# P002 CRN｜第一遍阅读归档报告\r",
+        "## 学习覆盖与确认来源\r",
+        "## 本轮补齐的科研管理资料\r",
+        "## 待完成与后续\r"
+      ]
+    },
+    {
+      "path": "figures/library/P001/FIGURE_INDEX.md",
+      "sha256": "d1eb58240eb65030589d650ad893747f0ec79cf52a7561c8553f170a260d6150",
+      "bytes": 3523,
+      "lines": 59,
+      "headings": [
+        "# P001 Figure Library（图表索引）",
+        "## Fig.1｜VoD 多传感器场景",
+        "## Fig.2｜传感器安装与坐标",
+        "## Table IV｜消融与多帧性能",
+        "## Fig.4｜距离与 AP",
+        "## Fig.5｜IoU 阈值与 AP",
+        "## Fig.6｜成功检测案例",
+        "## Fig.7｜失败案例"
+      ]
+    },
+    {
+      "path": "figures/library/P001/paper_page_01_reference.png",
+      "sha256": "a3e0931e03ac6e7a88940faad9dc125674c44624fc05eb16d908ed4fbade78b8",
+      "bytes": 365432
+    },
+    {
+      "path": "figures/library/P001/paper_page_04_reference.png",
+      "sha256": "19f1a73f788a19f5520c8499d415e64771d56f2d27b3558602d5b40ab59eea1a",
+      "bytes": 317338
+    },
+    {
+      "path": "figures/library/P001/paper_page_06_reference.png",
+      "sha256": "568e9cba138680fdcf8056949a6b4a43e259b86ab1ab11b1146edfaeedfdcafc",
+      "bytes": 208330
+    },
+    {
+      "path": "figures/library/P001/paper_page_07_reference.png",
+      "sha256": "adcb5fe2927202bdd982d8d29ded676b9d3d3577e116112b179ba82956db9e6e",
+      "bytes": 470194
+    },
+    {
+      "path": "figures/library/P002/FIGURE_INDEX.md",
+      "sha256": "859dfe086c34271e54cf6c2328726be16ef830075c2fc223ac2bee93c1a620a7",
+      "bytes": 3036,
+      "lines": 15,
+      "headings": [
+        "# P002 CRN｜学习配图索引\r"
+      ]
+    },
+    {
+      "path": "paper_notes/assets/P001/ChatGPT Image 2026年9月23日 15_22_18.png",
+      "sha256": "54dca866fe59e13b89807caac90709d80151e96ee8dc8ba6943510d1043a2beb",
+      "bytes": 1406376
+    },
+    {
+      "path": "paper_notes/assets/P001/ChatGPT 图像 2026年9月29日 11_04_16.png",
+      "sha256": "cc19ea96a3e1ef5f63404df8caeebc79b61dd57e05c19795c312b6859279d729",
+      "bytes": 1527427
+    },
+    {
+      "path": "paper_notes/assets/P001/ChatGPT 图像 2026年9月29日 15_17_15.png",
+      "sha256": "497da056a3a124930f8095dd9c8d84de92548b1d098bdf45b74e7832cb5ce663",
+      "bytes": 1568338
+    },
+    {
+      "path": "paper_notes/assets/P001/Pasted image 20261009152348.png",
+      "sha256": "7a6ecc9dd135d9b20af27d8e28c34abd1e42becb618705ae7af82632d94b506e",
+      "bytes": 258035
+    },
+    {
+      "path": "paper_notes/assets/P001/Pasted image 20261014185700.png",
+      "sha256": "b8173e53b876932e351ecd2eca990f24c4117dffc04ea438d9b2366e5d83f9fd",
+      "bytes": 66875
+    },
+    {
+      "path": "paper_notes/assets/P001/Pasted image 20261014185737.png",
+      "sha256": "c8a08ac5ef08fbcbd6eb803485ea7411cb61a17111f4e88b2913dce0dca95d91",
+      "bytes": 68163
+    },
+    {
+      "path": "paper_notes/assets/P001/Pasted image 20261019144201.png",
+      "sha256": "9d6ac7855ae89522bc25d2f5b893a6344ddff9666f3fc8eec07db98eba677ef5",
+      "bytes": 2250370
+    },
+    {
+      "path": "paper_notes/assets/P002_CRN/Pasted image 20261028091506.png",
+      "sha256": "f1b62d85e2772678dac8bc1af1c1df6aa0b8c6340eb94c8ba8ecbfbb66b58d1f",
+      "bytes": 2322241
+    },
+    {
+      "path": "paper_notes/assets/P002_CRN/Pasted image 20261028142231.png",
+      "sha256": "7ac2431f5ea214dda30683af3b2828f837f6833375e111ec4cc8a66bb4b9ed07",
+      "bytes": 2544925
+    },
+    {
+      "path": "paper_notes/assets/P002_CRN/Pasted image 20261028193811.png",
+      "sha256": "deaa34a9b8dbb10c8cd2e07cc3520ba2c750061f4dea67fae3fcd3c8f7da2d76",
+      "bytes": 2410032
+    },
+    {
+      "path": "paper_notes/assets/P002_CRN/Pasted image 20261028195714.png",
+      "sha256": "cf80fe106e531e7a5187209ce7f93cc0ccecd21b8df27499d5a9ff6be375c085",
+      "bytes": 2183802
+    },
+    {
+      "path": "paper_notes/assets/P002_CRN/Pasted image 20261030141556.png",
+      "sha256": "74cbc895f9c4d1ff254f3de91b9256f1ff720b019d5231a1411af168bd234a0c",
+      "bytes": 271713
+    },
+    {
+      "path": "paper_notes/assets/P002_CRN/Pasted image 20261030141648.png",
+      "sha256": "47d59ec293429e85fa01ad0eb071ae094497406c53423e1a83c20e972f832e4c",
+      "bytes": 51112
+    },
+    {
+      "path": "paper_notes/assets/P002_CRN/Pasted image 20261030141736.png",
+      "sha256": "dd9102c0aab2ec3f80f75ee7aec0549f24e8508a433268e434c9c59b510c4d0b",
+      "bytes": 66855
+    },
+    {
+      "path": "presentations/P001_Paper_Review/P001_Paper_Review_Speaker_Notes.md",
+      "sha256": "60f8b7a7b61a2acc374211c54de1b240668d0f0bdd1744cadb98bb43142970d3",
+      "bytes": 7213,
+      "lines": 167,
+      "headings": [
+        "# P001 论文精读逐页讲义\r",
+        "## P1 P001 论文精读\r",
+        "## P2 研究背景与动机\r",
+        "## P3 研究问题与核心贡献\r",
+        "## P4 VoD 数据集与实验设置\r",
+        "## P5 3+1D Radar 与 PointPillars 技术路线\r",
+        "## P6 Radar 特征消融实验\r",
+        "## P7 Temporal Accumulation\r",
+        "## P8 Radar 与 LiDAR 的总体性能\r",
+        "## P9 不同距离下的检测性能\r",
+        "## P10 3D IoU 阈值与检测性能\r",
+        "## P11 Conclusion：主要发现\r"
+      ]
+    },
+    {
+      "path": "presentations/P001_Paper_Review/README.md",
+      "sha256": "0464f6b3c65dc5f1f77e7943f2b7b518e9e57c5f88b023a3ece3e161d3c55c8d",
+      "bytes": 511,
+      "lines": 9,
+      "headings": [
+        "# P001论文精读配套材料\r"
+      ]
+    },
+    {
+      "path": "presentations/P001_Paper_Review/slide_content.json",
+      "sha256": "730ef2d0d564a7b843a28480c8aedacfeaf9037e822458734cde063f2681150d",
+      "bytes": 10577,
+      "lines": 207,
+      "headings": []
+    },
+    {
+      "path": "presentations/P001_Paper_Review/sources.md",
+      "sha256": "cd1f2a71c3f869fb96495d1de24bd392e2e6a897e13ba37b08e91c4ceeed1220",
+      "bytes": 4375,
+      "lines": 66,
+      "headings": [
+        "# P001 论文精读：来源与事实边界\r",
+        "## 主要来源\r",
+        "## 逐页证据\r",
+        "## 经原文核实的图表数据\r",
+        "## 旧笔记差异与本课件修正\r",
+        "## 研究结论边界\r",
+        "## 图像与版权\r",
+        "## 2026-10-20 正式笔记替换\r"
+      ]
+    },
+    {
+      "path": "presentations/P001_Paper_Review/verify_visual_exact.py",
+      "sha256": "8dcfba7c9ad84ec05102c760876608cec457635163e9d9092e5b364f3dade919",
+      "bytes": 311,
+      "lines": 7,
+      "headings": []
+    },
+    {
+      "path": "presentations/P001_paper_review_images/01_Cover.png",
+      "sha256": "c6782713ed8c7043e74d11fb75f0be5ac7bd5eb906147d23428a194163d1e13d",
+      "bytes": 1320896
+    },
+    {
+      "path": "presentations/P001_paper_review_images/01_Cover_prompt.md",
+      "sha256": "0348b1a37b748ed69a5626ffa02813573ea7c4b005d69b5fad8c45305f2a5bec",
+      "bytes": 2652,
+      "lines": 22,
+      "headings": [
+        "# P001 论文精读 P1 封面视觉稿",
+        "## 生成提示词"
+      ]
+    },
+    {
+      "path": "presentations/P001_paper_review_images/02_Visual.png",
+      "sha256": "1cdb63a0904068196433d5351a376969b6a46f60ab19ec90781fbcec66ea422b",
+      "bytes": 1436234
+    },
+    {
+      "path": "presentations/P001_paper_review_images/03_Visual.png",
+      "sha256": "1881564831aa0b70f3144e64fb56e1b332f51a44d5d75cc159a3ac41effdec25",
+      "bytes": 1399089
+    },
+    {
+      "path": "presentations/P001_paper_review_images/04_Visual.png",
+      "sha256": "b724a3022763cf70ad870f5be8d8a5c43cdbd4f03a0ffff503440a86f6dc4245",
+      "bytes": 1497931
+    },
+    {
+      "path": "presentations/P001_paper_review_images/05_Visual.png",
+      "sha256": "cf54f375a982546cd15c7743f01d87c5865b762281dbcdbb9a592cac1a025526",
+      "bytes": 1388939
+    },
+    {
+      "path": "presentations/P001_paper_review_images/06_Visual.png",
+      "sha256": "f8c035bfb4e30d521bf4126bd2801b818274974a86ea3e3fa63eb0e109e25742",
+      "bytes": 1293934
+    },
+    {
+      "path": "presentations/P001_paper_review_images/07_Visual.png",
+      "sha256": "39917355303ad38f7589682bf4f8a49e7003b3b99810a0e0b341c3091a4c5af9",
+      "bytes": 1369000
+    },
+    {
+      "path": "presentations/P001_paper_review_images/08_Visual.png",
+      "sha256": "94be2f409ee1b6d877c2c46b1ab7220100c60bf3bf4abd6be056ea37fdee7c5d",
+      "bytes": 1300775
+    },
+    {
+      "path": "presentations/P001_paper_review_images/09_Visual.png",
+      "sha256": "098babc5fd2f43888fd9531d3b5df2610696f28618c7b033f3d76e336b5321b4",
+      "bytes": 1312530
+    },
+    {
+      "path": "presentations/P001_paper_review_images/10_Visual.png",
+      "sha256": "b8e5b5c0472125eb0752a98e88f626610893ff9666a55662ff65f0778c0d01aa",
+      "bytes": 1271114
+    },
+    {
+      "path": "presentations/P001_paper_review_images/11_Visual.png",
+      "sha256": "60d0e3c91c94cfccae10a1150f4b2f2e65eeba5e1fa78e8d515502873854bcc6",
+      "bytes": 1490766
+    },
+    {
+      "path": "presentations/P001_paper_review_images/12_Visual.png",
+      "sha256": "09828b6a7eaf8195b156cd49bc9d05d97a2f70af446380ec14fc0b39fe6ee24e",
+      "bytes": 1457666
+    },
+    {
+      "path": "presentations/P001_paper_review_images/13_Visual.png",
+      "sha256": "035f3f42d10d32c4bf861896854aa7c06493da6f7fbcb311e3a4dd5944a79c06",
+      "bytes": 1449693
+    },
+    {
+      "path": "presentations/P001_paper_review_images/14_Visual.png",
+      "sha256": "376ed2a9edb684750a9d9767362978ead33ea45796b9b8f7b59ce216ac2936e3",
+      "bytes": 1531841
+    },
+    {
+      "path": "presentations/P001_paper_review_images/generation_prompts.json",
+      "sha256": "02db64644ad5d8131af1bc96265ad30258f020964ba9953f05e0ef5010d3fb00",
+      "bytes": 21191,
+      "lines": 54,
+      "headings": []
+    },
+    {
+      "path": "presentations/P001_paper_review_images/image_manifest.json",
+      "sha256": "72bc5fd73658b5bfbc5ca14e7d1915b73e1ac8f0726fcb1cb2b5a5aaad316b98",
+      "bytes": 3363,
+      "lines": 86,
+      "headings": []
+    },
+    {
+      "path": "presentations/P001_paper_review_images/README.md",
+      "sha256": "219f0b5b36d18c454f100956ca3854ca1f1a3198ccce580feebf3da396ece876",
+      "bytes": 1250,
+      "lines": 24,
+      "headings": [
+        "# P001 论文精读视觉稿\r",
+        "## 当前阶段\r",
+        "## 内容依据\r",
+        "## 风格依据\r",
+        "## 证据与可编辑性\r"
+      ]
+    },
+    {
+      "path": "presentations/P001_Radar_Detection_Prerequisite/P001_Speaker_Notes.md",
+      "sha256": "72811143cf297a0d4b2062a7a8c7a5fdbf3f4ef4283872aa109075e960e84fc9",
+      "bytes": 25243,
+      "lines": 200,
+      "headings": [
+        "# P001 逐页演讲者备注与学习讲义\r"
+      ]
+    },
+    {
+      "path": "presentations/P001_Radar_Detection_Prerequisite/README.md",
+      "sha256": "2dd9bab11355ac1f919bf8a939ff92b494969eb9485277bc94807f6d6c3abb32",
+      "bytes": 486,
+      "lines": 8,
+      "headings": [
+        "# P001雷达预备知识配套材料\r"
+      ]
+    },
+    {
+      "path": "presentations/P001_Radar_Detection_Prerequisite/sources.md",
+      "sha256": "6b237a9d4f04a2febb7c25bc45f51bd9accbc719ae3decd1508150fb6b0132d8",
+      "bytes": 13950,
+      "lines": 302,
+      "headings": [
+        "# P001 预备知识 PPT：来源与证据边界\r",
+        "## 公开原始资料\r",
+        "### [S1] P001 原论文（首要来源）\r",
+        "### [S2] FMCW 权威技术资料\r",
+        "### [S3] TI Radar Academy 术语\r",
+        "### [S4] RCS 定义\r",
+        "### [S5] PointPillars 原论文\r",
+        "### [S6] 检测评估协议\r",
+        "### [S7] Radar Cube 的维度与处理阶段\r",
+        "## 已有项目资料与缺失检查\r",
+        "## 逐页来源与图示声明\r",
+        "## 公式的适用前提\r"
+      ]
+    },
+    {
+      "path": "presentations/P001_slide_images/01_Cover.png",
+      "sha256": "b8f1cc7bed3dd3a9f7cee030a0c8e520d563ff2ad896d3652891b0b78097df29",
+      "bytes": 1457522
+    },
+    {
+      "path": "presentations/P001_slide_images/02_FMCW.png",
+      "sha256": "8d06fe0fcf20fddd5881387fc81b593b0615f5b42effcf249a66a5ddfb51b4fd",
+      "bytes": 1442858
+    },
+    {
+      "path": "presentations/P001_slide_images/03_Radar_Dimensions.png",
+      "sha256": "2162e5183c4f6cc5faf0ea40d79dc8b380ed5e243a937fe74e83eea536e98176",
+      "bytes": 1319212
+    },
+    {
+      "path": "presentations/P001_slide_images/04_Radar_Point_Cloud.png",
+      "sha256": "d36bdb45b78a75ef098592202d6bdf7fe5664af55df25eff303b996bc9c17c0a",
+      "bytes": 1503285
+    },
+    {
+      "path": "presentations/P001_slide_images/05_Radar_Pipeline.png",
+      "sha256": "dbffa788f6d2d0afc3d24a8680e2000104e9966f6734350aae0f192329fa12b0",
+      "bytes": 1422115
+    },
+    {
+      "path": "presentations/P001_slide_images/06_PointPillars.png",
+      "sha256": "290682041f8ee5a004fc7daf89a62ec7a5e7bfe7e7a1bb06b15e3e0585501101",
+      "bytes": 1480200
+    },
+    {
+      "path": "presentations/P001_slide_images/07_Temporal_Accumulation.png",
+      "sha256": "d7133fda73906701d0c6d038a3aa2339f05f56af0d65d1b9543672a3b23f76f7",
+      "bytes": 1478465
+    },
+    {
+      "path": "presentations/P001_slide_images/08_Detection_Metrics.png",
+      "sha256": "add6894a8eb2d099e51c51cc9e78c1aa6d455222d6dae351b6664216f7178a64",
+      "bytes": 1538440
+    },
+    {
+      "path": "presentations/P001_slide_images/09_Knowledge_Summary.png",
+      "sha256": "b1b556502969f7ec35bfad42d09a5bb3ad15c16e758997451a5ebacf914ee960",
+      "bytes": 1427697
+    },
+    {
+      "path": "presentations/P001_slide_images/generation_prompts.json",
+      "sha256": "608df707ea2a5671a7b0ac886a80250d9c69f40666370d82a5363d0ab1cf4956",
+      "bytes": 15764,
+      "lines": 43,
+      "headings": []
+    },
+    {
+      "path": "presentations/P001_slide_images/image_manifest.json",
+      "sha256": "4e05ba3fedd2ec829a095b2d0c4bfcf66c6565ebb9d4fc643e7e94ad53029bc5",
+      "bytes": 2160,
+      "lines": 83,
+      "headings": []
+    },
+    {
+      "path": "presentations/P001_slide_images/README.md",
+      "sha256": "19925f663d4f5c0ffdae92a979fbe8f083ad095734839d1658f6adee410bd55a",
+      "bytes": 611,
+      "lines": 5,
+      "headings": [
+        "# P001 独立幻灯片视觉参考\r"
+      ]
+    },
+    {
+      "path": "presentations/P001_Paper_Review/assets/fig4_original.png",
+      "sha256": "a69f0d764b37f6ba16beed22e5c6a2edec8a5a8a0b811667199228f54b5c98a4",
+      "bytes": 58194
+    },
+    {
+      "path": "presentations/P001_Paper_Review/assets/fig5_original.png",
+      "sha256": "1f0c6f6ab0fa57c09bdc6a378f853ad5c76316f36ab6e89202f5f87d5f0b8a9a",
+      "bytes": 69116
+    },
+    {
+      "path": "presentations/P001_Paper_Review/assets/paper_page_06_220dpi.png",
+      "sha256": "722931a632ebcf07ee48b6094750bc2217006eb4ba5827339463b5d332c35df6",
+      "bytes": 839995
+    },
+    {
+      "path": "presentations/P001_Radar_Detection_Prerequisite/assets/notes_image_rebuild.json",
+      "sha256": "5d68d3274ec7fc54936f63661b80b13ffec62c636aa1e3d75a265508168cfcdf",
+      "bytes": 25275,
+      "lines": 21,
+      "headings": []
+    },
+    {
+      "path": "presentations/P001_Radar_Detection_Prerequisite/assets/slide-01.png",
+      "sha256": "89092ed322bdc546008856a9ce33839ccea8036e0d60c006aca7c9868cd4d082",
+      "bytes": 101467
+    },
+    {
+      "path": "presentations/P001_Radar_Detection_Prerequisite/assets/slide-02.png",
+      "sha256": "7c0abf67f70ab06ef1a9020a3c36a3eba3afda15ba47ca196fc4ce1e11c50a2a",
+      "bytes": 119041
+    },
+    {
+      "path": "presentations/P001_Radar_Detection_Prerequisite/assets/slide-03.png",
+      "sha256": "b52ed00d70aae8279dacd8853651c45f449e5236ded76fc8fcda20a6f2436655",
+      "bytes": 97247
+    },
+    {
+      "path": "presentations/P001_Radar_Detection_Prerequisite/assets/slide-04.png",
+      "sha256": "6b0377fe58c694609f589e69e155d8c23f40f7a3d5881b0b2155894e97e4c443",
+      "bytes": 122000
+    },
+    {
+      "path": "presentations/P001_Radar_Detection_Prerequisite/assets/slide-05.png",
+      "sha256": "ab73931c6adb60830347b77d469b88e6082d74a50d0aeab84d04aa8a417eaba0",
+      "bytes": 125433
+    },
+    {
+      "path": "presentations/P001_Radar_Detection_Prerequisite/assets/slide-06.png",
+      "sha256": "2b1f316a0bce5532c81bcdabf5ac2741ba448df2c029b5fa2b3eb3cce7f669bf",
+      "bytes": 107595
+    },
+    {
+      "path": "presentations/P001_Radar_Detection_Prerequisite/assets/slide-07.png",
+      "sha256": "216cbfe9f81e0f533fdd813601c653192618506d14c3a9caea042790bf5a9899",
+      "bytes": 113305
+    },
+    {
+      "path": "presentations/P001_Radar_Detection_Prerequisite/assets/slide-08.png",
+      "sha256": "26a33fd236fcac8798deafb7920860c943438fade897908f74c96803c32dc358",
+      "bytes": 113523
+    },
+    {
+      "path": "presentations/P001_Radar_Detection_Prerequisite/assets/slide-09.png",
+      "sha256": "3cc9d6d2069db9410050c44db850b64e6d714d8b4d0f7914fb76f9826d31a262",
+      "bytes": 117662
+    },
+    {
+      "path": "presentations/P001_Radar_Detection_Prerequisite/assets/text-fit.json",
+      "sha256": "51f8da19d481eba57f3ef553166ed2eb00ff18b8fa8f5978bc44714ea0328fd9",
+      "bytes": 48367,
+      "lines": 1992,
+      "headings": []
+    },
+    {
+      "path": "presentations/P001_Radar_Detection_Prerequisite/assets/validation.json",
+      "sha256": "abea462b530bac99379a36b18550341b3bc7c8eda396453aced751cd21388a9c",
+      "bytes": 3896,
+      "lines": 129,
+      "headings": []
+    },
+    {
+      "path": "reproductions/P001_PointPillars_VoD/.gitignore",
+      "sha256": "f661996efab8eec6895243263e6c5d5b520ef3dc7d0061abeeadbe6f5df27217",
+      "bytes": 65
+    },
+    {
+      "path": "reproductions/P001_PointPillars_VoD/experiment_tracker.csv",
+      "sha256": "a2cf86085261e77a33f07e0535694143e4fbc0ee567ab4c193d71922fab7bd65",
+      "bytes": 126,
+      "lines": 2,
+      "headings": []
+    },
+    {
+      "path": "reproductions/P001_PointPillars_VoD/README.md",
+      "sha256": "85e7d9d5c9c23ac412f7f9dffd959c02db66d0bf07ba8d0c673e7132097df639",
+      "bytes": 3239,
+      "lines": 60,
+      "headings": [
+        "# P001 PointPillars + VoD 复现计划",
+        "## Phase 0｜资源与环境核查",
+        "## Phase 1｜最小可运行基线",
+        "## Phase 2｜论文实验复现",
+        "## Phase 3｜分析与扩展",
+        "## 每阶段执行记录模板",
+        "## 常见故障排查顺序",
+        "## 安全与资源"
+      ]
+    },
+    {
+      "path": "reproductions/P002_CRN/experiment_tracker.csv",
+      "sha256": "fb00fbf6bcede032a42438a51bdc680c9b2e2e21f845947d510421a36153e794",
+      "bytes": 73,
+      "lines": 1,
+      "headings": []
+    },
+    {
+      "path": "reproductions/P002_CRN/README.md",
+      "sha256": "519f4993cdc90e8d97882b0519fb45347d102af5f1a8a4664a580b3db7de3b8f",
+      "bytes": 2465,
+      "lines": 28,
+      "headings": [
+        "# P002 CRN｜复现可行性记录（暂不进入工程复现）\r",
+        "## 已知来源与核查范围\r",
+        "## 为什么暂不优先复现\r",
+        "## 重新评估的触发条件\r"
+      ]
+    },
+    {
+      "path": "work/p001_prereq_supplied_images/convert.mjs",
+      "sha256": "3ab034a4ab4823332678d757304282208fe574e368180b0a773b1b5e9f8bb045",
+      "bytes": 2975,
+      "lines": 27,
+      "headings": []
+    },
+    {
+      "path": "work/p001_prereq_supplied_images/manifest.json",
+      "sha256": "71714702b36739276cfee30020ff95ef2e3c30a4b296c9929fc6c4ae1ff71a27",
+      "bytes": 27724,
+      "lines": 155,
+      "headings": []
+    },
+    {
+      "path": "work/p001_prereq_supplied_images/validation.json",
+      "sha256": "e050dc81d7b9e69fb1f44dfdd7a9556bf9abf5fd8078dd04bfdffac7e47033a4",
+      "bytes": 2755,
+      "lines": 92,
+      "headings": []
+    },
+    {
+      "path": "work/p001_prereq_supplied_images/verification.json",
+      "sha256": "a579d227a7acf805a8f09bbc112a2fe5be69090551d25800e2981d3a517ef650",
+      "bytes": 230,
+      "lines": 8,
+      "headings": []
+    },
+    {
+      "path": "work/p001_visual_exact_20261017T100548/finalize-options.json",
+      "sha256": "6ea3b184dc9b1fe0f12daf8707b79e96fb7503b6038e6c91f149e6d049055e71",
+      "bytes": 1096,
+      "lines": 17,
+      "headings": []
+    },
+    {
+      "path": "work/p001_visual_exact_20261017T100548/manifest.json",
+      "sha256": "64abd0a3026450e3be52769571deba90d63ec65c6b5f594bbea1366fa795399a",
+      "bytes": 3366,
+      "lines": 160,
+      "headings": []
+    },
+    {
+      "path": "work/p001_visual_exact_20261017T100548/validation.json",
+      "sha256": "1553cb84835d005173200ac1af966882b93cbf9a085f512a014709e611df5784",
+      "bytes": 2770,
+      "lines": 92,
+      "headings": []
+    },
+    {
+      "path": "work/p001_visual_exact_20261017T100548/verification.json",
+      "sha256": "dbb9264993d93da921c399fe67bd6fac3eed9e1b2ccdf8dcd1c21bde22358ad5",
+      "bytes": 7224,
+      "lines": 278,
+      "headings": []
+    },
+    {
+      "path": "work/p001_prereq_supplied_images/renders/01.png",
+      "sha256": "08aa644282224d9512f9c6ce986952b662c63888e1b75815286eed3c69f46613",
+      "bytes": 874145
+    },
+    {
+      "path": "work/p001_prereq_supplied_images/renders/02.png",
+      "sha256": "bd704c787a3d8afd1ac8e1c4e461f6050d35d49213ad1ce2521674a8e5850a50",
+      "bytes": 881609
+    },
+    {
+      "path": "work/p001_prereq_supplied_images/renders/03.png",
+      "sha256": "03ce496b7182aa48866dde12587f3b5531e911acf7b5ff39a4f34b4d4f5fd10f",
+      "bytes": 779088
+    },
+    {
+      "path": "work/p001_prereq_supplied_images/renders/04.png",
+      "sha256": "bf08b62ed173640fb26a44942dda28ec94192327787548bf1fc6d42f8bd830d1",
+      "bytes": 925655
+    },
+    {
+      "path": "work/p001_prereq_supplied_images/renders/05.png",
+      "sha256": "5b7bc97bfb75f1cdecccac8ac1cae15cb8b5cb8edf7bba4815d42c79234a3b20",
+      "bytes": 841618
+    },
+    {
+      "path": "work/p001_prereq_supplied_images/renders/06.png",
+      "sha256": "d56e00e201d7e3cb26adeb854238ecc0626154e90b26f9f4caa0346d2e9ed3d0",
+      "bytes": 904942
+    },
+    {
+      "path": "work/p001_prereq_supplied_images/renders/07.png",
+      "sha256": "660f15c20265fe8ae431d5f5253f1925f38286fc3a78138f6207d759a66e6b9e",
+      "bytes": 904401
+    },
+    {
+      "path": "work/p001_prereq_supplied_images/renders/08.png",
+      "sha256": "d620c6e9d4db6ea0d8ccf1cff39ef7efe6eef566a8f923dcbb2c1c595c61d5a5",
+      "bytes": 944255
+    },
+    {
+      "path": "work/p001_prereq_supplied_images/renders/09.png",
+      "sha256": "c456c097248793cc6d0e2bf20a4fbf5feb2c6c5209d1b90048b382009adb37e6",
+      "bytes": 850544
+    },
+    {
+      "path": "work/p001_visual_exact_20261017T100548/renders/01.png",
+      "sha256": "87946697a2789d6b480ddb7e9bf678ec0c6743db9a008878f4e37b7aef3b9b80",
+      "bytes": 785905
+    },
+    {
+      "path": "work/p001_visual_exact_20261017T100548/renders/02.png",
+      "sha256": "fd9cd26ea17989164bf669a408d56a9e0f3ac68cc46baf5a62a5f0b2e335c514",
+      "bytes": 849956
+    },
+    {
+      "path": "work/p001_visual_exact_20261017T100548/renders/03.png",
+      "sha256": "9397abee7bc8b76df8a59edf8ce6ed0ca61750936a9ab1753357424ff2f0618b",
+      "bytes": 845879
+    },
+    {
+      "path": "work/p001_visual_exact_20261017T100548/renders/04.png",
+      "sha256": "d732b431cbebe75822ddec428c67c2640463b69abc380994e94b559e348faade",
+      "bytes": 919878
+    },
+    {
+      "path": "work/p001_visual_exact_20261017T100548/renders/05.png",
+      "sha256": "61fa54747a4d0e2ef17f845ee4d43e2f8c7a61b9b49703a469ba9e69362fd436",
+      "bytes": 820187
+    },
+    {
+      "path": "work/p001_visual_exact_20261017T100548/renders/06.png",
+      "sha256": "3ebee9f775afc22ccad2973f5b22c6372878ef667ce64fc2f3127e05f500eef0",
+      "bytes": 749501
+    },
+    {
+      "path": "work/p001_visual_exact_20261017T100548/renders/07.png",
+      "sha256": "2d94da5baad0ee8ecb113b41c6a12f77d4ee178cd23fffcf17666029a471dc23",
+      "bytes": 813952
+    },
+    {
+      "path": "work/p001_visual_exact_20261017T100548/renders/08.png",
+      "sha256": "5e79955167d90f7cc3acce0464a3f0365d206925e935a7adf9ade1fdb94567e1",
+      "bytes": 745222
+    },
+    {
+      "path": "work/p001_visual_exact_20261017T100548/renders/09.png",
+      "sha256": "7f71ba89450399078c0d8e8b70c162767cd4d296fda9c582af4dd05c4ddcfc30",
+      "bytes": 757625
+    },
+    {
+      "path": "work/p001_visual_exact_20261017T100548/renders/10.png",
+      "sha256": "6f84271651eb03616ebef7ec8a8cfd751448e5fc9f25d88cd66aa92bdb5f9a07",
+      "bytes": 737607
+    },
+    {
+      "path": "work/p001_visual_exact_20261017T100548/renders/11.png",
+      "sha256": "0f45f113eaf9c7ad5e5103a107c3f78426fbeff9d430b43a8738ee09287fc15f",
+      "bytes": 930648
+    },
+    {
+      "path": "work/p001_visual_exact_20261017T100548/renders/12.png",
+      "sha256": "65cd14cd3e33489523aa23a09590973e1a4ca61002e7a78e27dab56ddd92aec5",
+      "bytes": 893173
+    },
+    {
+      "path": "work/p001_visual_exact_20261017T100548/renders/13.png",
+      "sha256": "cdd027e318bd6fe5ef077e4ab8b99a068a259ff3829007ad2b5f8744060ef50f",
+      "bytes": 887976
+    },
+    {
+      "path": "work/p001_visual_exact_20261017T100548/renders/14.png",
+      "sha256": "e832121ed26b28bbe8f3998c75985cd7410fd318a968e8185fe6a4dc136d4293",
+      "bytes": 941424
+    }
+  ],
+  "parity_categories": 12,
+  "all_categories_have_existing_entrypoints": true,
+  "academic_notes_and_all_14_images_byte_unchanged": true,
+  "all_existing_CSVs_unchanged": true,
+  "P001_ARCHIVE_REPORT_unchanged": true,
+  "unrelated_user_files_byte_unchanged": true,
+  "original_QA_status": "missing for both; P002 prior acceptance preserved; P001 teacher conclusion unverified",
+  "model_execution": "none",
+  "deleted_files": [],
+  "new_P003_P004_results": [],
+  "validation": [
+    {
+      "command": "python -B scripts/validate_lab.py",
+      "exit_code": 0,
+      "stdout": {
+        "passed": true,
+        "errors": [],
+        "formal_p001_notes": [
+          {
+            "file": "paper_notes/P001_论文精读.md",
+            "sha256": "b2ea90216237336678735c48fb52708f1fc51434751d44702f751a75e7bf6da3"
+          },
+          {
+            "file": "paper_notes/P001_概念查询宝典.md",
+            "sha256": "f6fa354e2c34f8f7725dac9332c3192cb76e716152be23c31fc9da4de5afad10"
+          }
+        ],
+        "presentation_files_expected": 0,
+        "historical_entries_verified": 41,
+        "retained_files_verified": 203,
+        "csv_columns": {
+          "papers/paper_matrix.csv": 36,
+          "papers/paper_matrix_P001_import.csv": 23,
+          "archive/cleanup_2026-10-17/manifest.csv": 5,
+          "docs/innovation_bank/P001_ideas.csv": 10,
+          "docs/innovation_bank/P002_ideas.csv": 10,
+          "docs/maintenance/REPOSITORY_INVENTORY.csv": 15,
+          "reproductions/P001_PointPillars_VoD/experiment_tracker.csv": 8,
+          "reproductions/P002_CRN/experiment_tracker.csv": 8
+        },
+        "existing_markdown_targets": 253,
+        "python_files_compiled": 5,
+        "claim_boundary": "Checks retained P001 bytes, source PDF copies, packed historical bytes and links. No PPT generation, training or evaluation."
+      },
+      "stderr": ""
+    },
+    {
+      "command": "git diff --check",
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": "warning: in the working copy of 'README.md', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'data/README.md', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'docs/innovation_bank/P002_CRN_INNOVATION_NOTES.md', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'docs/innovation_bank/idea_template.md', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'docs/learning_notes/00_git_and_research_engineering.md', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'docs/research_gaps/P002_CRN_Limitations_Research_Gap.md', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'docs/research_log/P001_ARCHIVE_REPORT.md', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'docs/research_log/P002_CRN_READING_REPORT.md', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'docs/research_protocol.md', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'docs/weekly_reports/weekly_report_template.md', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'experiments/README.md', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'experiments/templates/experiment_template.md', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'figures/library/P001/FIGURE_INDEX.md', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'manuscript/README.md', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'paper_notes/README.md', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'paper_notes/templates/paper_note_template.md', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'reproductions/P001_PointPillars_VoD/README.md', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'reproductions/P002_CRN/README.md', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'reproductions/templates/reproduction_template.md', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'results/README.md', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'src/README.md', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'writing/README.md', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'writing/academic_phrasebook.md', LF will be replaced by CRLF the next time Git touches it\n"
+    }
+  ],
+  "shared_file_strategy": "Common new front/index with prior content retained as fenced collapsed history; staged history uses HEAD bytes so preexisting user edits remain unstaged. Append-only companions isolate exact suffixes.",
+  "git_publication": "Actual commit and remote result are recorded in Git history and final delivery, not asserted in advance.",
+  "validation_summary": {
+    "notes": 4,
+    "images": 14,
+    "parity_rows": 12,
+    "idea_header_columns": 10,
+    "tracker_header_columns": 8,
+    "P002_actual_run_rows": 0,
+    "main_matrix_columns": 36,
+    "import_columns": 23,
+    "markdown_fence_regression": "passed; active outside links retained"
+  }
+}

@@ -1,3 +1,51 @@
+# P001 / P002 科研档案导航
+
+按相同十二类职责维护；文件存在不代表所有阶段完成。正式笔记只保留原文件，以下均为相对链接。P003 R4Det、P004 MSSF尚未开始，本轮没有创建其学习成果。
+
+## P001
+
+| 档案类型 | 当前入口 |
+| --- | --- |
+| 正式精读笔记 | [P001_论文精读.md](../paper_notes/P001_论文精读.md) |
+| 概念查询宝典 | [P001_概念查询宝典.md](../paper_notes/P001_概念查询宝典.md) |
+| 正式笔记图片 | [P001](../paper_notes/assets/P001/) |
+| 论文图表索引 | [FIGURE_INDEX.md](../figures/library/P001/FIGURE_INDEX.md) |
+| Research Gap | [P001_Limitations_Research_Gap.md](../docs/research_gaps/P001_Limitations_Research_Gap.md) |
+| 创新分析 | [P001_INNOVATION_NOTES.md](../docs/innovation_bank/P001_INNOVATION_NOTES.md) |
+| 创新想法CSV | [P001_ideas.csv](../docs/innovation_bank/P001_ideas.csv) |
+| 阅读研究日志 | [P001_READING_REPORT.md](../docs/research_log/P001_READING_REPORT.md) |
+| 开放式问答与教师验收 | [P001_REVIEW.md](../docs/research_log/P001_REVIEW.md) |
+| 复现计划及可行性 | [README.md](../reproductions/P001_PointPillars_VoD/README.md) |
+| 实验跟踪表 | [experiment_tracker.csv](../reproductions/P001_PointPillars_VoD/experiment_tracker.csv) |
+| 论文信息、状态与导航 | [paper_matrix.csv](../papers/paper_matrix.csv) |
+
+## P002
+
+| 档案类型 | 当前入口 |
+| --- | --- |
+| 正式精读笔记 | [P002_CRN.md](../paper_notes/P002_CRN.md) |
+| 概念查询宝典 | [P002_概念查询宝典.md](../paper_notes/P002_概念查询宝典.md) |
+| 正式笔记图片 | [P002_CRN](../paper_notes/assets/P002_CRN/) |
+| 论文图表索引 | [FIGURE_INDEX.md](../figures/library/P002/FIGURE_INDEX.md) |
+| Research Gap | [P002_CRN_Limitations_Research_Gap.md](../docs/research_gaps/P002_CRN_Limitations_Research_Gap.md) |
+| 创新分析 | [P002_CRN_INNOVATION_NOTES.md](../docs/innovation_bank/P002_CRN_INNOVATION_NOTES.md) |
+| 创新想法CSV | [P002_ideas.csv](../docs/innovation_bank/P002_ideas.csv) |
+| 阅读研究日志 | [P002_CRN_READING_REPORT.md](../docs/research_log/P002_CRN_READING_REPORT.md) |
+| 开放式问答与教师验收 | [P002_CRN_REVIEW.md](../docs/research_log/P002_CRN_REVIEW.md) |
+| 复现计划及可行性 | [README.md](../reproductions/P002_CRN/README.md) |
+| 实验跟踪表 | [experiment_tracker.csv](../reproductions/P002_CRN/experiment_tracker.csv) |
+| 论文信息、状态与导航 | [paper_matrix.csv](../papers/paper_matrix.csv) |
+
+## 学习与证据状态
+
+P001精读完成，教师全文验收原文待补；P002第一遍完成、教师此前确认通过，原始问答仍缺完整归档。两者模型复现均未证实，P002未进行代码精读/运行。见[12类对齐审计](../docs/maintenance/P001_P002_PARITY_MATRIX.md)。
+
+[统一档案模板](templates/paper_archive_checklist.md) · [复现记录规范](../reproductions/RECORDING_STANDARD.md) · [文件管理规范](../docs/maintenance/FILE_MANAGEMENT_GUIDE.md)。
+
+<details>
+<summary>此前首页/索引（历史快照，不代表当前进度）</summary>
+
+````markdown
 # 论文笔记索引
 
 - [P001论文精读](P001_论文精读.md)
@@ -32,3 +80,7 @@
 - [7张配图索引](../figures/library/P002/FIGURE_INDEX.md)
 - [P001/P002对照审计](../docs/maintenance/P001_P002_CONSISTENCY_AUDIT.md)
 - [单篇归档检查表](templates/paper_archive_checklist.md)：P003/P004未来沿用，当前不创建其正式笔记
+
+````
+
+</details>

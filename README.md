@@ -1,5 +1,72 @@
 # RadarVisionLLM-Lab
 
+## 1. 项目简介与研究目标
+
+围绕Radar–Camera三维感知建立可追溯的论文学习、研究假设、复现和实验资料体系，以可复现代码与充分实验支持论文写作。VLM关联目前仍是候选研究方向，没有以学习记录冒充新方法或实验成果。
+
+## 2. 当前科研进度
+
+P001与P002已有正式精读、概念宝典和研究配套；本轮补齐对称的学习日志和验收状态入口。尚无本项目成功模型复现或训练/评估结果。文件/导航完整性与科研证据完整性分别记录。
+
+## 3. P001—P004论文进度
+
+| 编号 | 论文 | 学习状态 | 工程状态 |
+| --- | --- | --- | --- |
+| P001 | VoD + PointPillars，RA-L 2022 | 精读完成；教师验收原文待补 | Planned；复现未证实 |
+| P002 | CRN，ICCV 2023 | 第一遍完成；教师此前确认通过，原问答缺口保留 | 代码精读未开始；复现未执行，暂不优先 |
+| P003 | R4Det | 待开始第一遍精读 | 未进入工程阶段 |
+| P004 | MSSF | 待开始两遍精读 | 未进入工程阶段 |
+
+## 4. P001/P002完整科研档案
+
+- [P001十二类档案入口](paper_notes/README.md#p001)
+- [P002十二类档案入口](paper_notes/README.md#p002)
+- [逐项对齐矩阵与剩余缺口](docs/maintenance/P001_P002_PARITY_MATRIX.md)
+- [论文信息主矩阵](papers/paper_matrix.csv)与[CRN详细登记](papers/P002_CRN_RECORD.md)
+
+## 5. 工程基线与复现状态
+
+[第二轮基线决策](docs/research_gaps/baseline_selection_round2/05_decision_and_plan.md)建议条件优先核查MSSF-PP/VoD，但尚未找到已通过全部准入的长期主基线。该技术建议与P003/P004阅读编号分开保留。P001有计划、P002暂缓，均不能写成已经跑通。
+
+[P001工程档案](reproductions/P001_PointPillars_VoD/README.md) · [P002工程档案](reproductions/P002_CRN/README.md) · [统一字段与状态](reproductions/RECORDING_STANDARD.md)。
+
+## 6. 研究路线与近期任务
+
+先补齐可取得的真实验收原始记录、复核候选问题与已有工作的重合，再按学习安排进入后续论文；模型执行另行经过资源、许可、环境及明确授权准入。本轮不启动P003，不安装、下载数据/权重或运行模型。
+
+[研究路线](docs/roadmap.md)中的初始化里程碑属于历史阶段，当前不是项目初始化状态；后续计划以本页及最新基线审查为当前入口，不改写原阶段记录。
+
+## 7. 目录职责
+
+| 目录 | 内容 |
+| --- | --- |
+| paper_notes/ | 唯一正式笔记、概念宝典、分组图片与档案模板 |
+| papers/ | 论文矩阵、元信息及字段证据 |
+| docs/research_gaps/、innovation_bank/ | 证据分层的研究问题与候选想法 |
+| docs/research_log/ | 学习报告、原问答与验收状态 |
+| figures/library/ | 图表索引，复用原有配图 |
+| reproductions/、experiments/ | 工程可行性、配置和真实运行记录规范 |
+| src/、results/ | 后续研究代码与结果位置，当前不宣称已有模型成果 |
+| docs/maintenance/ | 哈希、审计、历史与缺口记录 |
+
+## 8. 科研规范
+
+论文明确证据、基于证据的推断、待验证假设分开；作者指标与本项目实测分开。无原问答不补造答案，无运行不填结果；不同论文不要求相同图片和实验数量，但十二类都必须有文件或明确入口。
+
+[统一档案检查模板](paper_notes/templates/paper_archive_checklist.md) · [科研规范](docs/research_protocol.md)。完整本地维护副本检查：`python -B scripts/validate_lab.py`；所需本地历史资产与公开克隆范围可能不同。
+
+## 9. 历史与维护入口
+
+[P001原历史归档报告](docs/research_log/P001_ARCHIVE_REPORT.md)与[CRN此前审计](docs/maintenance/CRN_FIRST_PASS_AUDIT.md)保留当时语境，不替代当前学习状态。历史课件、work、archive均未删除；旧报告中的“待合并”等表述不应被当作当前状态。
+
+[文件管理规范](docs/maintenance/FILE_MANAGEMENT_GUIDE.md) · [本轮维护状态](docs/maintenance/P001_P002_PARITY_STATE.json)。
+
+<details>
+<summary>此前首页/索引（历史快照，不代表当前进度）</summary>
+
+````markdown
+# RadarVisionLLM-Lab
+
 **Radar-Camera Fusion and Vision-Language Model Research Project**
 **雷达-视觉融合与视觉语言大模型长期科研项目**
 
@@ -204,3 +271,7 @@ The repository will evolve together with the research direction.
 | P004 | MSSF | 待开始 | 只登记规划，不创建正式笔记 |
 
 第二轮基线报告推荐优先考察MSSF，是技术选型建议；本次用户指定的学习编号为P003=R4Det、P004=MSSF。两者用途不同，保留原审查结论，不冒称已统一为相同顺序。
+
+````
+
+</details>
