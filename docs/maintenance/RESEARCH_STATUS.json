@@ -1,0 +1,92 @@
+{
+  "as_of": "2026-11-01",
+  "authority": "Current learning and engineering state only; historical reports retain their dated context. Changes require user/teacher or execution evidence.",
+  "project": {
+    "start_date": "2026-10-13",
+    "target_date": "2027-04-13",
+    "goal": "争取形成至少一项可复现、有证据支撑、适合CCF-C并争取CCF-B投稿的成果",
+    "model_runs": "Not Run",
+    "verified_reproduction": false
+  },
+  "papers": [
+    {
+      "id": "P001",
+      "title": "VoD + PointPillars",
+      "entry": "papers/P001_PointPillars_VoD/README.md",
+      "reading": "精读完成",
+      "review": "Evidence Missing：教师原始结论/题答待补",
+      "code": "代码学习证据未完整核实；模型复现Not Run",
+      "evidence": [
+        "docs/research_log/P001_READING_REPORT.md",
+        "docs/research_log/P001_REVIEW.md",
+        "docs/maintenance/P001_TABLE_IV_ERRATUM.md"
+      ],
+      "canonical_notes": [
+        "paper_notes/P001_论文精读.md",
+        "paper_notes/P001_概念查询宝典.md"
+      ]
+    },
+    {
+      "id": "P002",
+      "title": "CRN",
+      "entry": "papers/P002_CRN/README.md",
+      "reading": "第一遍完成；用户确认此前理解验收通过",
+      "review": "Evidence Missing：原题答/批改原文待补",
+      "code": "代码精读Not Started；复现Not Run / Deferred",
+      "evidence": [
+        "docs/research_log/P002_CRN_READING_REPORT.md",
+        "docs/research_log/P002_CRN_REVIEW.md",
+        "docs/innovation_bank/P002_NOVELTY_REVIEW_20261031.md"
+      ],
+      "canonical_notes": [
+        "paper_notes/P002_CRN.md",
+        "paper_notes/P002_概念查询宝典.md"
+      ]
+    },
+    {
+      "id": "P003",
+      "title": "R4Det",
+      "entry": "papers/P003_R4Det/README.md",
+      "reading": "Pre-readiness；第一遍Not Started",
+      "review": "Not Started",
+      "code": "第二遍Not Started；最小复现未准入",
+      "evidence": [
+        "papers/P003_R4Det/01_pre_readiness.md"
+      ],
+      "canonical_notes": []
+    },
+    {
+      "id": "P004",
+      "title": "MSSF",
+      "entry": "papers/README.md",
+      "reading": "两遍均Not Started",
+      "review": "Not Started",
+      "code": "阅读编号与工程候选排序独立",
+      "evidence": [
+        "docs/research_log/P002_CRN_READING_REPORT.md",
+        "docs/research_gaps/baseline_selection_round2/05_decision_and_plan.md"
+      ],
+      "canonical_notes": []
+    }
+  ],
+  "baseline": {
+    "preferred_candidate": "MSSF-PP / VoD",
+    "other_candidates": [
+      "SGDet3D"
+    ],
+    "stage": "Static Check",
+    "decision": "Conditional Go：仅继续核查，不是部署或复现成功",
+    "source": "docs/research_gaps/baseline_selection_round2/05_decision_and_plan.md",
+    "run_evidence": []
+  },
+  "original_learning_plan": {
+    "name": "第四次学习规划",
+    "source_path": null,
+    "status": "Evidence Missing：未在当前仓库定位原文，不代写、不替换"
+  },
+  "roles": {
+    "teacher": "ChatGPT：讲解、批改、证据审阅、阶段验收",
+    "learner": "用户：亲自理解和回答、核对判断、决定方向",
+    "engineer": "Codex：已授权工程执行、证据与Git维护"
+  }
+}

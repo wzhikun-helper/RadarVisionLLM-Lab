@@ -1,277 +1,76 @@
 # RadarVisionLLM-Lab
 
-## 1. 项目简介与研究目标
+面向 **4D Radar + Camera Fusion + VLM** 的个人科研工作仓库，连接论文学习、可追溯研究问题、基线审查与可复现实验。当前以文献学习和工程准备为主，尚无本项目模型训练、评估或成功复现结果。
 
-围绕Radar–Camera三维感知建立可追溯的论文学习、研究假设、复现和实验资料体系，以可复现代码与充分实验支持论文写作。VLM关联目前仍是候选研究方向，没有以学习记录冒充新方法或实验成果。
+## 研究目标与问题
 
-## 2. 当前科研进度
+从2026年10月13日起，争取在六个月内形成至少一项可复现、有证据支撑的研究成果，优先CCF-C、争取CCF-B；既有2027年4月13日目标作为计划约束，不是成果保证。当前候选问题围绕稀疏雷达的几何证据质量、雷视对象对应与融合失效诊断；VLM是否必要仍需对照证据。
 
-P001与P002已有正式精读、概念宝典和研究配套；本轮补齐对称的学习日志和验收状态入口。尚无本项目成功模型复现或训练/评估结果。文件/导航完整性与科研证据完整性分别记录。
+[论文档案](papers/README.md) · [文献矩阵](papers/paper_matrix.csv) · [科研工作流](docs/RESEARCH_WORKFLOW.md) · [目录职责](docs/maintenance/REPOSITORY_GUIDE.md)
 
-## 3. P001—P004论文进度
+## 当前论文进度
 
-| 编号 | 论文 | 学习状态 | 工程状态 |
+以下摘要来自[唯一当前状态源](docs/maintenance/RESEARCH_STATUS.json)，由检查脚本核对；历史审计不覆盖为当前进度。
+
+<!-- BEGIN RESEARCH STATUS -->
+| 编号 / 论文 | 阅读状态 | 验收证据 | 工程状态 |
 | --- | --- | --- | --- |
-| P001 | VoD + PointPillars，RA-L 2022 | 精读完成；教师验收原文待补 | Planned；复现未证实 |
-| P002 | CRN，ICCV 2023 | 第一遍完成；教师此前确认通过，原问答缺口保留 | 代码精读未开始；复现未执行，暂不优先 |
-| P003 | R4Det | 待开始第一遍精读 | 未进入工程阶段 |
-| P004 | MSSF | 待开始两遍精读 | 未进入工程阶段 |
+| [P001 · VoD + PointPillars](papers/P001_PointPillars_VoD/README.md) | 精读完成 | Evidence Missing：教师原始结论/题答待补 | 代码学习证据未完整核实；模型复现Not Run |
+| [P002 · CRN](papers/P002_CRN/README.md) | 第一遍完成；用户确认此前理解验收通过 | Evidence Missing：原题答/批改原文待补 | 代码精读Not Started；复现Not Run / Deferred |
+| [P003 · R4Det](papers/P003_R4Det/README.md) | Pre-readiness；第一遍Not Started | Not Started | 第二遍Not Started；最小复现未准入 |
+| [P004 · MSSF](papers/README.md) | 两遍均Not Started | Not Started | 阅读编号与工程候选排序独立 |
+<!-- END RESEARCH STATUS -->
 
-## 4. P001/P002完整科研档案
+P001/P002分别保留唯一正式精读、概念宝典及原图。已建立十项独立入口及十二类档案对齐，不以文件存在认定证据齐全；原题答、部分教学图来源仍待补。P001数值勘误和P002创新查新见各自独立入口。
 
-- [P001十二类档案入口](paper_notes/README.md#p001)
-- [P002十二类档案入口](paper_notes/README.md#p002)
-- [逐项对齐矩阵与剩余缺口](docs/maintenance/P001_P002_PARITY_MATRIX.md)
-- [论文信息主矩阵](papers/paper_matrix.csv)与[CRN详细登记](papers/P002_CRN_RECORD.md)
+## 基线候选与复现
 
-## 5. 工程基线与复现状态
+MSSF-PP/VoD是[第二轮审查](docs/research_gaps/baseline_selection_round2/05_decision_and_plan.md)的重点核查候选，SGDet3D等为其他候选；均不能称已部署或复现。论文编号表示阅读安排，不是基线优先级。
 
-[第二轮基线决策](docs/research_gaps/baseline_selection_round2/05_decision_and_plan.md)建议条件优先核查MSSF-PP/VoD，但尚未找到已通过全部准入的长期主基线。该技术建议与P003/P004阅读编号分开保留。P001有计划、P002暂缓，均不能写成已经跑通。
+[复现记录规范](reproductions/RECORDING_STANDARD.md)区分Paper-reported、Static Check、Environment Check、Forward Pass、Evaluation、Reproduced和Blocked。作者指标与本项目输出分开登记。
 
-[P001工程档案](reproductions/P001_PointPillars_VoD/README.md) · [P002工程档案](reproductions/P002_CRN/README.md) · [统一字段与状态](reproductions/RECORDING_STANDARD.md)。
+## 目录导航
 
-## 6. 研究路线与近期任务
-
-先补齐可取得的真实验收原始记录、复核候选问题与已有工作的重合，再按学习安排进入后续论文；模型执行另行经过资源、许可、环境及明确授权准入。本轮不启动P003，不安装、下载数据/权重或运行模型。
-
-[研究路线](docs/roadmap.md)中的初始化里程碑属于历史阶段，当前不是项目初始化状态；后续计划以本页及最新基线审查为当前入口，不改写原阶段记录。
-
-## 7. 目录职责
-
-| 目录 | 内容 |
+| 目录 | 用途 |
 | --- | --- |
-| paper_notes/ | 唯一正式笔记、概念宝典、分组图片与档案模板 |
-| papers/ | 论文矩阵、元信息及字段证据 |
-| docs/research_gaps/、innovation_bank/ | 证据分层的研究问题与候选想法 |
-| docs/research_log/ | 学习报告、原问答与验收状态 |
-| figures/library/ | 图表索引，复用原有配图 |
-| reproductions/、experiments/ | 工程可行性、配置和真实运行记录规范 |
-| src/、results/ | 后续研究代码与结果位置，当前不宣称已有模型成果 |
-| docs/maintenance/ | 哈希、审计、历史与缺口记录 |
+| [paper_notes/](paper_notes/) | 唯一正式笔记、概念、原图与论文模板 |
+| [papers/](papers/) | 文献矩阵、逐篇档案入口与P003准备清单 |
+| [docs/](docs/) | Research Gap、创新、日志、规范与维护证据 |
+| [figures/](figures/) | 图表来源、用途与原图引用索引 |
+| [reproductions/](reproductions/) | 工程可行性、准入与真实运行证据索引 |
+| [data/](data/) | 来源/许可/版本登记；真实数据不提交 |
+| [experiments/](experiments/) | 配置与唯一实验记录模板 |
+| [results/](results/) | 真实输出及分析入口，当前无模型结果 |
+| [src/](src/) · [scripts/](scripts/) | 研究实现与维护检查分开 |
+| [writing/](writing/) · [manuscript/](manuscript/) | 表达积累与论文写作材料 |
+| [历史与本地资料职责](docs/maintenance/REPOSITORY_GUIDE.md) | presentations/work/archive继续保留原资料，不因目录名称删除 |
 
-## 8. 科研规范
+## 工作流与近期任务
 
-论文明确证据、基于证据的推断、待验证假设分开；作者指标与本项目实测分开。无原问答不补造答案，无运行不填结果；不同论文不要求相同图片和实验数量，但十二类都必须有文件或明确入口。
+遵循用户既有两遍阅读法：教师讲解与验收、用户亲自理解回答、Codex按授权整理/执行。未取得教师验收不自动通过，不因论文读完就安装或训练。原《第四次学习规划》尚未在仓库定位，等待原文建立引用；不以本次规范替代它。
 
-[统一档案检查模板](paper_notes/templates/paper_archive_checklist.md) · [科研规范](docs/research_protocol.md)。完整本地维护副本检查：`python -B scripts/validate_lab.py`；所需本地历史资产与公开克隆范围可能不同。
+近期先补原问答/批改与教学图来源，教师审查候选处置及P003版本；工程侧先补数据许可、权重/配置、服务器与评估协议证据。P003正式精读、第二遍和模型执行均等待明确授权。
 
-## 9. 历史与维护入口
+## 证据与可复现性
 
-[P001原历史归档报告](docs/research_log/P001_ARCHIVE_REPORT.md)与[CRN此前审计](docs/maintenance/CRN_FIRST_PASS_AUDIT.md)保留当时语境，不替代当前学习状态。历史课件、work、archive均未删除；旧报告中的“待合并”等表述不应被当作当前状态。
+正式笔记/原图/失败记录长期保留。论文事实、代码事实、静态核查、外部复现、本项目实测与假设分别标识；没有run、日志和协议就不填成功指标。复用[现有实验模板](experiments/templates/experiment_template.md)，不复制空模板覆盖正式档案。
 
-[文件管理规范](docs/maintenance/FILE_MANAGEMENT_GUIDE.md) · [本轮维护状态](docs/maintenance/P001_P002_PARITY_STATE.json)。
+公开克隆的文档/配置/安全检查：
 
-<details>
-<summary>此前首页/索引（历史快照，不代表当前进度）</summary>
-
-````markdown
-# RadarVisionLLM-Lab
-
-**Radar-Camera Fusion and Vision-Language Model Research Project**
-**雷达-视觉融合与视觉语言大模型长期科研项目**
-
-## 1. Research Goal / 研究目标
-
-This repository records the complete research process from beginner-level learning to independent research in radar-camera fusion and multimodal large models.
-
-本仓库用于完整记录从初学者入门，到能够独立开展雷视融合与多模态大模型研究的全过程。
-
-### Short-term Goal / 短期目标
-
-Complete a solid research project with the quality required for an appropriate **CCF-C-level publication**.
-
-完成一项完整、规范、具有明确创新和充分实验支撑的研究工作，并以合适的 **CCF-C 级别论文**作为阶段性目标。
-
-### Long-term Goal / 长期目标
-
-Develop independent research ability and gradually explore research problems with the depth required for **CCF-B-level work**.
-
-逐步形成独立科研能力，包括论文调研、问题发现、代码复现、方法设计、实验分析和论文写作，并逐渐探索具有 **CCF-B 深度**的问题。
-
----
-
-## 2. Main Research Direction / 主要研究方向
-
-**Radar-Camera Fusion + Vision-Language Models**
-
-**雷达-相机融合 + 视觉语言模型**
-
-Current preliminary research question:
-
-当前初步研究问题：
-
-> Can physical measurements from radar, such as range and Doppler velocity, improve the reliability of VLM motion reasoning under visual degradation?
-
-> 在夜间、模糊、遮挡等视觉退化环境中，能否利用雷达提供的距离和多普勒速度等物理测量信息，提高视觉语言模型运动推理的可靠性？
-
-This is only a preliminary hypothesis and may change after literature review, reproduction, and experiments.
-
-该问题目前只是 **Research Hypothesis v0.1**，后续将根据论文调研、开源项目复现和实验结果持续调整，不预先锁死研究题目。
-
----
-
-## 3. Research Principles / 科研原则
-
-1. **Problem-driven research rather than module-driven research.**
-   以问题驱动科研，而不是为了加入某个网络模块而寻找问题。
-
-2. **Reproduce strong baselines before proposing new methods.**
-   在提出新方法之前，优先复现有代表性的强基线。
-
-3. **Every important experiment must be reproducible.**
-   每个重要实验必须能够复现。
-
-4. **Every result should be traceable to code, configuration, data split, and Git commit.**
-   每个实验结果都应能够追溯到代码版本、配置、数据划分和 Git commit。
-
-5. **Research ideas must be supported by literature evidence.**
-   创新点必须由系统性的文献证据支撑，不能只凭感觉。
-
-6. **Failed experiments and rejected ideas should also be recorded.**
-   失败实验和被淘汰的 Idea 同样需要记录，因为它们也是科研过程的一部分。
-
-7. **Figures, tables, notes, code, and manuscripts should be systematically organized.**
-   图表、笔记、代码、实验结果和论文稿件都应进行工程化管理。
-
-8. **Understand before modifying.**
-   修改开源代码之前，应先理解数据输入、核心模块、输出以及设计原因。
-
----
-
-## 4. Repository Structure / 仓库结构
-
-* `docs/` — Research roadmap, learning notes, logs, weekly reports
-  科研路线图、学习笔记、科研日志和周报
-
-* `papers/` — Paper collection and Paper Matrix
-  论文资料与论文横向比较矩阵
-
-* `paper_notes/` — Detailed paper reading notes
-  每篇论文的完整精读与阅读笔记
-
-* `reproductions/` — Reproduction of open-source research projects
-  开源论文和项目复现
-
-* `data/` — Dataset documentation, metadata, and splits
-  数据集说明、元数据和数据划分
-
-* `src/` — Core research code
-  自己编写的核心研究代码
-
-* `experiments/` — Experiment configurations and records
-  正式实验配置与实验记录
-
-* `results/` — Experimental results and statistics
-  实验结果与统计分析
-
-* `figures/` — Visualizations and paper figures
-  数据可视化与论文图片
-
-* `scripts/` — Preprocessing, training, evaluation, and analysis scripts
-  数据预处理、训练、测试和分析脚本
-
-* `writing/` — Academic writing notes and Academic Phrasebook
-  学术写作训练与 Academic Phrasebook
-
-* `manuscript/` — Paper drafts and submission materials
-  论文草稿、图表、参考文献和投稿材料
-
----
-
-## 5. Research Workflow / 科研流程
-
-```text
-Literature Review / 文献调研
-        ↓
-Paper Matrix / 论文矩阵
-        ↓
-Core Paper Reading / 核心论文精读
-        ↓
-Open-source Reproduction / 开源项目复现
-        ↓
-Failure Case Analysis / 失败案例分析
-        ↓
-Innovation Bank / 创新点库
-        ↓
-Minimal Idea Validation / 最小实验验证
-        ↓
-Method Development / 方法设计与实现
-        ↓
-Controlled Experiments / 控制变量实验
-        ↓
-Ablation & Robustness / 消融与鲁棒性实验
-        ↓
-Figure & Result Analysis / 图表与结果分析
-        ↓
-Paper Writing / 论文写作
-        ↓
-Submission / 投稿
+```powershell
+python -B scripts/validate_lab.py --scope tracked
 ```
 
----
+完整本地资产与历史SHA检查（需原维护资料及pypdf）：
 
-## 6. Current Stage / 当前阶段
+```powershell
+python -B scripts/validate_lab.py
+```
 
-**Milestone 0 — Research Engineering Initialization**
-**里程碑 0 —— 科研工程初始化**
+两种范围分别报告；脚本通过不代表模型可运行、科学结论成立或教师验收通过。工具说明见[治理方案](docs/maintenance/REPOSITORY_PLAN_2026-11-01.md)。
 
-* [x] Git installed / Git 已安装
-* [x] Git repository initialized / Git 仓库已初始化
-* [x] Initial repository folders created / 第一版项目目录已创建
-* [ ] Bilingual README completed / 中英文 README 完成
-* [ ] `.gitignore` completed / `.gitignore` 完成
-* [ ] Research protocol completed / 科研规范完成
-* [ ] First Git commit / 第一次 Git 提交
-* [ ] First learning note / 第一份正式学习笔记
+## 文档与历史
 
----
+[仓库审计](docs/maintenance/REPOSITORY_AUDIT_2026-11-01.md) · [变更报告](docs/maintenance/REPOSITORY_CHANGE_REPORT_2026-11-01.md) · [旧首页原文](docs/maintenance/history/README_BEFORE_2026-11-01.md) · [既有文件管理规范](docs/maintenance/FILE_MANAGEMENT_GUIDE.md)。
 
-## 7. Long-term Research Assets / 长期科研资产
-
-This project will continuously maintain:
-
-本项目将长期维护：
-
-* Paper Matrix / 论文矩阵
-* Paper Notes / 论文笔记
-* Figure Library / 科研图库
-* Limitation Bank / 局限性库
-* Innovation Bank / 创新点库
-* Academic Phrasebook / 学术表达库
-* Reproduction Records / 论文复现记录
-* Experiment Records / 实验记录
-* Weekly Reports / 科研周报
-* Paper Figures / 论文图片
-* Manuscripts / 论文稿件
-
----
-
-## 8. Project Status / 项目状态
-
-Project started in September 2026.
-
-项目于 **2026 年 9 月**正式启动。
-
-The repository will evolve together with the research direction.
-
-仓库结构和研究问题都允许随着科研进展持续迭代。
-
-## 仓库操作入口
-
-[文件管理规范](docs/maintenance/FILE_MANAGEMENT_GUIDE.md)；[本轮审计](docs/maintenance/REPOSITORY_AUDIT.md)。
-
-## 2026-10-30 学习状态与后续编号
-
-| 编号 | 论文 | 学习状态 | 证据范围 |
-| --- | --- | --- | --- |
-| P001 | VoD 3+1D Radar | 已有正式笔记及概念宝典；代码复现未证实 | 以笔记、勘误及复现记录为准 |
-| P002 | CRN | 第一遍精读已完成；全文开放式理解验收此前通过 | 本次用户明确确认；原始问答、批改与补答仍未完整归档 |
-| P002后续 | CRN代码精读、论文复现 | 代码精读未开始；复现未执行 | 不把作者指标当作本项目结果 |
-| P003 | R4Det | 待开始 | 只登记规划，不创建正式笔记 |
-| P004 | MSSF | 待开始 | 只登记规划，不创建正式笔记 |
-
-第二轮基线报告推荐优先考察MSSF，是技术选型建议；本次用户指定的学习编号为P003=R4Det、P004=MSSF。两者用途不同，保留原审查结论，不冒称已统一为相同顺序。
-
-````
-
-</details>
+旧首页及历史初始化里程碑保留当时语境，首页不再嵌套多份完整README。原工作区未提交资料未自动纳入本次发布。

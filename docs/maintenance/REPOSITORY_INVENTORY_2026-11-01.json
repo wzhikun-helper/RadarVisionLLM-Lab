@@ -1,0 +1,2039 @@
+{
+  "date": "2026-11-01",
+  "head": "c0ee5b5ee6b25fb7a09a51177d26e05c399abda4",
+  "branch": "main",
+  "remote": "origin\thttps://github.com/wzhikun-helper/RadarVisionLLM-Lab.git (fetch)\norigin\thttps://github.com/wzhikun-helper/RadarVisionLLM-Lab.git (push)\n",
+  "recent_commits": "c0ee5b5 docs(research): complete evidence review and P003 readiness\na5d86f3 docs(papers): audit P001 P002 research content quality\n6451e84 docs(papers): align P001 and P002 research dossiers\n2b879ee docs(papers): standardize P001 and P002 research dossiers\nce2c19c docs(p002): complete CRN literature matrix with paper evidence\n",
+  "git_status": " M README.md\n M data/README.md\n M docs/README.md\n M docs/innovation_bank/P001_INNOVATION_NOTES.md\n M docs/innovation_bank/P001_ideas.csv\n M docs/innovation_bank/idea_template.md\n M docs/learning_notes/00_git_and_research_engineering.md\n M docs/research_gaps/P001_Limitations_Research_Gap.md\n M docs/research_log/P001_ARCHIVE_REPORT.md\n M docs/research_protocol.md\n M docs/roadmap.md\n M docs/weekly_reports/weekly_report_template.md\n M experiments/README.md\n M experiments/templates/experiment_template.md\n M figures/README.md\n M manuscript/README.md\n D paper_notes/P001_MultiClass_Road_User_Detection.md\n M paper_notes/README.md\n M paper_notes/templates/paper_note_template.md\n M reproductions/README.md\n M reproductions/templates/reproduction_template.md\n M results/README.md\n M scripts/README.md\n M src/README.md\n M writing/README.md\n M writing/academic_phrasebook.md\n?? .github/workflows/docs.yml\n?? CONTRIBUTING.md\n?? NOTICE.md\n?? archive/ARCHIVE_MANIFEST.md\n?? archive/cleanup_2026-10-17/README.md\n?? archive/cleanup_2026-10-17/manifest.csv\n?? archive/cleanup_2026-10-17/presentations/P001_Paper_Review/P001_Paper_Review_Visual_Exact.verification.json\n?? archive/cleanup_2026-10-17/presentations/P001_Radar_Detection_Prerequisite/backups/20261017_before_image_rebuild/P001_Speaker_Notes.md\n?? archive/cleanup_2026-10-17/presentations/P001_Radar_Detection_Prerequisite/backups/20261017_before_image_rebuild/README.md\n?? archive/cleanup_2026-10-17/work/p001_ppt_build/cases.png\n?? archive/cleanup_2026-10-17/work/p001_ppt_build/curves.png\n?? archive/cleanup_2026-10-17/work/p001_ppt_build/scene.png\n?? archive/cleanup_2026-10-17/work/p001_ppt_build/sensor.png\n?? archive/cleanup_2026-10-17/work/p001_prereq_build/paper.txt\n?? archive/retired_ppt_work/README.md\n?? \"docs/learning_notes/01 RadarVisionLLM-Lab\\357\\274\\232FMCW\\343\\200\\201\\345\\233\\236\\346\\263\\242\\344\\270\\216\\345\\244\\232\\346\\231\\256\\345\\213\\222\\345\\237\\272\\347\\241\\200.md\"\n?? docs/maintenance/P001_EVIDENCE_ERRATA.md\n?? docs/maintenance/README.md\n?? experiments/templates/config_template.yaml\n?? presentations/HISTORY.md\n?? presentations/P001_Paper_Review/P001_Paper_Review_Speaker_Notes.md\n?? presentations/P001_Paper_Review/README.md\n?? presentations/P001_Paper_Review/assets/fig4_original.png\n?? presentations/P001_Paper_Review/assets/fig5_original.png\n?? presentations/P001_Paper_Review/assets/paper_page_06_220dpi.png\n?? presentations/P001_Paper_Review/slide_content.json\n?? presentations/P001_Paper_Review/sources.md\n?? presentations/P001_Radar_Detection_Prerequisite/P001_Speaker_Notes.md\n?? presentations/P001_Radar_Detection_Prerequisite/README.md\n?? presentations/P001_Radar_Detection_Prerequisite/assets/notes_image_rebuild.json\n?? presentations/P001_Radar_Detection_Prerequisite/assets/slide-01.png\n?? presentations/P001_Radar_Detection_Prerequisite/assets/slide-02.png\n?? presentations/P001_Radar_Detection_Prerequisite/assets/slide-03.png\n?? presentations/P001_Radar_Detection_Prerequisite/assets/slide-04.png\n?? presentations/P001_Radar_Detection_Prerequisite/assets/slide-05.png\n?? presentations/P001_Radar_Detection_Prerequisite/assets/slide-06.png\n?? presentations/P001_Radar_Detection_Prerequisite/assets/slide-07.png\n?? presentations/P001_Radar_Detection_Prerequisite/assets/slide-08.png\n?? presentations/P001_Radar_Detection_Prerequisite/assets/slide-09.png\n?? presentations/P001_Radar_Detection_Prerequisite/assets/text-fit.json\n?? presentations/P001_Radar_Detection_Prerequisite/assets/validation.json\n?? presentations/P001_Radar_Detection_Prerequisite/sources.md\n?? presentations/P001_paper_review_images/01_Cover.png\n?? presentations/P001_paper_review_images/01_Cover_prompt.md\n?? presentations/P001_paper_review_images/02_Visual.png\n?? presentations/P001_paper_review_images/03_Visual.png\n?? presentations/P001_paper_review_images/04_Visual.png\n?? presentations/P001_paper_review_images/05_Visual.png\n?? presentations/P001_paper_review_images/06_Visual.png\n?? presentations/P001_paper_review_images/07_Visual.png\n?? presentations/P001_paper_review_images/08_Visual.png\n?? presentations/P001_paper_review_images/09_Visual.png\n?? presentations/P001_paper_review_images/10_Visual.png\n?? presentations/P001_paper_review_images/11_Visual.png\n?? presentations/P001_paper_review_images/12_Visual.png\n?? presentations/P001_paper_review_images/13_Visual.png\n?? presentations/P001_paper_review_images/14_Visual.png\n?? presentations/P001_paper_review_images/README.md\n?? presentations/P001_paper_review_images/generation_prompts.json\n?? presentations/P001_paper_review_images/image_manifest.json\n?? presentations/P001_slide_images/01_Cover.png\n?? presentations/P001_slide_images/02_FMCW.png\n?? presentations/P001_slide_images/03_Radar_Dimensions.png\n?? presentations/P001_slide_images/04_Radar_Point_Cloud.png\n?? presentations/P001_slide_images/05_Radar_Pipeline.png\n?? presentations/P001_slide_images/06_PointPillars.png\n?? presentations/P001_slide_images/07_Temporal_Accumulation.png\n?? presentations/P001_slide_images/08_Detection_Metrics.png\n?? presentations/P001_slide_images/09_Knowledge_Summary.png\n?? presentations/P001_slide_images/README.md\n?? presentations/P001_slide_images/generation_prompts.json\n?? presentations/P001_slide_images/image_manifest.json\n?? presentations/README.md\n?? scripts/check_public_docs.py\n?? work/README.md\n?? work/p001_exact_current_build.txt\n?? work/p001_prereq_supplied_images/convert.mjs\n?? work/p001_prereq_supplied_images/manifest.json\n?? work/p001_prereq_supplied_images/renders/01.png\n?? work/p001_prereq_supplied_images/renders/02.png\n?? work/p001_prereq_supplied_images/renders/03.png\n?? work/p001_prereq_supplied_images/renders/04.png\n?? work/p001_prereq_supplied_images/renders/05.png\n?? work/p001_prereq_supplied_images/renders/06.png\n?? work/p001_prereq_supplied_images/renders/07.png\n?? work/p001_prereq_supplied_images/renders/08.png\n?? work/p001_prereq_supplied_images/renders/09.png\n?? work/p001_prereq_supplied_images/validation.json\n?? work/p001_prereq_supplied_images/verification.json\n?? work/p001_visual_exact_20261017T100548/finalize-options.json\n?? work/p001_visual_exact_20261017T100548/manifest.json\n?? work/p001_visual_exact_20261017T100548/renders/01.png\n?? work/p001_visual_exact_20261017T100548/renders/02.png\n?? work/p001_visual_exact_20261017T100548/renders/03.png\n?? work/p001_visual_exact_20261017T100548/renders/04.png\n?? work/p001_visual_exact_20261017T100548/renders/05.png\n?? work/p001_visual_exact_20261017T100548/renders/06.png\n?? work/p001_visual_exact_20261017T100548/renders/07.png\n?? work/p001_visual_exact_20261017T100548/renders/08.png\n?? work/p001_visual_exact_20261017T100548/renders/09.png\n?? work/p001_visual_exact_20261017T100548/renders/10.png\n?? work/p001_visual_exact_20261017T100548/renders/11.png\n?? work/p001_visual_exact_20261017T100548/renders/12.png\n?? work/p001_visual_exact_20261017T100548/renders/13.png\n?? work/p001_visual_exact_20261017T100548/renders/14.png\n?? work/p001_visual_exact_20261017T100548/validation.json\n?? work/p001_visual_exact_20261017T100548/verification.json\n",
+  "index_status": "",
+  "entries": [
+    {
+      "path": ".gitattributes",
+      "bytes": 238,
+      "sha256": "4f754af41261a2388eea3e0ba81bb71548efa7e97dca3af8451e116965eef7d3",
+      "git": "tracked",
+      "sensitive_path": false
+    },
+    {
+      "path": ".github/workflows/docs.yml",
+      "bytes": 428,
+      "sha256": "1be17a74c155e5fa8a63794cae3cbce853ed0877c18d30bfeaa144931223783b",
+      "git": "untracked",
+      "sensitive_path": false
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 1603,
+      "sha256": "71bb009823611e2cd975ba866ee73685b7bdda4563c3776d53591f2b6e39a94e",
+      "git": "tracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "archive/ARCHIVE_MANIFEST.md",
+      "bytes": 2213,
+      "sha256": "c7d75c38127a9ef0bf8d8e6179672c2e4e161fe0a32e24155dfc17aa73671aaf",
+      "git": "untracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "archive/cleanup_2026-10-17/manifest.csv",
+      "bytes": 16666,
+      "sha256": "0e1419e6aa5cd812f2fdec8332cef387097a055e4474cfd3cd350428294e161d",
+      "git": "untracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "archive/cleanup_2026-10-17/presentations/P001_Paper_Review/P001_Paper_Review_Visual_Exact.verification.json",
+      "bytes": 8719,
+      "sha256": "be00f16649aff861111718887aed3651c44c2448335be10dbe524903dab14e68",
+      "git": "untracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "archive/cleanup_2026-10-17/presentations/P001_Radar_Detection_Prerequisite/backups/20261017_before_image_rebuild/P001_Speaker_Notes.md",
+      "bytes": 25165,
+      "sha256": "db5ca319568d376e551f1f012cc6035d411616f4cf2b4125e44b9c3541548005",
+      "git": "untracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "archive/cleanup_2026-10-17/presentations/P001_Radar_Detection_Prerequisite/backups/20261017_before_image_rebuild/README.md",
+      "bytes": 3439,
+      "sha256": "989772d9a74a0af7b68ef44f60e26a6cf566f8fce0da04bc44fc0fa09e482ca8",
+      "git": "untracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "archive/cleanup_2026-10-17/README.md",
+      "bytes": 215,
+      "sha256": "ffa82adc329d4115111ce76cc81d62230551840e0851dc89024ac33d3ea3aba7",
+      "git": "untracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "archive/cleanup_2026-10-17/work/p001_ppt_build/cases.png",
+      "bytes": 92074,
+      "sha256": "a100a734ba54c217ac5db95be519a818fb0577f3c217b9a79d86b5d7d8a76d9a",
+      "git": "untracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "archive/cleanup_2026-10-17/work/p001_ppt_build/curves.png",
+      "bytes": 48980,
+      "sha256": "4d335d72308c206d38968407f4f196934911fda1f975c7ea398ec86d150c0ff6",
+      "git": "untracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "archive/cleanup_2026-10-17/work/p001_ppt_build/scene.png",
+      "bytes": 129647,
+      "sha256": "f64c9aea145a9f67687caa54db11935c81eb2f598f32f5bab2db37a54f36f49f",
+      "git": "untracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "archive/cleanup_2026-10-17/work/p001_ppt_build/sensor.png",
+      "bytes": 93316,
+      "sha256": "1a12c96ff0424d1d16cc4d1a1f4d5b4fa19528a89e2e11187a49e5e25844cea8",
+      "git": "untracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "archive/cleanup_2026-10-17/work/p001_prereq_build/paper.txt",
+      "bytes": 45169,
+      "sha256": "b4baddb69f5626a8e97801108fc78c3a10dd39fff717f71e754a978ec9956733",
+      "git": "untracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "archive/retired_ppt_work/README.md",
+      "bytes": 158,
+      "sha256": "cc2089f6ebb90062eab3d7c9f906e59b9dbfbb98d5d5f9737f2eceb7a5d0aef4",
+      "git": "untracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "bytes": 1459,
+      "sha256": "2d9b7a68064d802d20490c84b57ee6391ea9276c46df6399762079ff3de6d22d",
+      "git": "untracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "data/README.md",
+      "bytes": 7482,
+      "sha256": "6c3c1c3c4210c504c440a32accbac2cf379553930a463dc25bc02d9b1cdc961a",
+      "git": "tracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "docs/innovation_bank/idea_template.md",
+      "bytes": 3657,
+      "sha256": "bb9787c879dbd2890565f1d9614836a77f606c060735b40bc76feb752c91a6ac",
+      "git": "tracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "docs/innovation_bank/P001_ideas.csv",
+      "bytes": 882,
+      "sha256": "375389b4f307cb26751c46d6d97580a7744663c8d7c51c4a56a5e36917ad5425",
+      "git": "tracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "docs/innovation_bank/P001_INNOVATION_NOTES.md",
+      "bytes": 2305,
+      "sha256": "15b11ff676cb0cf17e1123daaaf14fef045fdd78eaa5f48947d314e6f26ec23d",
+      "git": "tracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "docs/innovation_bank/P002_CRN_INNOVATION_NOTES.md",
+      "bytes": 2516,
+      "sha256": "d6d00726961f44c31d5948676d4e0143a8a51b5d6826b6734d863aaee19e5760",
+      "git": "tracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "docs/innovation_bank/P002_ideas.csv",
+      "bytes": 1221,
+      "sha256": "3392602ef14778b58fda14bc21418ace16c9d704cdd774dddfb6567a68773d6e",
+      "git": "tracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "docs/innovation_bank/P002_NOVELTY_REVIEW_20261031.md",
+      "bytes": 14513,
+      "sha256": "aa1f1fa19a0fa037abf83be2875a002a687f1535fc064bedbca300b1d7156878",
+      "git": "tracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "docs/learning_notes/00_git_and_research_engineering.md",
+      "bytes": 11251,
+      "sha256": "9b1fb78ef876b1b2b0607eb5144c05733ae1c546f9c1b658aea598a071576393",
+      "git": "tracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "docs/learning_notes/01 RadarVisionLLM-Lab：FMCW、回波与多普勒基础.md",
+      "bytes": 98149,
+      "sha256": "a71bb4b6891c867060fcf420429da72f65483af898917ac826f831bc7bf10773",
+      "git": "untracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "docs/maintenance/CRN_FIRST_PASS_AUDIT.md",
+      "bytes": 3424,
+      "sha256": "54e41f3efa026c168a57df07b0063d4bc50f883b42be36f4ed2bd34c36cf4045",
+      "git": "tracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "docs/maintenance/CRN_FIRST_PASS_STATE.json",
+      "bytes": 7414,
+      "sha256": "125099905e61c83698a0fe116f565af105fd5a3c08ef0e01a26d0befc61a1488",
+      "git": "tracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "docs/maintenance/DELETE_WHITELIST.md",
+      "bytes": 577,
+      "sha256": "6208064e705d906799bfdef6e16667abea8f13e8d47192a85cc5aa06efac0806",
+      "git": "tracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "docs/maintenance/EVIDENCE_ROUND3_STATE.json",
+      "bytes": 32961,
+      "sha256": "9d748c8614b90827c9c036380fbbb4eac87ee6c458d11e64811000635395ea0e",
+      "git": "tracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "docs/maintenance/FILE_MANAGEMENT_GUIDE.md",
+      "bytes": 2947,
+      "sha256": "e0b193e47f53a614d881fbba074deb96dbd494a04d1f5dddab0f05879b4ef087",
+      "git": "tracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "docs/maintenance/LEGACY_ASSET_REVIEW.md",
+      "bytes": 44093,
+      "sha256": "ffa174606e071bf72a9f95867859b7ed7444fadf8137c4cec771b2d6a8d86d81",
+      "git": "tracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "docs/maintenance/P001_CURRENT_STATE.json",
+      "bytes": 149307,
+      "sha256": "5f99c71972270d3636418963b254e46400f59f36717cd8ec03742b3011b6cdf6",
+      "git": "tracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "docs/maintenance/P001_EVIDENCE_ERRATA.md",
+      "bytes": 1812,
+      "sha256": "2aa9b350dbfefd2d4cc4107dd94b35d7261616eb159336600ed41e64f1dd4585",
+      "git": "untracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "docs/maintenance/P001_history.zip",
+      "bytes": 88731,
+      "sha256": "f1483561958d867f4399cb4eaa6381abd8cf6203f540ca60fd5a9a3e472788b2",
+      "git": "tracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "docs/maintenance/P001_P002_CONSISTENCY_AUDIT.md",
+      "bytes": 5755,
+      "sha256": "be9fb884897a4d1d3e7b237b20492c2db43cc054093db2244f86e1008265f285",
+      "git": "tracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "docs/maintenance/P001_P002_CONTENT_AUDIT.md",
+      "bytes": 19207,
+      "sha256": "39f4f7a24360af93c05bd6f725ccb0fd90f4dc8dc7f0b10018db123c6901e964",
+      "git": "tracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "docs/maintenance/P001_P002_CONTENT_AUDIT_STATE.json",
+      "bytes": 29148,
+      "sha256": "b1d4204b6ea857800d59b0feaf37bd53dec659d599828f1075504f5ca3ba01ea",
+      "git": "tracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "docs/maintenance/P001_P002_DOSSIER_ROUND1.md",
+      "bytes": 6254,
+      "sha256": "898429cfcc9dd50ca56d089b0a37e65cf2f03c1c9685a5f622a68c37b0791c73",
+      "git": "tracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "docs/maintenance/P001_P002_DOSSIER_ROUND1_STATE.json",
+      "bytes": 82848,
+      "sha256": "72738dee8f2159865761df5acca88d1147b468822124000ca4d33e9c9151cddb",
+      "git": "tracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "docs/maintenance/P001_P002_PARITY_MATRIX.md",
+      "bytes": 5955,
+      "sha256": "d43065eade27fc5496fd6480546e67532b3f91879d2676b854b76dc77e6cda57",
+      "git": "tracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "docs/maintenance/P001_P002_PARITY_STATE.json",
+      "bytes": 55927,
+      "sha256": "8a20882d77ce4f87feabe4902f346c5521c53cb8fba193d6efd3467f2d34ffd3",
+      "git": "tracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "docs/maintenance/P001_TABLE_IV_ERRATUM.md",
+      "bytes": 2707,
+      "sha256": "b61f61be43ac86847c612742ec5672764d04a924414d3e4dfbf64bf6acaae4fa",
+      "git": "tracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "docs/maintenance/P002_ALIGNMENT_STATE.json",
+      "bytes": 7697,
+      "sha256": "1d232fddcf9d1babda89a5dcd1f70ccbc502ba4538bbcfa00d8e6a3e6d1193b3",
+      "git": "tracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "docs/maintenance/P002_IMAGE_PROVENANCE.md",
+      "bytes": 4012,
+      "sha256": "3974525da5880ac43775982b2c000bfbfe4f11d6640fd694a7af18282ebaf858",
+      "git": "tracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "docs/maintenance/P002_MATRIX_REGISTRATION.json",
+      "bytes": 6211,
+      "sha256": "2ebfb128192c710f0b4ed6558bb353c8f4392d887e0335fb8188ce645890ce0a",
+      "git": "tracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "docs/maintenance/README.md",
+      "bytes": 1500,
+      "sha256": "4f1fd8cbc4ff79b48fdbf3ee78d656f9899c3838bcd8f4c23ce88ed41650aadb",
+      "git": "untracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "docs/maintenance/REPOSITORY_AUDIT.md",
+      "bytes": 3399,
+      "sha256": "b3fac604caeff89b6ec69ff42a3171c44d79457b7b52678c093971d43b31463f",
+      "git": "tracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "docs/maintenance/REPOSITORY_CHANGE_REPORT.md",
+      "bytes": 2925,
+      "sha256": "4e02c6a98f2deaefc49505e756deea1d055ab0be80fdc978054debbf781207f0",
+      "git": "tracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "docs/maintenance/REPOSITORY_INVENTORY.csv",
+      "bytes": 80269,
+      "sha256": "de029bced72b5c8ae67ad9a0517ff4a17b4bfd4f3f87474005a4e20194861a4d",
+      "git": "tracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "docs/maintenance/REPOSITORY_ORGANIZATION_STATE.json",
+      "bytes": 135832,
+      "sha256": "9e966526206ea02f8c6ebfd501262d8a1f6f8d53ae9673900e74abe9a05c7f01",
+      "git": "tracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "docs/README.md",
+      "bytes": 1370,
+      "sha256": "51bf426e7c6d964216793a9b5d51c83584744e5069f6f6f4674a7066c7b932fb",
+      "git": "tracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "docs/research_gaps/baseline_selection_round2/01_candidate_papers.md",
+      "bytes": 11306,
+      "sha256": "159f3f05f04e8ad888aed59f42c93a35a8f65d097217f44bcd8d880aeb05c72d",
+      "git": "tracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "docs/research_gaps/baseline_selection_round2/02_code_audit.md",
+      "bytes": 25681,
+      "sha256": "634726955fc920ffb2357390ddaedceaada3e0f50901d47ae0da8b144457ca94",
+      "git": "tracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "docs/research_gaps/baseline_selection_round2/03_reproducibility_ranking.md",
+      "bytes": 9645,
+      "sha256": "76a96d996f658e5c13489741e597980fde46379ddf68ec1cfce5266e46b1f930",
+      "git": "tracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "docs/research_gaps/baseline_selection_round2/04_innovation_opportunities.md",
+      "bytes": 10906,
+      "sha256": "341b98c410aafa22e31a691e50eb40e1771e45370903c92e0a088f8b9a50dfa7",
+      "git": "tracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "docs/research_gaps/baseline_selection_round2/05_decision_and_plan.md",
+      "bytes": 8647,
+      "sha256": "8e713943fe6844719bdbc466bd1eee64c6772715236a75c4c4d531ee0dd56cde",
+      "git": "tracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "docs/research_gaps/P001_CONTENT_SUPPLEMENT.md",
+      "bytes": 6298,
+      "sha256": "d5ab1e6f752f40287b9321deffc5ee3ecf008a20412fcc17fc9efef6058679e7",
+      "git": "tracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "docs/research_gaps/P001_Limitations_Research_Gap.md",
+      "bytes": 4976,
+      "sha256": "2feb0097bddeff9808021f33c66a420f3206d1a4f84c8f543c1abadc6141bbfe",
+      "git": "tracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "docs/research_gaps/P002_CRN_CONTENT_SUPPLEMENT.md",
+      "bytes": 10562,
+      "sha256": "2c884eae8927ac0b395d1764020bc2db7b73e92d26f0e345d41ba9ede75adc05",
+      "git": "tracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "docs/research_gaps/P002_CRN_Limitations_Research_Gap.md",
+      "bytes": 5837,
+      "sha256": "e7717e8d2fe7a2d19bb77626d775c797c20a47d1b206e46305d59c9b9dd456e4",
+      "git": "tracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "docs/research_log/P001_ARCHIVE_REPORT.md",
+      "bytes": 2643,
+      "sha256": "80ee746b592f31730e1685e08016d3f1db3b0ba35ce62d21d33f479186d49aee",
+      "git": "tracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "docs/research_log/P001_READING_REPORT.md",
+      "bytes": 1773,
+      "sha256": "2cc41b62924478e771d5ea9cc6b432a793da0a6dc6975ac029cf831b9ea9bd9a",
+      "git": "tracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "docs/research_log/P001_REVIEW.md",
+      "bytes": 1289,
+      "sha256": "c12123ae281d7d99cc10a26fb0888f494801a8dc3fd15c6c988f66071dc89a3a",
+      "git": "tracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "docs/research_log/P002_CRN_READING_REPORT.md",
+      "bytes": 2286,
+      "sha256": "1b79c6840ba9b7e3a95a2e7cf0c4a9d33a5397080010746b15d8059be5524c6f",
+      "git": "tracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "docs/research_log/P002_CRN_REVIEW.md",
+      "bytes": 1268,
+      "sha256": "c4e053588e3c45d7db81c37854ef3d46120a1e786d7f784aa5a9542d09ccbd67",
+      "git": "tracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "docs/research_log/research_log_template.md",
+      "bytes": 689,
+      "sha256": "f2a39da95dd372a48df7fe1605faabcba51c9189a18a335ac6844b89769862d7",
+      "git": "tracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "docs/research_protocol.md",
+      "bytes": 9441,
+      "sha256": "04a4d1413d9a903e6ce4428a9ab8eab46eb834dcdf8e720d2aa5a4333fd03ebe",
+      "git": "tracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "docs/roadmap.md",
+      "bytes": 11847,
+      "sha256": "92f55590e23c370f6a4629f2cbcdd65c6eba657c21627bf85d4c3cda634b9bc6",
+      "git": "tracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "docs/weekly_reports/weekly_report_template.md",
+      "bytes": 1851,
+      "sha256": "0ef99b4f0942bdd89a7847a2ff5814abcacdc15504fcadd89b3ad1f77e2a002c",
+      "git": "tracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "experiments/README.md",
+      "bytes": 6924,
+      "sha256": "fbcdb923eedbaaa155c56305548b8fde49069211d593d3671db6df544dcd49b3",
+      "git": "tracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "experiments/templates/config_template.yaml",
+      "bytes": 1030,
+      "sha256": "24a506d9eaded52bd1e04e0206747400208eb42904aa6e7c592f870054dabe6e",
+      "git": "untracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "experiments/templates/experiment_template.md",
+      "bytes": 5014,
+      "sha256": "2dc5222a8afc5c29f5cde10740ac2dbc75385550b851fbcfdf8c150aba85abfa",
+      "git": "tracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "figures/library/P001/FIGURE_INDEX.md",
+      "bytes": 6491,
+      "sha256": "e1f20a4ca67ed73f4102d0a9a960ad689d5b4fc9f8c54e0b4c5d453dfa180042",
+      "git": "tracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "figures/library/P001/paper_page_01_reference.png",
+      "bytes": 365432,
+      "sha256": "a3e0931e03ac6e7a88940faad9dc125674c44624fc05eb16d908ed4fbade78b8",
+      "git": "tracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "figures/library/P001/paper_page_04_reference.png",
+      "bytes": 317338,
+      "sha256": "19f1a73f788a19f5520c8499d415e64771d56f2d27b3558602d5b40ab59eea1a",
+      "git": "tracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "figures/library/P001/paper_page_06_reference.png",
+      "bytes": 208330,
+      "sha256": "568e9cba138680fdcf8056949a6b4a43e259b86ab1ab11b1146edfaeedfdcafc",
+      "git": "tracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "figures/library/P001/paper_page_07_reference.png",
+      "bytes": 470194,
+      "sha256": "adcb5fe2927202bdd982d8d29ded676b9d3d3577e116112b179ba82956db9e6e",
+      "git": "tracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "figures/library/P002/FIGURE_INDEX.md",
+      "bytes": 5659,
+      "sha256": "dbcffe3b704b5a10dd30f7035cec88c567733ce00c0eb9d62fa37a32218f2030",
+      "git": "tracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "figures/README.md",
+      "bytes": 680,
+      "sha256": "507c4eab7d56089866d2f11cb73a4d2989d201f60b6803e0eb86af65606d8b07",
+      "git": "tracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "manuscript/README.md",
+      "bytes": 4190,
+      "sha256": "f9bb2459b0d655cd0099b608de0d905631b862020612180169466d9cf678ac02",
+      "git": "tracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "NOTICE.md",
+      "bytes": 1286,
+      "sha256": "b7edfd83758e9a5d94880be103bc61c0db99e87842970cef3aaaa1b7fa5f8fb9",
+      "git": "untracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "paper_notes/assets/P001/ChatGPT Image 2026年9月23日 15_22_18.png",
+      "bytes": 1406376,
+      "sha256": "54dca866fe59e13b89807caac90709d80151e96ee8dc8ba6943510d1043a2beb",
+      "git": "tracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "paper_notes/assets/P001/ChatGPT 图像 2026年9月29日 11_04_16.png",
+      "bytes": 1527427,
+      "sha256": "cc19ea96a3e1ef5f63404df8caeebc79b61dd57e05c19795c312b6859279d729",
+      "git": "tracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "paper_notes/assets/P001/ChatGPT 图像 2026年9月29日 15_17_15.png",
+      "bytes": 1568338,
+      "sha256": "497da056a3a124930f8095dd9c8d84de92548b1d098bdf45b74e7832cb5ce663",
+      "git": "tracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "paper_notes/assets/P001/Pasted image 20261009152348.png",
+      "bytes": 258035,
+      "sha256": "7a6ecc9dd135d9b20af27d8e28c34abd1e42becb618705ae7af82632d94b506e",
+      "git": "tracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "paper_notes/assets/P001/Pasted image 20261014185700.png",
+      "bytes": 66875,
+      "sha256": "b8173e53b876932e351ecd2eca990f24c4117dffc04ea438d9b2366e5d83f9fd",
+      "git": "tracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "paper_notes/assets/P001/Pasted image 20261014185737.png",
+      "bytes": 68163,
+      "sha256": "c8a08ac5ef08fbcbd6eb803485ea7411cb61a17111f4e88b2913dce0dca95d91",
+      "git": "tracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "paper_notes/assets/P001/Pasted image 20261019144201.png",
+      "bytes": 2250370,
+      "sha256": "9d6ac7855ae89522bc25d2f5b893a6344ddff9666f3fc8eec07db98eba677ef5",
+      "git": "tracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "paper_notes/assets/P002_CRN/Pasted image 20261028091506.png",
+      "bytes": 2322241,
+      "sha256": "f1b62d85e2772678dac8bc1af1c1df6aa0b8c6340eb94c8ba8ecbfbb66b58d1f",
+      "git": "tracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "paper_notes/assets/P002_CRN/Pasted image 20261028142231.png",
+      "bytes": 2544925,
+      "sha256": "7ac2431f5ea214dda30683af3b2828f837f6833375e111ec4cc8a66bb4b9ed07",
+      "git": "tracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "paper_notes/assets/P002_CRN/Pasted image 20261028193811.png",
+      "bytes": 2410032,
+      "sha256": "deaa34a9b8dbb10c8cd2e07cc3520ba2c750061f4dea67fae3fcd3c8f7da2d76",
+      "git": "tracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "paper_notes/assets/P002_CRN/Pasted image 20261028195714.png",
+      "bytes": 2183802,
+      "sha256": "cf80fe106e531e7a5187209ce7f93cc0ccecd21b8df27499d5a9ff6be375c085",
+      "git": "tracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "paper_notes/assets/P002_CRN/Pasted image 20261030141556.png",
+      "bytes": 271713,
+      "sha256": "74cbc895f9c4d1ff254f3de91b9256f1ff720b019d5231a1411af168bd234a0c",
+      "git": "tracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "paper_notes/assets/P002_CRN/Pasted image 20261030141648.png",
+      "bytes": 51112,
+      "sha256": "47d59ec293429e85fa01ad0eb071ae094497406c53423e1a83c20e972f832e4c",
+      "git": "tracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "paper_notes/assets/P002_CRN/Pasted image 20261030141736.png",
+      "bytes": 66855,
+      "sha256": "dd9102c0aab2ec3f80f75ee7aec0549f24e8508a433268e434c9c59b510c4d0b",
+      "git": "tracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "paper_notes/P001_概念查询宝典.md",
+      "bytes": 85649,
+      "sha256": "f6fa354e2c34f8f7725dac9332c3192cb76e716152be23c31fc9da4de5afad10",
+      "git": "tracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "paper_notes/P001_论文精读.md",
+      "bytes": 24953,
+      "sha256": "c5630dcbe5bfbf9a0e59464fa862cd23c28ae665d033e7377cc26cdd53fb9dac",
+      "git": "tracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "paper_notes/P002_CRN.md",
+      "bytes": 25225,
+      "sha256": "127c427f27c48d578d059cb3344f5a32fbf10e72af30a09d372d555d1e8ff3ca",
+      "git": "tracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "paper_notes/P002_概念查询宝典.md",
+      "bytes": 9281,
+      "sha256": "06e0697c65e395b54d477f6edd497a9bcb8abae7d8cd5bbfea7b7c0ba8d74e25",
+      "git": "tracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "paper_notes/README.md",
+      "bytes": 4999,
+      "sha256": "bfd33c9bd687bd7265e2e2647229d77f0197684a9f76237e0b95d4d4514be692",
+      "git": "tracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "paper_notes/templates/paper_archive_checklist.md",
+      "bytes": 2429,
+      "sha256": "7f217fa5b303b7b5591481237a6939cdfb978f54ed027e93d9bc75143e91ff16",
+      "git": "tracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "paper_notes/templates/paper_note_template.md",
+      "bytes": 7890,
+      "sha256": "5370eff485697edafb4ecfe14ec9d4015e2d32fdf0852028375be7410eff8969",
+      "git": "tracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "papers/P001_PointPillars_VoD/README.md",
+      "bytes": 3098,
+      "sha256": "8d8d1b88b02d5630fa4075061a41b87c68155558d733bb5424429cd890b61b43",
+      "git": "tracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "papers/P002_CRN/README.md",
+      "bytes": 3399,
+      "sha256": "1c1099f1dd5a868432935b6e7d03fd8043738ecd0aafd2071e78ce7e3f3c3652",
+      "git": "tracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "papers/P002_CRN_RECORD.md",
+      "bytes": 8638,
+      "sha256": "9ad1ba8bc14c9ba1bad53b91e944da62973941b371a405ffcfcdcc8227fd5991",
+      "git": "tracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "papers/P003_R4Det/01_pre_readiness.md",
+      "bytes": 8371,
+      "sha256": "65ed835d502c7726ad7115b79eec40ac4972963b753de52fe6f87b10f1f8f5f4",
+      "git": "tracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "papers/P003_R4Det/README.md",
+      "bytes": 1475,
+      "sha256": "65a5688dc424e51224ffbe86099bf2e9fbdd7e158cd04a9ed8c1d752de9ad291",
+      "git": "tracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "papers/paper_matrix.csv",
+      "bytes": 4502,
+      "sha256": "c88eedf0b30d0bd4ae4f9a248094f6e22d537e9d1acdee4cba0f6cc0be752568",
+      "git": "tracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "papers/paper_matrix_P001_import.csv",
+      "bytes": 1380,
+      "sha256": "9ab7a80eb6d1ec415d30a8925f4ed38dab553b8c9dfd3bdb646c6568f1a68652",
+      "git": "tracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "papers/README.md",
+      "bytes": 1880,
+      "sha256": "1c241f42c1621bac598c2a3241f97e6450b2cb6d7777aedd8f5afea3c8a5b940",
+      "git": "tracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "presentations/HISTORY.md",
+      "bytes": 213,
+      "sha256": "bc48148564ab36bc21944c41002a02add940de12d0192fbd8d2a65cd935370ee",
+      "git": "untracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "presentations/P001_Paper_Review/assets/fig4_original.png",
+      "bytes": 58194,
+      "sha256": "a69f0d764b37f6ba16beed22e5c6a2edec8a5a8a0b811667199228f54b5c98a4",
+      "git": "untracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "presentations/P001_Paper_Review/assets/fig5_original.png",
+      "bytes": 69116,
+      "sha256": "1f0c6f6ab0fa57c09bdc6a378f853ad5c76316f36ab6e89202f5f87d5f0b8a9a",
+      "git": "untracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "presentations/P001_Paper_Review/assets/paper_page_06_220dpi.png",
+      "bytes": 839995,
+      "sha256": "722931a632ebcf07ee48b6094750bc2217006eb4ba5827339463b5d332c35df6",
+      "git": "untracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "presentations/P001_Paper_Review/P001_Paper_Review_Speaker_Notes.md",
+      "bytes": 7213,
+      "sha256": "60f8b7a7b61a2acc374211c54de1b240668d0f0bdd1744cadb98bb43142970d3",
+      "git": "untracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "presentations/P001_Paper_Review/README.md",
+      "bytes": 511,
+      "sha256": "0464f6b3c65dc5f1f77e7943f2b7b518e9e57c5f88b023a3ece3e161d3c55c8d",
+      "git": "untracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "presentations/P001_Paper_Review/slide_content.json",
+      "bytes": 10577,
+      "sha256": "730ef2d0d564a7b843a28480c8aedacfeaf9037e822458734cde063f2681150d",
+      "git": "untracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "presentations/P001_Paper_Review/sources.md",
+      "bytes": 4375,
+      "sha256": "cd1f2a71c3f869fb96495d1de24bd392e2e6a897e13ba37b08e91c4ceeed1220",
+      "git": "untracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "presentations/P001_Paper_Review/verify_visual_exact.py",
+      "bytes": 311,
+      "sha256": "8dcfba7c9ad84ec05102c760876608cec457635163e9d9092e5b364f3dade919",
+      "git": "tracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "presentations/P001_paper_review_images/01_Cover.png",
+      "bytes": 1320896,
+      "sha256": "c6782713ed8c7043e74d11fb75f0be5ac7bd5eb906147d23428a194163d1e13d",
+      "git": "untracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "presentations/P001_paper_review_images/01_Cover_prompt.md",
+      "bytes": 2652,
+      "sha256": "0348b1a37b748ed69a5626ffa02813573ea7c4b005d69b5fad8c45305f2a5bec",
+      "git": "untracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "presentations/P001_paper_review_images/02_Visual.png",
+      "bytes": 1436234,
+      "sha256": "1cdb63a0904068196433d5351a376969b6a46f60ab19ec90781fbcec66ea422b",
+      "git": "untracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "presentations/P001_paper_review_images/03_Visual.png",
+      "bytes": 1399089,
+      "sha256": "1881564831aa0b70f3144e64fb56e1b332f51a44d5d75cc159a3ac41effdec25",
+      "git": "untracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "presentations/P001_paper_review_images/04_Visual.png",
+      "bytes": 1497931,
+      "sha256": "b724a3022763cf70ad870f5be8d8a5c43cdbd4f03a0ffff503440a86f6dc4245",
+      "git": "untracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "presentations/P001_paper_review_images/05_Visual.png",
+      "bytes": 1388939,
+      "sha256": "cf54f375a982546cd15c7743f01d87c5865b762281dbcdbb9a592cac1a025526",
+      "git": "untracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "presentations/P001_paper_review_images/06_Visual.png",
+      "bytes": 1293934,
+      "sha256": "f8c035bfb4e30d521bf4126bd2801b818274974a86ea3e3fa63eb0e109e25742",
+      "git": "untracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "presentations/P001_paper_review_images/07_Visual.png",
+      "bytes": 1369000,
+      "sha256": "39917355303ad38f7589682bf4f8a49e7003b3b99810a0e0b341c3091a4c5af9",
+      "git": "untracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "presentations/P001_paper_review_images/08_Visual.png",
+      "bytes": 1300775,
+      "sha256": "94be2f409ee1b6d877c2c46b1ab7220100c60bf3bf4abd6be056ea37fdee7c5d",
+      "git": "untracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "presentations/P001_paper_review_images/09_Visual.png",
+      "bytes": 1312530,
+      "sha256": "098babc5fd2f43888fd9531d3b5df2610696f28618c7b033f3d76e336b5321b4",
+      "git": "untracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "presentations/P001_paper_review_images/10_Visual.png",
+      "bytes": 1271114,
+      "sha256": "b8e5b5c0472125eb0752a98e88f626610893ff9666a55662ff65f0778c0d01aa",
+      "git": "untracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "presentations/P001_paper_review_images/11_Visual.png",
+      "bytes": 1490766,
+      "sha256": "60d0e3c91c94cfccae10a1150f4b2f2e65eeba5e1fa78e8d515502873854bcc6",
+      "git": "untracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "presentations/P001_paper_review_images/12_Visual.png",
+      "bytes": 1457666,
+      "sha256": "09828b6a7eaf8195b156cd49bc9d05d97a2f70af446380ec14fc0b39fe6ee24e",
+      "git": "untracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "presentations/P001_paper_review_images/13_Visual.png",
+      "bytes": 1449693,
+      "sha256": "035f3f42d10d32c4bf861896854aa7c06493da6f7fbcb311e3a4dd5944a79c06",
+      "git": "untracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "presentations/P001_paper_review_images/14_Visual.png",
+      "bytes": 1531841,
+      "sha256": "376ed2a9edb684750a9d9767362978ead33ea45796b9b8f7b59ce216ac2936e3",
+      "git": "untracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "presentations/P001_paper_review_images/generation_prompts.json",
+      "bytes": 21191,
+      "sha256": "02db64644ad5d8131af1bc96265ad30258f020964ba9953f05e0ef5010d3fb00",
+      "git": "untracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "presentations/P001_paper_review_images/image_manifest.json",
+      "bytes": 3363,
+      "sha256": "72bc5fd73658b5bfbc5ca14e7d1915b73e1ac8f0726fcb1cb2b5a5aaad316b98",
+      "git": "untracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "presentations/P001_paper_review_images/README.md",
+      "bytes": 1250,
+      "sha256": "219f0b5b36d18c454f100956ca3854ca1f1a3198ccce580feebf3da396ece876",
+      "git": "untracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "presentations/P001_Radar_Detection_Prerequisite/assets/notes_image_rebuild.json",
+      "bytes": 25275,
+      "sha256": "5d68d3274ec7fc54936f63661b80b13ffec62c636aa1e3d75a265508168cfcdf",
+      "git": "untracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "presentations/P001_Radar_Detection_Prerequisite/assets/slide-01.png",
+      "bytes": 101467,
+      "sha256": "89092ed322bdc546008856a9ce33839ccea8036e0d60c006aca7c9868cd4d082",
+      "git": "untracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "presentations/P001_Radar_Detection_Prerequisite/assets/slide-02.png",
+      "bytes": 119041,
+      "sha256": "7c0abf67f70ab06ef1a9020a3c36a3eba3afda15ba47ca196fc4ce1e11c50a2a",
+      "git": "untracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "presentations/P001_Radar_Detection_Prerequisite/assets/slide-03.png",
+      "bytes": 97247,
+      "sha256": "b52ed00d70aae8279dacd8853651c45f449e5236ded76fc8fcda20a6f2436655",
+      "git": "untracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "presentations/P001_Radar_Detection_Prerequisite/assets/slide-04.png",
+      "bytes": 122000,
+      "sha256": "6b0377fe58c694609f589e69e155d8c23f40f7a3d5881b0b2155894e97e4c443",
+      "git": "untracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "presentations/P001_Radar_Detection_Prerequisite/assets/slide-05.png",
+      "bytes": 125433,
+      "sha256": "ab73931c6adb60830347b77d469b88e6082d74a50d0aeab84d04aa8a417eaba0",
+      "git": "untracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "presentations/P001_Radar_Detection_Prerequisite/assets/slide-06.png",
+      "bytes": 107595,
+      "sha256": "2b1f316a0bce5532c81bcdabf5ac2741ba448df2c029b5fa2b3eb3cce7f669bf",
+      "git": "untracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "presentations/P001_Radar_Detection_Prerequisite/assets/slide-07.png",
+      "bytes": 113305,
+      "sha256": "216cbfe9f81e0f533fdd813601c653192618506d14c3a9caea042790bf5a9899",
+      "git": "untracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "presentations/P001_Radar_Detection_Prerequisite/assets/slide-08.png",
+      "bytes": 113523,
+      "sha256": "26a33fd236fcac8798deafb7920860c943438fade897908f74c96803c32dc358",
+      "git": "untracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "presentations/P001_Radar_Detection_Prerequisite/assets/slide-09.png",
+      "bytes": 117662,
+      "sha256": "3cc9d6d2069db9410050c44db850b64e6d714d8b4d0f7914fb76f9826d31a262",
+      "git": "untracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "presentations/P001_Radar_Detection_Prerequisite/assets/text-fit.json",
+      "bytes": 48367,
+      "sha256": "51f8da19d481eba57f3ef553166ed2eb00ff18b8fa8f5978bc44714ea0328fd9",
+      "git": "untracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "presentations/P001_Radar_Detection_Prerequisite/assets/validation.json",
+      "bytes": 3896,
+      "sha256": "abea462b530bac99379a36b18550341b3bc7c8eda396453aced751cd21388a9c",
+      "git": "untracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "presentations/P001_Radar_Detection_Prerequisite/P001_Speaker_Notes.md",
+      "bytes": 25243,
+      "sha256": "72811143cf297a0d4b2062a7a8c7a5fdbf3f4ef4283872aa109075e960e84fc9",
+      "git": "untracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "presentations/P001_Radar_Detection_Prerequisite/README.md",
+      "bytes": 486,
+      "sha256": "2dd9bab11355ac1f919bf8a939ff92b494969eb9485277bc94807f6d6c3abb32",
+      "git": "untracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "presentations/P001_Radar_Detection_Prerequisite/sources.md",
+      "bytes": 13950,
+      "sha256": "6b237a9d4f04a2febb7c25bc45f51bd9accbc719ae3decd1508150fb6b0132d8",
+      "git": "untracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "presentations/P001_slide_images/01_Cover.png",
+      "bytes": 1457522,
+      "sha256": "b8f1cc7bed3dd3a9f7cee030a0c8e520d563ff2ad896d3652891b0b78097df29",
+      "git": "untracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "presentations/P001_slide_images/02_FMCW.png",
+      "bytes": 1442858,
+      "sha256": "8d06fe0fcf20fddd5881387fc81b593b0615f5b42effcf249a66a5ddfb51b4fd",
+      "git": "untracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "presentations/P001_slide_images/03_Radar_Dimensions.png",
+      "bytes": 1319212,
+      "sha256": "2162e5183c4f6cc5faf0ea40d79dc8b380ed5e243a937fe74e83eea536e98176",
+      "git": "untracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "presentations/P001_slide_images/04_Radar_Point_Cloud.png",
+      "bytes": 1503285,
+      "sha256": "d36bdb45b78a75ef098592202d6bdf7fe5664af55df25eff303b996bc9c17c0a",
+      "git": "untracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "presentations/P001_slide_images/05_Radar_Pipeline.png",
+      "bytes": 1422115,
+      "sha256": "dbffa788f6d2d0afc3d24a8680e2000104e9966f6734350aae0f192329fa12b0",
+      "git": "untracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "presentations/P001_slide_images/06_PointPillars.png",
+      "bytes": 1480200,
+      "sha256": "290682041f8ee5a004fc7daf89a62ec7a5e7bfe7e7a1bb06b15e3e0585501101",
+      "git": "untracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "presentations/P001_slide_images/07_Temporal_Accumulation.png",
+      "bytes": 1478465,
+      "sha256": "d7133fda73906701d0c6d038a3aa2339f05f56af0d65d1b9543672a3b23f76f7",
+      "git": "untracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "presentations/P001_slide_images/08_Detection_Metrics.png",
+      "bytes": 1538440,
+      "sha256": "add6894a8eb2d099e51c51cc9e78c1aa6d455222d6dae351b6664216f7178a64",
+      "git": "untracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "presentations/P001_slide_images/09_Knowledge_Summary.png",
+      "bytes": 1427697,
+      "sha256": "b1b556502969f7ec35bfad42d09a5bb3ad15c16e758997451a5ebacf914ee960",
+      "git": "untracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "presentations/P001_slide_images/generation_prompts.json",
+      "bytes": 15764,
+      "sha256": "608df707ea2a5671a7b0ac886a80250d9c69f40666370d82a5363d0ab1cf4956",
+      "git": "untracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "presentations/P001_slide_images/image_manifest.json",
+      "bytes": 2160,
+      "sha256": "4e05ba3fedd2ec829a095b2d0c4bfcf66c6565ebb9d4fc643e7e94ad53029bc5",
+      "git": "untracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "presentations/P001_slide_images/README.md",
+      "bytes": 611,
+      "sha256": "19925f663d4f5c0ffdae92a979fbe8f083ad095734839d1658f6adee410bd55a",
+      "git": "untracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "presentations/README.md",
+      "bytes": 659,
+      "sha256": "d5330ab9d26e91033b2b343a2ba48f8409169a654c6566c60a02778bd9f7d5fd",
+      "git": "untracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "README.md",
+      "bytes": 8801,
+      "sha256": "42c4b08c8118e1144f6a8006114363a5d3d517f14d8f9f5fe440f14b4dcf9526",
+      "git": "tracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "reproductions/P001_PointPillars_VoD/.gitignore",
+      "bytes": 65,
+      "sha256": "f661996efab8eec6895243263e6c5d5b520ef3dc7d0061abeeadbe6f5df27217",
+      "git": "tracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "reproductions/P001_PointPillars_VoD/experiment_tracker.csv",
+      "bytes": 126,
+      "sha256": "a2cf86085261e77a33f07e0535694143e4fbc0ee567ab4c193d71922fab7bd65",
+      "git": "tracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "reproductions/P001_PointPillars_VoD/README.md",
+      "bytes": 5094,
+      "sha256": "f1f749f92da2dd7f86c3c8e5a34132d3d02e3d3fd60831fc28e8f854deb16fe7",
+      "git": "tracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "reproductions/P002_CRN/experiment_tracker.csv",
+      "bytes": 73,
+      "sha256": "fb00fbf6bcede032a42438a51bdc680c9b2e2e21f845947d510421a36153e794",
+      "git": "tracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "reproductions/P002_CRN/README.md",
+      "bytes": 4142,
+      "sha256": "8a5e12af1e278e85861cdda8424484f47e943e9bbbcd938399319840a9afe892",
+      "git": "tracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "reproductions/README.md",
+      "bytes": 1258,
+      "sha256": "b4cb3c6d40dd8e296865fb9a78d6dcea6f7c048ea592065585f55f482a6d434f",
+      "git": "tracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "reproductions/RECORDING_STANDARD.md",
+      "bytes": 2079,
+      "sha256": "e5c8b6578a74055c894435b786bebf618105fe8471178910e1619df8e6300ed4",
+      "git": "tracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "reproductions/templates/reproduction_template.md",
+      "bytes": 5624,
+      "sha256": "b8fe72ebc73152d63ba75b0d71efef4f0ad1ef281c42d34f3449cc8c13aa770b",
+      "git": "tracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "results/README.md",
+      "bytes": 3592,
+      "sha256": "f4b0a7a11568882b8d553918ef79beafcaf9eece7385f54b09348b25ca4ae2a5",
+      "git": "tracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "scripts/__pycache__/maintenance_paths.cpython-312.pyc",
+      "bytes": 1658,
+      "sha256": "34e8adf81233ff66780b77e1cdae13221a3b8e7d674cc6b590a24d91571f1eda",
+      "git": "ignored",
+      "sensitive_path": false
+    },
+    {
+      "path": "scripts/__pycache__/validate_lab.cpython-312.pyc",
+      "bytes": 8691,
+      "sha256": "831dd5c92292d04a1a6dd42ddcd3763eeeaefa5ad8001fd3ace3ffe6f95b613b",
+      "git": "ignored",
+      "sensitive_path": false
+    },
+    {
+      "path": "scripts/check_public_docs.py",
+      "bytes": 4123,
+      "sha256": "17e488a01dc936bd2ccbcad29b9c7e200f1a6f1a23fa69ed3025c6e0d1a9e670",
+      "git": "untracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "scripts/maintenance_paths.py",
+      "bytes": 744,
+      "sha256": "72d78e2ecfd076ca8ca988e4b58351be30c8fd70eb14c63f432ed5f452dc4203",
+      "git": "tracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "scripts/README.md",
+      "bytes": 5307,
+      "sha256": "da3e043287fc922c9c7477d75fd43d2ce93f6c28a5eb77034c73d08345057ec2",
+      "git": "tracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "scripts/validate_lab.py",
+      "bytes": 4685,
+      "sha256": "03206eef4aaad2c8fea4ce24eb84ba8bd8e3a24aeacdb5be477cd460e3556f42",
+      "git": "tracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "src/README.md",
+      "bytes": 4439,
+      "sha256": "a69e0670fca918a2e7911a8b20f998aa86397e413f5b2e754286399477baa288",
+      "git": "tracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "work/p001_exact_current_build.txt",
+      "bytes": 60,
+      "sha256": "fd9e3100eb79a084d007a533a8fb0c23d11603548ee37077379135194983b794",
+      "git": "untracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "work/p001_prereq_supplied_images/convert.mjs",
+      "bytes": 2975,
+      "sha256": "3ab034a4ab4823332678d757304282208fe574e368180b0a773b1b5e9f8bb045",
+      "git": "untracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "work/p001_prereq_supplied_images/manifest.json",
+      "bytes": 27724,
+      "sha256": "71714702b36739276cfee30020ff95ef2e3c30a4b296c9929fc6c4ae1ff71a27",
+      "git": "untracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "work/p001_prereq_supplied_images/renders/01.png",
+      "bytes": 874145,
+      "sha256": "08aa644282224d9512f9c6ce986952b662c63888e1b75815286eed3c69f46613",
+      "git": "untracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "work/p001_prereq_supplied_images/renders/02.png",
+      "bytes": 881609,
+      "sha256": "bd704c787a3d8afd1ac8e1c4e461f6050d35d49213ad1ce2521674a8e5850a50",
+      "git": "untracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "work/p001_prereq_supplied_images/renders/03.png",
+      "bytes": 779088,
+      "sha256": "03ce496b7182aa48866dde12587f3b5531e911acf7b5ff39a4f34b4d4f5fd10f",
+      "git": "untracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "work/p001_prereq_supplied_images/renders/04.png",
+      "bytes": 925655,
+      "sha256": "bf08b62ed173640fb26a44942dda28ec94192327787548bf1fc6d42f8bd830d1",
+      "git": "untracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "work/p001_prereq_supplied_images/renders/05.png",
+      "bytes": 841618,
+      "sha256": "5b7bc97bfb75f1cdecccac8ac1cae15cb8b5cb8edf7bba4815d42c79234a3b20",
+      "git": "untracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "work/p001_prereq_supplied_images/renders/06.png",
+      "bytes": 904942,
+      "sha256": "d56e00e201d7e3cb26adeb854238ecc0626154e90b26f9f4caa0346d2e9ed3d0",
+      "git": "untracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "work/p001_prereq_supplied_images/renders/07.png",
+      "bytes": 904401,
+      "sha256": "660f15c20265fe8ae431d5f5253f1925f38286fc3a78138f6207d759a66e6b9e",
+      "git": "untracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "work/p001_prereq_supplied_images/renders/08.png",
+      "bytes": 944255,
+      "sha256": "d620c6e9d4db6ea0d8ccf1cff39ef7efe6eef566a8f923dcbb2c1c595c61d5a5",
+      "git": "untracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "work/p001_prereq_supplied_images/renders/09.png",
+      "bytes": 850544,
+      "sha256": "c456c097248793cc6d0e2bf20a4fbf5feb2c6c5209d1b90048b382009adb37e6",
+      "git": "untracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "work/p001_prereq_supplied_images/validation.json",
+      "bytes": 2755,
+      "sha256": "e050dc81d7b9e69fb1f44dfdd7a9556bf9abf5fd8078dd04bfdffac7e47033a4",
+      "git": "untracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "work/p001_prereq_supplied_images/verification.json",
+      "bytes": 230,
+      "sha256": "a579d227a7acf805a8f09bbc112a2fe5be69090551d25800e2981d3a517ef650",
+      "git": "untracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "work/p001_visual_exact_20261017T100548/finalize-options.json",
+      "bytes": 1096,
+      "sha256": "6ea3b184dc9b1fe0f12daf8707b79e96fb7503b6038e6c91f149e6d049055e71",
+      "git": "untracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "work/p001_visual_exact_20261017T100548/manifest.json",
+      "bytes": 3366,
+      "sha256": "64abd0a3026450e3be52769571deba90d63ec65c6b5f594bbea1366fa795399a",
+      "git": "untracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "work/p001_visual_exact_20261017T100548/renders/01.png",
+      "bytes": 785905,
+      "sha256": "87946697a2789d6b480ddb7e9bf678ec0c6743db9a008878f4e37b7aef3b9b80",
+      "git": "untracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "work/p001_visual_exact_20261017T100548/renders/02.png",
+      "bytes": 849956,
+      "sha256": "fd9cd26ea17989164bf669a408d56a9e0f3ac68cc46baf5a62a5f0b2e335c514",
+      "git": "untracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "work/p001_visual_exact_20261017T100548/renders/03.png",
+      "bytes": 845879,
+      "sha256": "9397abee7bc8b76df8a59edf8ce6ed0ca61750936a9ab1753357424ff2f0618b",
+      "git": "untracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "work/p001_visual_exact_20261017T100548/renders/04.png",
+      "bytes": 919878,
+      "sha256": "d732b431cbebe75822ddec428c67c2640463b69abc380994e94b559e348faade",
+      "git": "untracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "work/p001_visual_exact_20261017T100548/renders/05.png",
+      "bytes": 820187,
+      "sha256": "61fa54747a4d0e2ef17f845ee4d43e2f8c7a61b9b49703a469ba9e69362fd436",
+      "git": "untracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "work/p001_visual_exact_20261017T100548/renders/06.png",
+      "bytes": 749501,
+      "sha256": "3ebee9f775afc22ccad2973f5b22c6372878ef667ce64fc2f3127e05f500eef0",
+      "git": "untracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "work/p001_visual_exact_20261017T100548/renders/07.png",
+      "bytes": 813952,
+      "sha256": "2d94da5baad0ee8ecb113b41c6a12f77d4ee178cd23fffcf17666029a471dc23",
+      "git": "untracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "work/p001_visual_exact_20261017T100548/renders/08.png",
+      "bytes": 745222,
+      "sha256": "5e79955167d90f7cc3acce0464a3f0365d206925e935a7adf9ade1fdb94567e1",
+      "git": "untracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "work/p001_visual_exact_20261017T100548/renders/09.png",
+      "bytes": 757625,
+      "sha256": "7f71ba89450399078c0d8e8b70c162767cd4d296fda9c582af4dd05c4ddcfc30",
+      "git": "untracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "work/p001_visual_exact_20261017T100548/renders/10.png",
+      "bytes": 737607,
+      "sha256": "6f84271651eb03616ebef7ec8a8cfd751448e5fc9f25d88cd66aa92bdb5f9a07",
+      "git": "untracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "work/p001_visual_exact_20261017T100548/renders/11.png",
+      "bytes": 930648,
+      "sha256": "0f45f113eaf9c7ad5e5103a107c3f78426fbeff9d430b43a8738ee09287fc15f",
+      "git": "untracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "work/p001_visual_exact_20261017T100548/renders/12.png",
+      "bytes": 893173,
+      "sha256": "65cd14cd3e33489523aa23a09590973e1a4ca61002e7a78e27dab56ddd92aec5",
+      "git": "untracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "work/p001_visual_exact_20261017T100548/renders/13.png",
+      "bytes": 887976,
+      "sha256": "cdd027e318bd6fe5ef077e4ab8b99a068a259ff3829007ad2b5f8744060ef50f",
+      "git": "untracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "work/p001_visual_exact_20261017T100548/renders/14.png",
+      "bytes": 941424,
+      "sha256": "e832121ed26b28bbe8f3998c75985cd7410fd318a968e8185fe6a4dc136d4293",
+      "git": "untracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "work/p001_visual_exact_20261017T100548/validation.json",
+      "bytes": 2770,
+      "sha256": "1553cb84835d005173200ac1af966882b93cbf9a085f512a014709e611df5784",
+      "git": "untracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "work/p001_visual_exact_20261017T100548/verification.json",
+      "bytes": 7224,
+      "sha256": "dbb9264993d93da921c399fe67bd6fac3eed9e1b2ccdf8dcd1c21bde22358ad5",
+      "git": "untracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "work/README.md",
+      "bytes": 616,
+      "sha256": "60df2a1906821956f3bb9566ae2ce6115834a62c94377417570ceec6cf912bf9",
+      "git": "untracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "work/verify_p001_exact_current.py",
+      "bytes": 311,
+      "sha256": "1a4e27c690106be267a10c77ad04fb493ead654138c42aee5f261fb5a2eca2f7",
+      "git": "tracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "writing/academic_phrasebook.md",
+      "bytes": 3128,
+      "sha256": "67efdcca9e71cb5b1c7df1c4ba054a45afea55656aa69bb7c5859890141cb0ed",
+      "git": "tracked",
+      "sensitive_path": false
+    },
+    {
+      "path": "writing/README.md",
+      "bytes": 2513,
+      "sha256": "727b6a662d5e647ebab776cba0fee7e9a33de39fcd68f1b39e3a2877847c850a",
+      "git": "tracked",
+      "sensitive_path": false
+    }
+  ],
+  "tracked_paths": [
+    ".gitattributes",
+    ".gitignore",
+    "README.md",
+    "data/README.md",
+    "docs/README.md",
+    "docs/innovation_bank/P001_INNOVATION_NOTES.md",
+    "docs/innovation_bank/P001_ideas.csv",
+    "docs/innovation_bank/P002_CRN_INNOVATION_NOTES.md",
+    "docs/innovation_bank/P002_NOVELTY_REVIEW_20261031.md",
+    "docs/innovation_bank/P002_ideas.csv",
+    "docs/innovation_bank/idea_template.md",
+    "docs/learning_notes/00_git_and_research_engineering.md",
+    "docs/maintenance/CRN_FIRST_PASS_AUDIT.md",
+    "docs/maintenance/CRN_FIRST_PASS_STATE.json",
+    "docs/maintenance/DELETE_WHITELIST.md",
+    "docs/maintenance/EVIDENCE_ROUND3_STATE.json",
+    "docs/maintenance/FILE_MANAGEMENT_GUIDE.md",
+    "docs/maintenance/LEGACY_ASSET_REVIEW.md",
+    "docs/maintenance/P001_CURRENT_STATE.json",
+    "docs/maintenance/P001_P002_CONSISTENCY_AUDIT.md",
+    "docs/maintenance/P001_P002_CONTENT_AUDIT.md",
+    "docs/maintenance/P001_P002_CONTENT_AUDIT_STATE.json",
+    "docs/maintenance/P001_P002_DOSSIER_ROUND1.md",
+    "docs/maintenance/P001_P002_DOSSIER_ROUND1_STATE.json",
+    "docs/maintenance/P001_P002_PARITY_MATRIX.md",
+    "docs/maintenance/P001_P002_PARITY_STATE.json",
+    "docs/maintenance/P001_TABLE_IV_ERRATUM.md",
+    "docs/maintenance/P001_history.zip",
+    "docs/maintenance/P002_ALIGNMENT_STATE.json",
+    "docs/maintenance/P002_IMAGE_PROVENANCE.md",
+    "docs/maintenance/P002_MATRIX_REGISTRATION.json",
+    "docs/maintenance/REPOSITORY_AUDIT.md",
+    "docs/maintenance/REPOSITORY_CHANGE_REPORT.md",
+    "docs/maintenance/REPOSITORY_INVENTORY.csv",
+    "docs/maintenance/REPOSITORY_ORGANIZATION_STATE.json",
+    "docs/research_gaps/P001_CONTENT_SUPPLEMENT.md",
+    "docs/research_gaps/P001_Limitations_Research_Gap.md",
+    "docs/research_gaps/P002_CRN_CONTENT_SUPPLEMENT.md",
+    "docs/research_gaps/P002_CRN_Limitations_Research_Gap.md",
+    "docs/research_gaps/baseline_selection_round2/01_candidate_papers.md",
+    "docs/research_gaps/baseline_selection_round2/02_code_audit.md",
+    "docs/research_gaps/baseline_selection_round2/03_reproducibility_ranking.md",
+    "docs/research_gaps/baseline_selection_round2/04_innovation_opportunities.md",
+    "docs/research_gaps/baseline_selection_round2/05_decision_and_plan.md",
+    "docs/research_log/P001_ARCHIVE_REPORT.md",
+    "docs/research_log/P001_READING_REPORT.md",
+    "docs/research_log/P001_REVIEW.md",
+    "docs/research_log/P002_CRN_READING_REPORT.md",
+    "docs/research_log/P002_CRN_REVIEW.md",
+    "docs/research_log/research_log_template.md",
+    "docs/research_protocol.md",
+    "docs/roadmap.md",
+    "docs/weekly_reports/weekly_report_template.md",
+    "experiments/README.md",
+    "experiments/templates/experiment_template.md",
+    "figures/README.md",
+    "figures/library/P001/FIGURE_INDEX.md",
+    "figures/library/P001/paper_page_01_reference.png",
+    "figures/library/P001/paper_page_04_reference.png",
+    "figures/library/P001/paper_page_06_reference.png",
+    "figures/library/P001/paper_page_07_reference.png",
+    "figures/library/P002/FIGURE_INDEX.md",
+    "manuscript/README.md",
+    "paper_notes/P001_MultiClass_Road_User_Detection.md",
+    "paper_notes/P001_概念查询宝典.md",
+    "paper_notes/P001_论文精读.md",
+    "paper_notes/P002_CRN.md",
+    "paper_notes/P002_概念查询宝典.md",
+    "paper_notes/README.md",
+    "paper_notes/assets/P001/ChatGPT Image 2026年9月23日 15_22_18.png",
+    "paper_notes/assets/P001/ChatGPT 图像 2026年9月29日 11_04_16.png",
+    "paper_notes/assets/P001/ChatGPT 图像 2026年9月29日 15_17_15.png",
+    "paper_notes/assets/P001/Pasted image 20261009152348.png",
+    "paper_notes/assets/P001/Pasted image 20261014185700.png",
+    "paper_notes/assets/P001/Pasted image 20261014185737.png",
+    "paper_notes/assets/P001/Pasted image 20261019144201.png",
+    "paper_notes/assets/P002_CRN/Pasted image 20261028091506.png",
+    "paper_notes/assets/P002_CRN/Pasted image 20261028142231.png",
+    "paper_notes/assets/P002_CRN/Pasted image 20261028193811.png",
+    "paper_notes/assets/P002_CRN/Pasted image 20261028195714.png",
+    "paper_notes/assets/P002_CRN/Pasted image 20261030141556.png",
+    "paper_notes/assets/P002_CRN/Pasted image 20261030141648.png",
+    "paper_notes/assets/P002_CRN/Pasted image 20261030141736.png",
+    "paper_notes/templates/paper_archive_checklist.md",
+    "paper_notes/templates/paper_note_template.md",
+    "papers/P001_PointPillars_VoD/README.md",
+    "papers/P002_CRN/README.md",
+    "papers/P002_CRN_RECORD.md",
+    "papers/P003_R4Det/01_pre_readiness.md",
+    "papers/P003_R4Det/README.md",
+    "papers/README.md",
+    "papers/paper_matrix.csv",
+    "papers/paper_matrix_P001_import.csv",
+    "presentations/P001_Paper_Review/verify_visual_exact.py",
+    "reproductions/P001_PointPillars_VoD/.gitignore",
+    "reproductions/P001_PointPillars_VoD/README.md",
+    "reproductions/P001_PointPillars_VoD/experiment_tracker.csv",
+    "reproductions/P002_CRN/README.md",
+    "reproductions/P002_CRN/experiment_tracker.csv",
+    "reproductions/README.md",
+    "reproductions/RECORDING_STANDARD.md",
+    "reproductions/templates/reproduction_template.md",
+    "results/README.md",
+    "scripts/README.md",
+    "scripts/maintenance_paths.py",
+    "scripts/validate_lab.py",
+    "src/README.md",
+    "work/verify_p001_exact_current.py",
+    "writing/README.md",
+    "writing/academic_phrasebook.md"
+  ],
+  "untracked_paths": [
+    ".github/workflows/docs.yml",
+    "CONTRIBUTING.md",
+    "NOTICE.md",
+    "archive/ARCHIVE_MANIFEST.md",
+    "archive/cleanup_2026-10-17/README.md",
+    "archive/cleanup_2026-10-17/manifest.csv",
+    "archive/cleanup_2026-10-17/presentations/P001_Paper_Review/P001_Paper_Review_Visual_Exact.verification.json",
+    "archive/cleanup_2026-10-17/presentations/P001_Radar_Detection_Prerequisite/backups/20261017_before_image_rebuild/P001_Speaker_Notes.md",
+    "archive/cleanup_2026-10-17/presentations/P001_Radar_Detection_Prerequisite/backups/20261017_before_image_rebuild/README.md",
+    "archive/cleanup_2026-10-17/work/p001_ppt_build/cases.png",
+    "archive/cleanup_2026-10-17/work/p001_ppt_build/curves.png",
+    "archive/cleanup_2026-10-17/work/p001_ppt_build/scene.png",
+    "archive/cleanup_2026-10-17/work/p001_ppt_build/sensor.png",
+    "archive/cleanup_2026-10-17/work/p001_prereq_build/paper.txt",
+    "archive/retired_ppt_work/README.md",
+    "docs/learning_notes/01 RadarVisionLLM-Lab：FMCW、回波与多普勒基础.md",
+    "docs/maintenance/P001_EVIDENCE_ERRATA.md",
+    "docs/maintenance/README.md",
+    "experiments/templates/config_template.yaml",
+    "presentations/HISTORY.md",
+    "presentations/P001_Paper_Review/P001_Paper_Review_Speaker_Notes.md",
+    "presentations/P001_Paper_Review/README.md",
+    "presentations/P001_Paper_Review/assets/fig4_original.png",
+    "presentations/P001_Paper_Review/assets/fig5_original.png",
+    "presentations/P001_Paper_Review/assets/paper_page_06_220dpi.png",
+    "presentations/P001_Paper_Review/slide_content.json",
+    "presentations/P001_Paper_Review/sources.md",
+    "presentations/P001_Radar_Detection_Prerequisite/P001_Speaker_Notes.md",
+    "presentations/P001_Radar_Detection_Prerequisite/README.md",
+    "presentations/P001_Radar_Detection_Prerequisite/assets/notes_image_rebuild.json",
+    "presentations/P001_Radar_Detection_Prerequisite/assets/slide-01.png",
+    "presentations/P001_Radar_Detection_Prerequisite/assets/slide-02.png",
+    "presentations/P001_Radar_Detection_Prerequisite/assets/slide-03.png",
+    "presentations/P001_Radar_Detection_Prerequisite/assets/slide-04.png",
+    "presentations/P001_Radar_Detection_Prerequisite/assets/slide-05.png",
+    "presentations/P001_Radar_Detection_Prerequisite/assets/slide-06.png",
+    "presentations/P001_Radar_Detection_Prerequisite/assets/slide-07.png",
+    "presentations/P001_Radar_Detection_Prerequisite/assets/slide-08.png",
+    "presentations/P001_Radar_Detection_Prerequisite/assets/slide-09.png",
+    "presentations/P001_Radar_Detection_Prerequisite/assets/text-fit.json",
+    "presentations/P001_Radar_Detection_Prerequisite/assets/validation.json",
+    "presentations/P001_Radar_Detection_Prerequisite/sources.md",
+    "presentations/P001_paper_review_images/01_Cover.png",
+    "presentations/P001_paper_review_images/01_Cover_prompt.md",
+    "presentations/P001_paper_review_images/02_Visual.png",
+    "presentations/P001_paper_review_images/03_Visual.png",
+    "presentations/P001_paper_review_images/04_Visual.png",
+    "presentations/P001_paper_review_images/05_Visual.png",
+    "presentations/P001_paper_review_images/06_Visual.png",
+    "presentations/P001_paper_review_images/07_Visual.png",
+    "presentations/P001_paper_review_images/08_Visual.png",
+    "presentations/P001_paper_review_images/09_Visual.png",
+    "presentations/P001_paper_review_images/10_Visual.png",
+    "presentations/P001_paper_review_images/11_Visual.png",
+    "presentations/P001_paper_review_images/12_Visual.png",
+    "presentations/P001_paper_review_images/13_Visual.png",
+    "presentations/P001_paper_review_images/14_Visual.png",
+    "presentations/P001_paper_review_images/README.md",
+    "presentations/P001_paper_review_images/generation_prompts.json",
+    "presentations/P001_paper_review_images/image_manifest.json",
+    "presentations/P001_slide_images/01_Cover.png",
+    "presentations/P001_slide_images/02_FMCW.png",
+    "presentations/P001_slide_images/03_Radar_Dimensions.png",
+    "presentations/P001_slide_images/04_Radar_Point_Cloud.png",
+    "presentations/P001_slide_images/05_Radar_Pipeline.png",
+    "presentations/P001_slide_images/06_PointPillars.png",
+    "presentations/P001_slide_images/07_Temporal_Accumulation.png",
+    "presentations/P001_slide_images/08_Detection_Metrics.png",
+    "presentations/P001_slide_images/09_Knowledge_Summary.png",
+    "presentations/P001_slide_images/README.md",
+    "presentations/P001_slide_images/generation_prompts.json",
+    "presentations/P001_slide_images/image_manifest.json",
+    "presentations/README.md",
+    "scripts/check_public_docs.py",
+    "work/README.md",
+    "work/p001_exact_current_build.txt",
+    "work/p001_prereq_supplied_images/convert.mjs",
+    "work/p001_prereq_supplied_images/manifest.json",
+    "work/p001_prereq_supplied_images/renders/01.png",
+    "work/p001_prereq_supplied_images/renders/02.png",
+    "work/p001_prereq_supplied_images/renders/03.png",
+    "work/p001_prereq_supplied_images/renders/04.png",
+    "work/p001_prereq_supplied_images/renders/05.png",
+    "work/p001_prereq_supplied_images/renders/06.png",
+    "work/p001_prereq_supplied_images/renders/07.png",
+    "work/p001_prereq_supplied_images/renders/08.png",
+    "work/p001_prereq_supplied_images/renders/09.png",
+    "work/p001_prereq_supplied_images/validation.json",
+    "work/p001_prereq_supplied_images/verification.json",
+    "work/p001_visual_exact_20261017T100548/finalize-options.json",
+    "work/p001_visual_exact_20261017T100548/manifest.json",
+    "work/p001_visual_exact_20261017T100548/renders/01.png",
+    "work/p001_visual_exact_20261017T100548/renders/02.png",
+    "work/p001_visual_exact_20261017T100548/renders/03.png",
+    "work/p001_visual_exact_20261017T100548/renders/04.png",
+    "work/p001_visual_exact_20261017T100548/renders/05.png",
+    "work/p001_visual_exact_20261017T100548/renders/06.png",
+    "work/p001_visual_exact_20261017T100548/renders/07.png",
+    "work/p001_visual_exact_20261017T100548/renders/08.png",
+    "work/p001_visual_exact_20261017T100548/renders/09.png",
+    "work/p001_visual_exact_20261017T100548/renders/10.png",
+    "work/p001_visual_exact_20261017T100548/renders/11.png",
+    "work/p001_visual_exact_20261017T100548/renders/12.png",
+    "work/p001_visual_exact_20261017T100548/renders/13.png",
+    "work/p001_visual_exact_20261017T100548/renders/14.png",
+    "work/p001_visual_exact_20261017T100548/validation.json",
+    "work/p001_visual_exact_20261017T100548/verification.json"
+  ],
+  "ignored_paths": [
+    "scripts/__pycache__/maintenance_paths.cpython-312.pyc",
+    "scripts/__pycache__/validate_lab.cpython-312.pyc"
+  ],
+  "tracked_missing": [
+    "paper_notes/P001_MultiClass_Road_User_Detection.md"
+  ],
+  "modified_text_or_bytes_vs_head": [
+    "data/README.md",
+    "docs/innovation_bank/idea_template.md",
+    "docs/innovation_bank/P001_ideas.csv",
+    "docs/innovation_bank/P001_INNOVATION_NOTES.md",
+    "docs/learning_notes/00_git_and_research_engineering.md",
+    "docs/README.md",
+    "docs/research_gaps/P001_Limitations_Research_Gap.md",
+    "docs/research_log/P001_ARCHIVE_REPORT.md",
+    "docs/research_protocol.md",
+    "docs/roadmap.md",
+    "docs/weekly_reports/weekly_report_template.md",
+    "experiments/README.md",
+    "experiments/templates/experiment_template.md",
+    "figures/README.md",
+    "manuscript/README.md",
+    "paper_notes/README.md",
+    "paper_notes/templates/paper_note_template.md",
+    "README.md",
+    "reproductions/README.md",
+    "reproductions/templates/reproduction_template.md",
+    "results/README.md",
+    "scripts/README.md",
+    "src/README.md",
+    "writing/academic_phrasebook.md",
+    "writing/README.md"
+  ],
+  "exact_duplicate_groups": [],
+  "duplicate_names": [
+    {
+      "name": ".gitignore",
+      "paths": [
+        ".gitignore",
+        "reproductions/P001_PointPillars_VoD/.gitignore"
+      ]
+    },
+    {
+      "name": "P001_Speaker_Notes.md",
+      "paths": [
+        "archive/cleanup_2026-10-17/presentations/P001_Radar_Detection_Prerequisite/backups/20261017_before_image_rebuild/P001_Speaker_Notes.md",
+        "presentations/P001_Radar_Detection_Prerequisite/P001_Speaker_Notes.md"
+      ]
+    },
+    {
+      "name": "README.md",
+      "paths": [
+        "archive/cleanup_2026-10-17/presentations/P001_Radar_Detection_Prerequisite/backups/20261017_before_image_rebuild/README.md",
+        "archive/cleanup_2026-10-17/README.md",
+        "archive/retired_ppt_work/README.md",
+        "data/README.md",
+        "docs/maintenance/README.md",
+        "docs/README.md",
+        "experiments/README.md",
+        "figures/README.md",
+        "manuscript/README.md",
+        "paper_notes/README.md",
+        "papers/P001_PointPillars_VoD/README.md",
+        "papers/P002_CRN/README.md",
+        "papers/P003_R4Det/README.md",
+        "papers/README.md",
+        "presentations/P001_Paper_Review/README.md",
+        "presentations/P001_paper_review_images/README.md",
+        "presentations/P001_Radar_Detection_Prerequisite/README.md",
+        "presentations/P001_slide_images/README.md",
+        "presentations/README.md",
+        "README.md",
+        "reproductions/P001_PointPillars_VoD/README.md",
+        "reproductions/P002_CRN/README.md",
+        "reproductions/README.md",
+        "results/README.md",
+        "scripts/README.md",
+        "src/README.md",
+        "work/README.md",
+        "writing/README.md"
+      ]
+    },
+    {
+      "name": "FIGURE_INDEX.md",
+      "paths": [
+        "figures/library/P001/FIGURE_INDEX.md",
+        "figures/library/P002/FIGURE_INDEX.md"
+      ]
+    },
+    {
+      "name": "sources.md",
+      "paths": [
+        "presentations/P001_Paper_Review/sources.md",
+        "presentations/P001_Radar_Detection_Prerequisite/sources.md"
+      ]
+    },
+    {
+      "name": "01_Cover.png",
+      "paths": [
+        "presentations/P001_paper_review_images/01_Cover.png",
+        "presentations/P001_slide_images/01_Cover.png"
+      ]
+    },
+    {
+      "name": "generation_prompts.json",
+      "paths": [
+        "presentations/P001_paper_review_images/generation_prompts.json",
+        "presentations/P001_slide_images/generation_prompts.json"
+      ]
+    },
+    {
+      "name": "image_manifest.json",
+      "paths": [
+        "presentations/P001_paper_review_images/image_manifest.json",
+        "presentations/P001_slide_images/image_manifest.json"
+      ]
+    },
+    {
+      "name": "validation.json",
+      "paths": [
+        "presentations/P001_Radar_Detection_Prerequisite/assets/validation.json",
+        "work/p001_prereq_supplied_images/validation.json",
+        "work/p001_visual_exact_20261017T100548/validation.json"
+      ]
+    },
+    {
+      "name": "experiment_tracker.csv",
+      "paths": [
+        "reproductions/P001_PointPillars_VoD/experiment_tracker.csv",
+        "reproductions/P002_CRN/experiment_tracker.csv"
+      ]
+    },
+    {
+      "name": "manifest.json",
+      "paths": [
+        "work/p001_prereq_supplied_images/manifest.json",
+        "work/p001_visual_exact_20261017T100548/manifest.json"
+      ]
+    },
+    {
+      "name": "01.png",
+      "paths": [
+        "work/p001_prereq_supplied_images/renders/01.png",
+        "work/p001_visual_exact_20261017T100548/renders/01.png"
+      ]
+    },
+    {
+      "name": "02.png",
+      "paths": [
+        "work/p001_prereq_supplied_images/renders/02.png",
+        "work/p001_visual_exact_20261017T100548/renders/02.png"
+      ]
+    },
+    {
+      "name": "03.png",
+      "paths": [
+        "work/p001_prereq_supplied_images/renders/03.png",
+        "work/p001_visual_exact_20261017T100548/renders/03.png"
+      ]
+    },
+    {
+      "name": "04.png",
+      "paths": [
+        "work/p001_prereq_supplied_images/renders/04.png",
+        "work/p001_visual_exact_20261017T100548/renders/04.png"
+      ]
+    },
+    {
+      "name": "05.png",
+      "paths": [
+        "work/p001_prereq_supplied_images/renders/05.png",
+        "work/p001_visual_exact_20261017T100548/renders/05.png"
+      ]
+    },
+    {
+      "name": "06.png",
+      "paths": [
+        "work/p001_prereq_supplied_images/renders/06.png",
+        "work/p001_visual_exact_20261017T100548/renders/06.png"
+      ]
+    },
+    {
+      "name": "07.png",
+      "paths": [
+        "work/p001_prereq_supplied_images/renders/07.png",
+        "work/p001_visual_exact_20261017T100548/renders/07.png"
+      ]
+    },
+    {
+      "name": "08.png",
+      "paths": [
+        "work/p001_prereq_supplied_images/renders/08.png",
+        "work/p001_visual_exact_20261017T100548/renders/08.png"
+      ]
+    },
+    {
+      "name": "09.png",
+      "paths": [
+        "work/p001_prereq_supplied_images/renders/09.png",
+        "work/p001_visual_exact_20261017T100548/renders/09.png"
+      ]
+    },
+    {
+      "name": "verification.json",
+      "paths": [
+        "work/p001_prereq_supplied_images/verification.json",
+        "work/p001_visual_exact_20261017T100548/verification.json"
+      ]
+    }
+  ],
+  "large_files": [],
+  "sensitive_findings": [],
+  "secret_scan_scope": "Local non-.git text files <2MB; high-confidence token/key patterns and sensitive names only; no credential values or hashes of sensitive-name files retained. Not an exhaustive secret audit.",
+  "format_errors": [],
+  "yaml_parser": "unavailable; no package installed",
+  "existing_validator": {
+    "exit_code": 0,
+    "stdout": {
+      "passed": true,
+      "errors": [],
+      "formal_p001_notes": [
+        {
+          "file": "paper_notes/P001_论文精读.md",
+          "sha256": "c5630dcbe5bfbf9a0e59464fa862cd23c28ae665d033e7377cc26cdd53fb9dac"
+        },
+        {
+          "file": "paper_notes/P001_概念查询宝典.md",
+          "sha256": "f6fa354e2c34f8f7725dac9332c3192cb76e716152be23c31fc9da4de5afad10"
+        }
+      ],
+      "presentation_files_expected": 0,
+      "historical_entries_verified": 41,
+      "retained_files_verified": 203,
+      "csv_columns": {
+        "papers/paper_matrix.csv": 36,
+        "papers/paper_matrix_P001_import.csv": 23,
+        "archive/cleanup_2026-10-17/manifest.csv": 5,
+        "docs/innovation_bank/P001_ideas.csv": 10,
+        "docs/innovation_bank/P002_ideas.csv": 10,
+        "docs/maintenance/REPOSITORY_INVENTORY.csv": 15,
+        "reproductions/P001_PointPillars_VoD/experiment_tracker.csv": 8,
+        "reproductions/P002_CRN/experiment_tracker.csv": 8
+      },
+      "existing_markdown_targets": 400,
+      "python_files_compiled": 5,
+      "claim_boundary": "Checks retained P001 bytes, source PDF copies, packed historical bytes and links. No PPT generation, training or evaluation."
+    },
+    "stderr": ""
+  },
+  "published_link_check": {
+    "checked_existing_targets": 340,
+    "missing": [],
+    "escaped_heading_files": [
+      "data/README.md",
+      "docs/README.md",
+      "docs/innovation_bank/idea_template.md",
+      "docs/learning_notes/00_git_and_research_engineering.md",
+      "docs/research_protocol.md",
+      "docs/roadmap.md",
+      "docs/weekly_reports/weekly_report_template.md",
+      "experiments/README.md",
+      "experiments/templates/experiment_template.md",
+      "figures/README.md",
+      "manuscript/README.md",
+      "paper_notes/templates/paper_note_template.md",
+      "reproductions/README.md",
+      "reproductions/templates/reproduction_template.md",
+      "results/README.md",
+      "scripts/README.md",
+      "src/README.md",
+      "writing/README.md",
+      "writing/academic_phrasebook.md"
+    ],
+    "scope": "HEAD Git tree; does not claim local untracked assets published"
+  },
+  "read_scope": {
+    "text_files_read": 132,
+    "excludes": ".git internals and files over configured text scan size",
+    "no_credentials_stored": true
+  }
+}

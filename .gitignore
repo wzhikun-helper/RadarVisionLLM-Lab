@@ -96,3 +96,13 @@ credentials.*
 wandb/
 # Unique historical evidence, intentionally retained
 !docs/maintenance/P001_history.zip
+
+# Credential filenames: never publish local account or private key files
+id_rsa
+id_ed25519
+credentials
+secrets.json
+secrets.yaml
+secrets.yml
+.aws/
+.ssh/

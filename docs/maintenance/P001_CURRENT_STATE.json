@@ -1576,8 +1576,8 @@
       "bytes": 238
     },
     ".gitignore": {
-      "sha256": "71bb009823611e2cd975ba866ee73685b7bdda4563c3776d53591f2b6e39a94e",
-      "bytes": 1603
+      "sha256": "b4e37575e784409e2dc8e0e0a614856505c1f572849499c9e69f8e8d8106e5b2",
+      "bytes": 1757
     },
     "CONTRIBUTING.md": {
       "sha256": "2d9b7a68064d802d20490c84b57ee6391ea9276c46df6399762079ff3de6d22d",
@@ -1588,40 +1588,40 @@
       "bytes": 1286
     },
     "README.md": {
-      "sha256": "42c4b08c8118e1144f6a8006114363a5d3d517f14d8f9f5fe440f14b4dcf9526",
-      "bytes": 8801
+      "sha256": "a532867285ff60254d4205ffcc52c1cd804f36a1617b966c85e6e7a5190f699b",
+      "bytes": 5451
     },
     "archive/ARCHIVE_MANIFEST.md": {
       "sha256": "c7d75c38127a9ef0bf8d8e6179672c2e4e161fe0a32e24155dfc17aa73671aaf",
       "bytes": 2213
     },
     "data/README.md": {
-      "sha256": "6c3c1c3c4210c504c440a32accbac2cf379553930a463dc25bc02d9b1cdc961a",
-      "bytes": 7482
+      "sha256": "aa65808057b896772c7aaae10c9c5616f47b55e0de556f7baf6d213d701ec5b8",
+      "bytes": 5991
     },
     "docs/README.md": {
-      "sha256": "51bf426e7c6d964216793a9b5d51c83584744e5069f6f6f4674a7066c7b932fb",
-      "bytes": 1370
+      "sha256": "ab11b579dd477e36a15d77f797ef68a767042fa4089e7440159a66edadb649a6",
+      "bytes": 3970
     },
     "docs/research_protocol.md": {
-      "sha256": "04a4d1413d9a903e6ce4428a9ab8eab46eb834dcdf8e720d2aa5a4333fd03ebe",
-      "bytes": 9441
+      "sha256": "e02114e11047193f8f0b6d2ffab5808c5027b766026231274fbf5727e01930c2",
+      "bytes": 9974
     },
     "docs/roadmap.md": {
-      "sha256": "92f55590e23c370f6a4629f2cbcdd65c6eba657c21627bf85d4c3cda634b9bc6",
-      "bytes": 11847
+      "sha256": "5dff5bfcd2cdd8b2fea54666c5e0dbb95eb338de33c2009383d64d8895338ff0",
+      "bytes": 12188
     },
     "experiments/README.md": {
-      "sha256": "fbcdb923eedbaaa155c56305548b8fde49069211d593d3671db6df544dcd49b3",
-      "bytes": 6924
+      "sha256": "9d02ef0834a1c477dc97fc1557cb3202a7c70dd79765772ad98356419742a323",
+      "bytes": 5861
     },
     "figures/README.md": {
-      "sha256": "507c4eab7d56089866d2f11cb73a4d2989d201f60b6803e0eb86af65606d8b07",
-      "bytes": 680
+      "sha256": "1dde4c83ed9886c5001b00c5f68812081d2a9453c71b6f662d163f9bc64af027",
+      "bytes": 3474
     },
     "manuscript/README.md": {
-      "sha256": "f9bb2459b0d655cd0099b608de0d905631b862020612180169466d9cf678ac02",
-      "bytes": 4190
+      "sha256": "649b5c97ae637ee17c42dcf27032f52132e9c32fd075d8db440ce125e5f60a6c",
+      "bytes": 4574
     },
     "papers/P002_CRN_RECORD.md": {
       "sha256": "9ad1ba8bc14c9ba1bad53b91e944da62973941b371a405ffcfcdcc8227fd5991",
@@ -1668,16 +1668,16 @@
       "bytes": 659
     },
     "reproductions/README.md": {
-      "sha256": "b4cb3c6d40dd8e296865fb9a78d6dcea6f7c048ea592065585f55f482a6d434f",
-      "bytes": 1258
+      "sha256": "1bf94d8fbfa31b1322cc4aecb22956b72e199bd736a46b8c60c2f336b066efb5",
+      "bytes": 4575
     },
     "reproductions/RECORDING_STANDARD.md": {
-      "sha256": "e5c8b6578a74055c894435b786bebf618105fe8471178910e1619df8e6300ed4",
-      "bytes": 2079
+      "sha256": "c985498fcaef046667d1ff20a2220a45601d1d7242b451ea843589e427fab69a",
+      "bytes": 4233
     },
     "results/README.md": {
-      "sha256": "f4b0a7a11568882b8d553918ef79beafcaf9eece7385f54b09348b25ca4ae2a5",
-      "bytes": 3592
+      "sha256": "7717a289b0670778d5542e3d0ad56229701df6068af91149666dbb9bb5098469",
+      "bytes": 4124
     },
     "scripts/check_public_docs.py": {
       "sha256": "17e488a01dc936bd2ccbcad29b9c7e200f1a6f1a23fa69ed3025c6e0d1a9e670",
@@ -1688,16 +1688,16 @@
       "bytes": 744
     },
     "scripts/README.md": {
-      "sha256": "da3e043287fc922c9c7477d75fd43d2ce93f6c28a5eb77034c73d08345057ec2",
-      "bytes": 5307
+      "sha256": "c01ef1c50b438b86d9642a231c5411a5540a168229374068165aa807050ab45e",
+      "bytes": 5180
     },
     "scripts/validate_lab.py": {
-      "sha256": "03206eef4aaad2c8fea4ce24eb84ba8bd8e3a24aeacdb5be477cd460e3556f42",
-      "bytes": 4685
+      "sha256": "7123ac322c441c2e2599621d6d6b641c8646f6a0f09cc3a39067188156a3d7e5",
+      "bytes": 13789
     },
     "src/README.md": {
-      "sha256": "a69e0670fca918a2e7911a8b20f998aa86397e413f5b2e754286399477baa288",
-      "bytes": 4439
+      "sha256": "4846355c003c03e2781bd11848d76d24cb361338ed1d0004472262b73c582d04",
+      "bytes": 4765
     },
     "work/p001_exact_current_build.txt": {
       "sha256": "fd9e3100eb79a084d007a533a8fb0c23d11603548ee37077379135194983b794",
@@ -1712,12 +1712,12 @@
       "bytes": 311
     },
     "writing/academic_phrasebook.md": {
-      "sha256": "67efdcca9e71cb5b1c7df1c4ba054a45afea55656aa69bb7c5859890141cb0ed",
-      "bytes": 3128
+      "sha256": "1453ceba07bc79ce583e6876073d3b86341dcfe3561b8dc21ebffe765b933753",
+      "bytes": 3345
     },
     "writing/README.md": {
-      "sha256": "727b6a662d5e647ebab776cba0fee7e9a33de39fcd68f1b39e3a2877847c850a",
-      "bytes": 2513
+      "sha256": "281188fe3e73bce08f0fd1c53d3d9d94f1e5f5374f7a376de9e87eaad59dc58d",
+      "bytes": 2688
     },
     ".github/workflows/docs.yml": {
       "sha256": "1be17a74c155e5fa8a63794cae3cbce853ed0877c18d30bfeaa144931223783b",
@@ -1768,8 +1768,8 @@
       "bytes": 45169
     },
     "docs/innovation_bank/idea_template.md": {
-      "sha256": "bb9787c879dbd2890565f1d9614836a77f606c060735b40bc76feb752c91a6ac",
-      "bytes": 3657
+      "sha256": "b56d720a1209a7d0184dd45ccbfbba3d216f5d18ad35cd7d3a4e12e6e256fc61",
+      "bytes": 3402
     },
     "docs/innovation_bank/P001_ideas.csv": {
       "sha256": "375389b4f307cb26751c46d6d97580a7744663c8d7c51c4a56a5e36917ad5425",
@@ -1788,8 +1788,8 @@
       "bytes": 1221
     },
     "docs/learning_notes/00_git_and_research_engineering.md": {
-      "sha256": "9b1fb78ef876b1b2b0607eb5144c05733ae1c546f9c1b658aea598a071576393",
-      "bytes": 11251
+      "sha256": "80b9052b5933755f59bf02f28545586427170481db356823297dc236d3fed262",
+      "bytes": 12336
     },
     "docs/learning_notes/01 RadarVisionLLM-Lab：FMCW、回波与多普勒基础.md": {
       "sha256": "a71bb4b6891c867060fcf420429da72f65483af898917ac826f831bc7bf10773",
@@ -1896,8 +1896,8 @@
       "bytes": 689
     },
     "docs/weekly_reports/weekly_report_template.md": {
-      "sha256": "0ef99b4f0942bdd89a7847a2ff5814abcacdc15504fcadd89b3ad1f77e2a002c",
-      "bytes": 1851
+      "sha256": "6dd2439931420140fbd7dcc8f251e6cc6fe6ba6d527fbe2f1dd2d91e80194374",
+      "bytes": 2034
     },
     "docs/research_gaps/baseline_selection_round2/01_candidate_papers.md": {
       "sha256": "159f3f05f04e8ad888aed59f42c93a35a8f65d097217f44bcd8d880aeb05c72d",
@@ -1924,8 +1924,8 @@
       "bytes": 1030
     },
     "experiments/templates/experiment_template.md": {
-      "sha256": "2dc5222a8afc5c29f5cde10740ac2dbc75385550b851fbcfdf8c150aba85abfa",
-      "bytes": 5014
+      "sha256": "1563a76da378526ed43c4d6b66760f1ce7e91ed93918eb1dba92abd896412ae3",
+      "bytes": 4210
     },
     "figures/library/P001/FIGURE_INDEX.md": {
       "sha256": "e1f20a4ca67ed73f4102d0a9a960ad689d5b4fc9f8c54e0b4c5d453dfa180042",
@@ -1956,8 +1956,8 @@
       "bytes": 2429
     },
     "paper_notes/templates/paper_note_template.md": {
-      "sha256": "5370eff485697edafb4ecfe14ec9d4015e2d32fdf0852028375be7410eff8969",
-      "bytes": 7890
+      "sha256": "597494bd7245d1607c8a5a64ef2314bc114d1a25b1d549717eedd9b084a98d63",
+      "bytes": 8639
     },
     "paper_notes/assets/P001/ChatGPT Image 2026年9月23日 15_22_18.png": {
       "sha256": "54dca866fe59e13b89807caac90709d80151e96ee8dc8ba6943510d1043a2beb",
@@ -2248,8 +2248,8 @@
       "bytes": 4142
     },
     "reproductions/templates/reproduction_template.md": {
-      "sha256": "b8fe72ebc73152d63ba75b0d71efef4f0ad1ef281c42d34f3449cc8c13aa770b",
-      "bytes": 5624
+      "sha256": "12fdf067ef92f49f96034a1c6b0ff6ad61d06ab9ec61590595ad74c7662a4ad3",
+      "bytes": 5765
     },
     "scripts/__pycache__/maintenance_paths.cpython-312.pyc": {
       "sha256": "34e8adf81233ff66780b77e1cdae13221a3b8e7d674cc6b590a24d91571f1eda",
@@ -3015,5 +3015,11 @@
     },
     "source_and_historical_hashes_preserved": true,
     "p003_preparation_only": true
+  },
+  "repository_governance_20261101": {
+    "audit": "docs/maintenance/REPOSITORY_AUDIT_2026-11-01.md",
+    "current_status": "docs/maintenance/RESEARCH_STATUS.json",
+    "mode": "isolated branch; source working tree and unpublished user changes preserved",
+    "no_research_asset_moves_or_deletions": true
   }
 }

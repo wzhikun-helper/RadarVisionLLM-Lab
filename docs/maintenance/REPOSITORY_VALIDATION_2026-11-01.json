@@ -1,0 +1,96 @@
+{
+  "date": "2026-11-01",
+  "source_head": "c0ee5b5ee6b25fb7a09a51177d26e05c399abda4",
+  "branch": "codex/repository-maintenance-20261101",
+  "scope_files": [
+    ".gitignore",
+    "README.md",
+    "data/README.md",
+    "docs/README.md",
+    "docs/RESEARCH_WORKFLOW.md",
+    "docs/innovation_bank/idea_template.md",
+    "docs/learning_notes/00_git_and_research_engineering.md",
+    "docs/maintenance/P001_CURRENT_STATE.json",
+    "docs/maintenance/REPOSITORY_AUDIT_2026-11-01.md",
+    "docs/maintenance/REPOSITORY_CHANGE_REPORT_2026-11-01.md",
+    "docs/maintenance/REPOSITORY_GUIDE.md",
+    "docs/maintenance/REPOSITORY_INVENTORY_2026-11-01.json",
+    "docs/maintenance/REPOSITORY_PLAN_2026-11-01.md",
+    "docs/maintenance/REPOSITORY_VALIDATION_2026-11-01.json",
+    "docs/maintenance/RESEARCH_STATUS.json",
+    "docs/maintenance/history/README_BEFORE_2026-11-01.md",
+    "docs/research_protocol.md",
+    "docs/roadmap.md",
+    "docs/weekly_reports/weekly_report_template.md",
+    "experiments/README.md",
+    "experiments/templates/experiment_template.md",
+    "figures/README.md",
+    "manuscript/README.md",
+    "paper_notes/templates/paper_note_template.md",
+    "reproductions/README.md",
+    "reproductions/RECORDING_STANDARD.md",
+    "reproductions/templates/reproduction_template.md",
+    "results/README.md",
+    "scripts/README.md",
+    "scripts/validate_lab.py",
+    "src/README.md",
+    "writing/README.md",
+    "writing/academic_phrasebook.md"
+  ],
+  "checks": {
+    "source_default_full": {
+      "exit_code": 0,
+      "stdout": "{\n  \"passed\": true,\n  \"errors\": [],\n  \"formal_p001_notes\": [\n    {\n      \"file\": \"paper_notes/P001_论文精读.md\",\n      \"sha256\": \"c5630dcbe5bfbf9a0e59464fa862cd23c28ae665d033e7377cc26cdd53fb9dac\"\n    },\n    {\n      \"file\": \"paper_notes/P001_概念查询宝典.md\",\n      \"sha256\": \"f6fa354e2c34f8f7725dac9332c3192cb76e716152be23c31fc9da4de5afad10\"\n    }\n  ],\n  \"presentation_files_expected\": 0,\n  \"historical_entries_verified\": 41,\n  \"retained_files_verified\": 203,\n  \"csv_columns\": {\n    \"papers/paper_matrix.csv\": 36,\n    \"papers/paper_matrix_P001_import.csv\": 23,\n    \"archive/cleanup_2026-10-17/manifest.csv\": 5,\n    \"docs/innovation_bank/P001_ideas.csv\": 10,\n    \"docs/innovation_bank/P002_ideas.csv\": 10,\n    \"docs/maintenance/REPOSITORY_INVENTORY.csv\": 15,\n    \"reproductions/P001_PointPillars_VoD/experiment_tracker.csv\": 8,\n    \"reproductions/P002_CRN/experiment_tracker.csv\": 8\n  },\n  \"existing_markdown_targets\": 400,\n  \"python_files_compiled\": 5,\n  \"claim_boundary\": \"Checks retained P001 bytes, source PDF copies, packed historical bytes and links. No PPT generation, training or evaluation.\"\n}\n",
+      "stderr": ""
+    },
+    "enhanced_default_full_on_source": {
+      "exit_code": 0,
+      "stdout": "{\n  \"passed\": true,\n  \"errors\": [],\n  \"formal_p001_notes\": [\n    {\n      \"file\": \"paper_notes/P001_论文精读.md\",\n      \"sha256\": \"c5630dcbe5bfbf9a0e59464fa862cd23c28ae665d033e7377cc26cdd53fb9dac\"\n    },\n    {\n      \"file\": \"paper_notes/P001_概念查询宝典.md\",\n      \"sha256\": \"f6fa354e2c34f8f7725dac9332c3192cb76e716152be23c31fc9da4de5afad10\"\n    }\n  ],\n  \"presentation_files_expected\": 0,\n  \"historical_entries_verified\": 41,\n  \"retained_files_verified\": 203,\n  \"csv_columns\": {\n    \"papers/paper_matrix.csv\": 36,\n    \"papers/paper_matrix_P001_import.csv\": 23,\n    \"archive/cleanup_2026-10-17/manifest.csv\": 5,\n    \"docs/innovation_bank/P001_ideas.csv\": 10,\n    \"docs/innovation_bank/P002_ideas.csv\": 10,\n    \"docs/maintenance/REPOSITORY_INVENTORY.csv\": 15,\n    \"reproductions/P001_PointPillars_VoD/experiment_tracker.csv\": 8,\n    \"reproductions/P002_CRN/experiment_tracker.csv\": 8\n  },\n  \"existing_markdown_targets\": 400,\n  \"python_files_compiled\": 5,\n  \"claim_boundary\": \"Checks retained P001 bytes, source PDF copies, packed historical bytes and links. No PPT generation, training or evaluation.\"\n}\n",
+      "stderr": ""
+    },
+    "branch_tracked_preview": {
+      "exit_code": 0,
+      "stdout": "{\n  \"passed\": true,\n  \"scope\": \"tracked_plus_untracked_preview\",\n  \"errors\": [],\n  \"warnings\": [],\n  \"files_checked\": 119,\n  \"markdown_local_targets\": 390,\n  \"obsidian_targets\": 0,\n  \"json_parsed\": 12,\n  \"yaml_parsed\": 0,\n  \"yaml_unchecked\": [],\n  \"csv_columns\": {\n    \"docs/innovation_bank/P001_ideas.csv\": 10,\n    \"docs/innovation_bank/P002_ideas.csv\": 10,\n    \"docs/maintenance/REPOSITORY_INVENTORY.csv\": 15,\n    \"papers/paper_matrix.csv\": 36,\n    \"papers/paper_matrix_P001_import.csv\": 23,\n    \"reproductions/P001_PointPillars_VoD/experiment_tracker.csv\": 8,\n    \"reproductions/P002_CRN/experiment_tracker.csv\": 8\n  },\n  \"python_compiled\": 4,\n  \"ignore_probes\": [\n    \".env\",\n    \".env.local\",\n    \"private.pem\",\n    \"credentials.json\",\n    \"data/raw/check.bin\",\n    \"checkpoints/check.pth\",\n    \"weights/check.safetensors\"\n  ],\n  \"large_files\": [],\n  \"claim_boundary\": \"Document/format/status/ignore checks only. Does not verify unpublished local assets, historical raw-byte hashes, external URLs, every anchor, all secrets, scientific mastery, model execution or reproduction. Use full scope on the complete local maintenance copy.\"\n}\n",
+      "stderr": ""
+    },
+    "git_diff_check": {
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": "warning: in the working copy of '.gitignore', LF will be replaced by CRLF the next time Git touches it\n"
+    },
+    "negative_regressions": [
+      {
+        "case": "missing Markdown target",
+        "expected_exit": 1,
+        "actual_exit": 1
+      },
+      {
+        "case": "README/current-status drift",
+        "expected_exit": 1,
+        "actual_exit": 1
+      },
+      {
+        "case": "removed credential ignore coverage",
+        "expected_exit": 1,
+        "actual_exit": 1
+      }
+    ],
+    "original_default_full_check_body_unchanged": true,
+    "formal_notes_unchanged_from_git": 4,
+    "original_note_images_unchanged": 14,
+    "format_prose_and_code_examples_preserved": true,
+    "yaml": {
+      "branch_yaml_files": 0,
+      "original_untracked_yaml": "Not fully parsed: optional PyYAML unavailable; no installation performed"
+    }
+  },
+  "source_worktree_preservation": {
+    "original_existing_files_verified": 218,
+    "all_original_hashed_bytes_unchanged": true,
+    "git_status_identical": true,
+    "HEAD_identical": true,
+    "no_moves_or_deletions": true
+  },
+  "history_snapshot": "README original Git bytes preserved inside history fenced body; original dirty README remains on main",
+  "publication": "Captured before commit/push. Final commit and verified remote branch SHA reported separately; main is not modified."
+}
