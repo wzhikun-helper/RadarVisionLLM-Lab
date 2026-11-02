@@ -39,7 +39,7 @@
 
 ## 与主线和后续论文的联系
 
-4D Radar + Camera + VLM属于本项目候选研究主线，不能将nuScenes常规车载Radar与VoD成像Radar直接等同。R4Det、MSSF后续可按“视角变换/融合、坐标与点属性、语义与几何、资源及证据条件”作对照，但当前P003/P004尚未开始精读。先保留[第二轮基线判断](baseline_selection_round2/05_decision_and_plan.md)，不宣称已证明与CRN的创新差异。
+4D Radar + Camera + VLM属于本项目候选研究主线，不能将nuScenes常规车载Radar与VoD成像Radar直接等同。后续融合论文可按“视角变换/融合、坐标与点属性、语义与几何、资源及证据条件”作对照，具体论文待用户决定。先保留[第二轮基线判断](baseline_selection_round2/05_decision_and_plan.md)，不宣称已证明与CRN的创新差异。
 
 ## 2026-10-31 正式论文证据与最小实验准入补充
 

@@ -14,7 +14,7 @@
 
 ## 证据入口
 
-[正式笔记](../../paper_notes/P001_论文精读.md)、[概念宝典](../../paper_notes/P001_概念查询宝典.md)、[当前学习报告](P001_READING_REPORT.md)、[历史归档报告](P001_ARCHIVE_REPORT.md)。笔记中的概念检查或结论不能反推出真实历史回答与教师评分。
+[正式笔记](../../paper_notes/P001_论文精读.md)、[概念宝典](../../paper_notes/P001_概念查询宝典.md)、[当前学习报告](P001_READING_REPORT.md)、历史归档报告（旧路径 `docs/research_log/P001_ARCHIVE_REPORT.md` 已按用户要求移除）。笔记中的概念检查或结论不能反推出真实历史回答与教师评分。
 
 ## 待补材料与归档规则
 

@@ -22,7 +22,7 @@
 P002第一遍完成；此前教师通过状态来自用户确认。原始问答、逐题批改、补答及最终通过原文缺失。代码精读未开始、复现未执行，无本项目训练结果或评估指标，暂不优先作为工程基线。
 [正式论文及逐字段证据](../P002_CRN_RECORD.md)；RVT、MFA、MDCA为已有方法，不是本项目创新。几何可靠性、模态冲突、稀疏雷达与VLM语义约束仅为待验证方向，最小实验见Research Gap。
 
-P003 R4Det、P004 MSSF均未开始；本轮不创建其学习成果。
+后续论文尚未决定，暂不登记或创建档案。
 
 [实验跟踪表](../../reproductions/P002_CRN/experiment_tracker.csv) · [统一复现记录规范](../../reproductions/RECORDING_STANDARD.md) · [本轮十项对照及验收证据](../../docs/maintenance/P001_P002_DOSSIER_ROUND1.md)
 

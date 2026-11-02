@@ -25,7 +25,7 @@
 | W9 | [Talk2PC，arXiv:2503.08336v2，2025](https://arxiv.org/abs/2503.08336v2)，摘要/TPCNet | 自然语言引导LiDAR/Radar融合与3D grounding已有 | [官方TPCNet](https://github.com/GuanRunwei/TPCNet)入口存在并读取README，权重/训练链完整性未验证；不推定已正式发表 |
 | W10 | [RLM，arXiv:2511.21105v4，2026-03-12](https://arxiv.org/html/2511.21105v4)，§4、§5、§7.4 | radar-caption、空间grounding及定位敏感评价已有，不能将“加语言”当新任务 | 论文有合成数据及真实域分析；本轮未确认官方代码/数据完整可取，不宣称只在模拟上验证或已适配VoD |
 | W11 | [LXL，T-IV 2024，9(1):79–92](https://research.chalmers.se/en/publication/538138)，机构原论文摘要，DOI 10.1109/TIV.2023.3321240 | 深度与radar occupancy辅助采样已有 | 这里只核作者机构记录，未新增工程可用声明 |
-| W12 | [MSSF，T-ITS2025](https://github.com/EricLiuhhh/MSSF)，作者README/论文身份，DOI 10.1109/TITS.2025.3554313 | 多阶段采样融合已成为4D雷视相关对照 | README配置/权重入口存在，本轮未开始P004学习或运行 |
+| W12 | [MSSF，T-ITS2025](https://github.com/EricLiuhhh/MSSF)，作者README/论文身份，DOI 10.1109/TITS.2025.3554313 | 多阶段采样融合已成为4D雷视相关对照 | README配置/权重入口存在，仅作相关工作登记，未运行模型 |
 | W13 | [RC-GeoCP，arXiv:2603.00654](https://arxiv.org/abs/2603.00654)，作者摘要 | 多车几何共识与不确定性通信已有 | 属协同感知，不能直接当单车同任务基线；代码完整性未核 |
 
 所有公开指标仅用于确认作者有实验，不在这里建立跨数据集/硬件排行榜。近作按可核日期截止，未使用2026-10-31之后的证据。关键词和命中范围记录在[执行状态](../maintenance/EVIDENCE_ROUND3_STATE.json)。

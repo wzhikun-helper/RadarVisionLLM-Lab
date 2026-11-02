@@ -8,14 +8,12 @@
 
 P001与P002已有正式精读、概念宝典和研究配套；本轮补齐对称的学习日志和验收状态入口。尚无本项目成功模型复现或训练/评估结果。文件/导航完整性与科研证据完整性分别记录。
 
-## 3. P001—P004论文进度
+## 3. 当前论文进度
 
 | 编号 | 论文 | 学习状态 | 工程状态 |
 | --- | --- | --- | --- |
 | P001 | VoD + PointPillars，RA-L 2022 | 精读完成；教师验收原文待补 | Planned；复现未证实 |
 | P002 | CRN，ICCV 2023 | 第一遍完成；教师此前确认通过，原问答缺口保留 | 代码精读未开始；复现未执行，暂不优先 |
-| P003 | R4Det | 待开始第一遍精读 | 未进入工程阶段 |
-| P004 | MSSF | 待开始两遍精读 | 未进入工程阶段 |
 
 ## 4. P001/P002完整科研档案
 
@@ -26,13 +24,13 @@ P001与P002已有正式精读、概念宝典和研究配套；本轮补齐对称
 
 ## 5. 工程基线与复现状态
 
-[第二轮基线决策](docs/research_gaps/baseline_selection_round2/05_decision_and_plan.md)建议条件优先核查MSSF-PP/VoD，但尚未找到已通过全部准入的长期主基线。该技术建议与P003/P004阅读编号分开保留。P001有计划、P002暂缓，均不能写成已经跑通。
+[第二轮基线调查](docs/research_gaps/baseline_selection_round2/05_decision_and_plan.md)仅保留历史比较证据；当前不指定后续论文或长期主基线。该技术建议仅为历史候选意见，后续论文选择待用户决定。P001有计划、P002暂缓，均不能写成已经跑通。
 
 [P001工程档案](reproductions/P001_PointPillars_VoD/README.md) · [P002工程档案](reproductions/P002_CRN/README.md) · [统一字段与状态](reproductions/RECORDING_STANDARD.md)。
 
 ## 6. 研究路线与近期任务
 
-先补齐可取得的真实验收原始记录、复核候选问题与已有工作的重合，再按学习安排进入后续论文；模型执行另行经过资源、许可、环境及明确授权准入。本轮不启动P003，不安装、下载数据/权重或运行模型。
+先补齐可取得的真实验收原始记录、复核候选问题与已有工作的重合，再按学习安排进入后续论文；模型执行另行经过资源、许可、环境及明确授权准入。不自动启动后续论文，不安装、下载数据/权重或运行模型。
 
 [研究路线](docs/roadmap.md)中的初始化里程碑属于历史阶段，当前不是项目初始化状态；后续计划以本页及最新基线审查为当前入口，不改写原阶段记录。
 
@@ -53,11 +51,11 @@ P001与P002已有正式精读、概念宝典和研究配套；本轮补齐对称
 
 论文明确证据、基于证据的推断、待验证假设分开；作者指标与本项目实测分开。无原问答不补造答案，无运行不填结果；不同论文不要求相同图片和实验数量，但十二类都必须有文件或明确入口。
 
-[统一档案检查模板](paper_notes/templates/paper_archive_checklist.md) · [科研规范](docs/research_protocol.md)。完整本地维护副本检查：`python -B scripts/validate_lab.py`；所需本地历史资产与公开克隆范围可能不同。
+[统一档案检查模板](paper_notes/templates/paper_archive_checklist.md) · [科研规范](docs/research_protocol.md)。统一档案结构检查：`python -B scripts/validate_lab.py`；检查不再依赖P001专用历史清单和ZIP。
 
 ## 9. 历史与维护入口
 
-[P001原历史归档报告](docs/research_log/P001_ARCHIVE_REPORT.md)与[CRN此前审计](docs/maintenance/CRN_FIRST_PASS_AUDIT.md)保留当时语境，不替代当前学习状态。历史课件、work、archive均未删除；旧报告中的“待合并”等表述不应被当作当前状态。
+P001原历史归档报告（旧路径 `docs/research_log/P001_ARCHIVE_REPORT.md` 已按用户要求移除）与[CRN此前审计](docs/maintenance/CRN_FIRST_PASS_AUDIT.md)保留当时语境，不替代当前学习状态。历史课件、work、archive已于2026-11-02按用户要求删除；旧报告中的“待合并”等表述不应被当作当前状态。
 
 [文件管理规范](docs/maintenance/FILE_MANAGEMENT_GUIDE.md) · [本轮维护状态](docs/maintenance/P001_P002_PARITY_STATE.json)。
 
@@ -267,10 +265,8 @@ The repository will evolve together with the research direction.
 | P001 | VoD 3+1D Radar | 已有正式笔记及概念宝典；代码复现未证实 | 以笔记、勘误及复现记录为准 |
 | P002 | CRN | 第一遍精读已完成；全文开放式理解验收此前通过 | 本次用户明确确认；原始问答、批改与补答仍未完整归档 |
 | P002后续 | CRN代码精读、论文复现 | 代码精读未开始；复现未执行 | 不把作者指标当作本项目结果 |
-| P003 | R4Det | 待开始 | 只登记规划，不创建正式笔记 |
-| P004 | MSSF | 待开始 | 只登记规划，不创建正式笔记 |
 
-第二轮基线报告推荐优先考察MSSF，是技术选型建议；本次用户指定的学习编号为P003=R4Det、P004=MSSF。两者用途不同，保留原审查结论，不冒称已统一为相同顺序。
+后续论文的预定安排已撤下，待用户决定后再登记。既有基线比较是历史技术调查，不代表当前选定的学习对象。
 
 ````
 

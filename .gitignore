@@ -94,5 +94,3 @@ credentials.*
 .venv*/
 .wandb/
 wandb/
-# Unique historical evidence, intentionally retained
-!docs/maintenance/P001_history.zip

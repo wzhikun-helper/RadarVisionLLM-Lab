@@ -20,9 +20,9 @@
 ## 学习与工程状态
 
 P001精读已完成；教师全文验收结论原文待补。复现为Planned，无本项目成功运行证据。既有创新评分仅为主观评价。
-[历史归档报告](../../docs/research_log/P001_ARCHIVE_REPORT.md)原样保留。
+旧归档报告已按用户要求移除，当前状态统一见本页及阅读日志。
 
-P003 R4Det、P004 MSSF均未开始；本轮不创建其学习成果。
+后续论文尚未决定，暂不登记或创建档案。
 
 [实验跟踪表](../../reproductions/P001_PointPillars_VoD/experiment_tracker.csv) · [统一复现记录规范](../../reproductions/RECORDING_STANDARD.md) · [本轮十项对照及验收证据](../../docs/maintenance/P001_P002_DOSSIER_ROUND1.md)
 
@@ -32,4 +32,4 @@ P003 R4Det、P004 MSSF均未开始；本轮不创建其学习成果。
 
 ## 第三轮证据收尾
 
-[35.9/36.0原文核查与定点勘误](../../docs/maintenance/P001_TABLE_IV_ERRATUM.md)：两个已核版本均35.9，正式笔记仅修此值。第一轮导航、第二轮历史审计保留；[执行证据](../../docs/maintenance/EVIDENCE_ROUND3_STATE.json)。
+[35.9/36.0原文核查与定点勘误（已整合）](../../docs/research_gaps/P001_CONTENT_SUPPLEMENT.md)：两个已核版本均35.9，正式笔记仅修此值。第一轮导航、第二轮历史审计保留；[执行证据](../../docs/maintenance/EVIDENCE_ROUND3_STATE.json)。

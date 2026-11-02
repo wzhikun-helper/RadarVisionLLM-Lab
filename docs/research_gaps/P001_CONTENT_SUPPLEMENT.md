@@ -58,4 +58,44 @@ A表示问题/证据明确，可继续设计实验；B表示有潜力但证据�
 
 ## 第三轮勘误已执行（2026-10-31）
 
-上文是第二轮发现，保留当时“待修订”的历史语境。本轮对照最终发表版和作者接受预印版均为35.9，按新授权仅定点修订正式笔记§6.2的Car数值。完整依据和旧/新指纹见[Table IV勘误](../maintenance/P001_TABLE_IV_ERRATUM.md)，不回写旧审计为当时已修复。
+上文是第二轮发现，保留当时“待修订”的历史语境。本轮对照最终发表版和作者接受预印版均为35.9，按新授权仅定点修订正式笔记§6.2的Car数值。完整依据和旧/新指纹见[Table IV勘误（已整合）](P001_CONTENT_SUPPLEMENT.md)，不回写旧审计为当时已修复。
+
+
+## 2026-11-02 整合的既有勘误记录
+
+以下转存既有核查说明，本轮未重新核查论文或运行模型；独立勘误文件按用户要求移除。
+
+# P001 表述差异与证据指针
+
+2026-10-17 新增勘误层；原有笔记和研究问题表正文保留。以下依据仓库现有来源记录，不声称本轮重新核读原始 PDF。
+
+| 差异 | 旧内容/位置 | 当前证据指针 | 使用规则与待办 |
+| --- | --- | --- | --- |
+| 距离区间是否为自拟 | research_gaps 的 RQ1 将 0–10 至 40–50m 分组写为自拟 | 精读 sources 的旧笔记差异（旧路径 `presentations/P001_Paper_Review/sources.md` 已按用户要求移除）：说明 Fig.4 已给出这些区间；Fig.4 裁图（旧路径 `presentations/P001_Paper_Review/assets/fig4_original.png` 已按用户要求移除） | 引用 Fig.4 时不得称区间首次自拟；本项目对数据重做分层分析仍是待运行任务 |
+| Radar 单帧 Car AP | 精读旧记录出现 36.0 | sources（旧路径 `presentations/P001_Paper_Review/sources.md` 已按用户要求移除） 的“旧笔记差异”标为 Table IV 35.9 | 不把 36.0 直接复制进新论文；发表前再核对原文 Table IV。旧记录不静默覆盖 |
+| 资料归档与代码复现 | 早期归档报告（旧路径 `docs/research_log/P001_ARCHIVE_REPORT.md` 已按用户要求移除） 使用“待本地合并”语境 | 当前 Git 已有资料提交；[复现计划](../../reproductions/P001_PointPillars_VoD/README.md) 与 tracker 为 Planned | 阅读/资料归档已完成，训练与复现尚无成功证据；早期报告是历史记录 |
+| 径向速度与完整运动 | 多帧/速度可能被概括为运动理解 | sources（旧路径 `presentations/P001_Paper_Review/sources.md` 已按用户要求移除） 与当前精读课件区分 v_rel、v_r 和 scan id | 不将消融收益等同于完整三维速度或因果机制证实 |
+
+原论文位于仓库外部，来源路径见各 sources；失效 PDF 路径仍待用户确认。新实验应引用原文表/图/节，并关联真实 experiment_id/run_id 与输出，不以本勘误作为新颖性或复现证据。
+
+
+# P001 Table IV数值勘误：35.9 / 36.0
+
+日期：2026-10-31。先形成此勘误，再执行用户本轮授权的定点修订。证据层级：论文原文事实与本项目静态核查，不是模型结果。
+
+## 两个版本分别核对
+
+| 版本 | 来源与指纹 | 页/表/行/列 | 数值 |
+| --- | --- | --- | --- |
+| 最终发表版，RA-L 7(2)，2022，4961–4968，DOI 10.1109/LRA.2022.3147324 | 本地原论文SHA-256 `d19bf8e168da7af27924ddaa55c42a4a395e681a15bbc40346f8502b292dfdfa`；[机构正式版本登记](https://research.tudelft.nl/en/publications/multi-class-road-user-detection-with-31d-radar-in-the-view-of-del/) | PDF p6 / 印刷4966，Table IV，PP-radar行，Entire annotated area / Car | 35.9 |
+| 作者接受预印版，页眉Accepted January 2022 | [作者公开PDF](https://intelligent-vehicles.org/wp-content/uploads/2022/02/palffy2022ral_view_of_delft.pdf)；下载副本SHA-256 `3ad8c1b0f34802d5b0770b9551ccb9b39825e18ac979ac8175534a2e4eb8c908` | PDF p6，Table IV，同一行与列 | 35.9 |
+
+两版表题均表示“全部测试方法在完整标注区域及Driving Corridor内的结果”。两版§V位于PDF p5：VoD，按clip分train/val/test为59%/15%/26%，同一clip不跨集合，表格为测试结果；类别Car/Pedestrian/Cyclist。单扫描PP-radar用完整Radar特征，表列x/y/z/RCS/补偿径向速度；它不同于no-Doppler、3 scans、5 scans及LiDAR行。Car AP按3D IoU0.5；另外两类阈值0.25。35.9是整区域Car AP，不是三类mAP38.0，也不是走廊Car AP74.1。
+
+## 差异归因及修订
+
+结论归类 **A：原笔记相对于上述原文的转录数值错误**。两个实际核对版本均为35.9，未发现支持B“版本差异”的证据；两版同样保留一位小数，不支持C“按该表精度四舍五入成36.0”。原始写作过程未保存，不能进一步推测由手打、OCR还是其他环节造成。未声称排查了所有历史私有稿件。
+
+修订范围仅限[正式精读](../../paper_notes/P001_论文精读.md)§6.2“额外结果”中的Car 36.0→Car 35.9。其余文字、章节、公式、表格和引用不变。第二轮补充保留原勘误发现并追加本次已修订指针，不回写历史审计为当时已修复。相关[图表索引](../../figures/library/P001/FIGURE_INDEX.md)及[复现计划](../../reproductions/P001_PointPillars_VoD/README.md)未发现另一处需要改动的单帧Car数值；其中mAP38.0不是错误，不替换。
+
+旧/新SHA与精确补丁见[本轮执行状态](../maintenance/EVIDENCE_ROUND3_STATE.json)及Git差异。图片不变，数据/模型未运行。维护清单只更新当前内容的哈希，源副本和历史审计的旧指纹保留。

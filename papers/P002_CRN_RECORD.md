@@ -79,9 +79,9 @@
 | `Reproduction_Difficulty` | Not assessed by execution; legacy dependencies, GPU operators, data/license and checkpoint compatibility require audit |
 | `Reading_Level` | First-pass intensive reading completed; code-level second pass not started |
 | `Reading_Status` | Completed; teacher acceptance previously passed per user confirmation; original Q&A archive incomplete |
-| `Relation_to_Our_Work` | Camera-radar BEV fusion reference connecting P001 radar basics to later R4Det/MSSF reading; VLM extensions are project hypotheses |
+| `Relation_to_Our_Work` | Camera-radar BEV fusion reference connecting P001 radar basics to future fusion-paper selection; VLM extensions are project hypotheses |
 | `Notes` | paper_notes/P002_CRN.md; field evidence: papers/P002_CRN_RECORD.md; feasibility: reproductions/P002_CRN/README.md; no model execution, training or evaluation performed |
 
 ## 与P001历史导入表的关系
 
-`paper_matrix_P001_import.csv`是P001的23列历史来源记录，不是“每篇论文一个导入表”的强制规范。本次保持它原始字节不变。P002登记入口统一为主矩阵中的P002行与本说明，不重复创建另一份导入CSV。
+P001的23列历史导入表已按2026-11-02用户要求删除。两篇论文统一在36列主矩阵登记；P002逐字段依据仍保留在本说明，不新增独立导入CSV。

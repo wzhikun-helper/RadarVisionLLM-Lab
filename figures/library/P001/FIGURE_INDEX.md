@@ -1,6 +1,6 @@
 # P001 Figure Library（图表索引）
 
-> 来源：Palffy et al., RA-L 2022；图像为论文整页参考截图，**不是独立重绘的论文图**。只供个人研究核查，不应直接当作可自由再发布的素材。
+> 来源：Palffy et al., RA-L 2022。整页参考截图已按用户要求删除；保留原文图表位置与正式笔记配图索引，不表示取得再发布授权。
 
 ## Fig.1｜VoD 多传感器场景
 - 位置：PDF 第 1 页
@@ -60,10 +60,10 @@
 
 ## 2026-10-31 当前参考页与学习配图入口
 
-- [原论文参考第1页](paper_page_01_reference.png)
-- [原论文参考第4页](paper_page_04_reference.png)
-- [原论文参考第6页](paper_page_06_reference.png)
-- [原论文参考第7页](paper_page_07_reference.png)
+- 原论文参考第1页（旧路径 `figures/library/P001/paper_page_01_reference.png` 已按用户要求移除）
+- 原论文参考第4页（旧路径 `figures/library/P001/paper_page_04_reference.png` 已按用户要求移除）
+- 原论文参考第6页（旧路径 `figures/library/P001/paper_page_06_reference.png` 已按用户要求移除）
+- 原论文参考第7页（旧路径 `figures/library/P001/paper_page_07_reference.png` 已按用户要求移除）
 - [正式笔记7张学习配图](../../../paper_notes/assets/P001/)
 
 以上是已有文件的索引补充，不增加/复制图片；整页参考与独立Figure截图不可混同。原图来源、页码与重绘边界以上文记录为准，未由本轮重做图像或实验。

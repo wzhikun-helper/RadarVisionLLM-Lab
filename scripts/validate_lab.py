@@ -1,73 +1,118 @@
-"""Read-only validation of the current registered research notes and non-PPT resource library."""
+"""Read-only structural checks shared by P001 and P002; not historical or model validation."""
 from pathlib import Path
-import argparse,csv,hashlib,json,re,sys,zipfile
 from urllib.parse import unquote
-from pypdf import PdfReader
-from maintenance_paths import ROOT,emit_report
+import argparse
+import csv
+import json
+import re
+import sys
+from maintenance_paths import ROOT, emit_report
 
-def sha(data):return hashlib.sha256(data).hexdigest()
+
 def markdown_prose(text):
-    """Return prose only, respecting nested shorter fences in historical snapshots."""
-    output=[];fence=None
+    output = []
+    fence = None
     for line in text.splitlines():
-        match=re.match(r'^ {0,3}(`{3,}|~{3,})(.*)$',line)
+        match = re.match(r'^ {0,3}(`{3,}|~{3,})(.*)$', line)
         if fence:
-            if match and match[1][0]==fence[0] and len(match[1])>=fence[1] and not match[2].strip():
-                fence=None
+            if match and match[1][0] == fence[0] and len(match[1]) >= fence[1] and not match[2].strip():
+                fence = None
             continue
         if match:
-            fence=(match[1][0],len(match[1]));continue
+            fence = (match[1][0], len(match[1]))
+            continue
         output.append(line)
     return '\n'.join(output)
+
+
 def main():
-    ap=argparse.ArgumentParser(description=__doc__);ap.add_argument('--report');args=ap.parse_args()
-    record=json.loads((ROOT/'docs/maintenance/P001_CURRENT_STATE.json').read_text(encoding='utf-8'))
-    assert record['status']=='completed'
-    errors=[];pdfs=[];history=0;links=0
-    for key,expected in record['expected_files'].items():
-        p=ROOT/key
-        if not p.is_file() or sha(p.read_bytes())!=expected['sha256']:
-            errors.append({'retained_resource_missing_or_changed':key})
-    for item in record['deletions']:
-        if (ROOT/item['path']).exists():errors.append({'retired_file_reappeared':item['path']})
-    for item in record['packed_p001_history']:
-        if (ROOT/item['source']).exists():errors.append({'unpacked_history_reappeared':item['source']})
-        with zipfile.ZipFile(ROOT/item['archive']) as z:
-            data=z.read(item['entry'])
-        if len(data)!=item['bytes'] or sha(data)!=item['sha256']:errors.append({'historical_archive_changed':item['source']})
-        history+=1
-    for item in record['replacements']:
-        p=ROOT/item['destination'];data=p.read_bytes()
-        assert sha(data)==item['sha256']
-        if p.suffix.lower()=='.pdf':
-            assert len(PdfReader(p).pages)==item['pages']
-        else:
-            for embed in re.findall(r'!\[\[([^\]]+)\]\]',data.decode('utf-8-sig')):
-                if not (p.parent/embed.split('|')[0]).is_file():errors.append({'missing_note_embed':embed})
-        pdfs.append({'file':item['destination'],'sha256':sha(data)})
-    columns={};compiled=0
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--report')
+    args = parser.parse_args()
+    errors = []
+    archives = {}
+    for pid, stem, review, concepts, innovation in [
+        ('P001', 'PointPillars_VoD', 'P001_论文精读.md', 'P001_概念查询宝典.md', 'P001_INNOVATION_NOTES.md'),
+        ('P002', 'CRN', 'P002_CRN.md', 'P002_概念查询宝典.md', 'P002_CRN_INNOVATION_NOTES.md'),
+    ]:
+        suffix = '' if pid == 'P001' else '_CRN'
+        roles = {
+            'review': f'paper_notes/{review}',
+            'concepts': f'paper_notes/{concepts}',
+            'assets': f'paper_notes/assets/{pid}' + ('' if pid == 'P001' else '_CRN'),
+            'figures': f'figures/library/{pid}/FIGURE_INDEX.md',
+            'gaps': f'docs/research_gaps/{pid}{suffix}_Limitations_Research_Gap.md',
+            'innovation': f'docs/innovation_bank/{innovation}',
+            'ideas': f'docs/innovation_bank/{pid}_ideas.csv',
+            'reading_log': f'docs/research_log/{pid}{suffix}_READING_REPORT.md',
+            'feedback': f'docs/research_log/{pid}{suffix}_REVIEW.md',
+            'reproduction': f'reproductions/{pid}_{stem}/README.md',
+            'experiments': f'reproductions/{pid}_{stem}/experiment_tracker.csv',
+            'registration': 'papers/paper_matrix.csv',
+        }
+        archives[pid] = roles
+        for role, key in roles.items():
+            p = ROOT / key
+            if role == 'assets':
+                valid = p.is_dir() and any(x.is_file() for x in p.iterdir())
+            else:
+                valid = p.is_file() and p.stat().st_size > 0
+            if not valid:
+                errors.append({'missing_archive_role': {'paper': pid, 'role': role, 'path': key}})
+    columns = {}
+    links = 0
+    compiled = 0
     for p in ROOT.rglob('*'):
-        if not p.is_file() or '.git' in p.relative_to(ROOT).parts:continue
-        key=p.relative_to(ROOT).as_posix()
-        if p.suffix.lower() in {'.ppt','.pptx','.pptm','.pps','.ppsx','.ppsm'}:errors.append({'unexpected_presentation':key})
-        if any('p002' in part.lower() for part in p.relative_to(ROOT).parts) and key not in record.get('registered_p002_assets',[]):errors.append({'unexpected_removed_project_file':key})
-        if p.suffix=='.csv':
-            with p.open(encoding='utf-8-sig',newline='') as f:rows=list(csv.reader(f))
-            assert rows and all(len(x)==len(rows[0]) for x in rows);columns[key]=len(rows[0])
-            if key=='papers/paper_matrix.csv':
-                ids=[x[0] for x in rows[1:]]
-                assert len(ids)==len(set(ids)) and set(ids)==set(record['organization_20261030']['approved_matrix_ids'])
-        if p.suffix=='.py' and not key.startswith('archive/'):
-            compile(p.read_text(encoding='utf-8-sig'),key,'exec');compiled+=1
-        if p.suffix!='.md':continue
-        text=markdown_prose(p.read_text(encoding='utf-8-sig'))
-        for url in re.findall(r'!?\[[^\]\n]*\]\(([^\n]*?)\)',text):
-            url=re.sub(r'\s+"[^"]*"$','',url.strip()).strip('<>')
-            if re.match(r'^(https?:|mailto:|app:|data:|codex:)',url):continue
-            target=unquote(url.split('#')[0]);q=(p.parent/target).resolve()
-            if not q.exists():errors.append({'broken_link':{'source':key,'target':url}})
-            else:links+=1
-    assert columns['papers/paper_matrix.csv']==36 and columns['papers/paper_matrix_P001_import.csv']==23
-    report={'passed':not errors,'errors':errors,'formal_p001_notes':pdfs,'presentation_files_expected':0,'historical_entries_verified':history,'retained_files_verified':len(record['expected_files']),'csv_columns':columns,'existing_markdown_targets':links,'python_files_compiled':compiled,'claim_boundary':'Checks retained P001 bytes, source PDF copies, packed historical bytes and links. No PPT generation, training or evaluation.'}
-    emit_report(report,args.report);return 0 if report['passed'] else 1
-if __name__=='__main__':sys.exit(main())
+        if not p.is_file() or any(part in {'.git', '.venv', 'venv', '__pycache__', 'node_modules'} for part in p.relative_to(ROOT).parts):
+            continue
+        key = p.relative_to(ROOT).as_posix()
+        if p.suffix == '.csv':
+            with p.open(encoding='utf-8-sig', newline='') as stream:
+                rows = list(csv.reader(stream))
+            if not rows or any(len(row) != len(rows[0]) for row in rows):
+                errors.append({'invalid_csv_width': key})
+                continue
+            columns[key] = len(rows[0])
+            if key == 'papers/paper_matrix.csv':
+                ids = [row[0] for row in rows[1:]]
+                if len(ids) != len(set(ids)) or not {'P001', 'P002'} <= set(ids):
+                    errors.append({'invalid_paper_ids': ids})
+        if p.suffix == '.py':
+            try:
+                compile(p.read_text(encoding='utf-8-sig'), key, 'exec')
+                compiled += 1
+            except SyntaxError as exc:
+                errors.append({'python_syntax': {'file': key, 'error': str(exc)}})
+        if p.suffix != '.md':
+            continue
+        text = markdown_prose(p.read_text(encoding='utf-8-sig'))
+        for url in re.findall(r'!?\[[^\]\n]*\]\(([^\n]*?)\)', text):
+            url = re.sub(r'\s+"[^"]*"$', '', url.strip()).strip('<>')
+            if re.match(r'^[A-Za-z][A-Za-z0-9+.-]*:', url):
+                continue
+            target = (p.parent / unquote(url.split('#')[0])).resolve()
+            if not target.is_relative_to(ROOT) or not target.exists():
+                errors.append({'broken_link': {'source': key, 'target': url}})
+            else:
+                links += 1
+        for embed in re.findall(r'!\[\[([^\]]+)\]\]', text):
+            target = p.parent / embed.split('|')[0]
+            if not target.is_file():
+                errors.append({'missing_note_embed': {'source': key, 'target': embed}})
+    for key, width in [('papers/paper_matrix.csv', 36),
+                       ('docs/innovation_bank/P001_ideas.csv', 10),
+                       ('docs/innovation_bank/P002_ideas.csv', 10),
+                       ('reproductions/P001_PointPillars_VoD/experiment_tracker.csv', 8),
+                       ('reproductions/P002_CRN/experiment_tracker.csv', 8)]:
+        if columns.get(key) != width:
+            errors.append({'unexpected_schema': {'file': key, 'expected_columns': width}})
+    report = {'passed': not errors, 'errors': errors, 'archive_roles': archives,
+              'csv_columns': columns, 'existing_markdown_targets': links,
+              'python_files_compiled': compiled,
+              'claim_boundary': 'Working-tree structure, links, CSV and Python syntax only. No frozen hash, historical ZIP/PDF, teacher acceptance, CUDA, model, training or metric validation.'}
+    emit_report(report, args.report)
+    return 0 if not errors else 1
+
+
+if __name__ == '__main__':
+    sys.exit(main())

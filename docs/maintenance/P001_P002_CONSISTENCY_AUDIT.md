@@ -25,7 +25,7 @@
 
 ## 覆盖位置与来源
 
-- P001：[正式笔记](../../paper_notes/P001_论文精读.md)、[概念宝典](../../paper_notes/P001_概念查询宝典.md)、[Gap](../research_gaps/P001_Limitations_Research_Gap.md)、[想法](../innovation_bank/P001_INNOVATION_NOTES.md)、[历史归档](../research_log/P001_ARCHIVE_REPORT.md)、[复现](../../reproductions/P001_PointPillars_VoD/README.md)、[图表索引](../../figures/library/P001/FIGURE_INDEX.md)。
+- P001：[正式笔记](../../paper_notes/P001_论文精读.md)、[概念宝典](../../paper_notes/P001_概念查询宝典.md)、[Gap](../research_gaps/P001_Limitations_Research_Gap.md)、[想法](../innovation_bank/P001_INNOVATION_NOTES.md)、历史归档（旧路径 `docs/research_log/P001_ARCHIVE_REPORT.md` 已按用户要求移除）、[复现](../../reproductions/P001_PointPillars_VoD/README.md)、[图表索引](../../figures/library/P001/FIGURE_INDEX.md)。
 - P002：[正式笔记](../../paper_notes/P002_CRN.md)、[概念宝典](../../paper_notes/P002_概念查询宝典.md)、[既有验收核查](CRN_FIRST_PASS_AUDIT.md)、[图表索引](../../figures/library/P002/FIGURE_INDEX.md)。
 - 共用资料：paper_notes/README、36列矩阵、roadmap、research_protocol、FILE_MANAGEMENT_GUIDE、复现/想法/日志模板均已核对；本轮以一份归档检查表关联现有模板，不再新建同类正文模板。
 

@@ -1,6 +1,6 @@
-"""P001 resource paths and explicit historical text access; never regenerate PPTs."""
+"""Repository paths and exclusive JSON report output; no historical artifact dependency."""
 from pathlib import Path
-import json,zipfile,hashlib
+import json
 ROOT=Path(__file__).resolve().parents[1]
 
 def resolve_recorded_file(path):
