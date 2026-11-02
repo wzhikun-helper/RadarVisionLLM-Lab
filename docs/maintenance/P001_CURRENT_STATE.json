@@ -1699,10 +1699,6 @@
       "sha256": "a69e0670fca918a2e7911a8b20f998aa86397e413f5b2e754286399477baa288",
       "bytes": 4439
     },
-    "work/p001_exact_current_build.txt": {
-      "sha256": "fd9e3100eb79a084d007a533a8fb0c23d11603548ee37077379135194983b794",
-      "bytes": 60
-    },
     "work/README.md": {
       "sha256": "60df2a1906821956f3bb9566ae2ce6115834a62c94377417570ceec6cf912bf9",
       "bytes": 616
@@ -2183,46 +2179,6 @@
       "sha256": "5d68d3274ec7fc54936f63661b80b13ffec62c636aa1e3d75a265508168cfcdf",
       "bytes": 25275
     },
-    "presentations/P001_Radar_Detection_Prerequisite/assets/slide-01.png": {
-      "sha256": "89092ed322bdc546008856a9ce33839ccea8036e0d60c006aca7c9868cd4d082",
-      "bytes": 101467
-    },
-    "presentations/P001_Radar_Detection_Prerequisite/assets/slide-02.png": {
-      "sha256": "7c0abf67f70ab06ef1a9020a3c36a3eba3afda15ba47ca196fc4ce1e11c50a2a",
-      "bytes": 119041
-    },
-    "presentations/P001_Radar_Detection_Prerequisite/assets/slide-03.png": {
-      "sha256": "b52ed00d70aae8279dacd8853651c45f449e5236ded76fc8fcda20a6f2436655",
-      "bytes": 97247
-    },
-    "presentations/P001_Radar_Detection_Prerequisite/assets/slide-04.png": {
-      "sha256": "6b0377fe58c694609f589e69e155d8c23f40f7a3d5881b0b2155894e97e4c443",
-      "bytes": 122000
-    },
-    "presentations/P001_Radar_Detection_Prerequisite/assets/slide-05.png": {
-      "sha256": "ab73931c6adb60830347b77d469b88e6082d74a50d0aeab84d04aa8a417eaba0",
-      "bytes": 125433
-    },
-    "presentations/P001_Radar_Detection_Prerequisite/assets/slide-06.png": {
-      "sha256": "2b1f316a0bce5532c81bcdabf5ac2741ba448df2c029b5fa2b3eb3cce7f669bf",
-      "bytes": 107595
-    },
-    "presentations/P001_Radar_Detection_Prerequisite/assets/slide-07.png": {
-      "sha256": "216cbfe9f81e0f533fdd813601c653192618506d14c3a9caea042790bf5a9899",
-      "bytes": 113305
-    },
-    "presentations/P001_Radar_Detection_Prerequisite/assets/slide-08.png": {
-      "sha256": "26a33fd236fcac8798deafb7920860c943438fade897908f74c96803c32dc358",
-      "bytes": 113523
-    },
-    "presentations/P001_Radar_Detection_Prerequisite/assets/slide-09.png": {
-      "sha256": "3cc9d6d2069db9410050c44db850b64e6d714d8b4d0f7914fb76f9826d31a262",
-      "bytes": 117662
-    },
-    "presentations/P001_Radar_Detection_Prerequisite/assets/text-fit.json": {
-      "sha256": "51f8da19d481eba57f3ef553166ed2eb00ff18b8fa8f5978bc44714ea0328fd9",
-      "bytes": 48367
-    },
     "presentations/P001_Radar_Detection_Prerequisite/assets/validation.json": {
       "sha256": "abea462b530bac99379a36b18550341b3bc7c8eda396453aced751cd21388a9c",
       "bytes": 3896
@@ -2259,10 +2215,6 @@
       "sha256": "831dd5c92292d04a1a6dd42ddcd3763eeeaefa5ad8001fd3ace3ffe6f95b613b",
       "bytes": 8691
     },
-    "work/p001_prereq_supplied_images/convert.mjs": {
-      "sha256": "3ab034a4ab4823332678d757304282208fe574e368180b0a773b1b5e9f8bb045",
-      "bytes": 2975
-    },
     "work/p001_prereq_supplied_images/manifest.json": {
       "sha256": "71714702b36739276cfee30020ff95ef2e3c30a4b296c9929fc6c4ae1ff71a27",
       "bytes": 27724
@@ -2275,10 +2227,6 @@
       "sha256": "a579d227a7acf805a8f09bbc112a2fe5be69090551d25800e2981d3a517ef650",
       "bytes": 230
     },
-    "work/p001_visual_exact_20261017T100548/finalize-options.json": {
-      "sha256": "6ea3b184dc9b1fe0f12daf8707b79e96fb7503b6038e6c91f149e6d049055e71",
-      "bytes": 1096
-    },
     "work/p001_visual_exact_20261017T100548/manifest.json": {
       "sha256": "64abd0a3026450e3be52769571deba90d63ec65c6b5f594bbea1366fa795399a",
       "bytes": 3366
@@ -2290,98 +2238,6 @@
     "work/p001_visual_exact_20261017T100548/verification.json": {
       "sha256": "dbb9264993d93da921c399fe67bd6fac3eed9e1b2ccdf8dcd1c21bde22358ad5",
       "bytes": 7224
-    },
-    "work/p001_prereq_supplied_images/renders/01.png": {
-      "sha256": "08aa644282224d9512f9c6ce986952b662c63888e1b75815286eed3c69f46613",
-      "bytes": 874145
-    },
-    "work/p001_prereq_supplied_images/renders/02.png": {
-      "sha256": "bd704c787a3d8afd1ac8e1c4e461f6050d35d49213ad1ce2521674a8e5850a50",
-      "bytes": 881609
-    },
-    "work/p001_prereq_supplied_images/renders/03.png": {
-      "sha256": "03ce496b7182aa48866dde12587f3b5531e911acf7b5ff39a4f34b4d4f5fd10f",
-      "bytes": 779088
-    },
-    "work/p001_prereq_supplied_images/renders/04.png": {
-      "sha256": "bf08b62ed173640fb26a44942dda28ec94192327787548bf1fc6d42f8bd830d1",
-      "bytes": 925655
-    },
-    "work/p001_prereq_supplied_images/renders/05.png": {
-      "sha256": "5b7bc97bfb75f1cdecccac8ac1cae15cb8b5cb8edf7bba4815d42c79234a3b20",
-      "bytes": 841618
-    },
-    "work/p001_prereq_supplied_images/renders/06.png": {
-      "sha256": "d56e00e201d7e3cb26adeb854238ecc0626154e90b26f9f4caa0346d2e9ed3d0",
-      "bytes": 904942
-    },
-    "work/p001_prereq_supplied_images/renders/07.png": {
-      "sha256": "660f15c20265fe8ae431d5f5253f1925f38286fc3a78138f6207d759a66e6b9e",
-      "bytes": 904401
-    },
-    "work/p001_prereq_supplied_images/renders/08.png": {
-      "sha256": "d620c6e9d4db6ea0d8ccf1cff39ef7efe6eef566a8f923dcbb2c1c595c61d5a5",
-      "bytes": 944255
-    },
-    "work/p001_prereq_supplied_images/renders/09.png": {
-      "sha256": "c456c097248793cc6d0e2bf20a4fbf5feb2c6c5209d1b90048b382009adb37e6",
-      "bytes": 850544
-    },
-    "work/p001_visual_exact_20261017T100548/renders/01.png": {
-      "sha256": "87946697a2789d6b480ddb7e9bf678ec0c6743db9a008878f4e37b7aef3b9b80",
-      "bytes": 785905
-    },
-    "work/p001_visual_exact_20261017T100548/renders/02.png": {
-      "sha256": "fd9cd26ea17989164bf669a408d56a9e0f3ac68cc46baf5a62a5f0b2e335c514",
-      "bytes": 849956
-    },
-    "work/p001_visual_exact_20261017T100548/renders/03.png": {
-      "sha256": "9397abee7bc8b76df8a59edf8ce6ed0ca61750936a9ab1753357424ff2f0618b",
-      "bytes": 845879
-    },
-    "work/p001_visual_exact_20261017T100548/renders/04.png": {
-      "sha256": "d732b431cbebe75822ddec428c67c2640463b69abc380994e94b559e348faade",
-      "bytes": 919878
-    },
-    "work/p001_visual_exact_20261017T100548/renders/05.png": {
-      "sha256": "61fa54747a4d0e2ef17f845ee4d43e2f8c7a61b9b49703a469ba9e69362fd436",
-      "bytes": 820187
-    },
-    "work/p001_visual_exact_20261017T100548/renders/06.png": {
-      "sha256": "3ebee9f775afc22ccad2973f5b22c6372878ef667ce64fc2f3127e05f500eef0",
-      "bytes": 749501
-    },
-    "work/p001_visual_exact_20261017T100548/renders/07.png": {
-      "sha256": "2d94da5baad0ee8ecb113b41c6a12f77d4ee178cd23fffcf17666029a471dc23",
-      "bytes": 813952
-    },
-    "work/p001_visual_exact_20261017T100548/renders/08.png": {
-      "sha256": "5e79955167d90f7cc3acce0464a3f0365d206925e935a7adf9ade1fdb94567e1",
-      "bytes": 745222
-    },
-    "work/p001_visual_exact_20261017T100548/renders/09.png": {
-      "sha256": "7f71ba89450399078c0d8e8b70c162767cd4d296fda9c582af4dd05c4ddcfc30",
-      "bytes": 757625
-    },
-    "work/p001_visual_exact_20261017T100548/renders/10.png": {
-      "sha256": "6f84271651eb03616ebef7ec8a8cfd751448e5fc9f25d88cd66aa92bdb5f9a07",
-      "bytes": 737607
-    },
-    "work/p001_visual_exact_20261017T100548/renders/11.png": {
-      "sha256": "0f45f113eaf9c7ad5e5103a107c3f78426fbeff9d430b43a8738ee09287fc15f",
-      "bytes": 930648
-    },
-    "work/p001_visual_exact_20261017T100548/renders/12.png": {
-      "sha256": "65cd14cd3e33489523aa23a09590973e1a4ca61002e7a78e27dab56ddd92aec5",
-      "bytes": 893173
-    },
-    "work/p001_visual_exact_20261017T100548/renders/13.png": {
-      "sha256": "cdd027e318bd6fe5ef077e4ab8b99a068a259ff3829007ad2b5f8744060ef50f",
-      "bytes": 887976
-    },
-    "work/p001_visual_exact_20261017T100548/renders/14.png": {
-      "sha256": "e832121ed26b28bbe8f3998c75985cd7410fd318a968e8185fe6a4dc136d4293",
-      "bytes": 941424
     }
   },
   "removed_empty_directories": [
@@ -3015,5 +2871,48 @@
     },
     "source_and_historical_hashes_preserved": true,
     "p003_preparation_only": true
+  },
+  "asset_cleanup_20261102": {
+    "authorization": "Explicit user deletion request, 2026-11-02",
+    "record": "docs/maintenance/P001_ASSET_CLEANUP_20261102.json",
+    "removed_expected_files": [
+      "work/p001_prereq_supplied_images/convert.mjs",
+      "work/p001_exact_current_build.txt",
+      "work/p001_visual_exact_20261017T100548/finalize-options.json",
+      "presentations/P001_Radar_Detection_Prerequisite/assets/text-fit.json",
+      "work/p001_prereq_supplied_images/renders/01.png",
+      "work/p001_prereq_supplied_images/renders/02.png",
+      "work/p001_prereq_supplied_images/renders/03.png",
+      "work/p001_prereq_supplied_images/renders/04.png",
+      "work/p001_prereq_supplied_images/renders/05.png",
+      "work/p001_prereq_supplied_images/renders/06.png",
+      "work/p001_prereq_supplied_images/renders/07.png",
+      "work/p001_prereq_supplied_images/renders/08.png",
+      "work/p001_prereq_supplied_images/renders/09.png",
+      "work/p001_visual_exact_20261017T100548/renders/01.png",
+      "work/p001_visual_exact_20261017T100548/renders/02.png",
+      "work/p001_visual_exact_20261017T100548/renders/03.png",
+      "work/p001_visual_exact_20261017T100548/renders/04.png",
+      "work/p001_visual_exact_20261017T100548/renders/05.png",
+      "work/p001_visual_exact_20261017T100548/renders/06.png",
+      "work/p001_visual_exact_20261017T100548/renders/07.png",
+      "work/p001_visual_exact_20261017T100548/renders/08.png",
+      "work/p001_visual_exact_20261017T100548/renders/09.png",
+      "work/p001_visual_exact_20261017T100548/renders/10.png",
+      "work/p001_visual_exact_20261017T100548/renders/11.png",
+      "work/p001_visual_exact_20261017T100548/renders/12.png",
+      "work/p001_visual_exact_20261017T100548/renders/13.png",
+      "work/p001_visual_exact_20261017T100548/renders/14.png",
+      "presentations/P001_Radar_Detection_Prerequisite/assets/slide-01.png",
+      "presentations/P001_Radar_Detection_Prerequisite/assets/slide-02.png",
+      "presentations/P001_Radar_Detection_Prerequisite/assets/slide-03.png",
+      "presentations/P001_Radar_Detection_Prerequisite/assets/slide-04.png",
+      "presentations/P001_Radar_Detection_Prerequisite/assets/slide-05.png",
+      "presentations/P001_Radar_Detection_Prerequisite/assets/slide-06.png",
+      "presentations/P001_Radar_Detection_Prerequisite/assets/slide-07.png",
+      "presentations/P001_Radar_Detection_Prerequisite/assets/slide-08.png",
+      "presentations/P001_Radar_Detection_Prerequisite/assets/slide-09.png"
+    ],
+    "note": "Only authorized production artifacts retired; historical snapshots preserved; unrelated hashes unchanged."
   }
 }

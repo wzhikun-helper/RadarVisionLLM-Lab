@@ -1,0 +1,285 @@
+{
+  "date": "2026-11-02",
+  "status": "deleted_verified",
+  "authorization": "Explicit user request to delete these files and synchronize GitHub.",
+  "head_before": "c0ee5b5ee6b25fb7a09a51177d26e05c399abda4",
+  "files": [
+    {
+      "path": "work/p001_prereq_supplied_images/convert.mjs",
+      "bytes": 2975,
+      "sha256": "3ab034a4ab4823332678d757304282208fe574e368180b0a773b1b5e9f8bb045",
+      "tracked_before": false,
+      "verified_backup": null
+    },
+    {
+      "path": "work/p001_exact_current_build.txt",
+      "bytes": 60,
+      "sha256": "fd9e3100eb79a084d007a533a8fb0c23d11603548ee37077379135194983b794",
+      "tracked_before": false,
+      "verified_backup": null
+    },
+    {
+      "path": "work/p001_visual_exact_20261017T100548/finalize-options.json",
+      "bytes": 1096,
+      "sha256": "6ea3b184dc9b1fe0f12daf8707b79e96fb7503b6038e6c91f149e6d049055e71",
+      "tracked_before": false,
+      "verified_backup": null
+    },
+    {
+      "path": "presentations/P001_Radar_Detection_Prerequisite/assets/text-fit.json",
+      "bytes": 48367,
+      "sha256": "51f8da19d481eba57f3ef553166ed2eb00ff18b8fa8f5978bc44714ea0328fd9",
+      "tracked_before": false,
+      "verified_backup": null
+    },
+    {
+      "path": "work/p001_prereq_supplied_images/renders/01.png",
+      "bytes": 874145,
+      "sha256": "08aa644282224d9512f9c6ce986952b662c63888e1b75815286eed3c69f46613",
+      "tracked_before": false,
+      "verified_backup": null
+    },
+    {
+      "path": "work/p001_prereq_supplied_images/renders/02.png",
+      "bytes": 881609,
+      "sha256": "bd704c787a3d8afd1ac8e1c4e461f6050d35d49213ad1ce2521674a8e5850a50",
+      "tracked_before": false,
+      "verified_backup": null
+    },
+    {
+      "path": "work/p001_prereq_supplied_images/renders/03.png",
+      "bytes": 779088,
+      "sha256": "03ce496b7182aa48866dde12587f3b5531e911acf7b5ff39a4f34b4d4f5fd10f",
+      "tracked_before": false,
+      "verified_backup": null
+    },
+    {
+      "path": "work/p001_prereq_supplied_images/renders/04.png",
+      "bytes": 925655,
+      "sha256": "bf08b62ed173640fb26a44942dda28ec94192327787548bf1fc6d42f8bd830d1",
+      "tracked_before": false,
+      "verified_backup": null
+    },
+    {
+      "path": "work/p001_prereq_supplied_images/renders/05.png",
+      "bytes": 841618,
+      "sha256": "5b7bc97bfb75f1cdecccac8ac1cae15cb8b5cb8edf7bba4815d42c79234a3b20",
+      "tracked_before": false,
+      "verified_backup": null
+    },
+    {
+      "path": "work/p001_prereq_supplied_images/renders/06.png",
+      "bytes": 904942,
+      "sha256": "d56e00e201d7e3cb26adeb854238ecc0626154e90b26f9f4caa0346d2e9ed3d0",
+      "tracked_before": false,
+      "verified_backup": null
+    },
+    {
+      "path": "work/p001_prereq_supplied_images/renders/07.png",
+      "bytes": 904401,
+      "sha256": "660f15c20265fe8ae431d5f5253f1925f38286fc3a78138f6207d759a66e6b9e",
+      "tracked_before": false,
+      "verified_backup": null
+    },
+    {
+      "path": "work/p001_prereq_supplied_images/renders/08.png",
+      "bytes": 944255,
+      "sha256": "d620c6e9d4db6ea0d8ccf1cff39ef7efe6eef566a8f923dcbb2c1c595c61d5a5",
+      "tracked_before": false,
+      "verified_backup": null
+    },
+    {
+      "path": "work/p001_prereq_supplied_images/renders/09.png",
+      "bytes": 850544,
+      "sha256": "c456c097248793cc6d0e2bf20a4fbf5feb2c6c5209d1b90048b382009adb37e6",
+      "tracked_before": false,
+      "verified_backup": null
+    },
+    {
+      "path": "work/p001_visual_exact_20261017T100548/renders/01.png",
+      "bytes": 785905,
+      "sha256": "87946697a2789d6b480ddb7e9bf678ec0c6743db9a008878f4e37b7aef3b9b80",
+      "tracked_before": false,
+      "verified_backup": null
+    },
+    {
+      "path": "work/p001_visual_exact_20261017T100548/renders/02.png",
+      "bytes": 849956,
+      "sha256": "fd9cd26ea17989164bf669a408d56a9e0f3ac68cc46baf5a62a5f0b2e335c514",
+      "tracked_before": false,
+      "verified_backup": null
+    },
+    {
+      "path": "work/p001_visual_exact_20261017T100548/renders/03.png",
+      "bytes": 845879,
+      "sha256": "9397abee7bc8b76df8a59edf8ce6ed0ca61750936a9ab1753357424ff2f0618b",
+      "tracked_before": false,
+      "verified_backup": null
+    },
+    {
+      "path": "work/p001_visual_exact_20261017T100548/renders/04.png",
+      "bytes": 919878,
+      "sha256": "d732b431cbebe75822ddec428c67c2640463b69abc380994e94b559e348faade",
+      "tracked_before": false,
+      "verified_backup": null
+    },
+    {
+      "path": "work/p001_visual_exact_20261017T100548/renders/05.png",
+      "bytes": 820187,
+      "sha256": "61fa54747a4d0e2ef17f845ee4d43e2f8c7a61b9b49703a469ba9e69362fd436",
+      "tracked_before": false,
+      "verified_backup": null
+    },
+    {
+      "path": "work/p001_visual_exact_20261017T100548/renders/06.png",
+      "bytes": 749501,
+      "sha256": "3ebee9f775afc22ccad2973f5b22c6372878ef667ce64fc2f3127e05f500eef0",
+      "tracked_before": false,
+      "verified_backup": null
+    },
+    {
+      "path": "work/p001_visual_exact_20261017T100548/renders/07.png",
+      "bytes": 813952,
+      "sha256": "2d94da5baad0ee8ecb113b41c6a12f77d4ee178cd23fffcf17666029a471dc23",
+      "tracked_before": false,
+      "verified_backup": null
+    },
+    {
+      "path": "work/p001_visual_exact_20261017T100548/renders/08.png",
+      "bytes": 745222,
+      "sha256": "5e79955167d90f7cc3acce0464a3f0365d206925e935a7adf9ade1fdb94567e1",
+      "tracked_before": false,
+      "verified_backup": null
+    },
+    {
+      "path": "work/p001_visual_exact_20261017T100548/renders/09.png",
+      "bytes": 757625,
+      "sha256": "7f71ba89450399078c0d8e8b70c162767cd4d296fda9c582af4dd05c4ddcfc30",
+      "tracked_before": false,
+      "verified_backup": null
+    },
+    {
+      "path": "work/p001_visual_exact_20261017T100548/renders/10.png",
+      "bytes": 737607,
+      "sha256": "6f84271651eb03616ebef7ec8a8cfd751448e5fc9f25d88cd66aa92bdb5f9a07",
+      "tracked_before": false,
+      "verified_backup": null
+    },
+    {
+      "path": "work/p001_visual_exact_20261017T100548/renders/11.png",
+      "bytes": 930648,
+      "sha256": "0f45f113eaf9c7ad5e5103a107c3f78426fbeff9d430b43a8738ee09287fc15f",
+      "tracked_before": false,
+      "verified_backup": null
+    },
+    {
+      "path": "work/p001_visual_exact_20261017T100548/renders/12.png",
+      "bytes": 893173,
+      "sha256": "65cd14cd3e33489523aa23a09590973e1a4ca61002e7a78e27dab56ddd92aec5",
+      "tracked_before": false,
+      "verified_backup": null
+    },
+    {
+      "path": "work/p001_visual_exact_20261017T100548/renders/13.png",
+      "bytes": 887976,
+      "sha256": "cdd027e318bd6fe5ef077e4ab8b99a068a259ff3829007ad2b5f8744060ef50f",
+      "tracked_before": false,
+      "verified_backup": null
+    },
+    {
+      "path": "work/p001_visual_exact_20261017T100548/renders/14.png",
+      "bytes": 941424,
+      "sha256": "e832121ed26b28bbe8f3998c75985cd7410fd318a968e8185fe6a4dc136d4293",
+      "tracked_before": false,
+      "verified_backup": null
+    },
+    {
+      "path": "presentations/P001_Radar_Detection_Prerequisite/assets/slide-01.png",
+      "bytes": 101467,
+      "sha256": "89092ed322bdc546008856a9ce33839ccea8036e0d60c006aca7c9868cd4d082",
+      "tracked_before": false,
+      "verified_backup": null
+    },
+    {
+      "path": "presentations/P001_Radar_Detection_Prerequisite/assets/slide-02.png",
+      "bytes": 119041,
+      "sha256": "7c0abf67f70ab06ef1a9020a3c36a3eba3afda15ba47ca196fc4ce1e11c50a2a",
+      "tracked_before": false,
+      "verified_backup": null
+    },
+    {
+      "path": "presentations/P001_Radar_Detection_Prerequisite/assets/slide-03.png",
+      "bytes": 97247,
+      "sha256": "b52ed00d70aae8279dacd8853651c45f449e5236ded76fc8fcda20a6f2436655",
+      "tracked_before": false,
+      "verified_backup": null
+    },
+    {
+      "path": "presentations/P001_Radar_Detection_Prerequisite/assets/slide-04.png",
+      "bytes": 122000,
+      "sha256": "6b0377fe58c694609f589e69e155d8c23f40f7a3d5881b0b2155894e97e4c443",
+      "tracked_before": false,
+      "verified_backup": null
+    },
+    {
+      "path": "presentations/P001_Radar_Detection_Prerequisite/assets/slide-05.png",
+      "bytes": 125433,
+      "sha256": "ab73931c6adb60830347b77d469b88e6082d74a50d0aeab84d04aa8a417eaba0",
+      "tracked_before": false,
+      "verified_backup": null
+    },
+    {
+      "path": "presentations/P001_Radar_Detection_Prerequisite/assets/slide-06.png",
+      "bytes": 107595,
+      "sha256": "2b1f316a0bce5532c81bcdabf5ac2741ba448df2c029b5fa2b3eb3cce7f669bf",
+      "tracked_before": false,
+      "verified_backup": null
+    },
+    {
+      "path": "presentations/P001_Radar_Detection_Prerequisite/assets/slide-07.png",
+      "bytes": 113305,
+      "sha256": "216cbfe9f81e0f533fdd813601c653192618506d14c3a9caea042790bf5a9899",
+      "tracked_before": false,
+      "verified_backup": null
+    },
+    {
+      "path": "presentations/P001_Radar_Detection_Prerequisite/assets/slide-08.png",
+      "bytes": 113523,
+      "sha256": "26a33fd236fcac8798deafb7920860c943438fade897908f74c96803c32dc358",
+      "tracked_before": false,
+      "verified_backup": null
+    },
+    {
+      "path": "presentations/P001_Radar_Detection_Prerequisite/assets/slide-09.png",
+      "bytes": 117662,
+      "sha256": "3cc9d6d2069db9410050c44db850b64e6d714d8b4d0f7914fb76f9826d31a262",
+      "tracked_before": false,
+      "verified_backup": null
+    }
+  ],
+  "count": 36,
+  "total_bytes": 20654961,
+  "recovery": "No verified backup. Files were untracked; Git restoration is not guaranteed.",
+  "scope": "Only listed artifacts. Preserve historical snapshots and unrelated workspace changes.",
+  "verification": {
+    "deleted_paths_absent": 36,
+    "removed_from_expected_files": 36,
+    "public_docs_validation": {
+      "exit_code": 1,
+      "errors": [
+        "CONTRIBUTING.md and NOTICE.md not published/tracked",
+        "figures/README.md links to unpublished NOTICE.md"
+      ],
+      "pre_existing": true
+    },
+    "lab_validation": {
+      "exit_code": 1,
+      "error": "ModuleNotFoundError: pypdf",
+      "pre_existing": true
+    },
+    "git_diff_check": {
+      "exit_code": 0
+    },
+    "state_scope_check": "Only 36 expected_files entries removed and asset_cleanup_20261102 added; historical fields and retained expected hashes unchanged."
+  }
+}
