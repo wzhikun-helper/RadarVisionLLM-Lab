@@ -1,0 +1,80 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-11-03",
+  "timezone": "Asia/Shanghai",
+  "scope": "Current registration on main; historical audit snapshots and unmerged governance branch are not current status.",
+  "papers": [
+    {
+      "id": "P001",
+      "title": "VoD / PointPillars",
+      "entry": "papers/P001_PointPillars_VoD/README.md",
+      "reading": "Completed",
+      "review": "Original teacher acceptance dialogue missing",
+      "code": "No verified reproduction",
+      "source": "docs/research_log/P001_REVIEW.md"
+    },
+    {
+      "id": "P002",
+      "title": "CRN",
+      "entry": "papers/P002_CRN/README.md",
+      "reading": "First pass completed",
+      "review": "Previously passed per user; original Q&A archive incomplete",
+      "code": "Code reading not started; reproduction not executed",
+      "source": "docs/research_log/P002_CRN_REVIEW.md"
+    },
+    {
+      "id": "P003",
+      "title": "RaCFormer",
+      "entry": "papers/P003_RaCFormer/README.md",
+      "canonical_notes": [
+        "paper_notes/P003_RaCFormer.md"
+      ],
+      "reading": "Abstract taught per user; awaiting open-question answers",
+      "review": "Pending; not passed",
+      "code": "Not started; no execution",
+      "official_code": "https://github.com/cxmomo/RaCFormer",
+      "fixed_commit": "4d4c534f84acef9ec390523134367aad40619057",
+      "dataset_target": "nuScenes",
+      "model_target": "RaCFormer-R50",
+      "gpu_target": "RTX 4090 D 24GB",
+      "gpu_validation": "Not verified by execution",
+      "run_evidence": []
+    }
+  ],
+  "historical_papers": [
+    {
+      "id": "H-R4Det-2026",
+      "title": "R4Det",
+      "former_id": "P003",
+      "entry": "papers/H-R4Det-2026/README.md",
+      "reading": "暂停第一遍精读",
+      "review": "第一课未验收",
+      "source": "User instruction 2026-11-03; original teaching dialogue not provided",
+      "preservation": "Restore original preparation documents byte-for-byte from c0ee5b5; retain all other history and branches"
+    }
+  ],
+  "registration_change": {
+    "date": "2026-11-03",
+    "reason": "User selected RaCFormer as formal P003; R4Det paused",
+    "restored_files": [
+      {
+        "original_path": "papers/P003_R4Det/README.md",
+        "current_path": "papers/H-R4Det-2026/ORIGINAL_README.md",
+        "source_commit": "c0ee5b5ee6b25fb7a09a51177d26e05c399abda4",
+        "sha256": "24cae872082a8cc88fe5b55c9b39d4b703bbba9e071a762f2ebe962f385f4640",
+        "bytes": 1451
+      },
+      {
+        "original_path": "papers/P003_R4Det/01_pre_readiness.md",
+        "current_path": "papers/H-R4Det-2026/01_pre_readiness.md",
+        "source_commit": "c0ee5b5ee6b25fb7a09a51177d26e05c399abda4",
+        "sha256": "42838bbdb5790e1c0ec87b5e5f49d7e7b66cf1e33e833f675e7ccf022683e71c",
+        "bytes": 8301
+      }
+    ]
+  },
+  "unselected_ids": [
+    "P004"
+  ],
+  "baseline_decision": "No long-term engineering baseline admitted by this registration"
+}

@@ -14,6 +14,9 @@ P001与P002已有正式精读、概念宝典和研究配套；本轮补齐对称
 | --- | --- | --- | --- |
 | P001 | VoD + PointPillars，RA-L 2022 | 精读完成；教师验收原文待补 | Planned；复现未证实 |
 | P002 | CRN，ICCV 2023 | 第一遍完成；教师此前确认通过，原问答缺口保留 | 代码精读未开始；复现未执行，暂不优先 |
+| P003 | [RaCFormer，CVPR 2025](papers/P003_RaCFormer/README.md) | Abstract已讲授；等待用户开放题回答，未通过验收 | RaCFormer-R50 / nuScenes；RTX 4090 D 24GB为目标资源，尚未验证运行 |
+
+R4Det现以[H-R4Det-2026](papers/H-R4Det-2026/README.md)保留：暂停第一遍精读，第一课未验收。当前状态见[研究状态登记](docs/maintenance/RESEARCH_STATUS.json)。
 
 ## 4. P001/P002完整科研档案
 
@@ -24,7 +27,7 @@ P001与P002已有正式精读、概念宝典和研究配套；本轮补齐对称
 
 ## 5. 工程基线与复现状态
 
-[第二轮基线调查](docs/research_gaps/baseline_selection_round2/05_decision_and_plan.md)仅保留历史比较证据；当前不指定后续论文或长期主基线。该技术建议仅为历史候选意见，后续论文选择待用户决定。P001有计划、P002暂缓，均不能写成已经跑通。
+[第二轮基线调查](docs/research_gaps/baseline_selection_round2/05_decision_and_plan.md)仅保留历史比较证据；当前P003学习论文为RaCFormer；尚不指定长期主基线。该技术建议仅为历史候选意见，不构成模型执行准入。P001有计划、P002暂缓，均不能写成已经跑通。
 
 [P001工程档案](reproductions/P001_PointPillars_VoD/README.md) · [P002工程档案](reproductions/P002_CRN/README.md) · [统一字段与状态](reproductions/RECORDING_STANDARD.md)。
 
