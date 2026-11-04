@@ -1,0 +1,115 @@
+{
+  "date": "2026-11-04",
+  "branch": "research/p003-p005-reading-reproduction-20261103",
+  "base_commit": "fee22e100e4e7771ab4366182883c052fa862877",
+  "scope": "Draft initialization and current numbering; no teacher mastery or engineering execution certification",
+  "checks": [
+    {
+      "command": "python -B scripts/validate_lab.py",
+      "exit_code": 0,
+      "passed": true,
+      "errors": [],
+      "existing_markdown_targets": 472,
+      "python_files_compiled": 3
+    },
+    {
+      "command": "python -B scripts/check_public_docs.py --include-untracked",
+      "exit_code": 0,
+      "passed": true,
+      "errors": [],
+      "documents_checked": 18,
+      "local_links_checked": 141
+    },
+    {
+      "command": "git diff --check",
+      "exit_code": 0
+    }
+  ],
+  "P001_P002_and_assets_hash_unchanged": true,
+  "protected_file_count": 52,
+  "legacy_RaCFormer_body_checks": [
+    {
+      "path": "paper_notes/P003_RaCFormer.md",
+      "original_worktree_sha256": "b8aa5f2071ea2dd18e29bc3bbef5b76733b54aec10d85ba2f7e576aa32eb8928",
+      "original_git_blob_sha256": "08e472e29f63b325adea130161ea3573db2593d1f8001ffc9cc627b4cf27f107",
+      "original_body_preserved_as_suffix": true
+    },
+    {
+      "path": "papers/P003_RaCFormer/README.md",
+      "original_worktree_sha256": "7c9fd2ebcd54c65846f2a34ef1aaad8d67b77dc7d69f51e0a18c5a2b7bf1875d",
+      "original_git_blob_sha256": "f8e0314b2c0ef6319cb97fee86540281f37c51892fc0d02fa745d50f5b33045f",
+      "original_body_preserved_as_suffix": true
+    }
+  ],
+  "R4Det_originals_unchanged": true,
+  "P001_P002_matrix_rows_unchanged": true,
+  "paper_ids_unique_and_match_current_mapping": true,
+  "csv_column_counts": {
+    "papers/paper_matrix.csv": 36,
+    "docs/innovation_bank/P001_ideas.csv": 10,
+    "docs/innovation_bank/P002_ideas.csv": 10,
+    "docs/maintenance/REPOSITORY_INVENTORY.csv": 15,
+    "reproductions/P001_PointPillars_VoD/experiment_tracker.csv": 8,
+    "reproductions/P002_CRN/experiment_tracker.csv": 8,
+    "reproductions/P003_CenterFusion/experiment_tracker.csv": 8,
+    "reproductions/P004_RCBEVDet/experiment_tracker.csv": 8,
+    "reproductions/P005_RaCFormer/experiment_tracker.csv": 8
+  },
+  "all_json_parse": true,
+  "original_main_HEAD_status_and_file_hashes_unchanged": true,
+  "original_file_count": 109,
+  "expected_changed_paths": [
+    "docs/research_log/P003_P005_SECTION_SYNC.md",
+    "paper_notes/P003_CenterFusion.md",
+    "paper_notes/P003_概念查询宝典.md",
+    "docs/research_log/P003_CenterFusion_READING_LOG.md",
+    "reproductions/P003_CenterFusion/README.md",
+    "reproductions/P003_CenterFusion/experiment_tracker.csv",
+    "papers/P003_CenterFusion/README.md",
+    "paper_notes/P004_RCBEVDet.md",
+    "paper_notes/P004_概念查询宝典.md",
+    "docs/research_log/P004_RCBEVDet_READING_LOG.md",
+    "reproductions/P004_RCBEVDet/README.md",
+    "reproductions/P004_RCBEVDet/experiment_tracker.csv",
+    "papers/P004_RCBEVDet/README.md",
+    "paper_notes/P003_RaCFormer.md",
+    "paper_notes/P005_概念查询宝典.md",
+    "docs/research_log/P005_RaCFormer_READING_LOG.md",
+    "reproductions/P005_RaCFormer/README.md",
+    "reproductions/P005_RaCFormer/experiment_tracker.csv",
+    "papers/P005_RaCFormer/README.md",
+    "docs/innovation_bank/P003_P005_RESEARCH_QUESTIONS.md",
+    "papers/P003_RaCFormer/README.md",
+    "papers/H-R4Det-2026/README.md",
+    "papers/paper_matrix.csv",
+    "docs/maintenance/RESEARCH_STATUS.json",
+    "README.md",
+    "paper_notes/README.md",
+    "papers/README.md",
+    "docs/maintenance/P003_P005_TEMPLATE_MAPPING_20261104.md",
+    "docs/maintenance/P003_P005_INITIALIZATION_CHECKS_20261104.json"
+  ],
+  "CenterFusion_Abstract": "Taught per user; three unanswered/unaccepted questions; no question text fabricated",
+  "concept_drafts": {
+    "P003-C01": "Pending verification and teacher acceptance",
+    "P003-C02": "Pending verification and teacher acceptance",
+    "P004_new_entries": 0,
+    "P005_new_entries": 0
+  },
+  "innovation_candidates_created": 0,
+  "model_runs_executed": 0,
+  "not_executed": [
+    "Teacher acceptance; raw Q&A not supplied",
+    "Full paper formula/figure/table review",
+    "Full source/environment/weight/license compatibility audit",
+    "Dependency installation or CUDA compilation",
+    "Data/weight download",
+    "Forward/backward/memory test/training/evaluation",
+    "Exhaustive external HTTP availability check"
+  ],
+  "limitations": [
+    "Existing validator checks links, widths and Python syntax; it does not certify research content or acceptance",
+    "Target branch remains separate from main",
+    "CVF attempted pages were inaccessible; paper identity based on author arXiv/repository metadata"
+  ]
+}

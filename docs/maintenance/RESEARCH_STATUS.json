@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-03",
+  "updated_at": "2026-11-04",
   "timezone": "Asia/Shanghai",
-  "scope": "Current registration on main; historical audit snapshots and unmerged governance branch are not current status.",
+  "scope": "Current registration on research/p003-p005-reading-reproduction-20261103; unmerged into main.",
   "papers": [
     {
       "id": "P001",
@@ -24,20 +24,56 @@
     },
     {
       "id": "P003",
+      "title": "CenterFusion",
+      "entry": "papers/P003_CenterFusion/README.md",
+      "canonical_notes": [
+        "paper_notes/P003_CenterFusion.md"
+      ],
+      "concepts": "paper_notes/P003_概念查询宝典.md",
+      "reading": "Abstract已讲授；三道开放题待回答与验收",
+      "review": "Pending; no new acceptance pass",
+      "code": "Not started; no execution",
+      "official_code": "https://github.com/mrnabati/CenterFusion",
+      "fixed_commit": null,
+      "dataset_target": "nuScenes",
+      "model_target": "To confirm before execution",
+      "role": "基础工程复现",
+      "run_evidence": []
+    },
+    {
+      "id": "P004",
+      "title": "RCBEVDet",
+      "entry": "papers/P004_RCBEVDet/README.md",
+      "canonical_notes": [
+        "paper_notes/P004_RCBEVDet.md"
+      ],
+      "concepts": "paper_notes/P004_概念查询宝典.md",
+      "reading": "尚未开始；只初始化计划与待核实入口",
+      "review": "Pending; no new acceptance pass",
+      "code": "Not started; no execution",
+      "official_code": "https://github.com/VDIGPKU/RCBEVDet",
+      "fixed_commit": null,
+      "dataset_target": "nuScenes",
+      "model_target": "To confirm before execution",
+      "role": "RCS/BEV融合研究",
+      "run_evidence": []
+    },
+    {
+      "id": "P005",
       "title": "RaCFormer",
-      "entry": "papers/P003_RaCFormer/README.md",
+      "entry": "papers/P005_RaCFormer/README.md",
       "canonical_notes": [
         "paper_notes/P003_RaCFormer.md"
       ],
-      "reading": "Abstract taught per user; awaiting open-question answers",
-      "review": "Pending; not passed",
+      "concepts": "paper_notes/P005_概念查询宝典.md",
+      "reading": "沿用原RaCFormer Abstract已讲授状态；开放题待答、未验收",
+      "review": "Pending; no new acceptance pass",
       "code": "Not started; no execution",
       "official_code": "https://github.com/cxmomo/RaCFormer",
       "fixed_commit": "4d4c534f84acef9ec390523134367aad40619057",
       "dataset_target": "nuScenes",
       "model_target": "RaCFormer-R50",
-      "gpu_target": "RTX 4090 D 24GB",
-      "gpu_validation": "Not verified by execution",
+      "role": "Query跨视角融合；主要创新基线候选（用户计划，未证明新颖性）",
       "run_evidence": []
     }
   ],
@@ -73,8 +109,44 @@
       }
     ]
   },
-  "unselected_ids": [
-    "P004"
+  "unselected_ids": [],
+  "baseline_decision": "User selected P003 foundational reproduction / P004 RCS-BEV / P005 main innovation baseline candidate; no engineering execution or novelty verified",
+  "hardware_plan": {
+    "gpu": "RTX 3090 24GB",
+    "storage": "2–3TB",
+    "server_configuration": "Unknown; user plan, not measured",
+    "execution_verified": false
+  },
+  "numbering_history": [
+    {
+      "date": "2026-11-03",
+      "former_id": "P003",
+      "title": "RaCFormer",
+      "preserved_record": {
+        "id": "P003",
+        "title": "RaCFormer",
+        "entry": "papers/P003_RaCFormer/README.md",
+        "canonical_notes": [
+          "paper_notes/P003_RaCFormer.md"
+        ],
+        "reading": "Abstract taught per user; awaiting open-question answers",
+        "review": "Pending; not passed",
+        "code": "Not started; no execution",
+        "official_code": "https://github.com/cxmomo/RaCFormer",
+        "fixed_commit": "4d4c534f84acef9ec390523134367aad40619057",
+        "dataset_target": "nuScenes",
+        "model_target": "RaCFormer-R50",
+        "gpu_target": "RTX 4090 D 24GB",
+        "gpu_validation": "Not verified by execution",
+        "run_evidence": []
+      },
+      "snapshot_commit": "fee22e100e4e7771ab4366182883c052fa862877"
+    },
+    {
+      "date": "2026-11-04",
+      "decision": "P003 CenterFusion / P004 RCBEVDet / P005 RaCFormer",
+      "strategy": "Keep original RaCFormer paths/body; register current entries and map legacy IDs; retain R4Det history"
+    }
   ],
-  "baseline_decision": "No long-term engineering baseline admitted by this registration"
+  "section_sync_policy": "docs/research_log/P003_P005_SECTION_SYNC.md"
 }

@@ -5,7 +5,7 @@
 
 ## 登记规则
 
-1. 每篇论文使用唯一ID；当前P001为VoD，P002为CRN；P003为RaCFormer，历史R4Det使用H-R4Det-2026，不占用正式序号。
+1. 每篇论文使用唯一ID；当前P001为VoD，P002为CRN；P003为CenterFusion、P004为RCBEVDet、P005为RaCFormer；历史R4Det使用H-R4Det-2026。
 2. 以正式论文和作者来源为准；尚未核查的字段留空，不推测指标、开源状态或复现难度。
 3. P001/P002统一使用主矩阵；导入信息须先按字段映射核对。
 4. 阅读状态、代码精读和模型复现分别记录。作者报告的结果不填作本项目结果。
@@ -24,8 +24,16 @@
 
 两者采用相同编号槽位链接唯一正式来源，当前不物理迁移。整改证据与缺口见[第一轮对照报告](../docs/maintenance/P001_P002_DOSSIER_ROUND1.md)。
 
-## P003与历史编号（2026-11-03）
+## 旧编号登记（2026-11-03历史）
 
-- [P003：RaCFormer](P003_RaCFormer/README.md)：Abstract已讲授，开放题待答，尚未验收通过。
+- [原P003：RaCFormer历史入口](P003_RaCFormer/README.md)：现为P005；原Abstract状态保留。
 - [H-R4Det-2026：R4Det](H-R4Det-2026/README.md)：暂停第一遍精读，第一课未验收。原始资料从Git历史恢复保留，旧编号不再用于当前登记。
 - [编号调整与证据记录](../docs/maintenance/P003_REGISTRATION_20261103.md)。
+
+## 当前正式编号（2026-11-04）
+
+- [P003：CenterFusion](P003_CenterFusion/README.md)：Abstract已讲授；三道开放题待回答与验收。
+- [P004：RCBEVDet](P004_RCBEVDet/README.md)：尚未开始；只初始化计划与待核实入口。
+- [P005：RaCFormer](P005_RaCFormer/README.md)：沿用原RaCFormer Abstract已讲授状态；开放题待答、未验收。
+
+[模板与编号映射](../docs/maintenance/P003_P005_TEMPLATE_MAPPING_20261104.md)。

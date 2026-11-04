@@ -1,3 +1,5 @@
+> 历史编号入口（2026-11-04）：RaCFormer当前正式编号为[P005](../P005_RaCFormer/README.md)。本目录与下方原文保留旧编号语境，当前P003为[CenterFusion](../P003_CenterFusion/README.md)。不以旧硬件/编号作为当前计划。
+
 # P003｜RaCFormer：统一论文档案
 
 正式登记：2026-11-03（Asia/Shanghai）。RaCFormer，CVPR 2025。取代当前学习序号中的R4Det；[R4Det历史档案](../H-R4Det-2026/README.md)保留。

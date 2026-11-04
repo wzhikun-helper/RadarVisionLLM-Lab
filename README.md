@@ -14,7 +14,9 @@ P001与P002已有正式精读、概念宝典和研究配套；本轮补齐对称
 | --- | --- | --- | --- |
 | P001 | VoD + PointPillars，RA-L 2022 | 精读完成；教师验收原文待补 | Planned；复现未证实 |
 | P002 | CRN，ICCV 2023 | 第一遍完成；教师此前确认通过，原问答缺口保留 | 代码精读未开始；复现未执行，暂不优先 |
-| P003 | [RaCFormer，CVPR 2025](papers/P003_RaCFormer/README.md) | Abstract已讲授；等待用户开放题回答，未通过验收 | RaCFormer-R50 / nuScenes；RTX 4090 D 24GB为目标资源，尚未验证运行 |
+| P003 | [CenterFusion，WACV 2021](papers/P003_CenterFusion/README.md) | Abstract已讲授；三道开放题待验收 | 基础工程复现计划；未执行 |
+| P004 | [RCBEVDet，CVPR 2024](papers/P004_RCBEVDet/README.md) | 尚未开始；草稿入口已建 | RCS/BEV融合研究；未执行 |
+| P005 | [RaCFormer，CVPR 2025](papers/P005_RaCFormer/README.md) | 保留原Abstract已讲授状态；开放题待答、未验收 | Query跨视角融合、主要创新基线候选；未验证 |
 
 R4Det现以[H-R4Det-2026](papers/H-R4Det-2026/README.md)保留：暂停第一遍精读，第一课未验收。当前状态见[研究状态登记](docs/maintenance/RESEARCH_STATUS.json)。
 
@@ -27,7 +29,7 @@ R4Det现以[H-R4Det-2026](papers/H-R4Det-2026/README.md)保留：暂停第一遍
 
 ## 5. 工程基线与复现状态
 
-[第二轮基线调查](docs/research_gaps/baseline_selection_round2/05_decision_and_plan.md)仅保留历史比较证据；当前P003学习论文为RaCFormer；尚不指定长期主基线。该技术建议仅为历史候选意见，不构成模型执行准入。P001有计划、P002暂缓，均不能写成已经跑通。
+[第二轮基线调查](docs/research_gaps/baseline_selection_round2/05_decision_and_plan.md)仅保留历史比较证据；当前正式编号为P003 CenterFusion、P004 RCBEVDet、P005 RaCFormer；P005为用户选定的主要创新基线候选，尚未完成工程准入或新颖性核查。该技术建议仅为历史候选意见，不构成模型执行准入。P001有计划、P002暂缓，均不能写成已经跑通。
 
 [P001工程档案](reproductions/P001_PointPillars_VoD/README.md) · [P002工程档案](reproductions/P002_CRN/README.md) · [统一字段与状态](reproductions/RECORDING_STANDARD.md)。
 
@@ -274,3 +276,7 @@ The repository will evolve together with the research direction.
 ````
 
 </details>
+
+## P003–P005当前维护入口
+
+硬件计划：RTX 3090 24GB、2–3TB；服务器完整配置尚未确认。[每节验收与同步规范](docs/research_log/P003_P005_SECTION_SYNC.md) · [模板及历史编号映射](docs/maintenance/P003_P005_TEMPLATE_MAPPING_20261104.md)。此分支登记尚未合并main，历史快照不作为当前编号。

@@ -1,10 +1,16 @@
 # P001 / P002 科研档案导航
 
-按相同十二类职责维护；文件存在不代表所有阶段完成。正式笔记只保留原文件，以下均为相对链接。P003现登记为RaCFormer；R4Det暂停并以历史编号H-R4Det-2026保留。
+按相同十二类职责维护；文件存在不代表所有阶段完成。正式笔记只保留原文件，以下均为相对链接。当前P003为CenterFusion、P004为RCBEVDet、P005为RaCFormer；R4Det以H-R4Det-2026保留。
 
-## P003｜RaCFormer
+## P003–P005｜当前学习入口
 
-[统一档案入口](../papers/P003_RaCFormer/README.md) · [正式精读](P003_RaCFormer.md)。Abstract已讲授（用户提供状态），等待用户开放题回答；未批改、未验收通过。第二遍代码精读与复现未执行。
+| 编号 | 精读 | 概念宝典 | 状态 |
+| --- | --- | --- | --- |
+| P003 CenterFusion | [草稿](P003_CenterFusion.md) | [宝典](P003_概念查询宝典.md) | Abstract已讲授，三题待验收 |
+| P004 RCBEVDet | [草稿](P004_RCBEVDet.md) | [宝典](P004_概念查询宝典.md) | 尚未开始 |
+| P005 RaCFormer | [唯一正文，保留旧路径](P003_RaCFormer.md) | [宝典](P005_概念查询宝典.md) | 原Abstract状态保留，待答未验收 |
+
+每节真实验收后执行[同步规范](../docs/research_log/P003_P005_SECTION_SYNC.md)。不存在独立概念宝库目录，继续使用paper_notes下的编号宝典。
 
 [H-R4Det-2026历史入口](../papers/H-R4Det-2026/README.md)：暂停第一遍精读，第一课未验收；原始准备资料保留，旧P003称谓仅属历史。
 
