@@ -30,15 +30,33 @@
         "paper_notes/P003_CenterFusion.md"
       ],
       "concepts": "paper_notes/P003_概念查询宝典.md",
-      "reading": "Abstract已讲授；三道开放题待回答与验收",
-      "review": "Pending; no new acceptance pass",
+      "reading": "Lesson 01 Title & Abstract PASS; Lesson 02 Introduction NOT_STARTED; remaining lessons not completed",
+      "review": "Lesson 01 PASS after initial Q1 failure and remedial 01-R1 PASS; not full-paper acceptance",
       "code": "Not started; no execution",
       "official_code": "https://github.com/mrnabati/CenterFusion",
       "fixed_commit": null,
       "dataset_target": "nuScenes",
       "model_target": "To confirm before execution",
       "role": "基础工程复现",
-      "run_evidence": []
+      "run_evidence": [],
+      "reproduction_status": "NOT_STARTED",
+      "lessons": {
+        "01": {
+          "title": "Title & Abstract",
+          "status": "PASS",
+          "initial_Q1": "NOT_PASSED",
+          "initial_Q2": "PASS",
+          "initial_Q3": "PASS",
+          "remedial_01_R1": "PASS",
+          "evidence": "docs/research_log/P003_CenterFusion_REVIEW.md",
+          "archived_on": "2026-11-04",
+          "actual_acceptance_date": null
+        },
+        "02": {
+          "title": "Introduction",
+          "status": "NOT_STARTED"
+        }
+      }
     },
     {
       "id": "P004",

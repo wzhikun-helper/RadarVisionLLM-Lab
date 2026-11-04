@@ -1,0 +1,132 @@
+{
+  "date": "2026-11-04",
+  "base_commit": "a622d73971627e8d8713c8eab3001753b3193562",
+  "branch": "research/p003-p005-reading-reproduction-20261103",
+  "checks": [
+    {
+      "command": "python -B scripts/validate_lab.py",
+      "exit_code": 0,
+      "passed": true,
+      "errors": [],
+      "existing_markdown_targets": 518
+    },
+    {
+      "command": "python -B scripts/check_public_docs.py --include-untracked",
+      "exit_code": 0,
+      "passed": true,
+      "errors": [],
+      "documents_checked": 18,
+      "local_links_checked": 141
+    },
+    {
+      "command": "git diff --check",
+      "exit_code": 0
+    }
+  ],
+  "lesson_status": {
+    "Lesson_01_Title_Abstract": "PASS",
+    "first_round_Q1": "NOT_PASSED",
+    "first_round_Q2": "PASS",
+    "first_round_Q3": "PASS",
+    "remedial_01_R1": "PASS",
+    "Lesson_02_Introduction": "NOT_STARTED",
+    "reproduction_execution": "NOT_STARTED"
+  },
+  "status_source": "User-provided original student answers and teacher determinations in this request; not a new Codex examination",
+  "original_answer_texts_preserved": true,
+  "answer_sha256": [
+    "a9d1deeb8057ec2d1769325605eb140fcc86441005f690ebfcde315666eedeae",
+    "495d6dfabb8153c759ad899f0bc3d23a9d3df5ba1e7ff3ef57bd35e7b4c31a5b",
+    "58eae3f64767a74457808b94624a9ac40e9391908b919c088f8db0953f2d0660",
+    "88499b2d61359fa44431974fe7bf34a6dcaaeb65988c4c665baaef4ded20f981"
+  ],
+  "actual_teaching_acceptance_date": null,
+  "P001_P002_P004_P005_status_and_files_preserved": true,
+  "legacy_RaCFormer_and_R4Det_files_preserved": true,
+  "protected_branch_file_count": 114,
+  "original_main_files_unchanged": 109,
+  "original_main_HEAD_and_status_unchanged": true,
+  "matrix_P001_P002_P004_P005_rows_unchanged": true,
+  "unique_paper_ids": [
+    "P001",
+    "P002",
+    "P003",
+    "P004",
+    "P005"
+  ],
+  "csv_columns": {
+    "papers/paper_matrix.csv": 36,
+    "docs/innovation_bank/P001_ideas.csv": 10,
+    "docs/innovation_bank/P002_ideas.csv": 10,
+    "docs/innovation_bank/P003_ideas.csv": 10,
+    "docs/maintenance/REPOSITORY_INVENTORY.csv": 15,
+    "reproductions/P001_PointPillars_VoD/experiment_tracker.csv": 8,
+    "reproductions/P002_CRN/experiment_tracker.csv": 8,
+    "reproductions/P003_CenterFusion/experiment_tracker.csv": 8,
+    "reproductions/P004_RCBEVDet/experiment_tracker.csv": 8,
+    "reproductions/P005_RaCFormer/experiment_tracker.csv": 8
+  },
+  "concept_ids": [
+    "p003-c01",
+    "p003-c02",
+    "p003-c03",
+    "p003-c04",
+    "p003-c05",
+    "p003-c06",
+    "p003-c07",
+    "p003-c08",
+    "p003-c09"
+  ],
+  "new_concept_fragments_resolve": true,
+  "later_steps_unchanged": true,
+  "paper_evidence": {
+    "source": "CVF WACV 2021 PDF",
+    "sha256": "a0b8711eabb881c05ead46278985e93c79a9b0efb923774ad5c416e565c53574",
+    "pages": 10,
+    "visually_checked_PDF_pages": [
+      1,
+      4,
+      6,
+      7
+    ],
+    "source_locations": [
+      "Abstract PDF1",
+      "Fig1 PDF2",
+      "Sec3-4 PDF3-6",
+      "Sec5 PDF6",
+      "Table1 PDF7"
+    ],
+    "public_web_tool": "403; direct HTTP download succeeded; PDF retained outside repository",
+    "new_paper_images_added": 0
+  },
+  "candidate_count": 3,
+  "candidate_status": "Candidate / Unverified; novelty review and experiments not performed",
+  "model_run_count": 0,
+  "modified_files": [
+    "docs/research_log/P003_CenterFusion_REVIEW.md",
+    "paper_notes/P003_CenterFusion.md",
+    "paper_notes/P003_概念查询宝典.md",
+    "docs/research_log/P003_CenterFusion_READING_LOG.md",
+    "docs/research_log/P003_P005_SECTION_SYNC.md",
+    "docs/innovation_bank/P003_P005_RESEARCH_QUESTIONS.md",
+    "docs/innovation_bank/P003_ideas.csv",
+    "docs/maintenance/RESEARCH_STATUS.json",
+    "papers/paper_matrix.csv",
+    "README.md",
+    "paper_notes/README.md",
+    "papers/README.md",
+    "papers/P003_CenterFusion/README.md",
+    "reproductions/P003_CenterFusion/README.md",
+    "docs/maintenance/P003_LESSON01_ARCHIVE_20261104.md",
+    "docs/maintenance/P003_LESSON01_CHECKS_20261104.json"
+  ],
+  "not_executed": [
+    "Lesson 02 teaching/acceptance",
+    "Code-level second-pass review",
+    "Dependency/environment setup or CUDA compilation",
+    "Dataset/weight download",
+    "Server execution, training, evaluation or ablation",
+    "Candidate novelty search/causal validation",
+    "Exhaustive historical HTTP link availability audit"
+  ]
+}

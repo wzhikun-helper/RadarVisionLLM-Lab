@@ -1,0 +1,4 @@
+Idea ID,Title,Hypothesis,Minimum Validation,Prior Work Risk,Novelty 1-5 subjective,Feasibility 1-5 subjective,Paper Potential 1-5 subjective,Validation Cost 1-5 high=costly,Status
+P003-I01,稀疏雷达下目标关联可靠性,有效观测数量与关联稳定性可能相关，待验证,固定候选并分距离/遮挡/点数，需目标关联真值,已有稀疏/关联研究待查新,,,,,Candidate / Unverified
+P003-I02,杂波/多径与错误关联,分别控制干扰可帮助辨识测量与关联失败，待验证,先审查真实标签，再做受控对照；不把合成当真实,相关鲁棒融合和干扰分析未查新,,,,,Candidate / Unverified
+P003-I03,视觉深度与雷达测距冲突可信度,坐标一致后冲突诊断可能有价值，待验证,先排除标定/时序/关联混淆，比较既有策略,不确定性权重和一致性已有工作需查新,,,,,Candidate / Unverified

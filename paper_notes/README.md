@@ -6,7 +6,7 @@
 
 | 编号 | 精读 | 概念宝典 | 状态 |
 | --- | --- | --- | --- |
-| P003 CenterFusion | [草稿](P003_CenterFusion.md) | [宝典](P003_概念查询宝典.md) | Abstract已讲授，三题待验收 |
+| P003 CenterFusion | [精读](P003_CenterFusion.md) | [宝典](P003_概念查询宝典.md) | Lesson 01 PASS（首轮Q1未过、补学通过）；Lesson 02未开始 |
 | P004 RCBEVDet | [草稿](P004_RCBEVDet.md) | [宝典](P004_概念查询宝典.md) | 尚未开始 |
 | P005 RaCFormer | [唯一正文，保留旧路径](P003_RaCFormer.md) | [宝典](P005_概念查询宝典.md) | 原Abstract状态保留，待答未验收 |
 

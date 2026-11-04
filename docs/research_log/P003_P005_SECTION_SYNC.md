@@ -20,6 +20,10 @@
 
 指标分三类保存：Paper-reported（原文版本/表号/配置）、Official checkpoint evaluated locally（权重SHA/协议/日志）、Locally trained（训练commit/config/seed/数据/日志）。不得混写。科研总结记录真实结果、失败案例、消融、局限与查新后的候选；尚未执行的条目标Planned。
 
-## 当前证据缺口
+## 初始化时证据缺口（历史快照）
 
 CenterFusion Abstract已讲授且有三道待验收开放题，依据2026-11-04用户说明；三道题目原文、学生回答、批改、实际授课日期与时长均未提供。RaCFormer原Abstract状态独立保留，不能转给CenterFusion，也不能因此认定P005通过。RCBEVDet学习未开始。
+
+## Lesson 01后续更新（2026-11-04）
+
+CenterFusion本次已获得用户提供的首轮、补学与教师判定，Lesson 01=PASS；见[真实验收记录](P003_CenterFusion_REVIEW.md)。上方初始化时“原题未提供”不再作为当前缺口。实际授课时间/时长、完整聊天导出仍未提供；Introduction未开始，RaCFormer与RCBEVDet状态不变。

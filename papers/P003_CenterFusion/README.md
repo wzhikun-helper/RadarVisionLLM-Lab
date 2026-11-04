@@ -4,14 +4,14 @@
 
 ## 当前状态
 
-Abstract已讲授；三道开放题待回答与验收。第一遍均无本轮新通过记录；第二遍代码精读未开始；实验未执行。硬件计划RTX 3090 24GB、2–3TB，服务器完整配置未知。
+Lesson 01 Title & Abstract=PASS（首轮Q1未通过，补学01-R1通过）；Lesson 02 Introduction=NOT_STARTED。不是整篇第一遍通过；第二遍代码精读未开始；实验复现NOT_STARTED。硬件计划RTX 3090 24GB、2–3TB，服务器完整配置未知。
 
 | 编号职责 | 唯一入口 / 当前状态 |
 | --- | --- |
-| `01_paper_review.md` | [精读](../../paper_notes/P003_CenterFusion.md)；草稿，逐节待验收 |
-| `02_concept_handbook.md` | [概念宝典](../../paper_notes/P003_概念查询宝典.md)；待核实 |
-| `03_research_gaps.md` / `04_innovation_notes.md` | [候选问题状态](../../docs/innovation_bank/P003_P005_RESEARCH_QUESTIONS.md)；无已验证候选，不自动建CSV |
-| `05_reading_log.md` / `06_questions_and_feedback.md` | [日志、原始问答与验收](../../docs/research_log/P003_CenterFusion_READING_LOG.md) |
+| `01_paper_review.md` | [精读](../../paper_notes/P003_CenterFusion.md)；Lesson 01已验收，其余未完成 |
+| `02_concept_handbook.md` | [概念宝典](../../paper_notes/P003_概念查询宝典.md)；Lesson 01应用已补，源码细节待核 |
+| `03_research_gaps.md` / `04_innovation_notes.md` | [候选问题状态](../../docs/innovation_bank/P003_P005_RESEARCH_QUESTIONS.md)；3项未验证候选；[10列想法表](../../docs/innovation_bank/P003_ideas.csv) |
+| `05_reading_log.md` / `06_questions_and_feedback.md` | [日志](../../docs/research_log/P003_CenterFusion_READING_LOG.md)；[原始问答、补学与验收](../../docs/research_log/P003_CenterFusion_REVIEW.md) |
 | `07_reproducibility_audit.md` | [四阶段学习/复现计划](../../reproductions/P003_CenterFusion/README.md)；工程审查未完成 |
 | `08_figure_index.md` / `assets/` | 未引入新图；图号、页码、来源和解释随真实学习登记到精读，不造空白图片成果 |
 | 实验跟踪 | [8列跟踪表](../../reproductions/P003_CenterFusion/experiment_tracker.csv)，0次运行 |

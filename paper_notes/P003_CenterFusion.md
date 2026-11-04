@@ -1,4 +1,4 @@
-# P003｜CenterFusion：论文精读草稿
+# P003｜CenterFusion：论文精读
 
 ## 学习总览
 
@@ -7,29 +7,120 @@
 | 论文 | CenterFusion: Center-based Radar and Camera Fusion for 3D Object Detection |
 | 会议 | WACV 2021 |
 | 研究定位 | 基础工程复现（用户计划） |
-| 原文版本 | [arXiv登记版本](https://arxiv.org/abs/2011.04841v1)；最终阅读PDF版本/页码待教师确认 |
+| 原文版本 | [WACV 2021正式PDF](https://openaccess.thecvf.com/content/WACV2021/papers/Nabati_CenterFusion_Center-Based_Radar_and_Camera_Fusion_for_3D_Object_Detection_WACV_2021_paper.pdf)；10页，印刷页1527–1536；本轮核对摘要及必要方法/表格 |
 | 官方代码 | [官方仓库](https://github.com/mrnabati/CenterFusion)；固定commit待第二遍审查 |
-| 精读状态 | Abstract已讲授；三道开放题待回答与验收；本文件为草稿，非验收成果 |
+| 精读状态 | Lesson 01 Title & Abstract = PASS；Lesson 02 Introduction = NOT_STARTED；其余章节未验收 |
 | 概念宝典 | [同步概念入口](P003_概念查询宝典.md) |
 | 学习日志与验收 | [真实记录入口](../docs/research_log/P003_CenterFusion_READING_LOG.md) |
-| 工程状态 | Planned；无本项目前向、评估、训练结果 |
+| 工程状态 | 复现执行 NOT_STARTED；计划保留，无本项目前向/训练/评估结果 |
 
-## Step 1｜Abstract
+## Step 1｜Title & Abstract：Lesson 01（PASS）
 
-**待验收**：用户确认Abstract已由教师讲授，学生尚未完成三道开放题验收。授课日期/时长、原题和真实回答尚未提供，不得标为通过。
+### 1.1 基本信息、任务与章节定位
 
-原文定位：[论文摘要](https://arxiv.org/abs/2011.04841v1)。摘要描述用图像目标中心与基于视锥的关联利用雷达观测；这仅为原文检索框架，不是课堂讲稿或学生理解证明。公式、阈值、实现维度与图表细节待正文核查。
-
-| 记录项 | 内容 / 原文位置 |
+| 项目 | 记录 |
 | --- | --- |
-| 论文版本、页码与章节定位 | 待提供 / 待核实 |
-| 原文核心论点与中文解释 | 待提供 / 待核实 |
-| 基础概念及宝典交叉引用 | 待提供 / 待核实 |
-| 必要公式、符号、张量或几何示例 | 待提供 / 待核实 |
-| 关键Figure/Table及解释 | 待提供 / 待核实 |
-| 作者贡献与实验依据 | 待提供 / 待核实 |
-| 局限、我们的推论、待验证假设 | 待提供 / 待核实 |
-| 原题、真实回答、教师批改、补答与验收 | 待提供 / 待核实 |
+| 论文 | CenterFusion: Center-based Radar and Camera Fusion for 3D Object Detection |
+| 作者 / 会议 | Ramin Nabati、Hairong Qi；WACV 2021 |
+| 任务 / 数据集 | Radar–Camera融合三维目标检测；nuScenes |
+| 原文定位 | 正式PDF第1页Abstract；必要解释交叉核对§3–4、Fig.1–4与Table 1，不代表后续课程已完成 |
+| 本节验收 | **PASS**，首轮Q1未通过后补学通过；原始记录见[真实问答](../docs/research_log/P003_CenterFusion_REVIEW.md) |
+
+**核心问题**：相机识别出“有一辆车”以后，它的深度和运动估计是否足够准确？怎样将雷达观测关联到这个目标，并用于修正目标属性？
+
+**研究主线（论文事实）**：图像中心点与初步3D检测 → 基于视锥/3D RoI关联雷达检测 → 生成雷达特征图 → 与图像中间特征结合 → 进一步预测深度、方向、速度和属性。来源：PDF第1–2页、Fig.1，§4。
+
+### 1.2 相机与雷达的信息互补
+
+| 模态 | 信息与作用 | 不能据此保证 |
+| --- | --- | --- |
+| Camera | 外观、类别和图像位置；单目网络也可预测深度 | 检测到车辆不等于三维位置已准确；预测深度仍可能不确定 |
+| Radar | 距离与径向速度观测，为图像估计提供额外几何/运动线索 | 不是无噪声真值；点稀疏、垂直位置和关联可能有问题 |
+
+**基础知识补充｜预测深度与视锥不是同义词。** 单目网络可学习深度，几何先验也能约束深度；视锥是候选空间的几何组织方式，不是预测深度的唯一机制。下面是教学针孔模型，不是CenterFusion创新公式：
+
+$$
+u=f_xX/Z+c_x,qquad v=f_yY/Z+c_y.
+$$
+
+$X,Y,Z$为相机坐标，$Z>0$为光轴深度；$u,v$是像素位置，$f_x,f_y,c_x,c_y$为内参。**Range通常为传感器到散射点的径向距离，不应直接等同于相机光轴深度$Z$**；需标定变换与坐标约定。复用[P001坐标/标定](P001_概念查询宝典.md)与[P002深度歧义](P002_概念查询宝典.md)。
+
+### 1.3 Center-based Detection 的基本含义
+
+先在图像上寻找目标中心，再在相应位置回归其他目标属性，而不是“只输出一个中心就完成3D检测”。CenterFusion采用CenterNet作为基础，本文不是重新发明中心点检测框架。§3.2用类别热图描述中心预测；其记法为：
+
+$$
+Iinmathbb{R}^{W	imes H	imes3},qquad
+hat Yin[0,1]^{(W/R)	imes(H/R)	imes C}.
+$$
+
+$W,H$为图像宽高，$R$是下采样比例，$C$是类别数。此处沿用论文数学维度顺序，不声称实际代码布局；后续源码的NCHW/实现维度未检查。热图候选、偏移修正及其他回归输出共同构成检测，不把热图峰值当作三维位置真值。
+
+### 1.4 Frustum-based Association：候选区域与错误关联
+
+**直观解释**：利用图像框与初步深度/尺寸/方向，在三维空间建立目标的候选区域，筛选可能属于该目标的雷达检测。它是数据关联机制，不是“投影落在框内就肯定正确”。§4.2与Fig.3说明：训练阶段使用GT 3D框，测试阶段依赖预测框；区域过大可能纳入邻近目标。该节还说明候选中存在多个检测时取最近者，以及pillar expansion用于补偿不可靠高度；这不是P001 PointPillars的特征编码模块。
+
+自拟教学例子（非论文实验/原图）：前后两辆车可能投影到相近图像区域；只按二维框关联会混淆，深度约束可以减少候选，但错误预测或干扰仍可能使关联错误。
+
+| 风险类别 | 解释 | 边界 |
+| --- | --- | --- |
+| 测量/检测错误 | 位置或速度有误；噪声、杂波、多径可能产生不期望观测 | 不能把所有失败都归为跨模态匹配问题 |
+| 关联错误 | 将真实且测得较准的B目标雷达检测分配给A | 测量准确不保证目标身份匹配正确 |
+
+### 1.5 为什么是 Middle Fusion？
+
+| 融合层级 | 一般定义 | 与本文关系 |
+| --- | --- | --- |
+| Early Fusion | 在原始或较早预处理数据层合并 | 不是仅将原始像素和点直接拼接的描述 |
+| Middle Fusion | 结合中间表征，再预测目标属性 | 本文先关联并生成雷达特征图，与图像特征结合后进入后续预测头 |
+| Late Fusion | 在决策/最终检测层合并 | 不是单纯合并两套已完成的最终检测框 |
+
+依据PDF第2页融合分类、Fig.1、§4.3。中间有初步检测用于关联，并不使整条方法自动成为Late Fusion；需看融合后的信息是否继续参与属性预测。
+
+### 1.6 Range、Doppler、RCS：定义与本文使用边界
+
+| 概念 | 提供什么 | 局限 / CenterFusion中的边界 |
+| --- | --- | --- |
+| Range | 传感器到散射点的距离，几何定位线索 | 不等于目标几何中心距离或相机深度；依赖坐标/标定与正确关联 |
+| Doppler / Radial Velocity | 沿视线的速度投影 | 不直接给完整速度向量；论文Fig.2区分径向速度与实际运动速度 |
+| RCS | 雷达散射截面，描述散射特性，受材料、形状、频率和视角等影响 | 不是接收功率或“物体大小真值”；不是本节可确认的CenterFusion三通道输入 |
+
+通用教学关系：$v_r=mathbf v_{
+m rel}cdothat{mathbf r}$（符号/自车补偿依约定）。§3.1写雷达点为$(x,y,z,v_x,v_y)$；§4.3实际雷达特征通道为归一化深度$d$和径向速度的$x/y$分量。**不能因为传感器可提供RCS，就宣称论文使用了RCS融合或验证其收益。**
+
+### 1.7 图表定位与作者结果（Paper-reported）
+
+没有新增/生成课堂示意图或截图冒充原图；以下索引指向原论文：
+
+| 图表 | PDF页 / 印刷页 | 本节解释 |
+| --- | --- | --- |
+| Fig.1 | 2 / 1528 | 图像初步检测、雷达关联、特征拼接和二级预测头的总流程 |
+| Fig.2 | 3 / 1529 | 径向速度不同于完整运动速度 |
+| Fig.3、Fig.4 | 4 / 1530 | 视锥与pillar expansion；候选区域和重叠关联问题 |
+| Table 1 | 7 / 1533 | nuScenes test/val，方法、模态、backbone和指标须一起读 |
+
+Table 1原值（非本项目评估，NDS/mAP为0–1数值，mAVE单位m/s）：
+
+| split / 方法 | Backbone | 模态 | NDS↑ | mAP↑ | mAVE↓ |
+| --- | --- | --- | --- | --- | --- |
+| test / CenterNet | HGLS | Camera | 0.400 | 0.338 | 1.629 |
+| test / CenterFusion（Ours） | DLA | Camera+Radar | 0.449 | 0.326 | 0.614 |
+| val / CenterNet | DLA | Camera | 0.328 | 0.306 | 1.426 |
+| val / CenterFusion（Ours） | DLA | Camera+Radar | 0.453 | 0.332 | 0.540 |
+
+摘要“超过12%”对应test NDS相对变化：$(0.449-0.400)/0.400=12.25%$；绝对变化为0.049，即按百分制计4.9个百分点，不是12个百分点。test对照backbone不同，且CenterFusion该行mAP低于CenterNet HGLS；不泛化为所有指标都领先。val两行使用DLA，仍需按完整协议解释，不能替代本项目受控复现。
+
+配置依据§5（PDF6 / 1532）：CenterNet/DLA初始化与补训练后增加融合预测头；融合训练60 epochs、batch 26、两张P5000，输入800×450，测试用flip、不用multi-scale。§3.1还写聚合3个雷达sweeps（过去0.25s）；因此摘要“不需额外时序信息”**不能解释成完全没有历史雷达扫描**，也不能据原文硬件宣布本项目单3090训练可行。
+
+作者贡献在于关联及融合设计；中心点检测和通用投影公式并非本项目或本文新发明。本节通过不意味着学生已经完成这些后续方法/实验章节的验收。
+
+### 1.8 局限、科研启发与验收轨迹
+
+**未验证研究假设**：稀疏观测下关联是否稳定？杂波/多径与匹配错误如何区分？视觉深度与雷达测距冲突时如何比较可信度？这些是[候选问题](../docs/innovation_bank/P003_P005_RESEARCH_QUESTIONS.md)，未查新、未实验证明，不宣称创新。
+
+验收：首轮Q1基本正确但缺Range，未通过；Q2/Q3通过且保留补充说明；01-R1补学后教师判定通过，最终Lesson 01=PASS。所有原答及教师纠正见[独立验收记录](../docs/research_log/P003_CenterFusion_REVIEW.md)，不以润色答案覆盖原话。
+
+**下一课：Lesson 02 Introduction=`NOT_STARTED`；实验复现=`NOT_STARTED`。**
 
 ## Step 2｜Introduction
 
@@ -106,4 +197,4 @@
 | 局限、我们的推论、待验证假设 | 待提供 / 待核实 |
 | 原题、真实回答、教师批改、补答与验收 | 待提供 / 待核实 |
 
-执行[章节同步规范](../docs/research_log/P003_P005_SECTION_SYNC.md)；三道原题及批改保存在[日志](../docs/research_log/P003_CenterFusion_READING_LOG.md)，不由Codex新编题目替代历史问题。
+执行[章节同步规范](../docs/research_log/P003_P005_SECTION_SYNC.md)；三道原题、首轮批改及补学原文保存在[验收记录](../docs/research_log/P003_CenterFusion_REVIEW.md)，进度保存在[日志](../docs/research_log/P003_CenterFusion_READING_LOG.md)，不由Codex新编题目替代历史问题。
