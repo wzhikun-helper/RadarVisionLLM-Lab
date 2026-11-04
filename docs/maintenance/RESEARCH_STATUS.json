@@ -30,8 +30,8 @@
         "paper_notes/P003_CenterFusion.md"
       ],
       "concepts": "paper_notes/P003_概念查询宝典.md",
-      "reading": "Lesson 01 Title & Abstract PASS; Lesson 02 Introduction NOT_STARTED; remaining lessons not completed",
-      "review": "Lesson 01 PASS after initial Q1 failure and remedial 01-R1 PASS; not full-paper acceptance",
+      "reading": "Lessons 01 Title & Abstract and 02 Introduction PASS; Lesson 03 Related Work NOT_STARTED",
+      "review": "Lesson 01 PASS after 01-R1; Lesson 02 PASS after initial Q2 not passed and remedial 02-R1 PASS; not full-paper acceptance",
       "code": "Not started; no execution",
       "official_code": "https://github.com/mrnabati/CenterFusion",
       "fixed_commit": null,
@@ -54,9 +54,28 @@
         },
         "02": {
           "title": "Introduction",
-          "status": "NOT_STARTED"
+          "status": "PASS",
+          "initial_Q1": "PASS",
+          "initial_Q2": "NOT_PASSED",
+          "remedial_02_R1": "PASS",
+          "evidence": "docs/research_log/P003_CenterFusion_REVIEW.md#lesson02-review",
+          "archived_on": "2026-11-04",
+          "actual_acceptance_date": null
+        },
+        "03": {
+          "title": "Related Work",
+          "status": "NOT_STARTED",
+          "source": "User explicitly set next lesson in this request"
         }
-      }
+      },
+      "lesson_plan": [
+        "Title & Abstract",
+        "Introduction",
+        "Related Work",
+        "Methodology",
+        "Experiments",
+        "Conclusion"
+      ]
     },
     {
       "id": "P004",

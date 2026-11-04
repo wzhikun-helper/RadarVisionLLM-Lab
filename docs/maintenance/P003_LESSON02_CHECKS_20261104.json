@@ -1,0 +1,106 @@
+{
+  "archived_on": "2026-11-04",
+  "base_commit": "9c497f49c3a0a2c7b68e93daf49f0a0b606ddbbb",
+  "branch": "research/p003-p005-reading-reproduction-20261103",
+  "checks": [
+    {
+      "command": "python -B scripts/validate_lab.py",
+      "exit_code": 0,
+      "passed": true,
+      "errors": [],
+      "existing_markdown_targets": 556
+    },
+    {
+      "command": "python -B scripts/check_public_docs.py --include-untracked",
+      "exit_code": 0,
+      "passed": true,
+      "errors": [],
+      "documents_checked": 18,
+      "local_links_checked": 141
+    },
+    {
+      "command": "git diff --check",
+      "exit_code": 0
+    }
+  ],
+  "Lesson01_original_QA_preserved": true,
+  "Lesson01_acceptance_state_unchanged": true,
+  "Lesson01_note_only_current_next_lesson_pointer_changed": true,
+  "Lesson02": {
+    "status": "PASS",
+    "first_round_Q1": "PASS",
+    "first_round_Q2": "NOT_PASSED",
+    "remedial_02_R1": "PASS",
+    "answer_hashes": [
+      "36c4bb212663f5ecae90d931c50f49ee6ab8a44e8c0899c696be3186af08ebf0",
+      "be3d186f4bd5c040c8b8ab20ebeefb40ceb11b214d7966ac915305bf67cce6d6",
+      "fd231216bd8a90628d17fe7d3f8f1c9511ecb058f15b6cc7d0e287a1e3fcaef4"
+    ],
+    "all_original_answers_exact": true,
+    "teacher_corrections_preserved": true,
+    "actual_class_acceptance_date": null,
+    "full_remedial_question_text": "Not supplied; not reconstructed"
+  },
+  "next_lesson": {
+    "id": "03",
+    "title": "Related Work",
+    "status": "NOT_STARTED",
+    "unstarted_placeholder_content_preserved": true
+  },
+  "reproduction_status": "NOT_STARTED",
+  "original_main_HEAD_status_and_file_hashes_unchanged": true,
+  "original_files_checked": 109,
+  "protected_branch_files_unchanged": 118,
+  "P001_P002_P004_P005_and_legacy_RaCFormer_R4Det_preserved": true,
+  "other_paper_matrix_rows_unchanged": true,
+  "csv_columns": {
+    "papers/paper_matrix.csv": 36,
+    "docs/innovation_bank/P001_ideas.csv": 10,
+    "docs/innovation_bank/P002_ideas.csv": 10,
+    "docs/innovation_bank/P003_ideas.csv": 10,
+    "docs/maintenance/REPOSITORY_INVENTORY.csv": 15,
+    "reproductions/P001_PointPillars_VoD/experiment_tracker.csv": 8,
+    "reproductions/P002_CRN/experiment_tracker.csv": 8,
+    "reproductions/P003_CenterFusion/experiment_tracker.csv": 8,
+    "reproductions/P004_RCBEVDet/experiment_tracker.csv": 8,
+    "reproductions/P005_RaCFormer/experiment_tracker.csv": 8
+  },
+  "all_JSON_parse": true,
+  "concepts_C01_C09_original_content_preserved": true,
+  "concepts_added": [
+    "C10 Monocular Depth Ambiguity application",
+    "C11 Camera Projection application",
+    "C12 Data Association",
+    "C13 Measurement vs Prediction"
+  ],
+  "concepts_supplemented": [
+    "C02 Frustum-based Association",
+    "C09 Association Error"
+  ],
+  "teaching_case": "A20m / B40m and B8m/s; not a paper experiment or fixed prediction; A speed and pixel positions not supplied",
+  "paper_evidence": "Cached verified WACV PDF unchanged; Sec1 PDF1-2 and supporting Fig1/Sec4.2; no new result numbers/images",
+  "not_executed": [
+    "Lesson 03 teaching/acceptance",
+    "Source-code intensive reading",
+    "Server/environment setup, training, evaluation, ablation",
+    "Data/weight download",
+    "Candidate novelty or empirical validation",
+    "Exhaustive historical external-link checks"
+  ],
+  "modified_files": [
+    "docs/research_log/P003_CenterFusion_REVIEW.md",
+    "paper_notes/P003_CenterFusion.md",
+    "paper_notes/P003_概念查询宝典.md",
+    "docs/research_log/P003_CenterFusion_READING_LOG.md",
+    "docs/maintenance/RESEARCH_STATUS.json",
+    "papers/paper_matrix.csv",
+    "README.md",
+    "paper_notes/README.md",
+    "papers/README.md",
+    "papers/P003_CenterFusion/README.md",
+    "reproductions/P003_CenterFusion/README.md",
+    "docs/research_log/P003_P005_SECTION_SYNC.md",
+    "docs/maintenance/P003_LESSON02_ARCHIVE_20261104.md",
+    "docs/maintenance/P003_LESSON02_CHECKS_20261104.json"
+  ]
+}

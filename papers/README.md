@@ -32,7 +32,7 @@
 
 ## 当前正式编号（2026-11-04）
 
-- [P003：CenterFusion](P003_CenterFusion/README.md)：Lesson 01 Title & Abstract PASS；Lesson 02 Introduction NOT_STARTED。
+- [P003：CenterFusion](P003_CenterFusion/README.md)：Lesson 01 Title & Abstract、Lesson 02 Introduction PASS；Lesson 03 Related Work NOT_STARTED。
 - [P004：RCBEVDet](P004_RCBEVDet/README.md)：尚未开始；只初始化计划与待核实入口。
 - [P005：RaCFormer](P005_RaCFormer/README.md)：沿用原RaCFormer Abstract已讲授状态；开放题待答、未验收。
 

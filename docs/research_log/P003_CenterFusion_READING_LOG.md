@@ -30,3 +30,13 @@
 - 概念：更新C01/C02；C03–C08补既有概念应用；新增C09错误分类辨析。没有复制或改写P001/P002定义。
 - 科研候选：P003-I01–I03，仅Candidate / Unverified，均未查新或实验证明。
 - [首轮、补学及教师纠正原文](P003_CenterFusion_REVIEW.md) · [本轮归档与检查](../maintenance/P003_LESSON01_ARCHIVE_20261104.md)。
+
+## 2026-11-04｜Lesson 02 Introduction正式归档
+
+- 来源：本次用户提供Q1/Q2原答、02-R1连续原答、教师PASS/未通过及三条纠正；实际授课日期与时长未提供。
+- 首轮Q1=PASS、Q2未通过需补学；02-R1=PASS；最终Lesson 02=PASS。Lesson 01的原轨迹与PASS保留。
+- 概念：补充C10单目深度、C11投影、C12数据关联、C13测量与预测；给既有C02/C09补本课案例，不重写基本定义。
+- 20 m/40 m、B的8 m/s为教学设定，不能当论文结果或A的必然输出。
+- 下一课依用户最新指定为Lesson 03 Related Work=NOT_STARTED；旧草稿Methodology→Experiments→Related Work顺序作计划历史，本次只调整未授课占位，不代表新课程完成。
+- 代码、服务器复现、训练、评估及消融未执行，实验复现仍NOT_STARTED；候选P003-I01–I03未查新、未实证。
+- [真实问答与补学](P003_CenterFusion_REVIEW.md#lesson02-review) · [本节归档检查](../maintenance/P003_LESSON02_ARCHIVE_20261104.md)。

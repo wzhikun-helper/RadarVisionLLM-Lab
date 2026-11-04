@@ -27,3 +27,7 @@ CenterFusion Abstract已讲授且有三道待验收开放题，依据2026-11-04�
 ## Lesson 01后续更新（2026-11-04）
 
 CenterFusion本次已获得用户提供的首轮、补学与教师判定，Lesson 01=PASS；见[真实验收记录](P003_CenterFusion_REVIEW.md)。上方初始化时“原题未提供”不再作为当前缺口。实际授课时间/时长、完整聊天导出仍未提供；Introduction未开始，RaCFormer与RCBEVDet状态不变。
+
+## P003 Lesson 02与后续顺序（2026-11-04）
+
+Lesson 02 Introduction已按真实问答/补学验收PASS；Lesson 01原轨迹保留。用户本次指定P003下一课为Lesson 03 Related Work，因此P003现行顺序为Title & Abstract→Introduction→Related Work→Methodology→Experiments→Conclusion。上方通用初始化顺序不作为P003当前课程序号；P004/P005不改。三道补学题的完整原题未提供，不能从连续回答反编原题。

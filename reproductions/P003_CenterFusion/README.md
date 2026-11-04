@@ -32,3 +32,7 @@ nuScenes mini调试 → 官方权重评估 → 训练与验证闭环；mini用�
 ## Lesson 01归档后的执行状态
 
 Title & Abstract验收PASS；Lesson 02 Introduction=NOT_STARTED；代码精读未开始，实验复现=NOT_STARTED。Planned仅指计划已登记，不表示环境已建立或模型已运行。[验收原文](../../docs/research_log/P003_CenterFusion_REVIEW.md)。
+
+## Lesson 02归档后的状态（2026-11-04）
+
+Lesson 01/02均PASS；下一课Lesson 03 Related Work=NOT_STARTED（当前P003课程安排以正式档案为准，上方初始计划顺序保留为历史）。代码、服务器复现、训练、评估、消融均未执行。学习PASS不推进工程执行状态；[原答/教师纠正](../../docs/research_log/P003_CenterFusion_REVIEW.md#lesson02-review)。

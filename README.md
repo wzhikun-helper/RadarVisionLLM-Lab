@@ -14,7 +14,7 @@ P001与P002已有正式精读、概念宝典和研究配套；本轮补齐对称
 | --- | --- | --- | --- |
 | P001 | VoD + PointPillars，RA-L 2022 | 精读完成；教师验收原文待补 | Planned；复现未证实 |
 | P002 | CRN，ICCV 2023 | 第一遍完成；教师此前确认通过，原问答缺口保留 | 代码精读未开始；复现未执行，暂不优先 |
-| P003 | [CenterFusion，WACV 2021](papers/P003_CenterFusion/README.md) | Lesson 01 Title & Abstract PASS；Lesson 02 NOT_STARTED | 基础工程复现计划；未执行 |
+| P003 | [CenterFusion，WACV 2021](papers/P003_CenterFusion/README.md) | Lesson 01/02 PASS；Lesson 03 Related Work NOT_STARTED | 基础工程复现计划；未执行 |
 | P004 | [RCBEVDet，CVPR 2024](papers/P004_RCBEVDet/README.md) | 尚未开始；草稿入口已建 | RCS/BEV融合研究；未执行 |
 | P005 | [RaCFormer，CVPR 2025](papers/P005_RaCFormer/README.md) | 保留原Abstract已讲授状态；开放题待答、未验收 | Query跨视角融合、主要创新基线候选；未验证 |
 
